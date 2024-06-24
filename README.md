@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/rohanxxx/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/rohanxxx/leetcode/tree/master/0169-majority-element) |
+| [0287-find-the-duplicate-number](https://github.com/rohanxxx/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0485-max-consecutive-ones](https://github.com/rohanxxx/leetcode/tree/master/0485-max-consecutive-ones) |
 # Math
 |  |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/rohanxxx/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0287-find-the-duplicate-number](https://github.com/rohanxxx/leetcode/tree/master/0287-find-the-duplicate-number) |
 # Dynamic Programming
 |  |
 | ------- |
@@ -60,3 +62,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/rohanxxx/leetcode/tree/master/0169-majority-element) |
+# Two Pointers
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/rohanxxx/leetcode/tree/master/0287-find-the-duplicate-number) |
+# Bit Manipulation
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/rohanxxx/leetcode/tree/master/0287-find-the-duplicate-number) |
