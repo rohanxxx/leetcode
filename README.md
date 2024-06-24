@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/rohanxxx/leetcode/tree/master/0169-majority-element) |
 | [0287-find-the-duplicate-number](https://github.com/rohanxxx/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0485-max-consecutive-ones](https://github.com/rohanxxx/leetcode/tree/master/0485-max-consecutive-ones) |
+| [1802-number-of-students-unable-to-eat-lunch](https://github.com/rohanxxx/leetcode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 # Math
 |  |
 | ------- |
@@ -71,3 +72,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/rohanxxx/leetcode/tree/master/0287-find-the-duplicate-number) |
+# Stack
+|  |
+| ------- |
+| [1802-number-of-students-unable-to-eat-lunch](https://github.com/rohanxxx/leetcode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
+# Queue
+|  |
+| ------- |
+| [1802-number-of-students-unable-to-eat-lunch](https://github.com/rohanxxx/leetcode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
+# Simulation
+|  |
+| ------- |
+| [1802-number-of-students-unable-to-eat-lunch](https://github.com/rohanxxx/leetcode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
