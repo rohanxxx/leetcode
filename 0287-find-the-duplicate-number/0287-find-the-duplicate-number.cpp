@@ -5,7 +5,7 @@ public:
         for(int i = 0; i < nums.size(); i++){
             int cur = abs(nums[i]);
             if(nums[cur] < 0){
-                duplicate = cur; break;
+                return cur;
             }
             nums[cur] *= -1;
         }
