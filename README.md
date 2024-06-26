@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/rohanxxx/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/rohanxxx/leetcode/tree/master/0169-majority-element) |
+| [0238-product-of-array-except-self](https://github.com/rohanxxx/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0287-find-the-duplicate-number](https://github.com/rohanxxx/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0485-max-consecutive-ones](https://github.com/rohanxxx/leetcode/tree/master/0485-max-consecutive-ones) |
@@ -114,3 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/rohanxxx/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+# Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/rohanxxx/leetcode/tree/master/0238-product-of-array-except-self) |
