@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0007-reverse-integer](https://github.com/rohanxxx/leetcode/tree/master/0007-reverse-integer) |
 | [0048-rotate-image](https://github.com/rohanxxx/leetcode/tree/master/0048-rotate-image) |
+| [0258-add-digits](https://github.com/rohanxxx/leetcode/tree/master/0258-add-digits) |
 | [2383-add-two-integers](https://github.com/rohanxxx/leetcode/tree/master/2383-add-two-integers) |
 # Matrix
 |  |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 # Simulation
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/rohanxxx/leetcode/tree/master/0258-add-digits) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/rohanxxx/leetcode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 # Tree
 |  |
@@ -124,3 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/rohanxxx/leetcode/tree/master/0238-product-of-array-except-self) |
+# Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/rohanxxx/leetcode/tree/master/0258-add-digits) |
