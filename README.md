@@ -35,12 +35,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/rohanxxx/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0169-majority-element](https://github.com/rohanxxx/leetcode/tree/master/0169-majority-element) |
 | [0349-intersection-of-two-arrays](https://github.com/rohanxxx/leetcode/tree/master/0349-intersection-of-two-arrays) |
+| [0387-first-unique-character-in-a-string](https://github.com/rohanxxx/leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [1319-unique-number-of-occurrences](https://github.com/rohanxxx/leetcode/tree/master/1319-unique-number-of-occurrences) |
 # String
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/rohanxxx/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0131-palindrome-partitioning](https://github.com/rohanxxx/leetcode/tree/master/0131-palindrome-partitioning) |
+| [0387-first-unique-character-in-a-string](https://github.com/rohanxxx/leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/rohanxxx/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [3379-score-of-a-string](https://github.com/rohanxxx/leetcode/tree/master/3379-score-of-a-string) |
 # Sliding Window
@@ -94,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 # Queue
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/rohanxxx/leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/rohanxxx/leetcode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 # Simulation
 |  |
@@ -139,4 +142,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 # Counting Sort
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/rohanxxx/leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [1137-height-checker](https://github.com/rohanxxx/leetcode/tree/master/1137-height-checker) |
