@@ -176,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/rohanxxx/leetcode/tree/master/0455-assign-cookies) |
 | [0463-island-perimeter](https://github.com/rohanxxx/leetcode/tree/master/0463-island-perimeter) |
 | [1306-minimum-absolute-difference](https://github.com/rohanxxx/leetcode/tree/master/1306-minimum-absolute-difference) |
+| [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/rohanxxx/leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 ## Matrix
 |  |
 | ------- |
@@ -199,12 +200,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/rohanxxx/leetcode/tree/master/0455-assign-cookies) |
+| [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/rohanxxx/leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 ## Sorting
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/rohanxxx/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0455-assign-cookies](https://github.com/rohanxxx/leetcode/tree/master/0455-assign-cookies) |
 | [1306-minimum-absolute-difference](https://github.com/rohanxxx/leetcode/tree/master/1306-minimum-absolute-difference) |
+| [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/rohanxxx/leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 ## Hash Table
 |  |
 | ------- |
