@@ -1,12 +1,15 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int, int> mp;
+        unordered_map<int, int> map;
         for(int i = 0; i < nums.size(); i++){
-            int dif = target - nums[i];
-            if(mp.find(dif)!= mp.end()) return {mp[dif], i};
-            mp.insert({nums[i], i});
+            int difference = target - nums[i];
+            if(map.find(difference) != map.end()){
+                return {map[difference], i};
+            }
+            map.insert({nums[i], i});
         }
-        return{};
+
+        return {};
     }
 };
