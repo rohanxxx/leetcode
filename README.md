@@ -180,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/rohanxxx/leetcode/tree/master/0198-house-robber) |
 | [0209-minimum-size-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/rohanxxx/leetcode/tree/master/0219-contains-duplicate-ii) |
+| [0239-sliding-window-maximum](https://github.com/rohanxxx/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/rohanxxx/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0455-assign-cookies](https://github.com/rohanxxx/leetcode/tree/master/0455-assign-cookies) |
 | [0463-island-perimeter](https://github.com/rohanxxx/leetcode/tree/master/0463-island-perimeter) |
@@ -255,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/rohanxxx/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/rohanxxx/leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Bucket Sort
 |  |
@@ -288,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0187-repeated-dna-sequences](https://github.com/rohanxxx/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0209-minimum-size-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/rohanxxx/leetcode/tree/master/0219-contains-duplicate-ii) |
+| [0239-sliding-window-maximum](https://github.com/rohanxxx/leetcode/tree/master/0239-sliding-window-maximum) |
 ## Rolling Hash
 |  |
 | ------- |
@@ -343,4 +346,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/rohanxxx/leetcode/tree/master/0079-word-search) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/rohanxxx/leetcode/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/rohanxxx/leetcode/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
