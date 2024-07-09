@@ -205,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0187-repeated-dna-sequences](https://github.com/rohanxxx/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0459-repeated-substring-pattern](https://github.com/rohanxxx/leetcode/tree/master/0459-repeated-substring-pattern) |
 | [0647-palindromic-substrings](https://github.com/rohanxxx/leetcode/tree/master/0647-palindromic-substrings) |
+| [1250-longest-common-subsequence](https://github.com/rohanxxx/leetcode/tree/master/1250-longest-common-subsequence) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rohanxxx/leetcode/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 ## String Matching
 |  |
@@ -280,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/rohanxxx/leetcode/tree/master/0647-palindromic-substrings) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0740-delete-and-earn](https://github.com/rohanxxx/leetcode/tree/master/0740-delete-and-earn) |
+| [1250-longest-common-subsequence](https://github.com/rohanxxx/leetcode/tree/master/1250-longest-common-subsequence) |
 | [2672-number-of-good-binary-strings](https://github.com/rohanxxx/leetcode/tree/master/2672-number-of-good-binary-strings) |
 ## Trie
 |  |
