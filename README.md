@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/rohanxxx/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/rohanxxx/leetcode/tree/master/0207-course-schedule) |
 | [0463-island-perimeter](https://github.com/rohanxxx/leetcode/tree/master/0463-island-perimeter) |
+| [1142-minimum-knight-moves](https://github.com/rohanxxx/leetcode/tree/master/1142-minimum-knight-moves) |
 ## Binary Tree
 |  |
 | ------- |
