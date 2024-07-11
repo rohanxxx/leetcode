@@ -1,20 +1,23 @@
 class MedianFinder {
-    vector<int> store; // resize-able container
-
+    vector<int> nums;
 public:
-    // Adds a number into the data structure.
-    void addNum(int num)
-    {
-        if (store.empty())
-            store.push_back(num);
-        else
-            store.insert(lower_bound(store.begin(), store.end(), num), num);     // binary search and insertion combined
+    MedianFinder() {}
+    void addNum(int num) {
+        if(nums.empty()) nums.push_back(num);
+        else nums.insert(lower_bound(nums.begin(), nums.end(), num), num);  
     }
-
-    // Returns the median of current data stream
-    double findMedian()
-    {
-        int n = store.size();
-        return n & 1 ? store[n / 2] : ((double) store[n / 2 - 1] + store[n / 2]) * 0.5;
+    
+    double findMedian() {
+        // sort(nums.begin(), nums.end());
+        int size = nums.size();
+        if(size%2) return (double)nums[size/2];
+        return ((double)nums[size/2-1]+nums[size/2])*0.5;
     }
 };
+
+/**
+ * Your MedianFinder object will be instantiated and called as such:
+ * MedianFinder* obj = new MedianFinder();
+ * obj->addNum(num);
+ * double param_2 = obj->findMedian();
+ */
