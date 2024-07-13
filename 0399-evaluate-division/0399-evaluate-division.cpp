@@ -20,8 +20,6 @@ public:
             graph[divisor][dividend] = 1 / quotient;
         }
 
-        // Step 2: Evaluate each query via backtracking (DFS)
-        // by verifying if there exists a path from dividend to divisor
         vector<double> results;
         for (int i = 0; i < queries.size(); i++) {
             string dividend = queries[i][0];
@@ -52,7 +50,6 @@ private:
         } else {
             for (auto& pair : neighbors) {
                 string nextNode = pair.first;
-                cout << "nextNode: " << nextNode << endl;
                 if (visited.find(nextNode) != visited.end())
                     continue;
                 ret = backtrackEvaluate(graph, nextNode, targetNode, accProduct * pair.second, visited);
