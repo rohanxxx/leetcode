@@ -72,7 +72,7 @@ private:
         }
 
         // Unmark the visit for the next backtracking
-        // visited.erase(currNode);
+        visited.erase(currNode);
         return ret;
     }
 };
