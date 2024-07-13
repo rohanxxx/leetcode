@@ -16,17 +16,19 @@ public:
             string divisor = equations[i][1];
             double quotient = values[i];
 
-            // if (graph.find(dividend) == graph.end()){
-                // graph[dividend] = unordered_map<string, double>();
-                // graph[dividend][divisor] = quotient;
-            // }
-            // if (graph.find(divisor) == graph.end()){
-                // graph[divisor] = unordered_map<string, double>();
-                // graph[divisor][dividend] = 1 / quotient;
-            // }
             graph[dividend][divisor] = quotient;
             graph[divisor][dividend] = 1 / quotient;
         }
+
+        /*
+        for (const auto& node : graph) {
+            const string& from = node.first;
+            for (const auto& edge : node.second) {
+                const string& to = edge.first;
+                double value = edge.second;
+                cout << from << " -> " << to << " = " << value << endl;
+            }
+        }*/
 
         // Step 2: Evaluate each query via backtracking (DFS)
         // by verifying if there exists a path from dividend to divisor
@@ -60,6 +62,7 @@ private:
         } else {
             for (auto& pair : neighbors) {
                 string nextNode = pair.first;
+                cout << "nextNode: " << nextNode << endl;
                 if (visited.find(nextNode) != visited.end())
                     continue;
                 ret = backtrackEvaluate(graph, nextNode, targetNode, accProduct * pair.second, visited);
@@ -69,7 +72,7 @@ private:
         }
 
         // Unmark the visit for the next backtracking
-        visited.erase(currNode);
+        // visited.erase(currNode);
         return ret;
     }
 };
