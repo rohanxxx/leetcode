@@ -23,9 +23,9 @@ public:
         }
 
         vector<double> results;
-        for (int i = 0; i < queries.size(); i++) {
-            dividend = queries[i][0];
-            divisor = queries[i][1];
+        for (auto& query: queries) {
+            dividend = query[0];
+            divisor = query[1];
 
             if (graph.find(dividend) == graph.end() || graph.find(divisor) == graph.end()) results.push_back(-1.0);
             else if (dividend == divisor) results.push_back(1.0);
