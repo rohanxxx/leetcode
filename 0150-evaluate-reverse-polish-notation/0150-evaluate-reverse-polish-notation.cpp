@@ -26,8 +26,8 @@ public:
         int ans = 0;
         for(auto& token: tokens){  
             if(token == "+" || token == "-" || token == "*" || token == "/"){
-                ans = calculate(stack, token);
-                stack.push(ans);
+                // ans = calculate(stack, token);
+                stack.push(calculate(stack, token));
             }
             else{
                 stack.push(stoi(token));
