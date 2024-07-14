@@ -34,6 +34,6 @@ public:
             }
         }
 
-        return ans;
+        return stack.top();
     }
 };
