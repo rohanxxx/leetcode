@@ -14,18 +14,14 @@ public:
         return new_int;
     }
     int evalRPN(vector<string>& tokens) {
-        // if(tokens.size() < 2) return stoi(tokens[0]);
         stack<int> stack;
         for(auto& token: tokens){  
             if(token == "+" || token == "-" || token == "*" || token == "/"){
                 stack.push(calculate(stack, token));
                 continue;
             }
-            
             stack.push(stoi(token));
-            
         }
-
         return stack.top();
     }
 };
