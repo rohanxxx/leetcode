@@ -28,10 +28,11 @@ public:
             if(token == "+" || token == "-" || token == "*" || token == "/"){
                 // ans = calculate(stack, token);
                 stack.push(calculate(stack, token));
+                continue;
             }
-            else{
-                stack.push(stoi(token));
-            }
+            
+            stack.push(stoi(token));
+            
         }
 
         return stack.top();
