@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool dfs(int rowSize, int colSize, vector<vector<int>>& maze, vector<int> curr, vector<int>& destination, vector<vector<bool>>& visit){
+    bool dfs(const int rowSize, const int colSize, vector<vector<int>>& maze, vector<int> curr, vector<int>& destination, vector<vector<bool>>& visit){
         if(visit[curr[0]][curr[1]]) return false;
         if(curr[0] == destination[0] && curr[1] == destination[1]) return true;
         visit[curr[0]][curr[1]] = true;
