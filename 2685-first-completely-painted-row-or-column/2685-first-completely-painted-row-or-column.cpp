@@ -20,10 +20,10 @@ public:
                 
                 //mark the row
                 row[r]++;
-                if(row[r] >= COLS) return i;
+                if(row[r] == COLS) return i;
                 //mark the column
                 column[c]++;
-                if(column[c] >= ROWS) return i;
+                if(column[c] == ROWS) return i;
             }
         }
 
