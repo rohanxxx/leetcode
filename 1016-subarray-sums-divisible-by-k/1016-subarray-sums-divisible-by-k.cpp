@@ -9,7 +9,7 @@ public:
             sum += num;
             int remainder = sum % k;
             if(remainder < 0) remainder += k;
-            if(mp.find(remainder) != mp.end()) count += mp[remainder];
+            if(mp[remainder]) count += mp[remainder];
             mp[remainder]++;
         }
         return count;
