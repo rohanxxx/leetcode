@@ -1,16 +1,15 @@
 class Solution {
 public:
     string getSmallestString(string s) {
-        int n = s.size();
-        for(int i=0;i<n-1;i++)
+        for(int i = 1; i < s.length(); i++)
         {
             int curr = s[i] - '0';
-            int next = s[i + 1] - '0';
-            if((curr % 2 == 0 && next % 2 == 0) || (curr % 2 != 0 && next % 2 != 0))
+            int prev = s[i - 1] - '0';
+            if((curr % 2 == 0 && prev % 2 == 0) || (curr % 2 != 0 && prev % 2 != 0))
             {
-                if(curr > next)
+                if(curr < prev)
                 {
-                    swap(s[i], s[i+1]);
+                    swap(s[i], s[i-1]);
                     break;
                 }
             }
