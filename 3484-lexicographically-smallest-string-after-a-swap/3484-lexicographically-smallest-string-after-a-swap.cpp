@@ -5,7 +5,7 @@ public:
         {
             int curr = s[i] - '0';
             int prev = s[i - 1] - '0';
-            if((curr % 2 == 0 && prev % 2 == 0) || (curr % 2 != 0 && prev % 2 != 0))
+            if(curr % 2 == prev % 2)
             {
                 if(curr < prev)
                 {
