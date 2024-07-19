@@ -1,17 +1,9 @@
 class Solution {
 public:
     int maximumUnits(vector<vector<int>>& boxTypes, int truckSize) {
-        for(auto& box: boxTypes){
-            swap(box[0], box[1]);
-        }
+        for(auto& box: boxTypes) swap(box[0], box[1]);
 
         sort(boxTypes.begin(), boxTypes.end());
-        // reverse(boxTypes.begin(), boxTypes.end());
-        
-        // for(auto& box: boxTypes){
-            // cout << "[" << box[0] << "," << box[1] << "] ";
-        // }
-        // cout << endl;
         
         int totalUnit = 0;
         for(int i = boxTypes.size()-1; i >= 0; i--){
