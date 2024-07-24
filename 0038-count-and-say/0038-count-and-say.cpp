@@ -9,18 +9,15 @@ public:
             for(int j = 0; j < currStr.length(); j++){
                 if(currStr[j] == currStr[k]) count++;
                 else{
-                    cout << "count at line 12: " << count << endl;
                     nextStr += to_string(count) + currStr[k];
                     count = 1; k = j;
                 }
                 if(j == currStr.length()-1){
                     nextStr += to_string(count) + currStr[k];
-                    // count = 1; k = j;
                     break;
                 }
             }
             currStr = nextStr;
-            cout << "currStr: " << currStr << endl;
         }
         return currStr;
     }
