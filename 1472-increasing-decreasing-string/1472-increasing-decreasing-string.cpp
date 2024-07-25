@@ -1,24 +1,27 @@
 class Solution {
 public:
     string sortString(string s) {
-        string res="";
-        int a[26]={0},k=0;
-        for(int i=0;i<s.length();i++)
-        {a[s[i]-'a']++;k++;}
-        while(k)
-        {
-            for(int i=0;i<26;i++)
-            {
-                if(a[i]>0) { res+=i+'a';k--;a[i]--;}
+        unordered_map<int, int> frequency;
+        for(char& c: s) frequency[c-'a']++;
+        string res = "";
+        // int count = 
+        while(res.length() != s.length()){
+            for(int i = 0; i < 26; i++){
+                if(frequency[i] != 0){
+                    res += char(i+'a');
+                    frequency[i]--;
+                    if(res.length() == s.length()) return res;
+                }
             }
-            for(int i=25;i>=0;i--)
-            {
-                if(a[i]>0) { res+=i+'a';k--;a[i]--;}
+            if(res.length() == s.length()) return res;
+            for(int i = 25; i >= 0; i--){
+                if(frequency[i] != 0){
+                    res += char(i+'a');
+                    frequency[i]--;
+                    if(res.length() == s.length()) return res;
+                }
             }
         }
-        
-        
         return res;
-        
     }
 };
