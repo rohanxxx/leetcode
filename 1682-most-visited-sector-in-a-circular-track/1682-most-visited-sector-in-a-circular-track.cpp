@@ -17,10 +17,6 @@ public:
 
         frequency[rounds.back()]++;
         
-        for(int i = 1; i < frequency.size(); i++){
-            cout << i << " -> " << frequency[i] << endl;   
-        }
-        
         int maxVisited = 0; 
         for(auto& f: frequency) maxVisited = max(f, maxVisited);
 
