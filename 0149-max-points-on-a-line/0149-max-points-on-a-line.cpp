@@ -13,9 +13,6 @@ public:
                     result = max(result, ++mp[atan2(points[j][1]-points[i][1], points[j][0]-points[i][0])]+1);
                 }
             }
-            /*for(auto& [h, count]: mp){
-                result = max(result, count+1);
-            }*/
         }
 
         return result;
