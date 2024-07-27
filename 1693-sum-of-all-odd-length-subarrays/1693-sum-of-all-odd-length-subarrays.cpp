@@ -1,19 +1,18 @@
 class Solution {
 public:
     int sumOddLengthSubarrays(vector<int>& arr) {
-        int n = int(arr.size()), answer = 0;
-        
-        for (int left = 0; left < n; ++left) {
-            for (int right = left; right < n; ++right) {
-                if ((right - left + 1) % 2 == 1) {
-                    int currentSum = 0;
-                    for (int index = left; index < right + 1; ++index) {
-                        currentSum += arr[index];    
+        int len = arr.size(), ans = 0;
+        for(int left = 0; left < len; left++){
+            for(int right = left; right < len; right++){
+                int currSum = 0;
+                if((right-left+1)%2==1){
+                    for(int i = left; i < right+1; i++){
+                        currSum += arr[i];
                     }
-                    answer += currentSum;
+                    ans += currSum;
                 }
             }
         }
-        return answer;
+        return ans;
     }
 };
