@@ -239,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1682-most-visited-sector-in-a-circular-track](https://github.com/rohanxxx/leetcode/tree/master/1682-most-visited-sector-in-a-circular-track) |
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/rohanxxx/leetcode/tree/master/1693-sum-of-all-odd-length-subarrays) |
 | [1784-minimum-initial-energy-to-finish-tasks](https://github.com/rohanxxx/leetcode/tree/master/1784-minimum-initial-energy-to-finish-tasks) |
+| [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 | [1803-average-waiting-time](https://github.com/rohanxxx/leetcode/tree/master/1803-average-waiting-time) |
 | [1829-maximum-units-on-a-truck](https://github.com/rohanxxx/leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [1833-find-the-highest-altitude](https://github.com/rohanxxx/leetcode/tree/master/1833-find-the-highest-altitude) |
@@ -367,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [1274-number-of-days-between-two-dates](https://github.com/rohanxxx/leetcode/tree/master/1274-number-of-days-between-two-dates) |
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/rohanxxx/leetcode/tree/master/1693-sum-of-all-odd-length-subarrays) |
+| [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 ## Counting
 |  |
 | ------- |
@@ -491,6 +493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1537-maximum-score-after-splitting-a-string](https://github.com/rohanxxx/leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/rohanxxx/leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/rohanxxx/leetcode/tree/master/1693-sum-of-all-odd-length-subarrays) |
+| [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 | [1833-find-the-highest-altitude](https://github.com/rohanxxx/leetcode/tree/master/1833-find-the-highest-altitude) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/rohanxxx/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [1983-maximum-population-year](https://github.com/rohanxxx/leetcode/tree/master/1983-maximum-population-year) |
