@@ -149,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/rohanxxx/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/rohanxxx/leetcode/tree/master/0199-binary-tree-right-side-view) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/rohanxxx/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/rohanxxx/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/rohanxxx/leetcode/tree/master/0207-course-schedule) |
@@ -191,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/rohanxxx/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/rohanxxx/leetcode/tree/master/0199-binary-tree-right-side-view) |
@@ -524,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/rohanxxx/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/rohanxxx/leetcode/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/rohanxxx/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
