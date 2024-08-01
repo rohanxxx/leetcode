@@ -28,7 +28,7 @@ public:
         int minDif = INT_MAX;
         sort(node.begin(), node.end());
         for(int i = 1; i < node.size(); i++){
-            minDif = min(minDif, abs(node[i]-node[i-1]));
+            minDif = min(minDif, node[i]-node[i-1]);
         }
         return minDif;
     }
