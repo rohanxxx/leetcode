@@ -20,12 +20,11 @@ public:
         while(!q.empty()){
             depth++;
             int size = q.size();
-            cout << "size: " << size << endl;
+
             for(int i = 0; i < size; i++){
                 TreeNode* temp = q.front(); q.pop();
                 if(temp->left != NULL) q.push(temp->left);
                 if(temp->right != NULL) q.push(temp->right);
-                // cout << "line 28: q.size(): " << q.size() << endl;
             }
         }
 
