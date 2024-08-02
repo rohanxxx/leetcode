@@ -16,21 +16,15 @@ public:
         queue<TreeNode*> q;
         q.push(root);
 
-        cout << "line 19" << endl;
         int closestValue;
         double difference = double(INT_MAX);
 
-        cout << "line 23" << endl;
         while(!q.empty()){
-            cout << "line 25" << endl;
             int size = q.size();
             for(int i = 0; i < size; i++){
                 TreeNode* node = q.front(); q.pop();
                 int nodeVal = node->val;
                 double currDif = abs(double(nodeVal)-target);
-                
-                cout << "nodeVale: " << nodeVal << endl;
-                cout << "currDif: " << currDif << endl;
                 
                 if(currDif <= difference){
                     if(currDif == difference){
