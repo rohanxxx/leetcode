@@ -156,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/rohanxxx/leetcode/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/rohanxxx/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0226-invert-binary-tree) |
+| [0270-closest-binary-search-tree-value](https://github.com/rohanxxx/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/rohanxxx/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/rohanxxx/leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/rohanxxx/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/rohanxxx/leetcode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0226-invert-binary-tree) |
+| [0270-closest-binary-search-tree-value](https://github.com/rohanxxx/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0399-evaluate-division](https://github.com/rohanxxx/leetcode/tree/master/0399-evaluate-division) |
 | [0463-island-perimeter](https://github.com/rohanxxx/leetcode/tree/master/0463-island-perimeter) |
 | [0490-the-maze](https://github.com/rohanxxx/leetcode/tree/master/0490-the-maze) |
@@ -214,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/rohanxxx/leetcode/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/rohanxxx/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0226-invert-binary-tree) |
+| [0270-closest-binary-search-tree-value](https://github.com/rohanxxx/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/rohanxxx/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/rohanxxx/leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
@@ -506,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/rohanxxx/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0209-minimum-size-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0270-closest-binary-search-tree-value](https://github.com/rohanxxx/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [1397-search-suggestions-system](https://github.com/rohanxxx/leetcode/tree/master/1397-search-suggestions-system) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/rohanxxx/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
@@ -617,6 +621,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0270-closest-binary-search-tree-value](https://github.com/rohanxxx/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/rohanxxx/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/rohanxxx/leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
 ## Geometry
