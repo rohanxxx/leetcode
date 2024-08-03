@@ -163,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0799-minimum-distance-between-bst-nodes](https://github.com/rohanxxx/leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0975-range-sum-of-bst](https://github.com/rohanxxx/leetcode/tree/master/0975-range-sum-of-bst) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2416-evaluate-boolean-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Depth-First Search
@@ -187,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0799-minimum-distance-between-bst-nodes](https://github.com/rohanxxx/leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0975-range-sum-of-bst](https://github.com/rohanxxx/leetcode/tree/master/0975-range-sum-of-bst) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/rohanxxx/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2416-evaluate-boolean-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -227,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0799-minimum-distance-between-bst-nodes](https://github.com/rohanxxx/leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0975-range-sum-of-bst](https://github.com/rohanxxx/leetcode/tree/master/0975-range-sum-of-bst) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2416-evaluate-boolean-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Array
@@ -267,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/rohanxxx/leetcode/tree/master/1036-rotting-oranges) |
 | [1044-find-common-characters](https://github.com/rohanxxx/leetcode/tree/master/1044-find-common-characters) |
 | [1129-longest-string-chain](https://github.com/rohanxxx/leetcode/tree/master/1129-longest-string-chain) |
+| [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1286-constrained-subsequence-sum](https://github.com/rohanxxx/leetcode/tree/master/1286-constrained-subsequence-sum) |
 | [1306-minimum-absolute-difference](https://github.com/rohanxxx/leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1397-search-suggestions-system](https://github.com/rohanxxx/leetcode/tree/master/1397-search-suggestions-system) |
@@ -393,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1016-subarray-sums-divisible-by-k](https://github.com/rohanxxx/leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1044-find-common-characters](https://github.com/rohanxxx/leetcode/tree/master/1044-find-common-characters) |
 | [1129-longest-string-chain](https://github.com/rohanxxx/leetcode/tree/master/1129-longest-string-chain) |
+| [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1464-reduce-array-size-to-the-half](https://github.com/rohanxxx/leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1472-increasing-decreasing-string](https://github.com/rohanxxx/leetcode/tree/master/1472-increasing-decreasing-string) |
 | [2240-intervals-between-identical-elements](https://github.com/rohanxxx/leetcode/tree/master/2240-intervals-between-identical-elements) |
