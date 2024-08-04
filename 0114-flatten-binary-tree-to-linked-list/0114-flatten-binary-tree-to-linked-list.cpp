@@ -28,10 +28,8 @@ public:
     }
     void flatten(TreeNode* root) {
         dfs(root);
-        // cout << "preorder.size(): " << preorder.size() << endl;
         TreeNode* temp = root;
         for(int i = 1; i < preorder.size(); i++){
-            // temp->left = NULL;
             temp->right = preorder[i];
             temp = temp->right;
         }
