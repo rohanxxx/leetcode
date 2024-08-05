@@ -9,21 +9,19 @@
  */
 class Solution {
 public:
-    TreeNode* LCA;
-    bool dfs(TreeNode* currentNode, TreeNode* p, TreeNode* q){
+    TreeNode* dfs(TreeNode* currentNode, TreeNode* p, TreeNode* q){
         if(!currentNode) return NULL;
+
+        TreeNode* leftTree = dfs(currentNode->left, p, q);
+        TreeNode* rightTree = dfs(currentNode->right, p, q);
+
+        if((leftTree && rightTree) || (currentNode == p || currentNode == q)) return currentNode;
         
-        int left = 0, right = 0, mid = 0;
-        if(dfs(currentNode->left, p, q)) left = 1;
-        if(dfs(currentNode->right, p, q)) right = 1;
-        if(currentNode == p || currentNode == q) mid = 1;
-        
-        if(left+right+mid >= 2) LCA = currentNode;
-        
-        return left+right+mid;
+        if(leftTree == NULL) return rightTree;
+        return leftTree;
     }
+
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        dfs(root, p, q);
-        return LCA;
+        return dfs(root, p, q);
     }
 };
