@@ -11,21 +11,18 @@
  */
 class Solution {
 public:
-    int maxCount = 0;
-    int dfs(TreeNode* parent, TreeNode* child){
-        if(child == NULL) return 0;
-        int left = dfs(child, child->left);
-        int right = dfs(child, child->right);
+    int result = 0;
+    int dfs(TreeNode* node, int prevVal){
+        if(!node) return 0;
+        int left = dfs(node->left, node->val);
+        int right = dfs(node->right, node->val);
 
-        int count = 0;
-
-        maxCount = max(maxCount, left+right);
-        if(parent && parent->val == child->val) return max(left, right) + 1;
-        
+        result = max(result, left+right);
+        if(node->val == prevVal) return max(left, right)+1;
         return 0;
     }
     int longestUnivaluePath(TreeNode* root) {
-        dfs(NULL, root);
-        return maxCount;
+        dfs(root, -1);
+        return result;
     }
 };
