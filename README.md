@@ -301,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/rohanxxx/leetcode/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/rohanxxx/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0039-combination-sum](https://github.com/rohanxxx/leetcode/tree/master/0039-combination-sum) |
+| [0046-permutations](https://github.com/rohanxxx/leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/rohanxxx/leetcode/tree/master/0051-n-queens) |
 | [0068-text-justification](https://github.com/rohanxxx/leetcode/tree/master/0068-text-justification) |
 | [0079-word-search](https://github.com/rohanxxx/leetcode/tree/master/0079-word-search) |
@@ -670,6 +671,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/rohanxxx/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0039-combination-sum](https://github.com/rohanxxx/leetcode/tree/master/0039-combination-sum) |
+| [0046-permutations](https://github.com/rohanxxx/leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/rohanxxx/leetcode/tree/master/0051-n-queens) |
 | [0079-word-search](https://github.com/rohanxxx/leetcode/tree/master/0079-word-search) |
 | [0865-robot-room-cleaner](https://github.com/rohanxxx/leetcode/tree/master/0865-robot-room-cleaner) |
