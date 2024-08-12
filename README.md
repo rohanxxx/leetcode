@@ -337,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/rohanxxx/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/rohanxxx/leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1036-rotting-oranges](https://github.com/rohanxxx/leetcode/tree/master/1036-rotting-oranges) |
+| [1039-find-the-town-judge](https://github.com/rohanxxx/leetcode/tree/master/1039-find-the-town-judge) |
 | [1044-find-common-characters](https://github.com/rohanxxx/leetcode/tree/master/1044-find-common-characters) |
 | [1129-longest-string-chain](https://github.com/rohanxxx/leetcode/tree/master/1129-longest-string-chain) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -473,6 +474,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0740-delete-and-earn](https://github.com/rohanxxx/leetcode/tree/master/0740-delete-and-earn) |
 | [0966-binary-subarrays-with-sum](https://github.com/rohanxxx/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/rohanxxx/leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1039-find-the-town-judge](https://github.com/rohanxxx/leetcode/tree/master/1039-find-the-town-judge) |
 | [1044-find-common-characters](https://github.com/rohanxxx/leetcode/tree/master/1044-find-common-characters) |
 | [1129-longest-string-chain](https://github.com/rohanxxx/leetcode/tree/master/1129-longest-string-chain) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -591,6 +593,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/rohanxxx/leetcode/tree/master/0210-course-schedule-ii) |
 | [0399-evaluate-division](https://github.com/rohanxxx/leetcode/tree/master/0399-evaluate-division) |
 | [0744-network-delay-time](https://github.com/rohanxxx/leetcode/tree/master/0744-network-delay-time) |
+| [1039-find-the-town-judge](https://github.com/rohanxxx/leetcode/tree/master/1039-find-the-town-judge) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/rohanxxx/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 ## Topological Sort
 |  |
