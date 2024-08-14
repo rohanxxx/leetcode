@@ -11,11 +11,11 @@ public:
         unordered_map<int, int> parent;
         parent[0] = -1;
 
-        stack<int> stack;
+        queue<int> stack;
         stack.push(0);
 
         while(!stack.empty()){
-            int node = stack.top(); stack.pop();
+            int node = stack.front(); stack.pop();
             for(auto nextNode: tree[node]){
                 //detects the parentNode
                 if(parent[node] == nextNode) continue;
