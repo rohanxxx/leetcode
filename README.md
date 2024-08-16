@@ -211,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/rohanxxx/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0549-binary-tree-longest-consecutive-sequence-ii](https://github.com/rohanxxx/leetcode/tree/master/0549-binary-tree-longest-consecutive-sequence-ii) |
+| [0684-redundant-connection](https://github.com/rohanxxx/leetcode/tree/master/0684-redundant-connection) |
 | [0687-longest-univalue-path](https://github.com/rohanxxx/leetcode/tree/master/0687-longest-univalue-path) |
 | [0690-employee-importance](https://github.com/rohanxxx/leetcode/tree/master/0690-employee-importance) |
 | [0744-network-delay-time](https://github.com/rohanxxx/leetcode/tree/master/0744-network-delay-time) |
@@ -250,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0463-island-perimeter](https://github.com/rohanxxx/leetcode/tree/master/0463-island-perimeter) |
 | [0490-the-maze](https://github.com/rohanxxx/leetcode/tree/master/0490-the-maze) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/rohanxxx/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0684-redundant-connection](https://github.com/rohanxxx/leetcode/tree/master/0684-redundant-connection) |
 | [0690-employee-importance](https://github.com/rohanxxx/leetcode/tree/master/0690-employee-importance) |
 | [0744-network-delay-time](https://github.com/rohanxxx/leetcode/tree/master/0744-network-delay-time) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/rohanxxx/leetcode/tree/master/0764-n-ary-tree-level-order-traversal) |
@@ -602,6 +604,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0261-graph-valid-tree](https://github.com/rohanxxx/leetcode/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0399-evaluate-division](https://github.com/rohanxxx/leetcode/tree/master/0399-evaluate-division) |
+| [0684-redundant-connection](https://github.com/rohanxxx/leetcode/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/rohanxxx/leetcode/tree/master/0744-network-delay-time) |
 | [1039-find-the-town-judge](https://github.com/rohanxxx/leetcode/tree/master/1039-find-the-town-judge) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/rohanxxx/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
@@ -725,6 +728,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0261-graph-valid-tree](https://github.com/rohanxxx/leetcode/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0399-evaluate-division](https://github.com/rohanxxx/leetcode/tree/master/0399-evaluate-division) |
+| [0684-redundant-connection](https://github.com/rohanxxx/leetcode/tree/master/0684-redundant-connection) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/rohanxxx/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rohanxxx/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
