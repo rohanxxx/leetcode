@@ -14,7 +14,7 @@ private:
                     color[nextNode] = !parentNodeColor;
                     q.push(nextNode);
                 }
-                else if(color[nextNode] == parentNode){
+                else if(color[nextNode] == parentNodeColor){
                     return false;
                 }
             }
