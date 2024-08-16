@@ -11,14 +11,8 @@ public:
 
     bool canVisitAllRooms(vector<vector<int>>& rooms) {
         int n = rooms.size();
+        
         vector<bool> visited(n);
-        //rooms is equavalent to graph
-        /*for(int i = 0; i < n; i++){
-            if(!visited[i]){
-                dfs(rooms, i, visited);
-                break;
-            }
-        }*/
 
         visited[0] = true;
         dfs(rooms, 0, visited);
