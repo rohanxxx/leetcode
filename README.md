@@ -617,6 +617,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0871-keys-and-rooms](https://github.com/rohanxxx/leetcode/tree/master/0871-keys-and-rooms) |
 | [1039-find-the-town-judge](https://github.com/rohanxxx/leetcode/tree/master/1039-find-the-town-judge) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/rohanxxx/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1661-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/rohanxxx/leetcode/tree/master/1661-minimum-number-of-vertices-to-reach-all-nodes) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rohanxxx/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Topological Sort
