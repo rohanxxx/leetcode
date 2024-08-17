@@ -11,16 +11,11 @@ public:
 
         for(int i = 0; i < n; i++){
             if(!inDegreeNodes[i]){
-                cout << "line 14" << endl;
-                cout << "i: " << i << endl;
                 champion = i;
                 count++;
-                cout << "count: " << count << endl;
             }
         }
 
-        cout << "line 22 count: " << count << endl;
-        cout << "champion: " << champion << endl;
         if(count == 1) return champion;
         return -1;
     }
