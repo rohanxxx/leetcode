@@ -1,28 +1,36 @@
 class Solution {
 public:
+    bool dfs(int node, vector<vector<int>>& graph, vector<bool>& visited, vector<bool>& inStack){
+        //detects cycle
+        if(inStack[node]) return true;
+        if(visited[node]) return false;
+
+        visited[node] = true;
+        inStack[node] = true;
+
+        for(int neighbor: graph[node]){
+            if(dfs(neighbor, graph, visited, inStack)) return true;
+        }
+
+        inStack[node] = false;
+        return false;
+    }
+
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<int> indegree (numCourses);
-        vector<vector<int>> adj(numCourses);
-        for(auto& prerequisite: prerequisites){
-            adj[prerequisite[1]].push_back(prerequisite[0]);
-            indegree[prerequisite[0]]++;
+        vector<vector<int>> graph(numCourses);
+        for(auto& prereq: prerequisites){
+            graph[prereq[1]].push_back(prereq[0]);
         }
 
-        queue<int> q;
+        vector<bool> visited(numCourses);
+        vector<bool> inStack(numCourses);
+
         for(int i = 0; i < numCourses; i++){
-            if(indegree[i]==0) q.push(i);
-        }
-
-        int nodeVisited = 0;
-        while(!q.empty()){
-            int node = q.front();
-            q.pop();
-            nodeVisited++;
-            for(auto& neighbor: adj[node]){
-                indegree[neighbor]--;
-                if(indegree[neighbor] == 0) q.push(neighbor);
+            if(dfs(i, graph, visited, inStack)){
+                return false;
             }
         }
-        return nodeVisited == numCourses;
+
+        return true;
     }
 };
