@@ -8,7 +8,7 @@ public:
         }
 
         int maxLength = 1;
-        for(auto nextNode: graph[node]){
+        for(auto& nextNode: graph[node]){
             int length = dfs(nextNode, graph, visited);
             if(length == -1) {
                 cout << "line 14 node: " << node << endl;
@@ -24,7 +24,7 @@ public:
     int minimumSemesters(int n, vector<vector<int>>& relations) {
         vector<vector<int>> graph(n+1);
         //build the graph
-        for(auto relation: relations){
+        for(auto& relation: relations){
             graph[relation[0]].push_back(relation[1]);
         }
 
