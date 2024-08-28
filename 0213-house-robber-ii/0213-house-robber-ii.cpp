@@ -15,12 +15,6 @@ public:
 
 private:
     int rob_simple(vector<int>& nums, int start, int end) {
-        // int t1 = 0, t2 = 0;
-        // for (int i = start; i <= end; ++i) {
-            // int temp = t1;
-            // t1 = max(nums[i] + t2, t1);
-            // t2 = temp;
-        // }
 
         int n = nums.size();
         vector<int> sum(n);
