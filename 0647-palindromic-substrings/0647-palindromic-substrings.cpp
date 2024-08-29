@@ -1,19 +1,20 @@
 class Solution {
 public:
-    bool isPalinedrom(int lo, int hi, const string& s){
+    bool isPalindrome(int lo, int hi, string& s){
         while(lo <= hi){
             if(s[lo] != s[hi]) return false;
-            lo++; hi--;
+            lo++; hi--; 
         }
         return true;
     }
     int countSubstrings(string s) {
-        int countPalinedrome = 0;
+        int count = 0;
         for(int lo = 0; lo < s.length(); lo++){
             for(int hi = lo; hi < s.length(); hi++){
-                countPalinedrome += isPalinedrom(lo, hi, s);
+                count += isPalindrome(lo, hi, s);
             }
         }
-        return countPalinedrome;
+
+        return count;
     }
 };
