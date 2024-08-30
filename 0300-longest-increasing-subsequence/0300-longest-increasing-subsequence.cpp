@@ -1,7 +1,7 @@
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
-        /*
+        
         if(nums.empty()) return 0;
         vector<int> subArr;
         subArr.push_back(nums[0]);
@@ -15,15 +15,16 @@ public:
                 auto it = lower_bound(subArr.begin(), subArr.end(), num);
                 *it = num;
                 // cout << "num: " << num << endl;
+                /*
                 for(auto arr: subArr){
                     cout << arr << " ";
                 }
-                cout << endl;
+                cout << endl;*/
             }
         }
      
-        return subArr.size();*/
-        if (nums.empty()) return 0;
+        return subArr.size();
+        /*if (nums.empty()) return 0;
 
         std::vector<int> dp(nums.size(), 1);
 
@@ -35,6 +36,6 @@ public:
             }
         }
 
-        return *std::max_element(dp.begin(), dp.end());
+        return *std::max_element(dp.begin(), dp.end());*/
     }
 };
