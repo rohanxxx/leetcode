@@ -522,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/rohanxxx/leetcode/tree/master/0002-add-two-numbers) |
+| [0062-unique-paths](https://github.com/rohanxxx/leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/rohanxxx/leetcode/tree/master/0070-climbing-stairs) |
 | [0149-max-points-on-a-line](https://github.com/rohanxxx/leetcode/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/rohanxxx/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -568,6 +569,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/rohanxxx/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0045-jump-game-ii](https://github.com/rohanxxx/leetcode/tree/master/0045-jump-game-ii) |
+| [0062-unique-paths](https://github.com/rohanxxx/leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/rohanxxx/leetcode/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/rohanxxx/leetcode/tree/master/0091-decode-ways) |
 | [0139-word-break](https://github.com/rohanxxx/leetcode/tree/master/0139-word-break) |
@@ -817,4 +819,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/rohanxxx/leetcode/tree/master/0149-max-points-on-a-line) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/rohanxxx/leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
