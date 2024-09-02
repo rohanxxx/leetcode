@@ -323,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/rohanxxx/leetcode/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/rohanxxx/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0039-combination-sum](https://github.com/rohanxxx/leetcode/tree/master/0039-combination-sum) |
+| [0045-jump-game-ii](https://github.com/rohanxxx/leetcode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/rohanxxx/leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/rohanxxx/leetcode/tree/master/0051-n-queens) |
 | [0068-text-justification](https://github.com/rohanxxx/leetcode/tree/master/0068-text-justification) |
@@ -451,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/rohanxxx/leetcode/tree/master/0045-jump-game-ii) |
 | [0435-non-overlapping-intervals](https://github.com/rohanxxx/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/rohanxxx/leetcode/tree/master/0455-assign-cookies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -565,6 +567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/rohanxxx/leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0045-jump-game-ii](https://github.com/rohanxxx/leetcode/tree/master/0045-jump-game-ii) |
 | [0070-climbing-stairs](https://github.com/rohanxxx/leetcode/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/rohanxxx/leetcode/tree/master/0091-decode-ways) |
 | [0139-word-break](https://github.com/rohanxxx/leetcode/tree/master/0139-word-break) |
