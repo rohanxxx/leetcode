@@ -15,7 +15,6 @@ public:
             }
             else return false;
         }
-        cout << "newNum: " << newNum << endl;
         return copy != newNum;
     }
 };
