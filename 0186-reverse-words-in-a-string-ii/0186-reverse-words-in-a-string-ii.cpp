@@ -8,7 +8,6 @@ public:
             if(s[i] != ' ') ts += s[i];
             
             if(s[i] == ' ' || i == 0){
-                cout << "ts: " << ts << endl;
                 for(int j = ts.size()-1; j >= 0; j--){
                     reverse.push_back(ts[j]);
                 }
