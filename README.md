@@ -533,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/rohanxxx/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0202-happy-number](https://github.com/rohanxxx/leetcode/tree/master/0202-happy-number) |
 | [0523-continuous-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0523-continuous-subarray-sum) |
+| [1069-confusing-number](https://github.com/rohanxxx/leetcode/tree/master/1069-confusing-number) |
 | [1274-number-of-days-between-two-dates](https://github.com/rohanxxx/leetcode/tree/master/1274-number-of-days-between-two-dates) |
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/rohanxxx/leetcode/tree/master/1693-sum-of-all-odd-length-subarrays) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
