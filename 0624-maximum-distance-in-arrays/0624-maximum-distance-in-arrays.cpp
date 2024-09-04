@@ -6,7 +6,7 @@ public:
         for(int i = 0; i < arrays.size(); i++){
             if(i == 0){
                 if(arrays[i].size() > 0){
-                    minSoFar = arrays[i][0];
+                    minSoFar = arrays[i].front();
                     maxSoFar = arrays[i].back();
                 }
                 continue;
@@ -14,7 +14,7 @@ public:
 
             int temp1, temp2;
             if(arrays[i].size() > 0) {
-                temp1 = arrays[i][0];
+                temp1 = arrays[i].front();
                 maxDistance = max(maxDistance, abs(maxSoFar - temp1));
                 temp2 = arrays[i].back();
                 maxDistance = max(maxDistance, abs(temp2 - minSoFar)); 
