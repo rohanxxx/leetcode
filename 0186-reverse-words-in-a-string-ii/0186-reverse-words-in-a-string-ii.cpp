@@ -5,7 +5,6 @@ public:
         vector<char> reverse;
         string ts = "";
         for(int i = n-1; i >= 0; i--){
-            // cout << "s[i]: " << s[i] << endl;
             if(s[i] != ' ') ts += s[i];
             
             if(s[i] == ' ' || i == 0){
