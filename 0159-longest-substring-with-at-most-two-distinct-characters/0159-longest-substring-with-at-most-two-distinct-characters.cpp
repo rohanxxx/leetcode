@@ -7,7 +7,7 @@ public:
         map <char, int> hashmap;
 
         int left = 0, right = 0;
-        int longest_len = 2;
+        int longest_len = 0;
         while(right<strSize){
             hashmap[s[right]] = right;
             right++;
