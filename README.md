@@ -423,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0186-reverse-words-in-a-string-ii](https://github.com/rohanxxx/leetcode/tree/master/0186-reverse-words-in-a-string-ii) |
 | [0187-repeated-dna-sequences](https://github.com/rohanxxx/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0331-verify-preorder-serialization-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0331-verify-preorder-serialization-of-a-binary-tree) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/rohanxxx/leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0399-evaluate-division](https://github.com/rohanxxx/leetcode/tree/master/0399-evaluate-division) |
 | [0459-repeated-substring-pattern](https://github.com/rohanxxx/leetcode/tree/master/0459-repeated-substring-pattern) |
 | [0647-palindromic-substrings](https://github.com/rohanxxx/leetcode/tree/master/0647-palindromic-substrings) |
@@ -512,6 +513,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0187-repeated-dna-sequences](https://github.com/rohanxxx/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0202-happy-number](https://github.com/rohanxxx/leetcode/tree/master/0202-happy-number) |
 | [0219-contains-duplicate-ii](https://github.com/rohanxxx/leetcode/tree/master/0219-contains-duplicate-ii) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/rohanxxx/leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0347-top-k-frequent-elements](https://github.com/rohanxxx/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0523-continuous-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/rohanxxx/leetcode/tree/master/0525-contiguous-array) |
@@ -634,6 +636,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/rohanxxx/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/rohanxxx/leetcode/tree/master/0239-sliding-window-maximum) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/rohanxxx/leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0966-binary-subarrays-with-sum](https://github.com/rohanxxx/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1286-constrained-subsequence-sum](https://github.com/rohanxxx/leetcode/tree/master/1286-constrained-subsequence-sum) |
