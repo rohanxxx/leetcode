@@ -1,25 +1,18 @@
 class Solution {
 public:
     int calculateTime(string keyboard, string word) {
-        vector<int> keyIndices(26, -1);
-
-        // Get the index for each key.
-        for (int i = 0; i < keyboard.length(); i++)
-            keyIndices[keyboard[i] - 'a'] = i;
-
-        // Initialize previous index as starting index = 0.
-        int prev = 0;
-        int result = 0;
-
-        // Calculate the total time.
-        for (char &c : word) {
-            // Add the distance from previous index
-            // to current letter's index to the result.
-            result += abs(prev - keyIndices[c - 'a']);
-
-            // Update the previous index to current index for next iteration.
-            prev = keyIndices[c - 'a'];
+        unordered_map<char, int> mp;
+        for(int i = 0; i < keyboard.length(); i++){
+            mp[keyboard[i]] = i;
+            // cout << keyboard[i] << ": " << i << endl;
         }
-        return result;
+
+        int typingTime = abs(mp[word[0]]-0);
+        // cout << typingTime << endl;
+        for(int i = 1; i < word.length(); i++){
+            typingTime += abs(mp[word[i]] - mp[word[i-1]]);
+            // cout << typingTime << endl;
+        }
+        return typingTime;
     }
 };
