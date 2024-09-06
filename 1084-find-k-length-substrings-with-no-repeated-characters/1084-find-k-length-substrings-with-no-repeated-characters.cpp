@@ -1,46 +1,41 @@
 class Solution {
 public:
     int numKLenSubstrNoRepeats(string s, int k) {
-        // We can reuse the condition from the first approach
-        // as for k > 26, there can be no substrings with only unique characters
-        if (k > 26)
-            return 0;
+        if(k == 0) return 0;
+        if(k == 1) return s.length();
+        vector<int> mp(26, -1); mp[s[0]-'a'] = 0;
         
-        int answer = 0;
-        int n = s.size();
-        
-        // Initializing the left and right pointers
-        int left = 0, right = 0;
-        // Initializing an empty frequency array
-        int freq[26] = {0};
-        
-        while (right < n) {
-
-            // Add the current character in the frequency array
-            freq[s[right] - 'a']++;
-            
-            // If the current character appears more than once in the frequency array
-            // keep contracting the window and removing characters from the
-            // frequency array till the frequency of the current character becomes 1.
-            while (freq[s[right] - 'a'] > 1) {
-                freq[s[left] - 'a']--;
-                left++;
-            }
-            
-            // Check if the length of the current unique substring is equal to k
-            if (right - left + 1 == k) {
-                answer++;
+        int count = 0;
+        int lastDupAt = 0;
+        // cout << "s.size: " << s.length() << endl;
+        for(int i = 1; i < s.length(); i++){
+            if(mp[s[i]-'a'] == -1){
                 
-                // Contract the window and remove the leftmost character from the
-                // frequency array
-                freq[s[left] - 'a']--;
-                left++;
+                mp[s[i]-'a'] = i;
+
+                if((i+1) - lastDupAt == k){
+                    cout << "i: " << i << endl;
+                    count++;
+                    lastDupAt++;
+                }
+                continue;
             }
-            
-            // Expand the window
-            right++;
+
+            if(i-mp[s[i]-'a'] < k && lastDupAt <= mp[s[i]-'a']){
+                lastDupAt = mp[s[i]-'a']+1;
+                mp[s[i]-'a'] = i;
+                continue;
+            }
+
+            mp[s[i]-'a'] = i;
+
+            if((i+1)-lastDupAt == k) {
+                cout << "i: " << i << endl;
+                lastDupAt++;
+                count++;
+            }
         }
-        
-        return answer;
+
+        return count;
     }
 };
