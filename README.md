@@ -373,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1044-find-common-characters](https://github.com/rohanxxx/leetcode/tree/master/1044-find-common-characters) |
 | [1098-largest-unique-number](https://github.com/rohanxxx/leetcode/tree/master/1098-largest-unique-number) |
 | [1129-longest-string-chain](https://github.com/rohanxxx/leetcode/tree/master/1129-longest-string-chain) |
+| [1143-find-smallest-common-element-in-all-rows](https://github.com/rohanxxx/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1286-constrained-subsequence-sum](https://github.com/rohanxxx/leetcode/tree/master/1286-constrained-subsequence-sum) |
 | [1306-minimum-absolute-difference](https://github.com/rohanxxx/leetcode/tree/master/1306-minimum-absolute-difference) |
@@ -411,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0490-the-maze](https://github.com/rohanxxx/leetcode/tree/master/0490-the-maze) |
 | [0898-transpose-matrix](https://github.com/rohanxxx/leetcode/tree/master/0898-transpose-matrix) |
 | [1036-rotting-oranges](https://github.com/rohanxxx/leetcode/tree/master/1036-rotting-oranges) |
+| [1143-find-smallest-common-element-in-all-rows](https://github.com/rohanxxx/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1331-path-with-maximum-gold](https://github.com/rohanxxx/leetcode/tree/master/1331-path-with-maximum-gold) |
 | [2685-first-completely-painted-row-or-column](https://github.com/rohanxxx/leetcode/tree/master/2685-first-completely-painted-row-or-column) |
 ## String
@@ -542,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1098-largest-unique-number](https://github.com/rohanxxx/leetcode/tree/master/1098-largest-unique-number) |
 | [1123-single-row-keyboard](https://github.com/rohanxxx/leetcode/tree/master/1123-single-row-keyboard) |
 | [1129-longest-string-chain](https://github.com/rohanxxx/leetcode/tree/master/1129-longest-string-chain) |
+| [1143-find-smallest-common-element-in-all-rows](https://github.com/rohanxxx/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1391-counting-elements](https://github.com/rohanxxx/leetcode/tree/master/1391-counting-elements) |
 | [1464-reduce-array-size-to-the-half](https://github.com/rohanxxx/leetcode/tree/master/1464-reduce-array-size-to-the-half) |
@@ -572,6 +575,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/rohanxxx/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [1143-find-smallest-common-element-in-all-rows](https://github.com/rohanxxx/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1472-increasing-decreasing-string](https://github.com/rohanxxx/leetcode/tree/master/1472-increasing-decreasing-string) |
 | [1983-maximum-population-year](https://github.com/rohanxxx/leetcode/tree/master/1983-maximum-population-year) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rohanxxx/leetcode/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
@@ -715,6 +719,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0362-design-hit-counter](https://github.com/rohanxxx/leetcode/tree/master/0362-design-hit-counter) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [1051-shortest-way-to-form-string](https://github.com/rohanxxx/leetcode/tree/master/1051-shortest-way-to-form-string) |
+| [1143-find-smallest-common-element-in-all-rows](https://github.com/rohanxxx/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1397-search-suggestions-system](https://github.com/rohanxxx/leetcode/tree/master/1397-search-suggestions-system) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/rohanxxx/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2729-minimum-operations-to-make-numbers-non-positive](https://github.com/rohanxxx/leetcode/tree/master/2729-minimum-operations-to-make-numbers-non-positive) |
