@@ -1,13 +1,15 @@
 class Solution {
 public:
     int numKLenSubstrNoRepeats(string s, int k) {
+        if(k > 26) return 0;
         if(k == 0) return 0;
         if(k == 1) return s.length();
+        
         vector<int> mp(26, -1); mp[s[0]-'a'] = 0;
         
         int count = 0;
         int lastDupAt = 0;
-        // cout << "s.size: " << s.length() << endl;
+        
         for(int i = 1; i < s.length(); i++){
             if(mp[s[i]-'a'] == -1){
                 
