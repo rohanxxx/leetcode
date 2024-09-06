@@ -371,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/rohanxxx/leetcode/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/rohanxxx/leetcode/tree/master/1039-find-the-town-judge) |
 | [1044-find-common-characters](https://github.com/rohanxxx/leetcode/tree/master/1044-find-common-characters) |
+| [1098-largest-unique-number](https://github.com/rohanxxx/leetcode/tree/master/1098-largest-unique-number) |
 | [1129-longest-string-chain](https://github.com/rohanxxx/leetcode/tree/master/1129-longest-string-chain) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1286-constrained-subsequence-sum](https://github.com/rohanxxx/leetcode/tree/master/1286-constrained-subsequence-sum) |
@@ -498,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/rohanxxx/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/rohanxxx/leetcode/tree/master/0455-assign-cookies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [1098-largest-unique-number](https://github.com/rohanxxx/leetcode/tree/master/1098-largest-unique-number) |
 | [1129-longest-string-chain](https://github.com/rohanxxx/leetcode/tree/master/1129-longest-string-chain) |
 | [1306-minimum-absolute-difference](https://github.com/rohanxxx/leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1397-search-suggestions-system](https://github.com/rohanxxx/leetcode/tree/master/1397-search-suggestions-system) |
@@ -536,6 +538,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1039-find-the-town-judge](https://github.com/rohanxxx/leetcode/tree/master/1039-find-the-town-judge) |
 | [1044-find-common-characters](https://github.com/rohanxxx/leetcode/tree/master/1044-find-common-characters) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/rohanxxx/leetcode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
+| [1098-largest-unique-number](https://github.com/rohanxxx/leetcode/tree/master/1098-largest-unique-number) |
 | [1123-single-row-keyboard](https://github.com/rohanxxx/leetcode/tree/master/1123-single-row-keyboard) |
 | [1129-longest-string-chain](https://github.com/rohanxxx/leetcode/tree/master/1129-longest-string-chain) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
