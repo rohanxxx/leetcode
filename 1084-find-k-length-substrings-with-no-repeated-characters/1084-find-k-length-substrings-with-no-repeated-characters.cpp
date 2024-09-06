@@ -32,7 +32,6 @@ public:
             mp[s[i]-'a'] = i;
 
             if((i+1)-lastDupAt == k) {
-                cout << "i: " << i << endl;
                 lastDupAt++;
                 count++;
             }
