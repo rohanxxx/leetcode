@@ -3,7 +3,7 @@ public:
     bool validWordSquare(vector<string>& words) {
         int cols = 0;
         int rows = words.size();
-        vector<string> newWords;
+        vector<string> columnWords;
         
         for (auto& word : words) {
             cols = max(cols, (int)word.size());
@@ -20,8 +20,8 @@ public:
                     newWord += words[row][col];
                 }
             }
-            newWords.push_back(newWord);
+            columnWords.push_back(newWord);
         }
-        return words == newWords;
+        return words == columnWords;
     }
 };
