@@ -19,7 +19,6 @@ public:
 
         int lonelyPixel = 0;
         for(int r = 0; r < n; r++){
-            // cout << "row[r].size(): " << row[r].size() << endl;
             for(int c = 0; c < m; c++){
                 if(picture[r][c] == 'B'){
                     if(row[r].size() == 1 && column[c].size() == 1) lonelyPixel++;
