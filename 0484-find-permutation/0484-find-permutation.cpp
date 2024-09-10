@@ -1,28 +1,25 @@
 class Solution {
 public:
     vector<int> findPermutation(string s) {
-        vector<int> res(s.length() + 1);
-        stack<int> stack;
-        int j = 0;
-        
-        for (int i = 1; i <= s.length(); ++i) {
-            if (s[i - 1] == 'I') {
-                stack.push(i);
-                while (!stack.empty()) {
-                    res[j++] = stack.top();
-                    stack.pop();
+        stack <int> st;
+        vector <int> ans;
+        for(int i = 0; i < s.length(); i++){
+            st.push(i+1);
+            if(s[i] == 'I'){
+                while(!st.empty()){
+                    ans.push_back(st.top());
+                    st.pop();
                 }
-            } else {
-                stack.push(i);
+                continue;
             }
         }
-        
-        stack.push(s.length() + 1);
-        while (!stack.empty()) {
-            res[j++] = stack.top();
-            stack.pop();
+        st.push(s.length()+1);
+        while(!st.empty()){
+            ans.push_back(st.top());
+            st.pop();
         }
-        
-        return res;
+
+        // ans.push_back(s.length()+1);
+        return ans;
     }
 };
