@@ -356,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/rohanxxx/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/rohanxxx/leetcode/tree/master/0455-assign-cookies) |
 | [0463-island-perimeter](https://github.com/rohanxxx/leetcode/tree/master/0463-island-perimeter) |
+| [0484-find-permutation](https://github.com/rohanxxx/leetcode/tree/master/0484-find-permutation) |
 | [0487-max-consecutive-ones-ii](https://github.com/rohanxxx/leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0490-the-maze](https://github.com/rohanxxx/leetcode/tree/master/0490-the-maze) |
 | [0523-continuous-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -448,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/rohanxxx/leetcode/tree/master/0399-evaluate-division) |
 | [0439-ternary-expression-parser](https://github.com/rohanxxx/leetcode/tree/master/0439-ternary-expression-parser) |
 | [0459-repeated-substring-pattern](https://github.com/rohanxxx/leetcode/tree/master/0459-repeated-substring-pattern) |
+| [0484-find-permutation](https://github.com/rohanxxx/leetcode/tree/master/0484-find-permutation) |
 | [0616-add-bold-tag-in-string](https://github.com/rohanxxx/leetcode/tree/master/0616-add-bold-tag-in-string) |
 | [0647-palindromic-substrings](https://github.com/rohanxxx/leetcode/tree/master/0647-palindromic-substrings) |
 | [0734-sentence-similarity](https://github.com/rohanxxx/leetcode/tree/master/0734-sentence-similarity) |
@@ -497,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0280-wiggle-sort](https://github.com/rohanxxx/leetcode/tree/master/0280-wiggle-sort) |
 | [0435-non-overlapping-intervals](https://github.com/rohanxxx/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/rohanxxx/leetcode/tree/master/0455-assign-cookies) |
+| [0484-find-permutation](https://github.com/rohanxxx/leetcode/tree/master/0484-find-permutation) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0624-maximum-distance-in-arrays](https://github.com/rohanxxx/leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [1051-shortest-way-to-form-string](https://github.com/rohanxxx/leetcode/tree/master/1051-shortest-way-to-form-string) |
@@ -794,6 +797,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/rohanxxx/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0331-verify-preorder-serialization-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0331-verify-preorder-serialization-of-a-binary-tree) |
 | [0439-ternary-expression-parser](https://github.com/rohanxxx/leetcode/tree/master/0439-ternary-expression-parser) |
+| [0484-find-permutation](https://github.com/rohanxxx/leetcode/tree/master/0484-find-permutation) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0739-daily-temperatures](https://github.com/rohanxxx/leetcode/tree/master/0739-daily-temperatures) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/rohanxxx/leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
