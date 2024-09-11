@@ -5,7 +5,8 @@ private:
     int avergeSize;
     double sum;
 public:
-    MovingAverage(int size):avergeSize(size),sum(0) {}
+    MovingAverage(int size):avergeSize(size),sum(0) {
+    }
     
     double next(int val) {
         sum += val;
