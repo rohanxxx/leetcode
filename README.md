@@ -493,6 +493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/rohanxxx/leetcode/tree/master/0647-palindromic-substrings) |
 | [1051-shortest-way-to-form-string](https://github.com/rohanxxx/leetcode/tree/master/1051-shortest-way-to-form-string) |
 | [1129-longest-string-chain](https://github.com/rohanxxx/leetcode/tree/master/1129-longest-string-chain) |
+| [1404-print-immutable-linked-list-in-reverse](https://github.com/rohanxxx/leetcode/tree/master/1404-print-immutable-linked-list-in-reverse) |
 ## Greedy
 |  |
 | ------- |
@@ -788,6 +789,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/rohanxxx/leetcode/tree/master/0143-reorder-list) |
 | [0369-plus-one-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0369-plus-one-linked-list) |
 | [0850-insert-into-a-sorted-circular-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0850-insert-into-a-sorted-circular-linked-list) |
+| [1404-print-immutable-linked-list-in-reverse](https://github.com/rohanxxx/leetcode/tree/master/1404-print-immutable-linked-list-in-reverse) |
 | [1618-delete-n-nodes-after-m-nodes-of-a-linked-list](https://github.com/rohanxxx/leetcode/tree/master/1618-delete-n-nodes-after-m-nodes-of-a-linked-list) |
 ## Recursion
 |  |
@@ -795,6 +797,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/rohanxxx/leetcode/tree/master/0002-add-two-numbers) |
 | [0143-reorder-list](https://github.com/rohanxxx/leetcode/tree/master/0143-reorder-list) |
 | [0439-ternary-expression-parser](https://github.com/rohanxxx/leetcode/tree/master/0439-ternary-expression-parser) |
+| [1404-print-immutable-linked-list-in-reverse](https://github.com/rohanxxx/leetcode/tree/master/1404-print-immutable-linked-list-in-reverse) |
 ## Stack
 |  |
 | ------- |
@@ -807,6 +810,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0484-find-permutation](https://github.com/rohanxxx/leetcode/tree/master/0484-find-permutation) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0739-daily-temperatures](https://github.com/rohanxxx/leetcode/tree/master/0739-daily-temperatures) |
+| [1404-print-immutable-linked-list-in-reverse](https://github.com/rohanxxx/leetcode/tree/master/1404-print-immutable-linked-list-in-reverse) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/rohanxxx/leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Database
 |  |
