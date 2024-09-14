@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0272-closest-binary-search-tree-value-ii](https://github.com/rohanxxx/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/rohanxxx/leetcode/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 | [0331-verify-preorder-serialization-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0331-verify-preorder-serialization-of-a-binary-tree) |
+| [0333-largest-bst-subtree](https://github.com/rohanxxx/leetcode/tree/master/0333-largest-bst-subtree) |
 | [0366-find-leaves-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0366-find-leaves-of-binary-tree) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/rohanxxx/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -215,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/rohanxxx/leetcode/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 | [0310-minimum-height-trees](https://github.com/rohanxxx/leetcode/tree/master/0310-minimum-height-trees) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0333-largest-bst-subtree](https://github.com/rohanxxx/leetcode/tree/master/0333-largest-bst-subtree) |
 | [0366-find-leaves-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0366-find-leaves-of-binary-tree) |
 | [0399-evaluate-division](https://github.com/rohanxxx/leetcode/tree/master/0399-evaluate-division) |
 | [0463-island-perimeter](https://github.com/rohanxxx/leetcode/tree/master/0463-island-perimeter) |
@@ -313,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0272-closest-binary-search-tree-value-ii](https://github.com/rohanxxx/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/rohanxxx/leetcode/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 | [0331-verify-preorder-serialization-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0331-verify-preorder-serialization-of-a-binary-tree) |
+| [0333-largest-bst-subtree](https://github.com/rohanxxx/leetcode/tree/master/0333-largest-bst-subtree) |
 | [0366-find-leaves-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0366-find-leaves-of-binary-tree) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/rohanxxx/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -677,6 +680,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/rohanxxx/leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/rohanxxx/leetcode/tree/master/0322-coin-change) |
+| [0333-largest-bst-subtree](https://github.com/rohanxxx/leetcode/tree/master/0333-largest-bst-subtree) |
 | [0435-non-overlapping-intervals](https://github.com/rohanxxx/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0487-max-consecutive-ones-ii](https://github.com/rohanxxx/leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0629-k-inverse-pairs-array](https://github.com/rohanxxx/leetcode/tree/master/0629-k-inverse-pairs-array) |
@@ -942,6 +946,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/rohanxxx/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/rohanxxx/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
+| [0333-largest-bst-subtree](https://github.com/rohanxxx/leetcode/tree/master/0333-largest-bst-subtree) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/rohanxxx/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/rohanxxx/leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
