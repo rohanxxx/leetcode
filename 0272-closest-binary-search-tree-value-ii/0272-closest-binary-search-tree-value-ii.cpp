@@ -29,23 +29,15 @@ public:
 
         sort(dif.begin(), dif.end());
 
-        for(double i: dif){
-            cout << i << " ";
-        }
-        cout << endl;
-
         vector<int> ans;
-        // cout << "q.size(): " << q.size() << endl;
         temp = root;
         q.push(temp);
 
         while(!q.empty()){
             int size = q.size();
-            cout << "size: " << size << endl;
             for(int i = 0; i < size; i++){
                 TreeNode* node = q.front(); q.pop();
                 double curDif = abs(double(node->val)-target);
-                cout << "curDif: " << curDif << endl;
                 if(find(dif.begin(), dif.begin()+k, curDif) != dif.begin()+k){
                     ans.push_back(node->val);
                 }
