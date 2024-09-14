@@ -162,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0250-count-univalue-subtrees](https://github.com/rohanxxx/leetcode/tree/master/0250-count-univalue-subtrees) |
 | [0270-closest-binary-search-tree-value](https://github.com/rohanxxx/leetcode/tree/master/0270-closest-binary-search-tree-value) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/rohanxxx/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/rohanxxx/leetcode/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 | [0331-verify-preorder-serialization-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0331-verify-preorder-serialization-of-a-binary-tree) |
 | [0366-find-leaves-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0366-find-leaves-of-binary-tree) |
@@ -208,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0250-count-univalue-subtrees](https://github.com/rohanxxx/leetcode/tree/master/0250-count-univalue-subtrees) |
 | [0261-graph-valid-tree](https://github.com/rohanxxx/leetcode/tree/master/0261-graph-valid-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/rohanxxx/leetcode/tree/master/0270-closest-binary-search-tree-value) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/rohanxxx/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/rohanxxx/leetcode/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 | [0310-minimum-height-trees](https://github.com/rohanxxx/leetcode/tree/master/0310-minimum-height-trees) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
@@ -304,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0250-count-univalue-subtrees](https://github.com/rohanxxx/leetcode/tree/master/0250-count-univalue-subtrees) |
 | [0270-closest-binary-search-tree-value](https://github.com/rohanxxx/leetcode/tree/master/0270-closest-binary-search-tree-value) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/rohanxxx/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/rohanxxx/leetcode/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 | [0331-verify-preorder-serialization-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0331-verify-preorder-serialization-of-a-binary-tree) |
 | [0366-find-leaves-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0366-find-leaves-of-binary-tree) |
@@ -499,6 +502,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0186-reverse-words-in-a-string-ii](https://github.com/rohanxxx/leetcode/tree/master/0186-reverse-words-in-a-string-ii) |
 | [0202-happy-number](https://github.com/rohanxxx/leetcode/tree/master/0202-happy-number) |
 | [0253-meeting-rooms-ii](https://github.com/rohanxxx/leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/rohanxxx/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0295-find-median-from-data-stream](https://github.com/rohanxxx/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/rohanxxx/leetcode/tree/master/0455-assign-cookies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -635,6 +639,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/rohanxxx/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0253-meeting-rooms-ii](https://github.com/rohanxxx/leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/rohanxxx/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0295-find-median-from-data-stream](https://github.com/rohanxxx/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/rohanxxx/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0744-network-delay-time](https://github.com/rohanxxx/leetcode/tree/master/0744-network-delay-time) |
@@ -817,6 +822,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0143-reorder-list](https://github.com/rohanxxx/leetcode/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/rohanxxx/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/rohanxxx/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0331-verify-preorder-serialization-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0331-verify-preorder-serialization-of-a-binary-tree) |
 | [0439-ternary-expression-parser](https://github.com/rohanxxx/leetcode/tree/master/0439-ternary-expression-parser) |
 | [0484-find-permutation](https://github.com/rohanxxx/leetcode/tree/master/0484-find-permutation) |
@@ -922,6 +928,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/rohanxxx/leetcode/tree/master/0270-closest-binary-search-tree-value) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/rohanxxx/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/rohanxxx/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/rohanxxx/leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
