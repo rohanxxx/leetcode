@@ -12,9 +12,9 @@
 class Solution {
 public:
     vector<int> closestKValues(TreeNode* root, double target, int k) {
-        TreeNode* temp = root;
+        // TreeNode* temp = root;
         queue<TreeNode*> q;
-        q.push(temp);
+        q.push(root);
 
         vector<double> dif;
         while(!q.empty()){
@@ -30,8 +30,8 @@ public:
         sort(dif.begin(), dif.end());
 
         vector<int> ans;
-        temp = root;
-        q.push(temp);
+        // temp = root;
+        q.push(root);
 
         while(!q.empty()){
             int size = q.size();
