@@ -28,25 +28,17 @@ public:
         std::priority_queue<int, std::vector<int>, std::greater<int>> pq;
         
         for(auto& child: root->children){
-            // cout << "child->val: " << child->val << endl;
             int dept = dfs(child);
-            // cout << "dept: " << dept << endl;
             pq.push(dept);
             if(pq.size()>2){
                 pq.pop();
             }
         }
-        // cout << "pq.size(): " << pq.size() << endl;
-        /*while (!pq.empty()) {
-            std::cout << pq.top() << " "; // Prints the smallest element
-            pq.pop();
-        }*/
+        
     cout << endl;
         if(pq.size() == 2){
             int firstHigh = pq.top(); pq.pop();
             int secondHigh = pq.top(); pq.pop();
-            // cout << "firstHigh: " << firstHigh << endl;
-            // cout << "secondHigh: " << secondHigh << endl;
             maxDiameter = max(maxDiameter, firstHigh+secondHigh);
             return secondHigh+1;
         }
