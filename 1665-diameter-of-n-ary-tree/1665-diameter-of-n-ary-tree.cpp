@@ -36,7 +36,6 @@ public:
             }
         }
         
-    cout << endl;
         if(pq.size() == 2){
             int firstHigh = pq.top(); pq.pop();
             int secondHigh = pq.top(); pq.pop();
