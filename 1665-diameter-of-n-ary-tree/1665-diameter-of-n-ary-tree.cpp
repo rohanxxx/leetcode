@@ -22,10 +22,10 @@ class Solution {
 public:
     int maxDiameter;
     int dfs(Node* root){
-        // cout << "root->val: " << root->val << endl;
+
         if(root->children.empty()) return 1;
         
-        std::priority_queue<int, std::vector<int>, std::greater<int>> pq;
+        priority_queue<int, vector<int>, greater<int>> pq;
         
         for(auto& child: root->children){
             int dept = dfs(child);
