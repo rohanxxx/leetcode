@@ -42,14 +42,11 @@ public:
             maxDiameter = max(maxDiameter, firstHigh+secondHigh);
             return secondHigh+1;
         }
+        
+        int high = pq.top(); pq.pop();
+        maxDiameter = max(maxDiameter, high);
+        return high+1;
 
-        // if(pq.size() == 1){
-            int high = pq.top(); pq.pop();
-            maxDiameter = max(maxDiameter, high);
-            return high+1;
-        // }
-
-        // return 0;
     }
 
     int diameter(Node* root) {
