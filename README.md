@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1450-delete-leaves-with-a-given-value](https://github.com/rohanxxx/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/rohanxxx/leetcode/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [1634-clone-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1634-clone-n-ary-tree) |
 | [1650-find-root-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1650-find-root-of-n-ary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/rohanxxx/leetcode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1745-find-nearest-right-node-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1745-find-nearest-right-node-in-binary-tree) |
@@ -246,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1450-delete-leaves-with-a-given-value](https://github.com/rohanxxx/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/rohanxxx/leetcode/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [1634-clone-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1634-clone-n-ary-tree) |
 | [1650-find-root-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1650-find-root-of-n-ary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/rohanxxx/leetcode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
@@ -290,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1442-number-of-operations-to-make-network-connected](https://github.com/rohanxxx/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/rohanxxx/leetcode/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [1634-clone-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1634-clone-n-ary-tree) |
 | [1745-find-nearest-right-node-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1745-find-nearest-right-node-in-binary-tree) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rohanxxx/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
@@ -606,6 +609,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1391-counting-elements](https://github.com/rohanxxx/leetcode/tree/master/1391-counting-elements) |
 | [1464-reduce-array-size-to-the-half](https://github.com/rohanxxx/leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1472-increasing-decreasing-string](https://github.com/rohanxxx/leetcode/tree/master/1472-increasing-decreasing-string) |
+| [1634-clone-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1634-clone-n-ary-tree) |
 | [1650-find-root-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1650-find-root-of-n-ary-tree) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
 | [2240-intervals-between-identical-elements](https://github.com/rohanxxx/leetcode/tree/master/2240-intervals-between-identical-elements) |
