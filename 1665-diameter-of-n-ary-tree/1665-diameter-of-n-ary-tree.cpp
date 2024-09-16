@@ -25,6 +25,7 @@ public:
 
         if(root->children.empty()) return 1;
         
+        // min heap que in c++
         priority_queue<int, vector<int>, greater<int>> pq;
         
         for(auto& child: root->children){
