@@ -658,6 +658,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0369-plus-one-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0369-plus-one-linked-list) |
 | [0523-continuous-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [1069-confusing-number](https://github.com/rohanxxx/leetcode/tree/master/1069-confusing-number) |
+| [1090-armstrong-number](https://github.com/rohanxxx/leetcode/tree/master/1090-armstrong-number) |
 | [1164-missing-number-in-arithmetic-progression](https://github.com/rohanxxx/leetcode/tree/master/1164-missing-number-in-arithmetic-progression) |
 | [1274-number-of-days-between-two-dates](https://github.com/rohanxxx/leetcode/tree/master/1274-number-of-days-between-two-dates) |
 | [1345-perform-string-shifts](https://github.com/rohanxxx/leetcode/tree/master/1345-perform-string-shifts) |
