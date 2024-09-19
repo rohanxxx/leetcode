@@ -362,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/rohanxxx/leetcode/tree/master/0051-n-queens) |
 | [0068-text-justification](https://github.com/rohanxxx/leetcode/tree/master/0068-text-justification) |
 | [0079-word-search](https://github.com/rohanxxx/leetcode/tree/master/0079-word-search) |
+| [0088-merge-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/0088-merge-sorted-array) |
 | [0139-word-break](https://github.com/rohanxxx/leetcode/tree/master/0139-word-break) |
 | [0149-max-points-on-a-line](https://github.com/rohanxxx/leetcode/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/rohanxxx/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -528,6 +529,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/rohanxxx/leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0088-merge-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/0088-merge-sorted-array) |
 | [0142-linked-list-cycle-ii](https://github.com/rohanxxx/leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/rohanxxx/leetcode/tree/master/0143-reorder-list) |
 | [0161-one-edit-distance](https://github.com/rohanxxx/leetcode/tree/master/0161-one-edit-distance) |
@@ -573,6 +575,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/0088-merge-sorted-array) |
 | [0252-meeting-rooms](https://github.com/rohanxxx/leetcode/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/rohanxxx/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0280-wiggle-sort](https://github.com/rohanxxx/leetcode/tree/master/0280-wiggle-sort) |
