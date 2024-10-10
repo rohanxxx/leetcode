@@ -932,6 +932,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1908-recyclable-and-low-fat-products](https://github.com/rohanxxx/leetcode/tree/master/1908-recyclable-and-low-fat-products) |
 | [3284-find-expensive-cities](https://github.com/rohanxxx/leetcode/tree/master/3284-find-expensive-cities) |
 | [3286-class-performance](https://github.com/rohanxxx/leetcode/tree/master/3286-class-performance) |
+| [3287-loan-types](https://github.com/rohanxxx/leetcode/tree/master/3287-loan-types) |
 ## Simulation
 |  |
 | ------- |
