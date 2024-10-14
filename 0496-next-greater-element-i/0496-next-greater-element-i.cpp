@@ -13,8 +13,6 @@ public:
             bool ifBreak = false;
             for(int i = startIndex; i < nums2.size(); i++){
                 if(n < nums2[i]){
-                    // cout << "n: " << n << endl;
-                    // cout << "nums2[i]: " << nums2[i] << endl; 
                     ans.push_back(nums2[i]);
                     ifBreak = true;
                     break;
