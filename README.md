@@ -639,6 +639,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/rohanxxx/leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0347-top-k-frequent-elements](https://github.com/rohanxxx/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0358-rearrange-string-k-distance-apart](https://github.com/rohanxxx/leetcode/tree/master/0358-rearrange-string-k-distance-apart) |
+| [0359-logger-rate-limiter](https://github.com/rohanxxx/leetcode/tree/master/0359-logger-rate-limiter) |
 | [0496-next-greater-element-i](https://github.com/rohanxxx/leetcode/tree/master/0496-next-greater-element-i) |
 | [0523-continuous-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/rohanxxx/leetcode/tree/master/0525-contiguous-array) |
@@ -994,6 +995,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/rohanxxx/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0303-range-sum-query-immutable](https://github.com/rohanxxx/leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0346-moving-average-from-data-stream](https://github.com/rohanxxx/leetcode/tree/master/0346-moving-average-from-data-stream) |
+| [0359-logger-rate-limiter](https://github.com/rohanxxx/leetcode/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/rohanxxx/leetcode/tree/master/0362-design-hit-counter) |
 | [1366-first-unique-number](https://github.com/rohanxxx/leetcode/tree/master/1366-first-unique-number) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/rohanxxx/leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
@@ -1002,6 +1004,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/rohanxxx/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0346-moving-average-from-data-stream](https://github.com/rohanxxx/leetcode/tree/master/0346-moving-average-from-data-stream) |
+| [0359-logger-rate-limiter](https://github.com/rohanxxx/leetcode/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/rohanxxx/leetcode/tree/master/0362-design-hit-counter) |
 | [1366-first-unique-number](https://github.com/rohanxxx/leetcode/tree/master/1366-first-unique-number) |
 ## Union Find
