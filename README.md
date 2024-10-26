@@ -402,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0370-range-addition](https://github.com/rohanxxx/leetcode/tree/master/0370-range-addition) |
 | [0380-insert-delete-getrandom-o1](https://github.com/rohanxxx/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0399-evaluate-division](https://github.com/rohanxxx/leetcode/tree/master/0399-evaluate-division) |
+| [0410-split-array-largest-sum](https://github.com/rohanxxx/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0422-valid-word-square](https://github.com/rohanxxx/leetcode/tree/master/0422-valid-word-square) |
 | [0435-non-overlapping-intervals](https://github.com/rohanxxx/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/rohanxxx/leetcode/tree/master/0455-assign-cookies) |
@@ -579,6 +580,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0253-meeting-rooms-ii](https://github.com/rohanxxx/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0280-wiggle-sort](https://github.com/rohanxxx/leetcode/tree/master/0280-wiggle-sort) |
 | [0358-rearrange-string-k-distance-apart](https://github.com/rohanxxx/leetcode/tree/master/0358-rearrange-string-k-distance-apart) |
+| [0410-split-array-largest-sum](https://github.com/rohanxxx/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/rohanxxx/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/rohanxxx/leetcode/tree/master/0455-assign-cookies) |
 | [0484-find-permutation](https://github.com/rohanxxx/leetcode/tree/master/0484-find-permutation) |
@@ -770,6 +772,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/rohanxxx/leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/rohanxxx/leetcode/tree/master/0322-coin-change) |
 | [0333-largest-bst-subtree](https://github.com/rohanxxx/leetcode/tree/master/0333-largest-bst-subtree) |
+| [0410-split-array-largest-sum](https://github.com/rohanxxx/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/rohanxxx/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0487-max-consecutive-ones-ii](https://github.com/rohanxxx/leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0629-k-inverse-pairs-array](https://github.com/rohanxxx/leetcode/tree/master/0629-k-inverse-pairs-array) |
@@ -871,6 +874,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0270-closest-binary-search-tree-value](https://github.com/rohanxxx/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0300-longest-increasing-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0362-design-hit-counter](https://github.com/rohanxxx/leetcode/tree/master/0362-design-hit-counter) |
+| [0410-split-array-largest-sum](https://github.com/rohanxxx/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [1051-shortest-way-to-form-string](https://github.com/rohanxxx/leetcode/tree/master/1051-shortest-way-to-form-string) |
 | [1059-missing-element-in-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1059-missing-element-in-sorted-array) |
@@ -889,6 +893,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0253-meeting-rooms-ii](https://github.com/rohanxxx/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0303-range-sum-query-immutable](https://github.com/rohanxxx/leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0370-range-addition](https://github.com/rohanxxx/leetcode/tree/master/0370-range-addition) |
+| [0410-split-array-largest-sum](https://github.com/rohanxxx/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0523-continuous-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/rohanxxx/leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/rohanxxx/leetcode/tree/master/0560-subarray-sum-equals-k) |
