@@ -538,6 +538,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1252-break-a-palindrome](https://github.com/rohanxxx/leetcode/tree/master/1252-break-a-palindrome) |
 | [1271-web-crawler](https://github.com/rohanxxx/leetcode/tree/master/1271-web-crawler) |
 | [1274-number-of-days-between-two-dates](https://github.com/rohanxxx/leetcode/tree/master/1274-number-of-days-between-two-dates) |
+| [1304-longest-happy-string](https://github.com/rohanxxx/leetcode/tree/master/1304-longest-happy-string) |
 | [1345-perform-string-shifts](https://github.com/rohanxxx/leetcode/tree/master/1345-perform-string-shifts) |
 | [1397-search-suggestions-system](https://github.com/rohanxxx/leetcode/tree/master/1397-search-suggestions-system) |
 | [1472-increasing-decreasing-string](https://github.com/rohanxxx/leetcode/tree/master/1472-increasing-decreasing-string) |
@@ -595,6 +596,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1052-campus-bikes](https://github.com/rohanxxx/leetcode/tree/master/1052-campus-bikes) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/rohanxxx/leetcode/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1252-break-a-palindrome](https://github.com/rohanxxx/leetcode/tree/master/1252-break-a-palindrome) |
+| [1304-longest-happy-string](https://github.com/rohanxxx/leetcode/tree/master/1304-longest-happy-string) |
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/rohanxxx/leetcode/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1464-reduce-array-size-to-the-half](https://github.com/rohanxxx/leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/rohanxxx/leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -748,6 +750,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1074-high-five](https://github.com/rohanxxx/leetcode/tree/master/1074-high-five) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/rohanxxx/leetcode/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1286-constrained-subsequence-sum](https://github.com/rohanxxx/leetcode/tree/master/1286-constrained-subsequence-sum) |
+| [1304-longest-happy-string](https://github.com/rohanxxx/leetcode/tree/master/1304-longest-happy-string) |
 | [1397-search-suggestions-system](https://github.com/rohanxxx/leetcode/tree/master/1397-search-suggestions-system) |
 | [1464-reduce-array-size-to-the-half](https://github.com/rohanxxx/leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/rohanxxx/leetcode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
