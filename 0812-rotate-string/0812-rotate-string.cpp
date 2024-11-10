@@ -1,14 +1,12 @@
 class Solution {
 public:
-    bool rotateString(string s, string goal) {
+     bool rotateString(std::string s, std::string goal) {
         if(s.length() != goal.length()) return false;
-        int length = s.length();
-
-        for(int i = 0; i < length; i++){
-            rotate(s.begin(), s.begin()+1, s.end());
-            if(s == goal) return true;
-        }
-
+        
+        string doubleString = s + s;  
+        
+        if (doubleString.find(goal) != std::string::npos) return true;
+        
         return false;
     }
 };
