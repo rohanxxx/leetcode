@@ -475,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2139-detect-squares](https://github.com/rohanxxx/leetcode/tree/master/2139-detect-squares) |
 | [2195-time-needed-to-buy-tickets](https://github.com/rohanxxx/leetcode/tree/master/2195-time-needed-to-buy-tickets) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rohanxxx/leetcode/tree/master/2206-detonate-the-maximum-bombs) |
+| [2232-adding-spaces-to-a-string](https://github.com/rohanxxx/leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2240-intervals-between-identical-elements](https://github.com/rohanxxx/leetcode/tree/master/2240-intervals-between-identical-elements) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/rohanxxx/leetcode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
@@ -549,6 +550,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1472-increasing-decreasing-string](https://github.com/rohanxxx/leetcode/tree/master/1472-increasing-decreasing-string) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/rohanxxx/leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/rohanxxx/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2232-adding-spaces-to-a-string](https://github.com/rohanxxx/leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rohanxxx/leetcode/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/rohanxxx/leetcode/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2576-minimum-penalty-for-a-shop](https://github.com/rohanxxx/leetcode/tree/master/2576-minimum-penalty-for-a-shop) |
@@ -586,6 +588,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1150-two-sum-bsts](https://github.com/rohanxxx/leetcode/tree/master/1150-two-sum-bsts) |
 | [1404-print-immutable-linked-list-in-reverse](https://github.com/rohanxxx/leetcode/tree/master/1404-print-immutable-linked-list-in-reverse) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/rohanxxx/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2232-adding-spaces-to-a-string](https://github.com/rohanxxx/leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/rohanxxx/leetcode/tree/master/2414-move-pieces-to-obtain-a-string) |
 ## Greedy
 |  |
@@ -1012,6 +1015,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1682-most-visited-sector-in-a-circular-track](https://github.com/rohanxxx/leetcode/tree/master/1682-most-visited-sector-in-a-circular-track) |
 | [1803-average-waiting-time](https://github.com/rohanxxx/leetcode/tree/master/1803-average-waiting-time) |
 | [2195-time-needed-to-buy-tickets](https://github.com/rohanxxx/leetcode/tree/master/2195-time-needed-to-buy-tickets) |
+| [2232-adding-spaces-to-a-string](https://github.com/rohanxxx/leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/rohanxxx/leetcode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2479-meeting-rooms-iii](https://github.com/rohanxxx/leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/rohanxxx/leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
