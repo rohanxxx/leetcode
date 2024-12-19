@@ -436,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0976-minimum-area-rectangle](https://github.com/rohanxxx/leetcode/tree/master/0976-minimum-area-rectangle) |
 | [1002-maximum-width-ramp](https://github.com/rohanxxx/leetcode/tree/master/1002-maximum-width-ramp) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/rohanxxx/leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1019-squares-of-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1036-rotting-oranges](https://github.com/rohanxxx/leetcode/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/rohanxxx/leetcode/tree/master/1039-find-the-town-judge) |
 | [1044-find-common-characters](https://github.com/rohanxxx/leetcode/tree/master/1044-find-common-characters) |
@@ -583,6 +584,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/rohanxxx/leetcode/tree/master/0455-assign-cookies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0647-palindromic-substrings](https://github.com/rohanxxx/leetcode/tree/master/0647-palindromic-substrings) |
+| [1019-squares-of-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1051-shortest-way-to-form-string](https://github.com/rohanxxx/leetcode/tree/master/1051-shortest-way-to-form-string) |
 | [1129-longest-string-chain](https://github.com/rohanxxx/leetcode/tree/master/1129-longest-string-chain) |
 | [1150-two-sum-bsts](https://github.com/rohanxxx/leetcode/tree/master/1150-two-sum-bsts) |
@@ -638,6 +640,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/rohanxxx/leetcode/tree/master/0455-assign-cookies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0976-minimum-area-rectangle](https://github.com/rohanxxx/leetcode/tree/master/0976-minimum-area-rectangle) |
+| [1019-squares-of-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1052-campus-bikes](https://github.com/rohanxxx/leetcode/tree/master/1052-campus-bikes) |
 | [1074-high-five](https://github.com/rohanxxx/leetcode/tree/master/1074-high-five) |
 | [1098-largest-unique-number](https://github.com/rohanxxx/leetcode/tree/master/1098-largest-unique-number) |
