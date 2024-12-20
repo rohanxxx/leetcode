@@ -36,9 +36,6 @@ public:
     void union_set(int x, int y) {
         int xset = find(x), yset = find(y);
         
-        cout << "xset: " << xset << endl;
-        cout << "yset: " << yset << endl;
-        
         if (xset == yset) {
             return;
         } else {
