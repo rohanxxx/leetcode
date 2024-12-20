@@ -398,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0286-walls-and-gates](https://github.com/rohanxxx/leetcode/tree/master/0286-walls-and-gates) |
 | [0300-longest-increasing-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/rohanxxx/leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0305-number-of-islands-ii](https://github.com/rohanxxx/leetcode/tree/master/0305-number-of-islands-ii) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/rohanxxx/leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0311-sparse-matrix-multiplication](https://github.com/rohanxxx/leetcode/tree/master/0311-sparse-matrix-multiplication) |
 | [0322-coin-change](https://github.com/rohanxxx/leetcode/tree/master/0322-coin-change) |
@@ -673,6 +674,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/rohanxxx/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0249-group-shifted-strings](https://github.com/rohanxxx/leetcode/tree/master/0249-group-shifted-strings) |
 | [0266-palindrome-permutation](https://github.com/rohanxxx/leetcode/tree/master/0266-palindrome-permutation) |
+| [0305-number-of-islands-ii](https://github.com/rohanxxx/leetcode/tree/master/0305-number-of-islands-ii) |
 | [0311-sparse-matrix-multiplication](https://github.com/rohanxxx/leetcode/tree/master/0311-sparse-matrix-multiplication) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/rohanxxx/leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0347-top-k-frequent-elements](https://github.com/rohanxxx/leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -1077,6 +1079,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/rohanxxx/leetcode/tree/master/0200-number-of-islands) |
 | [0261-graph-valid-tree](https://github.com/rohanxxx/leetcode/tree/master/0261-graph-valid-tree) |
+| [0305-number-of-islands-ii](https://github.com/rohanxxx/leetcode/tree/master/0305-number-of-islands-ii) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0399-evaluate-division](https://github.com/rohanxxx/leetcode/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/rohanxxx/leetcode/tree/master/0547-number-of-provinces) |
