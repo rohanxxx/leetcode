@@ -466,6 +466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1464-reduce-array-size-to-the-half](https://github.com/rohanxxx/leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/rohanxxx/leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/rohanxxx/leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rohanxxx/leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/rohanxxx/leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1672-find-the-index-of-the-large-integer](https://github.com/rohanxxx/leetcode/tree/master/1672-find-the-index-of-the-large-integer) |
 | [1682-most-visited-sector-in-a-circular-track](https://github.com/rohanxxx/leetcode/tree/master/1682-most-visited-sector-in-a-circular-track) |
@@ -781,6 +782,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1304-longest-happy-string](https://github.com/rohanxxx/leetcode/tree/master/1304-longest-happy-string) |
 | [1397-search-suggestions-system](https://github.com/rohanxxx/leetcode/tree/master/1397-search-suggestions-system) |
 | [1464-reduce-array-size-to-the-half](https://github.com/rohanxxx/leetcode/tree/master/1464-reduce-array-size-to-the-half) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rohanxxx/leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/rohanxxx/leetcode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2479-meeting-rooms-iii](https://github.com/rohanxxx/leetcode/tree/master/2479-meeting-rooms-iii) |
 ## Bucket Sort
@@ -861,6 +863,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/rohanxxx/leetcode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
 | [1286-constrained-subsequence-sum](https://github.com/rohanxxx/leetcode/tree/master/1286-constrained-subsequence-sum) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/rohanxxx/leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rohanxxx/leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/rohanxxx/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/rohanxxx/leetcode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 ## Rolling Hash
@@ -1048,12 +1051,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0362-design-hit-counter](https://github.com/rohanxxx/leetcode/tree/master/0362-design-hit-counter) |
 | [1286-constrained-subsequence-sum](https://github.com/rohanxxx/leetcode/tree/master/1286-constrained-subsequence-sum) |
 | [1366-first-unique-number](https://github.com/rohanxxx/leetcode/tree/master/1366-first-unique-number) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rohanxxx/leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2195-time-needed-to-buy-tickets](https://github.com/rohanxxx/leetcode/tree/master/2195-time-needed-to-buy-tickets) |
 ## Monotonic Queue
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/rohanxxx/leetcode/tree/master/0239-sliding-window-maximum) |
 | [1286-constrained-subsequence-sum](https://github.com/rohanxxx/leetcode/tree/master/1286-constrained-subsequence-sum) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rohanxxx/leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 ## Design
 |  |
 | ------- |
@@ -1147,4 +1152,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/rohanxxx/leetcode/tree/master/0204-count-primes) |
+## Ordered Set
+|  |
+| ------- |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rohanxxx/leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 <!---LeetCode Topics End-->
