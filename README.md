@@ -487,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/rohanxxx/leetcode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2479-meeting-rooms-iii](https://github.com/rohanxxx/leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2500-minimum-costs-using-the-train-line](https://github.com/rohanxxx/leetcode/tree/master/2500-minimum-costs-using-the-train-line) |
+| [2587-design-memory-allocator](https://github.com/rohanxxx/leetcode/tree/master/2587-design-memory-allocator) |
 | [2685-first-completely-painted-row-or-column](https://github.com/rohanxxx/leetcode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2729-minimum-operations-to-make-numbers-non-positive](https://github.com/rohanxxx/leetcode/tree/master/2729-minimum-operations-to-make-numbers-non-positive) |
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/rohanxxx/leetcode/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
@@ -721,6 +722,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rohanxxx/leetcode/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/rohanxxx/leetcode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2479-meeting-rooms-iii](https://github.com/rohanxxx/leetcode/tree/master/2479-meeting-rooms-iii) |
+| [2587-design-memory-allocator](https://github.com/rohanxxx/leetcode/tree/master/2587-design-memory-allocator) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/rohanxxx/leetcode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2685-first-completely-painted-row-or-column](https://github.com/rohanxxx/leetcode/tree/master/2685-first-completely-painted-row-or-column) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/rohanxxx/leetcode/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
@@ -1032,6 +1034,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2232-adding-spaces-to-a-string](https://github.com/rohanxxx/leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/rohanxxx/leetcode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2479-meeting-rooms-iii](https://github.com/rohanxxx/leetcode/tree/master/2479-meeting-rooms-iii) |
+| [2587-design-memory-allocator](https://github.com/rohanxxx/leetcode/tree/master/2587-design-memory-allocator) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/rohanxxx/leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3311-ant-on-the-boundary](https://github.com/rohanxxx/leetcode/tree/master/3311-ant-on-the-boundary) |
 ## Backtracking
@@ -1074,6 +1077,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1366-first-unique-number](https://github.com/rohanxxx/leetcode/tree/master/1366-first-unique-number) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/rohanxxx/leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
 | [2139-detect-squares](https://github.com/rohanxxx/leetcode/tree/master/2139-detect-squares) |
+| [2587-design-memory-allocator](https://github.com/rohanxxx/leetcode/tree/master/2587-design-memory-allocator) |
 ## Data Stream
 |  |
 | ------- |
