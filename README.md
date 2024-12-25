@@ -429,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0624-maximum-distance-in-arrays](https://github.com/rohanxxx/leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0690-employee-importance](https://github.com/rohanxxx/leetcode/tree/master/0690-employee-importance) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [0729-my-calendar-i](https://github.com/rohanxxx/leetcode/tree/master/0729-my-calendar-i) |
 | [0734-sentence-similarity](https://github.com/rohanxxx/leetcode/tree/master/0734-sentence-similarity) |
 | [0739-daily-temperatures](https://github.com/rohanxxx/leetcode/tree/master/0739-daily-temperatures) |
 | [0740-delete-and-earn](https://github.com/rohanxxx/leetcode/tree/master/0740-delete-and-earn) |
@@ -935,6 +936,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0362-design-hit-counter](https://github.com/rohanxxx/leetcode/tree/master/0362-design-hit-counter) |
 | [0410-split-array-largest-sum](https://github.com/rohanxxx/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [0729-my-calendar-i](https://github.com/rohanxxx/leetcode/tree/master/0729-my-calendar-i) |
 | [0907-koko-eating-bananas](https://github.com/rohanxxx/leetcode/tree/master/0907-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/rohanxxx/leetcode/tree/master/0912-random-pick-with-weight) |
 | [1051-shortest-way-to-form-string](https://github.com/rohanxxx/leetcode/tree/master/1051-shortest-way-to-form-string) |
@@ -1086,6 +1088,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0359-logger-rate-limiter](https://github.com/rohanxxx/leetcode/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/rohanxxx/leetcode/tree/master/0362-design-hit-counter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/rohanxxx/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0729-my-calendar-i](https://github.com/rohanxxx/leetcode/tree/master/0729-my-calendar-i) |
 | [1366-first-unique-number](https://github.com/rohanxxx/leetcode/tree/master/1366-first-unique-number) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/rohanxxx/leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
 | [2139-detect-squares](https://github.com/rohanxxx/leetcode/tree/master/2139-detect-squares) |
@@ -1174,9 +1177,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [0729-my-calendar-i](https://github.com/rohanxxx/leetcode/tree/master/0729-my-calendar-i) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rohanxxx/leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 ## Doubly-Linked List
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/rohanxxx/leetcode/tree/master/0146-lru-cache) |
+## Segment Tree
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/rohanxxx/leetcode/tree/master/0729-my-calendar-i) |
 <!---LeetCode Topics End-->
