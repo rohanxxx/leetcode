@@ -20,12 +20,8 @@ public:
             ans.push_back(root->val);
         }
         else{
-            if(root->left != NULL){
-                addLeaves(ans, root->left);
-            }
-            if(root->right != NULL){
-                addLeaves(ans, root->right);
-            }
+            if(root->left != NULL) addLeaves(ans, root->left);
+            if(root->right != NULL) addLeaves(ans, root->right);
         }
     }
 
