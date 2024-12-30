@@ -400,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0253-meeting-rooms-ii](https://github.com/rohanxxx/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0256-paint-house](https://github.com/rohanxxx/leetcode/tree/master/0256-paint-house) |
+| [0260-single-number-iii](https://github.com/rohanxxx/leetcode/tree/master/0260-single-number-iii) |
 | [0265-paint-house-ii](https://github.com/rohanxxx/leetcode/tree/master/0265-paint-house-ii) |
 | [0280-wiggle-sort](https://github.com/rohanxxx/leetcode/tree/master/0280-wiggle-sort) |
 | [0286-walls-and-gates](https://github.com/rohanxxx/leetcode/tree/master/0286-walls-and-gates) |
@@ -889,6 +890,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/rohanxxx/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0190-reverse-bits](https://github.com/rohanxxx/leetcode/tree/master/0190-reverse-bits) |
+| [0260-single-number-iii](https://github.com/rohanxxx/leetcode/tree/master/0260-single-number-iii) |
 | [0266-palindrome-permutation](https://github.com/rohanxxx/leetcode/tree/master/0266-palindrome-permutation) |
 | [0338-counting-bits](https://github.com/rohanxxx/leetcode/tree/master/0338-counting-bits) |
 | [1650-find-root-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1650-find-root-of-n-ary-tree) |
