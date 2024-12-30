@@ -370,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/rohanxxx/leetcode/tree/master/0041-first-missing-positive) |
 | [0045-jump-game-ii](https://github.com/rohanxxx/leetcode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/rohanxxx/leetcode/tree/master/0046-permutations) |
+| [0049-group-anagrams](https://github.com/rohanxxx/leetcode/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/rohanxxx/leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/rohanxxx/leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/rohanxxx/leetcode/tree/master/0054-spiral-matrix) |
@@ -532,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/rohanxxx/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/rohanxxx/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0038-count-and-say](https://github.com/rohanxxx/leetcode/tree/master/0038-count-and-say) |
+| [0049-group-anagrams](https://github.com/rohanxxx/leetcode/tree/master/0049-group-anagrams) |
 | [0068-text-justification](https://github.com/rohanxxx/leetcode/tree/master/0068-text-justification) |
 | [0079-word-search](https://github.com/rohanxxx/leetcode/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/rohanxxx/leetcode/tree/master/0091-decode-ways) |
@@ -657,6 +659,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/rohanxxx/leetcode/tree/master/0049-group-anagrams) |
 | [0088-merge-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/rohanxxx/leetcode/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/rohanxxx/leetcode/tree/master/0179-largest-number) |
@@ -693,6 +696,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/rohanxxx/leetcode/tree/master/0001-two-sum) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/rohanxxx/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0041-first-missing-positive](https://github.com/rohanxxx/leetcode/tree/master/0041-first-missing-positive) |
+| [0049-group-anagrams](https://github.com/rohanxxx/leetcode/tree/master/0049-group-anagrams) |
 | [0139-word-break](https://github.com/rohanxxx/leetcode/tree/master/0139-word-break) |
 | [0142-linked-list-cycle-ii](https://github.com/rohanxxx/leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/rohanxxx/leetcode/tree/master/0146-lru-cache) |
