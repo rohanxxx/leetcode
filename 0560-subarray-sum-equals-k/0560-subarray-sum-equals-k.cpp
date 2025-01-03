@@ -7,9 +7,8 @@ public:
         for(int& num: nums){
             prefix += num;
             int dif = prefix-k;
-            if(mp[dif]){
-                count += mp[dif];
-            }
+            
+            if(mp[dif]) count += mp[dif];
             mp[prefix]++;
         }
         return count;
