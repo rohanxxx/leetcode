@@ -381,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rohanxxx/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/rohanxxx/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0128-longest-consecutive-sequence](https://github.com/rohanxxx/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/rohanxxx/leetcode/tree/master/0139-word-break) |
 | [0149-max-points-on-a-line](https://github.com/rohanxxx/leetcode/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/rohanxxx/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -697,6 +698,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/rohanxxx/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0041-first-missing-positive](https://github.com/rohanxxx/leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/rohanxxx/leetcode/tree/master/0049-group-anagrams) |
+| [0128-longest-consecutive-sequence](https://github.com/rohanxxx/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/rohanxxx/leetcode/tree/master/0139-word-break) |
 | [0142-linked-list-cycle-ii](https://github.com/rohanxxx/leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/rohanxxx/leetcode/tree/master/0146-lru-cache) |
@@ -1139,6 +1141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/rohanxxx/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/rohanxxx/leetcode/tree/master/0200-number-of-islands) |
 | [0261-graph-valid-tree](https://github.com/rohanxxx/leetcode/tree/master/0261-graph-valid-tree) |
 | [0305-number-of-islands-ii](https://github.com/rohanxxx/leetcode/tree/master/0305-number-of-islands-ii) |
