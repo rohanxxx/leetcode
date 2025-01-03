@@ -8,11 +8,10 @@ public:
             if(height[left] <= height[right]){
                 mostWater = max(mostWater, height[left]*(right-left));
                 left++;
+                continue;
             }
-            else{
-                mostWater = max(mostWater, height[right]*(right-left));
-                right--;
-            }
+            mostWater = max(mostWater, height[right]*(right-left));
+            right--;
         }
         
         return mostWater;
