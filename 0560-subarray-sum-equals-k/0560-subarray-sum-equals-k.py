@@ -10,9 +10,12 @@ class Solution(object):
 
         for num in nums:
             prefix += num
-            diff = prefix - k
-            if diff in mp:
-                count += mp[diff]
-            mp[prefix] = mp.get(prefix, 0) + 1
+            dif = prefix-k;
+
+            if dif in mp:
+                count += mp[dif]
+            
+            mp[prefix] = mp.get(prefix, 0)+1
+        
         return count
         
