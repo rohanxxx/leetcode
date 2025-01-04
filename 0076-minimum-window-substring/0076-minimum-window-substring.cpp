@@ -46,6 +46,7 @@ public:
                 // Move the left pointer to shrink the window
                 i++;
             }
+            
         }
         
         // Check if a valid minimum window was found
