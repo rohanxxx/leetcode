@@ -555,6 +555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0358-rearrange-string-k-distance-apart](https://github.com/rohanxxx/leetcode/tree/master/0358-rearrange-string-k-distance-apart) |
 | [0392-is-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0392-is-subsequence) |
 | [0399-evaluate-division](https://github.com/rohanxxx/leetcode/tree/master/0399-evaluate-division) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/rohanxxx/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0439-ternary-expression-parser](https://github.com/rohanxxx/leetcode/tree/master/0439-ternary-expression-parser) |
 | [0459-repeated-substring-pattern](https://github.com/rohanxxx/leetcode/tree/master/0459-repeated-substring-pattern) |
 | [0484-find-permutation](https://github.com/rohanxxx/leetcode/tree/master/0484-find-permutation) |
@@ -725,6 +726,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0358-rearrange-string-k-distance-apart](https://github.com/rohanxxx/leetcode/tree/master/0358-rearrange-string-k-distance-apart) |
 | [0359-logger-rate-limiter](https://github.com/rohanxxx/leetcode/tree/master/0359-logger-rate-limiter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/rohanxxx/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/rohanxxx/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/rohanxxx/leetcode/tree/master/0496-next-greater-element-i) |
 | [0523-continuous-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/rohanxxx/leetcode/tree/master/0525-contiguous-array) |
@@ -918,6 +920,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/rohanxxx/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/rohanxxx/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/rohanxxx/leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/rohanxxx/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0487-max-consecutive-ones-ii](https://github.com/rohanxxx/leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0966-binary-subarrays-with-sum](https://github.com/rohanxxx/leetcode/tree/master/0966-binary-subarrays-with-sum) |
