@@ -370,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/rohanxxx/leetcode/tree/master/0027-remove-element) |
 | [0039-combination-sum](https://github.com/rohanxxx/leetcode/tree/master/0039-combination-sum) |
 | [0041-first-missing-positive](https://github.com/rohanxxx/leetcode/tree/master/0041-first-missing-positive) |
+| [0042-trapping-rain-water](https://github.com/rohanxxx/leetcode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/rohanxxx/leetcode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/rohanxxx/leetcode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/rohanxxx/leetcode/tree/master/0049-group-anagrams) |
@@ -603,6 +604,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/rohanxxx/leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/rohanxxx/leetcode/tree/master/0015-3sum) |
 | [0027-remove-element](https://github.com/rohanxxx/leetcode/tree/master/0027-remove-element) |
+| [0042-trapping-rain-water](https://github.com/rohanxxx/leetcode/tree/master/0042-trapping-rain-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/rohanxxx/leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/0088-merge-sorted-array) |
 | [0142-linked-list-cycle-ii](https://github.com/rohanxxx/leetcode/tree/master/0142-linked-list-cycle-ii) |
@@ -847,6 +849,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/rohanxxx/leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0042-trapping-rain-water](https://github.com/rohanxxx/leetcode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/rohanxxx/leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/rohanxxx/leetcode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/rohanxxx/leetcode/tree/master/0062-unique-paths) |
@@ -1041,6 +1044,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/rohanxxx/leetcode/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/rohanxxx/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0143-reorder-list](https://github.com/rohanxxx/leetcode/tree/master/0143-reorder-list) |
@@ -1175,6 +1179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/rohanxxx/leetcode/tree/master/0042-trapping-rain-water) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0496-next-greater-element-i](https://github.com/rohanxxx/leetcode/tree/master/0496-next-greater-element-i) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
