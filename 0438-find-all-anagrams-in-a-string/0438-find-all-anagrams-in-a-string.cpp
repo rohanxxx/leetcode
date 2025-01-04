@@ -13,10 +13,7 @@ public:
         
         for(int i = len-1; i < s.length(); i++){
             int index = i-(len-1);
-            // cout << "i: " << i << endl;
-            // cout << "len: " << len << endl;
-            // cout << "i-len-1: " << i-(len-1) << endl;
-            // cout << "index: " << index << endl;
+
             smap[s[i]-'a']++;
             if(smap == pmap) ans.push_back(index);
             
