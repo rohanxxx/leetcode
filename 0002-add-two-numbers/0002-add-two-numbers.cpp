@@ -20,7 +20,6 @@ public:
                 add += l1->val;
                 l1 = l1->next;
             }
-
             if(l2){
                 add += l2->val;
                 l2 = l2->next;
