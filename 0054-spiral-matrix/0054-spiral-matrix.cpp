@@ -18,7 +18,7 @@ public:
             }
             // down to up
             if(left != right){
-                for(int r = down-1; r > up; r--) v.push_back(matrix[r][left]);
+                for(int r = down-1; r >= up+1; r--) v.push_back(matrix[r][left]);
             }
             up++; down--;
             left++; right--;
