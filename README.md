@@ -540,6 +540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0038-count-and-say](https://github.com/rohanxxx/leetcode/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/rohanxxx/leetcode/tree/master/0049-group-anagrams) |
 | [0068-text-justification](https://github.com/rohanxxx/leetcode/tree/master/0068-text-justification) |
+| [0076-minimum-window-substring](https://github.com/rohanxxx/leetcode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/rohanxxx/leetcode/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/rohanxxx/leetcode/tree/master/0091-decode-ways) |
 | [0139-word-break](https://github.com/rohanxxx/leetcode/tree/master/0139-word-break) |
@@ -711,6 +712,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/rohanxxx/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0041-first-missing-positive](https://github.com/rohanxxx/leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/rohanxxx/leetcode/tree/master/0049-group-anagrams) |
+| [0076-minimum-window-substring](https://github.com/rohanxxx/leetcode/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/rohanxxx/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/rohanxxx/leetcode/tree/master/0139-word-break) |
 | [0142-linked-list-cycle-ii](https://github.com/rohanxxx/leetcode/tree/master/0142-linked-list-cycle-ii) |
@@ -920,6 +922,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/rohanxxx/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/rohanxxx/leetcode/tree/master/0076-minimum-window-substring) |
 | [0159-longest-substring-with-at-most-two-distinct-characters](https://github.com/rohanxxx/leetcode/tree/master/0159-longest-substring-with-at-most-two-distinct-characters) |
 | [0187-repeated-dna-sequences](https://github.com/rohanxxx/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0209-minimum-size-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0209-minimum-size-subarray-sum) |
