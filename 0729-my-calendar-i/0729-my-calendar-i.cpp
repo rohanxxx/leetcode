@@ -1,14 +1,13 @@
 class MyCalendar {
 private:
     set<pair<int, int>> calendar;
-
 public:
     MyCalendar() {}
     
     bool book(int startTime, int endTime) {
         const pair<int, int> event{startTime, endTime};
         const auto nextEvent = calendar.lower_bound(event);
-        
+
         if(nextEvent != calendar.end() && nextEvent->first < endTime){
             return false;
         }
