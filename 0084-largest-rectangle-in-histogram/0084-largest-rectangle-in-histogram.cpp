@@ -1,25 +1,27 @@
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
-        stack<int> stk;
-        stk.push(-1);
-        int max_area = 0;
-        for (size_t i = 0; i < heights.size(); i++) {
-            while (stk.top() != -1 and heights[stk.top()] >= heights[i]) {
+        stack<int> stack;
+        stack.push(-1);
+        int maxArea = 0;
 
-                int current_height = heights[stk.top()];
-                stk.pop();
-                int current_width = i - stk.top() - 1;
-                max_area = max(max_area, current_height * current_width);
+        for(int i = 0; i < heights.size(); i++){
+            while(stack.top() != -1 && heights[stack.top()] >= heights[i]){
+                int current_height = heights[stack.top()];
+                stack.pop();
+                int current_width = i - stack.top() - 1;
+                maxArea = max(maxArea, current_height*current_width);
             }
-            stk.push(i);
+            stack.push(i);
         }
-        while (stk.top() != -1) {
-            int current_height = heights[stk.top()];
-            stk.pop();
-            int current_width = heights.size() - stk.top() - 1;
-            max_area = max(max_area, current_height * current_width);
+
+        while(stack.top() != -1){
+            int current_height = heights[stack.top()];
+            stack.pop();
+            int current_width = heights.size() - stack.top() - 1;
+            maxArea = max(maxArea, current_height*current_width);
         }
-        return max_area;
+
+        return maxArea;
     }
 };
