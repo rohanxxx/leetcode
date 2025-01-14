@@ -8,7 +8,7 @@ public:
         int result = 0;
         for(int i = 0; i < points.size(); i++){
             unordered_map<double, int> mp;
-            for(int j = 0; j < points.size(); j++){
+            for(int j = 0; j < n; j++){
                 if(j != i){
                     result = max(result, ++mp[atan2(points[j][1]-points[i][1], points[j][0]-points[i][0])]+1);
                 }
