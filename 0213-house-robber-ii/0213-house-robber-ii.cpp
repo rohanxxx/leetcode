@@ -12,8 +12,10 @@ public:
     }
     int rob(vector<int>& nums) {
         if(nums.size() == 1) return nums.back();
+        
         int index1 = maxRob(nums, 0, nums.size()-1);
         int index2 = maxRob(nums, 1, nums.size());
+        
         return (int)max(index1, index2);
     }
 };
