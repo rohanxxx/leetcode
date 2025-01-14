@@ -1,34 +1,19 @@
 class Solution {
 public:
-    int rob(vector<int>& nums) {
-        if (nums.size() == 0) return 0;
-
-        if (nums.size() == 1) return nums[0];
-
-        if (nums.size() == 2) return max(nums[1], nums[0]);
-
-        int max1 = rob_simple(nums, 0, nums.size() - 2);
-        int max2 = rob_simple(nums, 1, nums.size() - 1);
-
-        return max(max1, max2);
-    }
-
-private:
-    int rob_simple(vector<int>& nums, int start, int end) {
-
-        int n = nums.size();
-        vector<int> sum(n);
-        
-        sum[start] = nums[start];
-        sum[start+1] = max(nums[start+1], nums[start]);
-        
-        int maxSum = sum[start+1];
-
-        for(int i = start+2; i <= end; i++){
-            sum[i] = max(nums[i]+sum[i-2], maxSum);
-            maxSum = sum[i];
+    int maxRob(vector<int>& nums, int start, int end){
+        deque<int> dp;
+        dp.push_back(0);
+        dp.push_back(0);
+        for(int i = start; i < end; i++){
+            dp.push_back(max(dp.front()+nums[i], dp.back()));
+            dp.pop_front();
         }
-
-        return maxSum;
+        return dp.back();
+    }
+    int rob(vector<int>& nums) {
+        if(nums.size() == 1) return nums.back();
+        int index1 = maxRob(nums, 0, nums.size()-1);
+        int index2 = maxRob(nums, 1, nums.size());
+        return (int)max(index1, index2);
     }
 };
