@@ -1,33 +1,33 @@
 class Solution {
 public:
-
-    void vanishIsland(vector<vector<char>>& grid, int row, int col){
-        if(grid[row][col] == '1'){
-
-            grid[row][col] = '0';
-            
-            //checking up
-            if(row-1 > -1) vanishIsland(grid, row-1, col);
-            //checking down
-            if(row+1 < grid.size()) vanishIsland(grid, row+1, col);
-            //checking left
-            if(col-1 > -1) vanishIsland(grid, row, col-1);
-            //checking right
-            if(col+1 < grid[row].size()) vanishIsland(grid, row, col+1);
-        }
+    int m, n;
+    void vanishIslands(vector<vector<char>>& grid, int r, int c){
+        if(grid[r][c] == '0') return;
+        if(grid[r][c] == '1') grid[r][c] = '0';
+        
+        // up
+        if((r-1) >= 0) vanishIslands(grid, r-1, c);
+        // down
+        if((r+1) < m) vanishIslands(grid, r+1, c); 
+        // left
+        if((c-1) >= 0) vanishIslands(grid, r, c-1);
+        // right
+        if((c+1) < n) vanishIslands(grid, r, c+1);
     }
-
     int numIslands(vector<vector<char>>& grid) {
+        m = grid.size();
+        n = grid[0].size();
+
         int count = 0;
-        // vector<vector<char>> grid_copy = grid;
-        for(int i = 0; i < grid.size(); i++){
-            for(int j = 0; j < grid[i].size(); j++){
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
                 if(grid[i][j] == '1'){
-                    vanishIsland(grid, i, j);
                     count++;
+                    vanishIslands(grid, i, j);
                 }
             }
         }
+
         return count;
     }
 };
