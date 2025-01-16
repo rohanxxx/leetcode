@@ -44,14 +44,11 @@ public:
             }
         }
 
-        vector<int> order;
         if(isPossible){
-            order.resize(numCourses);
-            for(int i = 0; i < numCourses; i++){
-                order[i] = topologicalOrder[numCourses-i-1];
-            }
+            reverse(topologicalOrder.begin(), topologicalOrder.end());
+            return topologicalOrder;
         }
 
-        return order;
+        return {};
     }
 };
