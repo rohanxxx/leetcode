@@ -1,25 +1,25 @@
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
-        int rowSize = grid.size();
-        int columnSize = grid[0].size();
-        vector<vector<int>> dp(rowSize, vector<int>(columnSize, 0));
+        int row = grid.size();
+        int col = grid[0].size();
+
+        vector<int> dp(row, vector<int>(col, 0));
         
-        dp[rowSize-1][columnSize-1] = grid[rowSize-1][columnSize-1];
-        for(int c = columnSize-2; c >= 0; c--){
-            dp[rowSize-1][c] = dp[rowSize-1][c+1] + grid[rowSize-1][c];
+        dp[0][0] = grid[0][0];
+        for(int c = 1; c < col; c++){
+            dp[0][c] = dp[0][c-1]+grid[0][c];
         }
-        for(int r = rowSize-2; r >= 0; r--){
-            dp[r][columnSize-1] = dp[r+1][columnSize-1] + grid[r][columnSize-1];
+        for(int r = 1; r < row; r++){
+            dp[r][0] += dp[r-1][0]+grid[r][0];
         }
 
-        for(int r = rowSize-2; r >= 0; r--){
-            for(int c = columnSize-2; c >= 0; c--){
-                int rightSum = dp[r][c+1];
-                int downSum = dp[r+1][c];
-                dp[r][c] = min(rightSum, downSum)+grid[r][c];
+        for(int r = 1; r < row; r++){
+            for(int c = 1; c < col; c++){
+                dp[r][c] = min(dp[r-1][c], dp[r][c-1]) + grid[r][c];
             }
         }
-        return dp[0][0];
+
+        return dp[row-1][col-1];
     }
 };
