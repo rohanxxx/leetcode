@@ -4,7 +4,7 @@ public:
         int row = grid.size();
         int col = grid[0].size();
 
-        vector<int> dp(row, vector<int>(col, 0));
+        vector<vector<int>> dp(row, vector<int>(col, 0));
         
         dp[0][0] = grid[0][0];
         for(int c = 1; c < col; c++){
