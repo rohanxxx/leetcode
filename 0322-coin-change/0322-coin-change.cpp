@@ -4,6 +4,7 @@ public:
     int minCoinChange(vector<int>& coins, int rem, vector<int>& count){
         if(rem < 0) return -1;
         if(rem == 0) return 0;
+        
         if(count[rem-1] != 0) return count[rem-1];
         
         int min = INT_MAX;
@@ -20,6 +21,7 @@ public:
 
     int coinChange(vector<int>& coins, int amount) {
         if(amount < 1) return 0;
+        
         vector<int> count(amount, 0);
         return minCoinChange(coins, amount, count);
     }
