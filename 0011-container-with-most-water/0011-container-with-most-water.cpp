@@ -6,12 +6,8 @@ public:
         while(left < right){
             int currentVolume = (right-left)* (int)min(height[left], height[right]);
             maxVolume = max(maxVolume, currentVolume);
-            if(height[left] <= height[right]){
-                left++;
-            }
-            else{
-                right--;
-            }
+            if(height[left] <= height[right]) left++;
+            else right--;
         }
         return maxVolume;
     }
