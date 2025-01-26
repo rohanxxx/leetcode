@@ -607,6 +607,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1076-brace-expansion](https://github.com/rohanxxx/leetcode/tree/master/1076-brace-expansion) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/rohanxxx/leetcode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
 | [1123-single-row-keyboard](https://github.com/rohanxxx/leetcode/tree/master/1123-single-row-keyboard) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/rohanxxx/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1129-longest-string-chain](https://github.com/rohanxxx/leetcode/tree/master/1129-longest-string-chain) |
 | [1131-count-substrings-with-only-one-distinct-letter](https://github.com/rohanxxx/leetcode/tree/master/1131-count-substrings-with-only-one-distinct-letter) |
 | [1250-longest-common-subsequence](https://github.com/rohanxxx/leetcode/tree/master/1250-longest-common-subsequence) |
@@ -1143,6 +1144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/rohanxxx/leetcode/tree/master/0739-daily-temperatures) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/rohanxxx/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1002-maximum-width-ramp](https://github.com/rohanxxx/leetcode/tree/master/1002-maximum-width-ramp) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/rohanxxx/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1150-two-sum-bsts](https://github.com/rohanxxx/leetcode/tree/master/1150-two-sum-bsts) |
 | [1404-print-immutable-linked-list-in-reverse](https://github.com/rohanxxx/leetcode/tree/master/1404-print-immutable-linked-list-in-reverse) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/rohanxxx/leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
