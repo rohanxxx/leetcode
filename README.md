@@ -396,6 +396,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/rohanxxx/leetcode/tree/master/0056-merge-intervals) |
 | [0064-minimum-path-sum](https://github.com/rohanxxx/leetcode/tree/master/0064-minimum-path-sum) |
 | [0068-text-justification](https://github.com/rohanxxx/leetcode/tree/master/0068-text-justification) |
+| [0073-set-matrix-zeroes](https://github.com/rohanxxx/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/rohanxxx/leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/rohanxxx/leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/rohanxxx/leetcode/tree/master/0079-word-search) |
@@ -544,6 +545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/rohanxxx/leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/rohanxxx/leetcode/tree/master/0054-spiral-matrix) |
 | [0064-minimum-path-sum](https://github.com/rohanxxx/leetcode/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/rohanxxx/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/rohanxxx/leetcode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/rohanxxx/leetcode/tree/master/0200-number-of-islands) |
 | [0286-walls-and-gates](https://github.com/rohanxxx/leetcode/tree/master/0286-walls-and-gates) |
@@ -748,6 +750,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/rohanxxx/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0041-first-missing-positive](https://github.com/rohanxxx/leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/rohanxxx/leetcode/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/rohanxxx/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/rohanxxx/leetcode/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/rohanxxx/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/rohanxxx/leetcode/tree/master/0133-clone-graph) |
