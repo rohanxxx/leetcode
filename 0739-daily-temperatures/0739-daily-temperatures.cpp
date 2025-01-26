@@ -4,7 +4,6 @@ public:
         int size = temperatures.size();
         vector<int> ans(size, 0);
         stack<vector<int>> stack;
-        // stack.push({temperatures[0], 0});
 
         for(int i = 0; i < size; i++){
             while(!stack.empty() && (temperatures[i] > stack.top()[0])){
