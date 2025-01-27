@@ -464,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0582-kill-process](https://github.com/rohanxxx/leetcode/tree/master/0582-kill-process) |
 | [0616-add-bold-tag-in-string](https://github.com/rohanxxx/leetcode/tree/master/0616-add-bold-tag-in-string) |
 | [0624-maximum-distance-in-arrays](https://github.com/rohanxxx/leetcode/tree/master/0624-maximum-distance-in-arrays) |
+| [0643-maximum-average-subarray-i](https://github.com/rohanxxx/leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0690-employee-importance](https://github.com/rohanxxx/leetcode/tree/master/0690-employee-importance) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0729-my-calendar-i](https://github.com/rohanxxx/leetcode/tree/master/0729-my-calendar-i) |
@@ -993,6 +994,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/rohanxxx/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0487-max-consecutive-ones-ii](https://github.com/rohanxxx/leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0567-permutation-in-string](https://github.com/rohanxxx/leetcode/tree/master/0567-permutation-in-string) |
+| [0643-maximum-average-subarray-i](https://github.com/rohanxxx/leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0966-binary-subarrays-with-sum](https://github.com/rohanxxx/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/rohanxxx/leetcode/tree/master/1046-max-consecutive-ones-iii) |
