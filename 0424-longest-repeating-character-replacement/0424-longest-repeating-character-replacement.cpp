@@ -8,7 +8,8 @@ public:
             maxFreq = max(maxFreq, ++map[s[right] - 'A']);
             while(((right-left+1)-maxFreq) > k){
                 map[s[left++]-'A']--; maxFreq = 0;
-                for(int mp: map) maxFreq = max(maxFreq, mp);
+                for(int mp: map) 
+                    maxFreq = max(maxFreq, mp);
             }
 
             if(((right-left+1)-maxFreq) <= k) 
