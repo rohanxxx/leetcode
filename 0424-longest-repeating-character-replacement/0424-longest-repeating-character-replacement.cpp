@@ -11,7 +11,8 @@ public:
                 for(int mp: map) maxFreq = max(maxFreq, mp);
             }
 
-            if(((right-left+1)-maxFreq) <= k) maxLen = max(maxLen, right-left+1);
+            if(((right-left+1)-maxFreq) <= k) 
+                maxLen = max(maxLen, right-left+1);
         }
         return maxLen;
     }
