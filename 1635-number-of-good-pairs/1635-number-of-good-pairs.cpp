@@ -5,7 +5,6 @@ public:
         unordered_map<int, int> mp;
         for(int num: nums){
             goodPairs += mp[num]++;
-
         }
 
         return goodPairs;
