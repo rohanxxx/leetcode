@@ -441,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/rohanxxx/leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0311-sparse-matrix-multiplication](https://github.com/rohanxxx/leetcode/tree/master/0311-sparse-matrix-multiplication) |
 | [0322-coin-change](https://github.com/rohanxxx/leetcode/tree/master/0322-coin-change) |
+| [0334-increasing-triplet-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0346-moving-average-from-data-stream](https://github.com/rohanxxx/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/rohanxxx/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0362-design-hit-counter](https://github.com/rohanxxx/leetcode/tree/master/0362-design-hit-counter) |
@@ -697,6 +698,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/rohanxxx/leetcode/tree/master/0179-largest-number) |
 | [0253-meeting-rooms-ii](https://github.com/rohanxxx/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0280-wiggle-sort](https://github.com/rohanxxx/leetcode/tree/master/0280-wiggle-sort) |
+| [0334-increasing-triplet-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0358-rearrange-string-k-distance-apart](https://github.com/rohanxxx/leetcode/tree/master/0358-rearrange-string-k-distance-apart) |
 | [0410-split-array-largest-sum](https://github.com/rohanxxx/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/rohanxxx/leetcode/tree/master/0435-non-overlapping-intervals) |
