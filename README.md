@@ -416,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/rohanxxx/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/rohanxxx/leetcode/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/rohanxxx/leetcode/tree/master/0179-largest-number) |
+| [0189-rotate-array](https://github.com/rohanxxx/leetcode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/rohanxxx/leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/rohanxxx/leetcode/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/rohanxxx/leetcode/tree/master/0204-count-primes) |
@@ -664,6 +665,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0161-one-edit-distance](https://github.com/rohanxxx/leetcode/tree/master/0161-one-edit-distance) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/rohanxxx/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0186-reverse-words-in-a-string-ii](https://github.com/rohanxxx/leetcode/tree/master/0186-reverse-words-in-a-string-ii) |
+| [0189-rotate-array](https://github.com/rohanxxx/leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/rohanxxx/leetcode/tree/master/0202-happy-number) |
 | [0253-meeting-rooms-ii](https://github.com/rohanxxx/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/rohanxxx/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
@@ -848,6 +850,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/rohanxxx/leetcode/tree/master/0070-climbing-stairs) |
 | [0149-max-points-on-a-line](https://github.com/rohanxxx/leetcode/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/rohanxxx/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0189-rotate-array](https://github.com/rohanxxx/leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/rohanxxx/leetcode/tree/master/0202-happy-number) |
 | [0204-count-primes](https://github.com/rohanxxx/leetcode/tree/master/0204-count-primes) |
 | [0369-plus-one-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0369-plus-one-linked-list) |
