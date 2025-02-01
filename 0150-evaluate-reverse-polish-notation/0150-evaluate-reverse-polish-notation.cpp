@@ -1,27 +1,22 @@
 class Solution {
 public:
-    int calculate(stack<int> &stack, string sign){
-        int first, second;
-        second = stack.top(); stack.pop();
-        first = stack.top(); stack.pop();
-
-        int new_int = 0;
-        if(sign == "+") new_int = first+second;
-        if(sign == "-") new_int = first-second;
-        if(sign == "*") new_int = first*second;
-        if(sign == "/") new_int = first/second;
-        
-        return new_int;
-    }
     int evalRPN(vector<string>& tokens) {
-        stack<int> stack;
-        for(auto& token: tokens){  
-            if(token == "+" || token == "-" || token == "*" || token == "/"){
-                stack.push(calculate(stack, token));
+        stack<string> stack;
+        for(auto c: tokens){
+            if(c == "+" || c == "-" || c == "*" || c == "/"){
+                int second = stoi(stack.top()); stack.pop();
+                int first = stoi(stack.top()); stack.pop();
+                int calculate;
+                if(c == "+") calculate = first + second;
+                if(c == "-") calculate = first - second;
+                if(c == "*") calculate = first * second;
+                if(c == "/") calculate = first / second;
+                stack.push(to_string(calculate));
                 continue;
             }
-            stack.push(stoi(token));
+            stack.push(c);
         }
-        return stack.top();
+
+        return stoi(stack.top());
     }
 };
