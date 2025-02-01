@@ -468,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0616-add-bold-tag-in-string](https://github.com/rohanxxx/leetcode/tree/master/0616-add-bold-tag-in-string) |
 | [0624-maximum-distance-in-arrays](https://github.com/rohanxxx/leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0643-maximum-average-subarray-i](https://github.com/rohanxxx/leetcode/tree/master/0643-maximum-average-subarray-i) |
+| [0659-split-array-into-consecutive-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0690-employee-importance](https://github.com/rohanxxx/leetcode/tree/master/0690-employee-importance) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0729-my-calendar-i](https://github.com/rohanxxx/leetcode/tree/master/0729-my-calendar-i) |
@@ -708,6 +709,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0484-find-permutation](https://github.com/rohanxxx/leetcode/tree/master/0484-find-permutation) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0624-maximum-distance-in-arrays](https://github.com/rohanxxx/leetcode/tree/master/0624-maximum-distance-in-arrays) |
+| [0659-split-array-into-consecutive-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0670-maximum-swap](https://github.com/rohanxxx/leetcode/tree/master/0670-maximum-swap) |
 | [0778-reorganize-string](https://github.com/rohanxxx/leetcode/tree/master/0778-reorganize-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/rohanxxx/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -808,6 +810,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0575-distribute-candies](https://github.com/rohanxxx/leetcode/tree/master/0575-distribute-candies) |
 | [0582-kill-process](https://github.com/rohanxxx/leetcode/tree/master/0582-kill-process) |
 | [0616-add-bold-tag-in-string](https://github.com/rohanxxx/leetcode/tree/master/0616-add-bold-tag-in-string) |
+| [0659-split-array-into-consecutive-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0690-employee-importance](https://github.com/rohanxxx/leetcode/tree/master/0690-employee-importance) |
 | [0692-top-k-frequent-words](https://github.com/rohanxxx/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0694-number-of-distinct-islands](https://github.com/rohanxxx/leetcode/tree/master/0694-number-of-distinct-islands) |
@@ -917,6 +920,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/rohanxxx/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/rohanxxx/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0358-rearrange-string-k-distance-apart](https://github.com/rohanxxx/leetcode/tree/master/0358-rearrange-string-k-distance-apart) |
+| [0659-split-array-into-consecutive-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0692-top-k-frequent-words](https://github.com/rohanxxx/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0744-network-delay-time](https://github.com/rohanxxx/leetcode/tree/master/0744-network-delay-time) |
 | [0778-reorganize-string](https://github.com/rohanxxx/leetcode/tree/master/0778-reorganize-string) |
