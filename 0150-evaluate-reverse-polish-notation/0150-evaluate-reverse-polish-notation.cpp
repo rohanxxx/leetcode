@@ -2,7 +2,7 @@ class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
         stack<string> stack;
-        for(auto c: tokens){
+        for(string c: tokens){
             if(c == "+" || c == "-" || c == "*" || c == "/"){
                 int second = stoi(stack.top()); stack.pop();
                 int first = stoi(stack.top()); stack.pop();
