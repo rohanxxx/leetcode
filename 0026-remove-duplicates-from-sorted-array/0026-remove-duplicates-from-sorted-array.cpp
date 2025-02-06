@@ -3,11 +3,10 @@ public:
     int removeDuplicates(vector<int>& nums) {
         int j = 0;
         for(int i = 0; i < nums.size(); i++){
-            if(nums[j] != nums[i]){
-                nums[++j] = nums[i];
-            }
+            if(nums[i] == nums[j]) continue;
+            nums[++j] = nums[i];
         }
 
-        return ++j;
+        return j+1;
     }
 };
