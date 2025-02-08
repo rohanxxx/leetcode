@@ -12,10 +12,8 @@ public:
             }
             quo = k/i;
             ops = i-1;
-            // cout << "i: " << i <<", quo*i+ops: " << quo*i+ops << endl;
             if(quo*i+ops >= k){
                 minOps = min(minOps, quo+ops);
-                // cout << "minOps: " << minOps << endl;
             }
         }
         if(minOps == INT_MAX){
