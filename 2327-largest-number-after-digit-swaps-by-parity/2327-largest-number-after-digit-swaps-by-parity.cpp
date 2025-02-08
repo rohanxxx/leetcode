@@ -12,13 +12,12 @@ public:
             num = num / 10;
         }
 
-        reverse(parity.begin(), parity.end());
         sort(odd.begin(), odd.end());
         sort(even.begin(), even.end());
 
         int ans = 0;
-        for(int i = 0; i < parity.size(); i++){
-            if(parity[i] % 2 == 0){
+        while(!parity.empty()){
+            if(parity.back() % 2 == 0){
                 ans = ans * 10 + odd.back();
                 odd.pop_back();
             }
@@ -26,6 +25,7 @@ public:
                 ans = ans * 10 + even.back();
                 even.pop_back();
             }
+            parity.pop_back();
         }
 
         return ans;
