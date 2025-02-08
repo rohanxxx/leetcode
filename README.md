@@ -783,6 +783,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1784-minimum-initial-energy-to-finish-tasks](https://github.com/rohanxxx/leetcode/tree/master/1784-minimum-initial-energy-to-finish-tasks) |
 | [1829-maximum-units-on-a-truck](https://github.com/rohanxxx/leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/rohanxxx/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [2327-largest-number-after-digit-swaps-by-parity](https://github.com/rohanxxx/leetcode/tree/master/2327-largest-number-after-digit-swaps-by-parity) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/rohanxxx/leetcode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2479-meeting-rooms-iii](https://github.com/rohanxxx/leetcode/tree/master/2479-meeting-rooms-iii) |
 | [3151-minimum-processing-time](https://github.com/rohanxxx/leetcode/tree/master/3151-minimum-processing-time) |
@@ -962,6 +963,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1397-search-suggestions-system](https://github.com/rohanxxx/leetcode/tree/master/1397-search-suggestions-system) |
 | [1464-reduce-array-size-to-the-half](https://github.com/rohanxxx/leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rohanxxx/leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [2327-largest-number-after-digit-swaps-by-parity](https://github.com/rohanxxx/leetcode/tree/master/2327-largest-number-after-digit-swaps-by-parity) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/rohanxxx/leetcode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2479-meeting-rooms-iii](https://github.com/rohanxxx/leetcode/tree/master/2479-meeting-rooms-iii) |
 ## Bucket Sort
