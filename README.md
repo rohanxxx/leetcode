@@ -677,6 +677,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/rohanxxx/leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/rohanxxx/leetcode/tree/master/0125-valid-palindrome) |
+| [0141-linked-list-cycle](https://github.com/rohanxxx/leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/rohanxxx/leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/rohanxxx/leetcode/tree/master/0143-reorder-list) |
 | [0151-reverse-words-in-a-string](https://github.com/rohanxxx/leetcode/tree/master/0151-reverse-words-in-a-string) |
@@ -796,6 +797,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/rohanxxx/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/rohanxxx/leetcode/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/rohanxxx/leetcode/tree/master/0139-word-break) |
+| [0141-linked-list-cycle](https://github.com/rohanxxx/leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/rohanxxx/leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/rohanxxx/leetcode/tree/master/0146-lru-cache) |
 | [0149-max-points-on-a-line](https://github.com/rohanxxx/leetcode/tree/master/0149-max-points-on-a-line) |
@@ -1177,6 +1179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0025-reverse-nodes-in-k-group](https://github.com/rohanxxx/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0141-linked-list-cycle](https://github.com/rohanxxx/leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/rohanxxx/leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/rohanxxx/leetcode/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/rohanxxx/leetcode/tree/master/0146-lru-cache) |
