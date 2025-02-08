@@ -638,6 +638,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1131-count-substrings-with-only-one-distinct-letter](https://github.com/rohanxxx/leetcode/tree/master/1131-count-substrings-with-only-one-distinct-letter) |
 | [1250-longest-common-subsequence](https://github.com/rohanxxx/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1252-break-a-palindrome](https://github.com/rohanxxx/leetcode/tree/master/1252-break-a-palindrome) |
+| [1260-day-of-the-year](https://github.com/rohanxxx/leetcode/tree/master/1260-day-of-the-year) |
 | [1271-web-crawler](https://github.com/rohanxxx/leetcode/tree/master/1271-web-crawler) |
 | [1274-number-of-days-between-two-dates](https://github.com/rohanxxx/leetcode/tree/master/1274-number-of-days-between-two-dates) |
 | [1297-maximum-number-of-balloons](https://github.com/rohanxxx/leetcode/tree/master/1297-maximum-number-of-balloons) |
@@ -903,6 +904,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1119-robot-bounded-in-circle](https://github.com/rohanxxx/leetcode/tree/master/1119-robot-bounded-in-circle) |
 | [1131-count-substrings-with-only-one-distinct-letter](https://github.com/rohanxxx/leetcode/tree/master/1131-count-substrings-with-only-one-distinct-letter) |
 | [1164-missing-number-in-arithmetic-progression](https://github.com/rohanxxx/leetcode/tree/master/1164-missing-number-in-arithmetic-progression) |
+| [1260-day-of-the-year](https://github.com/rohanxxx/leetcode/tree/master/1260-day-of-the-year) |
 | [1274-number-of-days-between-two-dates](https://github.com/rohanxxx/leetcode/tree/master/1274-number-of-days-between-two-dates) |
 | [1345-perform-string-shifts](https://github.com/rohanxxx/leetcode/tree/master/1345-perform-string-shifts) |
 | [1635-number-of-good-pairs](https://github.com/rohanxxx/leetcode/tree/master/1635-number-of-good-pairs) |
