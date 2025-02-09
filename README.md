@@ -627,6 +627,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/rohanxxx/leetcode/tree/master/0778-reorganize-string) |
 | [0808-number-of-matching-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0808-number-of-matching-subsequences) |
 | [0812-rotate-string](https://github.com/rohanxxx/leetcode/tree/master/0812-rotate-string) |
+| [0916-decoded-string-at-index](https://github.com/rohanxxx/leetcode/tree/master/0916-decoded-string-at-index) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/rohanxxx/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1044-find-common-characters](https://github.com/rohanxxx/leetcode/tree/master/1044-find-common-characters) |
 | [1051-shortest-way-to-form-string](https://github.com/rohanxxx/leetcode/tree/master/1051-shortest-way-to-form-string) |
@@ -1232,6 +1233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/rohanxxx/leetcode/tree/master/0496-next-greater-element-i) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0739-daily-temperatures](https://github.com/rohanxxx/leetcode/tree/master/0739-daily-temperatures) |
+| [0916-decoded-string-at-index](https://github.com/rohanxxx/leetcode/tree/master/0916-decoded-string-at-index) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/rohanxxx/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1002-maximum-width-ramp](https://github.com/rohanxxx/leetcode/tree/master/1002-maximum-width-ramp) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/rohanxxx/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
