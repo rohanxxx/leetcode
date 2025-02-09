@@ -17,6 +17,7 @@ public:
             }
             stack.push({c, 1});
         }
+        
         string ans = "";
         while(!stack.empty()){
             pair<char, int> p = stack.top(); stack.pop();
