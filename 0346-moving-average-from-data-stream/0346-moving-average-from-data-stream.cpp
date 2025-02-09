@@ -1,24 +1,23 @@
 class MovingAverage {
-
 private:
-    queue<int> qu;
-    int avergeSize;
+    queue<int> q;
     double sum;
+    int avgSize;
 public:
-    MovingAverage(int size):avergeSize(size),sum(0) {
+    MovingAverage(int size) {
+        avgSize = size;
+        sum = 0;
     }
     
     double next(int val) {
         sum += val;
-        qu.push(val);
-        int queueSize = (int)qu.size();
-        if(queueSize <= avergeSize){
-            return sum / queueSize;
+        q.push(val);
+        if(q.size() <= avgSize){
+            return (double)((double)sum / (double)q.size());
         }
         else{
-            sum -= qu.front();
-            qu.pop();
-            return sum / avergeSize;
+            sum -= q.front(); q.pop();
+            return (double)((double)sum / (double)avgSize);
         }
     }
 };
