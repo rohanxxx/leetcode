@@ -14,10 +14,6 @@ public:
 
         int sum = 0;
         for(int i = 0; i < n; i++){
-            if(i == 0){
-                sum += nums[i];
-                continue;
-            }
             int start = max(0, i-nums[i]);
             if(start == 0){
                 sum += prefix[i];
