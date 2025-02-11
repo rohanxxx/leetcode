@@ -1,37 +1,38 @@
 class Solution {
 public:
-    bool func(int index, int target, vector<int>& nums, vector<vector<int>>& dp){
-        if(target == 0) {
+    bool func(int i, int target, vector<int>& nums, vector<vector<int>>& dp){
+        if(target == 0){
             return true;
         }
-        if(index == 0) {
-            return (nums[index] == target);
+        if(i == 0){
+            return (nums[i] == target);
+        }
+        if(dp[i][target] != -1){
+            return dp[i][target];
         }
 
-        if(dp[index][target] != -1){
-            return dp[index][target];
-        }
-
-        bool notTake = func(index-1, target, nums, dp);
         bool take = false;
+        bool notTake = func(i-1, target, nums, dp);
 
-        if(nums[index] <= target){
-            take = func(index-1, target-nums[index], nums, dp);
+        if(target >= nums[i]){
+            take = func(i-1, target-nums[i], nums, dp);
         }
 
-        return dp[index][target] = take || notTake;
+        return dp[i][target] = take || notTake;
     }
     bool canPartition(vector<int>& nums) {
-        int sum = 0;
-        for(int num: nums){
-            sum += num;
+        int sum = 0, n = nums.size();
+        for(int n: nums){
+            sum += n;
         }
+
         if(sum % 2){
             return false;
         }
 
         int target = sum/2;
-        vector<vector<int>> dp(nums.size(), vector<int>(target+1, -1));
-        return func(nums.size()-1, target, nums, dp);
+
+        vector<vector<int>> dp(n, vector<int>(target+1, -1));
+        return func(n-1, target, nums, dp);
     }
 };
