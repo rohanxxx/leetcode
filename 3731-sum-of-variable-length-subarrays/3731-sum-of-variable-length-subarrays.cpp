@@ -17,10 +17,9 @@ public:
             int start = max(0, i-nums[i]);
             if(start == 0){
                 sum += prefix[i];
+                continue;
             }
-            else{
-                sum += (prefix[i]-prefix[start-1]);
-            }
+            sum += (prefix[i]-prefix[start-1]);
         }
 
         return sum;
