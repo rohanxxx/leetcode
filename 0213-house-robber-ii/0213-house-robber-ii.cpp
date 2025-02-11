@@ -1,21 +1,30 @@
 class Solution {
 public:
-    int maxRob(vector<int>& nums, int start, int end){
-        deque<int> dp;
-        dp.push_back(0);
-        dp.push_back(0);
-        for(int i = start; i < end; i++){
-            dp.push_back(max(dp.front()+nums[i], dp.back()));
-            dp.pop_front();
-        }
-        return dp.back();
-    }
     int rob(vector<int>& nums) {
-        if(nums.size() == 1) return nums.back();
-        
-        int index1 = maxRob(nums, 0, nums.size()-1);
-        int index2 = maxRob(nums, 1, nums.size());
-        
-        return (int)max(index1, index2);
+        int len = nums.size();
+        if(len == 1){
+            return nums.back();
+        }
+        if(len == 2){
+            return max(nums[0], nums[1]);
+        } 
+        vector<int> dp0, dp1;
+        dp0.push_back(nums[0]);
+        dp0.push_back(max(nums[1], nums[0]));
+
+        for(int i = 2; i < len-1; i++){
+            int size = dp0.size();
+            dp0.push_back(max(dp0[size-1], dp0[size-2]+nums[i]));
+        }
+
+        dp1.push_back(nums[1]);
+        dp1.push_back(max(nums[1], nums[2]));
+
+        for(int i = 3; i < len; i++){
+            int size = dp1.size();
+            dp1.push_back(max(dp1[size-1], dp1[size-2]+nums[i]));
+        }
+
+        return max(dp1.back(), dp0.back());
     }
 };
