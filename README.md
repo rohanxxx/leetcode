@@ -560,6 +560,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/rohanxxx/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3639-zero-array-transformation-i](https://github.com/rohanxxx/leetcode/tree/master/3639-zero-array-transformation-i) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/rohanxxx/leetcode/tree/master/3704-count-partitions-with-even-sum-difference) |
+| [3708-zigzag-grid-traversal-with-skip](https://github.com/rohanxxx/leetcode/tree/master/3708-zigzag-grid-traversal-with-skip) |
 | [3731-sum-of-variable-length-subarrays](https://github.com/rohanxxx/leetcode/tree/master/3731-sum-of-variable-length-subarrays) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/rohanxxx/leetcode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 ## Matrix
@@ -582,6 +583,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/rohanxxx/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1331-path-with-maximum-gold](https://github.com/rohanxxx/leetcode/tree/master/1331-path-with-maximum-gold) |
 | [2685-first-completely-painted-row-or-column](https://github.com/rohanxxx/leetcode/tree/master/2685-first-completely-painted-row-or-column) |
+| [3708-zigzag-grid-traversal-with-skip](https://github.com/rohanxxx/leetcode/tree/master/3708-zigzag-grid-traversal-with-skip) |
 ## String
 |  |
 | ------- |
@@ -1301,6 +1303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/rohanxxx/leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3311-ant-on-the-boundary](https://github.com/rohanxxx/leetcode/tree/master/3311-ant-on-the-boundary) |
 | [3447-clear-digits](https://github.com/rohanxxx/leetcode/tree/master/3447-clear-digits) |
+| [3708-zigzag-grid-traversal-with-skip](https://github.com/rohanxxx/leetcode/tree/master/3708-zigzag-grid-traversal-with-skip) |
 ## Backtracking
 |  |
 | ------- |
