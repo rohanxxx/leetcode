@@ -10,7 +10,7 @@ public:
             for(int i = 1; i < row; i++){
                 if(grid[i][j] < target){
                     ops += (target-grid[i][j]);
-                    target = grid[i][j]+(target-grid[i][j])+1;
+                    target = target+1;
                 }
                 else{
                     target = grid[i][j]+1;
