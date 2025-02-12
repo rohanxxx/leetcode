@@ -12,8 +12,6 @@ public:
         string left = p.substr(0, t);
         string right = p.substr(t+1);
 
-        cout << "left: " << left << endl;
-        cout << "right: " << right << endl;
         bool leftMatched = false;
         bool rightMatched = false;
         
@@ -31,13 +29,6 @@ public:
         else{
             leftMatched = true;
         }
-
-        /*if(leftMatched == false){
-            return false;
-        }*/
-
-        cout << "ptr: " << ptr << endl;
-        cout << "s[ptr]: " << s[(int)ptr] << endl;
 
         if(right.length() > 0){
             for(; ptr < s.length(); ptr++){
