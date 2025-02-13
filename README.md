@@ -558,6 +558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/rohanxxx/leetcode/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 | [3311-ant-on-the-boundary](https://github.com/rohanxxx/leetcode/tree/master/3311-ant-on-the-boundary) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/rohanxxx/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3616-make-array-elements-equal-to-zero](https://github.com/rohanxxx/leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/rohanxxx/leetcode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3632-button-with-longest-push-time](https://github.com/rohanxxx/leetcode/tree/master/3632-button-with-longest-push-time) |
 | [3639-zero-array-transformation-i](https://github.com/rohanxxx/leetcode/tree/master/3639-zero-array-transformation-i) |
@@ -1219,6 +1220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2240-intervals-between-identical-elements](https://github.com/rohanxxx/leetcode/tree/master/2240-intervals-between-identical-elements) |
 | [2576-minimum-penalty-for-a-shop](https://github.com/rohanxxx/leetcode/tree/master/2576-minimum-penalty-for-a-shop) |
 | [3311-ant-on-the-boundary](https://github.com/rohanxxx/leetcode/tree/master/3311-ant-on-the-boundary) |
+| [3616-make-array-elements-equal-to-zero](https://github.com/rohanxxx/leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3639-zero-array-transformation-i](https://github.com/rohanxxx/leetcode/tree/master/3639-zero-array-transformation-i) |
 | [3644-minimum-positive-sum-subarray](https://github.com/rohanxxx/leetcode/tree/master/3644-minimum-positive-sum-subarray) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/rohanxxx/leetcode/tree/master/3704-count-partitions-with-even-sum-difference) |
@@ -1324,6 +1326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/rohanxxx/leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3311-ant-on-the-boundary](https://github.com/rohanxxx/leetcode/tree/master/3311-ant-on-the-boundary) |
 | [3447-clear-digits](https://github.com/rohanxxx/leetcode/tree/master/3447-clear-digits) |
+| [3616-make-array-elements-equal-to-zero](https://github.com/rohanxxx/leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3625-stone-removal-game](https://github.com/rohanxxx/leetcode/tree/master/3625-stone-removal-game) |
 | [3651-transformed-array](https://github.com/rohanxxx/leetcode/tree/master/3651-transformed-array) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/rohanxxx/leetcode/tree/master/3708-zigzag-grid-traversal-with-skip) |
