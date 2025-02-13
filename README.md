@@ -946,6 +946,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2206-detonate-the-maximum-bombs](https://github.com/rohanxxx/leetcode/tree/master/2206-detonate-the-maximum-bombs) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/rohanxxx/leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/rohanxxx/leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
+| [3676-smallest-number-with-all-set-bits](https://github.com/rohanxxx/leetcode/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3702-maximum-subarray-with-equal-products](https://github.com/rohanxxx/leetcode/tree/master/3702-maximum-subarray-with-equal-products) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/rohanxxx/leetcode/tree/master/3704-count-partitions-with-even-sum-difference) |
 ## Counting
@@ -1087,6 +1088,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1632-number-of-good-ways-to-split-a-string](https://github.com/rohanxxx/leetcode/tree/master/1632-number-of-good-ways-to-split-a-string) |
 | [1650-find-root-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1650-find-root-of-n-ary-tree) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/rohanxxx/leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
+| [3676-smallest-number-with-all-set-bits](https://github.com/rohanxxx/leetcode/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Sliding Window
 |  |
 | ------- |
