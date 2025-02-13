@@ -7,10 +7,10 @@ public:
         }
         for(auto ele:nums ){
             if(ele==0) {
-                if(tot*2+1==sum || tot*2-1==sum)
-                    ans++;
+                if(tot*2==sum) ans+=2;
                 else{
-                    if(tot*2==sum) ans+=2;
+                    if(tot*2-1 == sum) ans++;
+                    if(tot*2+1 == sum) ans++;
                 }
             }
             tot+=ele;
