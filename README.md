@@ -558,6 +558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/rohanxxx/leetcode/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 | [3311-ant-on-the-boundary](https://github.com/rohanxxx/leetcode/tree/master/3311-ant-on-the-boundary) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/rohanxxx/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/rohanxxx/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/rohanxxx/leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/rohanxxx/leetcode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3632-button-with-longest-push-time](https://github.com/rohanxxx/leetcode/tree/master/3632-button-with-longest-push-time) |
@@ -909,6 +910,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3254-number-of-divisible-triplet-sums](https://github.com/rohanxxx/leetcode/tree/master/3254-number-of-divisible-triplet-sums) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/rohanxxx/leetcode/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/rohanxxx/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/rohanxxx/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/rohanxxx/leetcode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rohanxxx/leetcode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3736-find-valid-pair-of-adjacent-digits-in-string](https://github.com/rohanxxx/leetcode/tree/master/3736-find-valid-pair-of-adjacent-digits-in-string) |
@@ -1008,6 +1010,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2327-largest-number-after-digit-swaps-by-parity](https://github.com/rohanxxx/leetcode/tree/master/2327-largest-number-after-digit-swaps-by-parity) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/rohanxxx/leetcode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2479-meeting-rooms-iii](https://github.com/rohanxxx/leetcode/tree/master/2479-meeting-rooms-iii) |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/rohanxxx/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -1122,6 +1125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/rohanxxx/leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/rohanxxx/leetcode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/rohanxxx/leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/rohanxxx/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3644-minimum-positive-sum-subarray](https://github.com/rohanxxx/leetcode/tree/master/3644-minimum-positive-sum-subarray) |
 | [3702-maximum-subarray-with-equal-products](https://github.com/rohanxxx/leetcode/tree/master/3702-maximum-subarray-with-equal-products) |
 ## Rolling Hash
