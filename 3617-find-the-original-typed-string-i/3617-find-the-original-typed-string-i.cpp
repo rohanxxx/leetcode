@@ -10,7 +10,7 @@ public:
             }
             count++;
         }
-        totalCount += (count-1);
-        return totalCount;
+        return totalCount += (count-1);
+        // return totalCount;
     }
 };
