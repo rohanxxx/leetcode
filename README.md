@@ -683,6 +683,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/rohanxxx/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3447-clear-digits](https://github.com/rohanxxx/leetcode/tree/master/3447-clear-digits) |
 | [3484-lexicographically-smallest-string-after-a-swap](https://github.com/rohanxxx/leetcode/tree/master/3484-lexicographically-smallest-string-after-a-swap) |
+| [3543-count-substrings-that-satisfy-k-constraint-i](https://github.com/rohanxxx/leetcode/tree/master/3543-count-substrings-that-satisfy-k-constraint-i) |
 | [3617-find-the-original-typed-string-i](https://github.com/rohanxxx/leetcode/tree/master/3617-find-the-original-typed-string-i) |
 | [3636-check-balanced-string](https://github.com/rohanxxx/leetcode/tree/master/3636-check-balanced-string) |
 | [3684-substring-matching-pattern](https://github.com/rohanxxx/leetcode/tree/master/3684-substring-matching-pattern) |
@@ -1129,6 +1130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/rohanxxx/leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/rohanxxx/leetcode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/rohanxxx/leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
+| [3543-count-substrings-that-satisfy-k-constraint-i](https://github.com/rohanxxx/leetcode/tree/master/3543-count-substrings-that-satisfy-k-constraint-i) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/rohanxxx/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3644-minimum-positive-sum-subarray](https://github.com/rohanxxx/leetcode/tree/master/3644-minimum-positive-sum-subarray) |
 | [3702-maximum-subarray-with-equal-products](https://github.com/rohanxxx/leetcode/tree/master/3702-maximum-subarray-with-equal-products) |
