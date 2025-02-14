@@ -16,8 +16,6 @@ public:
 
             priority_queue<pair<int, int>> pq;
             for(auto pair: mp){
-                cout << "pair.first: " << pair.first << endl;
-                cout << "pair.second: " << pair.second << endl;
                 pq.push({pair.second, pair.first});
             }
 
