@@ -682,6 +682,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/rohanxxx/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3447-clear-digits](https://github.com/rohanxxx/leetcode/tree/master/3447-clear-digits) |
 | [3484-lexicographically-smallest-string-after-a-swap](https://github.com/rohanxxx/leetcode/tree/master/3484-lexicographically-smallest-string-after-a-swap) |
+| [3617-find-the-original-typed-string-i](https://github.com/rohanxxx/leetcode/tree/master/3617-find-the-original-typed-string-i) |
 | [3684-substring-matching-pattern](https://github.com/rohanxxx/leetcode/tree/master/3684-substring-matching-pattern) |
 | [3736-find-valid-pair-of-adjacent-digits-in-string](https://github.com/rohanxxx/leetcode/tree/master/3736-find-valid-pair-of-adjacent-digits-in-string) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/rohanxxx/leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
