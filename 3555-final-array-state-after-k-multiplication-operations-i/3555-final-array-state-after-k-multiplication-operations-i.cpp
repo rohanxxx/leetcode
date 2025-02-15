@@ -8,7 +8,6 @@ public:
         for(int i = 0; i < k; i++){
             pair<int, int> p = pq.top(); pq.pop();
             int index = p.second;
-            // int element = p.first;
             nums[index] = nums[index]*multiplier;
             pq.push({nums[index], index});
         }
