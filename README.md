@@ -688,6 +688,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/rohanxxx/leetcode/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/rohanxxx/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3447-clear-digits](https://github.com/rohanxxx/leetcode/tree/master/3447-clear-digits) |
+| [3468-find-the-encrypted-string](https://github.com/rohanxxx/leetcode/tree/master/3468-find-the-encrypted-string) |
 | [3484-lexicographically-smallest-string-after-a-swap](https://github.com/rohanxxx/leetcode/tree/master/3484-lexicographically-smallest-string-after-a-swap) |
 | [3543-count-substrings-that-satisfy-k-constraint-i](https://github.com/rohanxxx/leetcode/tree/master/3543-count-substrings-that-satisfy-k-constraint-i) |
 | [3553-check-if-two-chessboard-squares-have-the-same-color](https://github.com/rohanxxx/leetcode/tree/master/3553-check-if-two-chessboard-squares-have-the-same-color) |
