@@ -4,8 +4,7 @@ public:
         vector<int> ans;
         unordered_map<int, int> mp;
         for(int n: nums){
-            mp[n]++;
-            if(mp[n] == 2){
+            if(++mp[n] == 2){
                 ans.push_back(n);
             }
         }
