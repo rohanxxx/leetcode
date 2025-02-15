@@ -1118,6 +1118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1632-number-of-good-ways-to-split-a-string](https://github.com/rohanxxx/leetcode/tree/master/1632-number-of-good-ways-to-split-a-string) |
 | [1650-find-root-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1650-find-root-of-n-ary-tree) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/rohanxxx/leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
+| [3508-number-of-bit-changes-to-make-two-integers-equal](https://github.com/rohanxxx/leetcode/tree/master/3508-number-of-bit-changes-to-make-two-integers-equal) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/rohanxxx/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/rohanxxx/leetcode/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Sliding Window
