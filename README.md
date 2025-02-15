@@ -558,6 +558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/rohanxxx/leetcode/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 | [3311-ant-on-the-boundary](https://github.com/rohanxxx/leetcode/tree/master/3311-ant-on-the-boundary) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/rohanxxx/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3463-alternating-groups-i](https://github.com/rohanxxx/leetcode/tree/master/3463-alternating-groups-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/rohanxxx/leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3577-convert-doubly-linked-list-to-array-i](https://github.com/rohanxxx/leetcode/tree/master/3577-convert-doubly-linked-list-to-array-i) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/rohanxxx/leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
@@ -1145,6 +1146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/rohanxxx/leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/rohanxxx/leetcode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/rohanxxx/leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
+| [3463-alternating-groups-i](https://github.com/rohanxxx/leetcode/tree/master/3463-alternating-groups-i) |
 | [3543-count-substrings-that-satisfy-k-constraint-i](https://github.com/rohanxxx/leetcode/tree/master/3543-count-substrings-that-satisfy-k-constraint-i) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/rohanxxx/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3644-minimum-positive-sum-subarray](https://github.com/rohanxxx/leetcode/tree/master/3644-minimum-positive-sum-subarray) |
