@@ -562,6 +562,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3577-convert-doubly-linked-list-to-array-i](https://github.com/rohanxxx/leetcode/tree/master/3577-convert-doubly-linked-list-to-array-i) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/rohanxxx/leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3582-find-indices-of-stable-mountains](https://github.com/rohanxxx/leetcode/tree/master/3582-find-indices-of-stable-mountains) |
+| [3606-minimum-element-after-replacement-with-digit-sum](https://github.com/rohanxxx/leetcode/tree/master/3606-minimum-element-after-replacement-with-digit-sum) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/rohanxxx/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/rohanxxx/leetcode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/rohanxxx/leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
@@ -968,6 +969,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3568-find-the-key-of-the-numbers](https://github.com/rohanxxx/leetcode/tree/master/3568-find-the-key-of-the-numbers) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/rohanxxx/leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/rohanxxx/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3606-minimum-element-after-replacement-with-digit-sum](https://github.com/rohanxxx/leetcode/tree/master/3606-minimum-element-after-replacement-with-digit-sum) |
 | [3625-stone-removal-game](https://github.com/rohanxxx/leetcode/tree/master/3625-stone-removal-game) |
 | [3626-smallest-divisible-digit-product-i](https://github.com/rohanxxx/leetcode/tree/master/3626-smallest-divisible-digit-product-i) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/rohanxxx/leetcode/tree/master/3676-smallest-number-with-all-set-bits) |
