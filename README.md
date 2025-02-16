@@ -971,6 +971,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/rohanxxx/leetcode/tree/master/0202-happy-number) |
 | [0204-count-primes](https://github.com/rohanxxx/leetcode/tree/master/0204-count-primes) |
 | [0227-basic-calculator-ii](https://github.com/rohanxxx/leetcode/tree/master/0227-basic-calculator-ii) |
+| [0367-valid-perfect-square](https://github.com/rohanxxx/leetcode/tree/master/0367-valid-perfect-square) |
 | [0369-plus-one-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0369-plus-one-linked-list) |
 | [0380-insert-delete-getrandom-o1](https://github.com/rohanxxx/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0523-continuous-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -1251,6 +1252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0270-closest-binary-search-tree-value](https://github.com/rohanxxx/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0300-longest-increasing-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0362-design-hit-counter](https://github.com/rohanxxx/leetcode/tree/master/0362-design-hit-counter) |
+| [0367-valid-perfect-square](https://github.com/rohanxxx/leetcode/tree/master/0367-valid-perfect-square) |
 | [0410-split-array-largest-sum](https://github.com/rohanxxx/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0729-my-calendar-i](https://github.com/rohanxxx/leetcode/tree/master/0729-my-calendar-i) |
