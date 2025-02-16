@@ -961,6 +961,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0670-maximum-swap](https://github.com/rohanxxx/leetcode/tree/master/0670-maximum-swap) |
 | [0912-random-pick-with-weight](https://github.com/rohanxxx/leetcode/tree/master/0912-random-pick-with-weight) |
 | [0976-minimum-area-rectangle](https://github.com/rohanxxx/leetcode/tree/master/0976-minimum-area-rectangle) |
+| [1013-fibonacci-number](https://github.com/rohanxxx/leetcode/tree/master/1013-fibonacci-number) |
 | [1069-confusing-number](https://github.com/rohanxxx/leetcode/tree/master/1069-confusing-number) |
 | [1086-divisor-game](https://github.com/rohanxxx/leetcode/tree/master/1086-divisor-game) |
 | [1090-armstrong-number](https://github.com/rohanxxx/leetcode/tree/master/1090-armstrong-number) |
@@ -1093,6 +1094,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0740-delete-and-earn](https://github.com/rohanxxx/leetcode/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/rohanxxx/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0808-number-of-matching-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0808-number-of-matching-subsequences) |
+| [1013-fibonacci-number](https://github.com/rohanxxx/leetcode/tree/master/1013-fibonacci-number) |
 | [1025-minimum-cost-for-tickets](https://github.com/rohanxxx/leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1086-divisor-game](https://github.com/rohanxxx/leetcode/tree/master/1086-divisor-game) |
 | [1129-longest-string-chain](https://github.com/rohanxxx/leetcode/tree/master/1129-longest-string-chain) |
@@ -1121,6 +1123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/rohanxxx/leetcode/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/rohanxxx/leetcode/tree/master/0139-word-break) |
+| [1013-fibonacci-number](https://github.com/rohanxxx/leetcode/tree/master/1013-fibonacci-number) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -1302,6 +1305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/rohanxxx/leetcode/tree/master/0143-reorder-list) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0439-ternary-expression-parser](https://github.com/rohanxxx/leetcode/tree/master/0439-ternary-expression-parser) |
+| [1013-fibonacci-number](https://github.com/rohanxxx/leetcode/tree/master/1013-fibonacci-number) |
 | [1404-print-immutable-linked-list-in-reverse](https://github.com/rohanxxx/leetcode/tree/master/1404-print-immutable-linked-list-in-reverse) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/rohanxxx/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Stack
