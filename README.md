@@ -681,6 +681,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1472-increasing-decreasing-string](https://github.com/rohanxxx/leetcode/tree/master/1472-increasing-decreasing-string) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/rohanxxx/leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1632-number-of-good-ways-to-split-a-string](https://github.com/rohanxxx/leetcode/tree/master/1632-number-of-good-ways-to-split-a-string) |
+| [1764-maximum-repeating-substring](https://github.com/rohanxxx/leetcode/tree/master/1764-maximum-repeating-substring) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/rohanxxx/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2232-adding-spaces-to-a-string](https://github.com/rohanxxx/leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rohanxxx/leetcode/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
@@ -710,6 +711,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0459-repeated-substring-pattern](https://github.com/rohanxxx/leetcode/tree/master/0459-repeated-substring-pattern) |
 | [0616-add-bold-tag-in-string](https://github.com/rohanxxx/leetcode/tree/master/0616-add-bold-tag-in-string) |
 | [0812-rotate-string](https://github.com/rohanxxx/leetcode/tree/master/0812-rotate-string) |
+| [1764-maximum-repeating-substring](https://github.com/rohanxxx/leetcode/tree/master/1764-maximum-repeating-substring) |
 | [3684-substring-matching-pattern](https://github.com/rohanxxx/leetcode/tree/master/3684-substring-matching-pattern) |
 ## Two Pointers
 |  |
@@ -1098,6 +1100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1286-constrained-subsequence-sum](https://github.com/rohanxxx/leetcode/tree/master/1286-constrained-subsequence-sum) |
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/rohanxxx/leetcode/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1632-number-of-good-ways-to-split-a-string](https://github.com/rohanxxx/leetcode/tree/master/1632-number-of-good-ways-to-split-a-string) |
+| [1764-maximum-repeating-substring](https://github.com/rohanxxx/leetcode/tree/master/1764-maximum-repeating-substring) |
 | [2500-minimum-costs-using-the-train-line](https://github.com/rohanxxx/leetcode/tree/master/2500-minimum-costs-using-the-train-line) |
 | [2672-number-of-good-binary-strings](https://github.com/rohanxxx/leetcode/tree/master/2672-number-of-good-binary-strings) |
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/rohanxxx/leetcode/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
