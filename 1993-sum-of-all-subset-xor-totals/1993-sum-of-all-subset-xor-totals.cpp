@@ -3,9 +3,8 @@ public:
     int sum;
     void backtrack(int index, int cur, int& n, vector<int>& nums){
         for(int i = index; i < n; i++){
-            int temp = cur ^ nums[i];
-            sum += temp;
-            backtrack(i+1, temp, n, nums);
+            sum += (cur ^ nums[i]);
+            backtrack(i+1, cur ^ nums[i], n, nums);
         }
     }
     int subsetXORSum(vector<int>& nums) {
