@@ -1,23 +1,31 @@
 class Solution {
 public:
     string frequencySort(string s) {
-        if(s.length() < 3) return s;
-        
-        unordered_map<char, int> mp;
-        for(auto& c: s) mp[c]++;
-
-        priority_queue<pair<int, char>> pq;
-        for(auto i: mp){
-            pq.push({i.second, i.first});
+        if (s.empty()) return s;
+        // Count occurrences of each character
+        unordered_map<char, int> counts;
+        for (char c : s) {
+            counts[c]++;
         }
-
-        string freq = "";
-        while(!pq.empty()){
-            pair<int, char> p = pq.top(); pq.pop();
-            for(int i = 0; i < p.first; i++){
-                freq += p.second;
+        // Find the maximum frequency
+        int maximumFrequency = 0;
+        for (const auto& pair : counts) {
+            maximumFrequency = max(maximumFrequency, pair.second);
+        }
+        // Create buckets for bucket sort
+        vector<vector<char>> buckets(maximumFrequency + 1);
+        for (const auto& pair : counts) {
+            // cout << "pair.second: " << pair.second << ", pair.first: " << pair.first << endl;
+            buckets[pair.second].push_back(pair.first);
+        }
+        // Build the sorted string
+        string result;
+        for (int i = maximumFrequency; i > 0; i--) {
+            for (char c : buckets[i]) {
+                // cout << "i: " << i << ", c: " << c << endl;
+                result.append(i, c);  // Append character `i` times
             }
-        }       
-        return freq;
+        }
+        return result;
     }
 };
