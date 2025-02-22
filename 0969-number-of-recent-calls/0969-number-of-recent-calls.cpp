@@ -10,16 +10,11 @@ public:
             q.push(t);
             return 1;
         }
-        lastPing = t; q.push(t);
-        if(lastPing - q.front() <= 3000){
-            return q.size();
+        q.push(t);
+        while(t - q.front() > 3000){
+            q.pop();
         }
-        else{
-            while(lastPing - q.front() > 3000){
-                q.pop();
-            }
-            return this->q.size();
-        }
+        return (int)q.size();
     }
 };
 
