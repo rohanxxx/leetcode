@@ -33,8 +33,12 @@ public:
                 }
             }
             if(deleteNodes.find(currentNode->val) != deleteNodes.end()){
-                forest.push_back(currentNode->left);
-                forest.push_back(currentNode->right);
+                if(currentNode->left){
+                    forest.push_back(currentNode->left);
+                }
+                if(currentNode->right){
+                    forest.push_back(currentNode->right);
+                }
             }
         }
         if(deleteNodes.find(root->val) == deleteNodes.end()){
