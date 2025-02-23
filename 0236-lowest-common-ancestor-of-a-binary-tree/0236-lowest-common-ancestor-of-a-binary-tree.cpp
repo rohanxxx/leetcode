@@ -11,17 +11,15 @@ class Solution {
 public:
     TreeNode* dfs(TreeNode* root, TreeNode* p, TreeNode* q){
         if(!root) return NULL;
-        
         TreeNode* left = dfs(root->left, p, q);
         TreeNode* right = dfs(root->right, p, q);
 
-        if((left && right) || (root == p || root == q)) return root;
-
-        if(left == NULL) return right;
-        
-        return left;
+        if(left && right) return root;
+        if(root == p || root == q) return root;
+        if(left) return left;
+        if(right) return right;
+        return NULL;
     }
-
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         return dfs(root, p, q);
     }
