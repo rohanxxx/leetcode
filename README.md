@@ -192,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0988-flip-equivalent-binary-trees](https://github.com/rohanxxx/leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1091-maximum-average-subtree](https://github.com/rohanxxx/leetcode/tree/master/1091-maximum-average-subtree) |
+| [1092-maximum-difference-between-node-and-ancestor](https://github.com/rohanxxx/leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1150-two-sum-bsts](https://github.com/rohanxxx/leetcode/tree/master/1150-two-sum-bsts) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -263,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0988-flip-equivalent-binary-trees](https://github.com/rohanxxx/leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1091-maximum-average-subtree](https://github.com/rohanxxx/leetcode/tree/master/1091-maximum-average-subtree) |
+| [1092-maximum-difference-between-node-and-ancestor](https://github.com/rohanxxx/leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1150-two-sum-bsts](https://github.com/rohanxxx/leetcode/tree/master/1150-two-sum-bsts) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -378,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0988-flip-equivalent-binary-trees](https://github.com/rohanxxx/leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1091-maximum-average-subtree](https://github.com/rohanxxx/leetcode/tree/master/1091-maximum-average-subtree) |
+| [1092-maximum-difference-between-node-and-ancestor](https://github.com/rohanxxx/leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1150-two-sum-bsts](https://github.com/rohanxxx/leetcode/tree/master/1150-two-sum-bsts) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
