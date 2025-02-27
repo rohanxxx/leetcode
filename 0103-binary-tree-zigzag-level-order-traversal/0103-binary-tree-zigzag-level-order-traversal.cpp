@@ -20,19 +20,24 @@ public:
 
         while(!q.empty()){
             int size = q.size();
-            vector<int> level;
+            vector<int> level(size, 0);
             for(int i = 0; i < size; i++){
                 TreeNode* node = q.front(); q.pop();
-                level.push_back(node->val);
+                if(ans.size()%2){
+                    level[size-i-1] = node->val;
+                }
+                else{
+                    level[i] = node->val;
+                }
                 if(node->left) q.push(node->left);
                 if(node->right) q.push(node->right);
             }
             ans.push_back(level);
         }
 
-        for(int i = 0; i < ans.size(); i++){
+        /*for(int i = 0; i < ans.size(); i++){
             if(i%2) reverse(ans[i].begin(), ans[i].end());
-        }
+        }*/
 
         return ans;
     }
