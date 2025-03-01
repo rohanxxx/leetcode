@@ -1,33 +1,27 @@
 class Solution {
 public:
-    unordered_map<char, string> letters;
     vector<string> combinations;
-    string phoneDigits;
-
-    void backtrack(int index, string curr){
-        if(phoneDigits.length() == curr.length()) {
-            combinations.push_back(curr);
+    unordered_map<char, string> phoneBook;
+    void backtrack(string& digits, string cur, int index){
+        if(cur.length() == digits.length()){
+            if(cur == "") return;
+            combinations.push_back(cur);
             return;
         }
-
-        for(int i = 0; i < letters[phoneDigits[index]].length(); i++){
-            char l = letters[phoneDigits[index]][i];
-            curr += l;
-            backtrack(index+1, curr);
-            curr.pop_back();
+        int len = phoneBook[digits[index]].length();
+        for(int i = 0; i < len; i++){
+            cur += phoneBook[digits[index]][i];
+            backtrack(digits, cur, index+1);
+            cur.pop_back();
         }
     }
     vector<string> letterCombinations(string digits) {
-        if(digits.length() < 1) return {};
-
-        letters = {
+           phoneBook = {
             {'2', "abc"}, {'3', "def"}, {'4', "ghi"},
             {'5', "jkl"}, {'6', "mno"}, {'7', "pqrs"},
             {'8', "tuv"}, {'9', "wxyz"}
-        };
-
-        phoneDigits = digits;
-        backtrack(0,"");
-        return combinations;
+           };
+           backtrack(digits, "", 0);
+           return combinations;
     }
 };
