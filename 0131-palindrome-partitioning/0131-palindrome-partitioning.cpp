@@ -1,27 +1,28 @@
 class Solution {
 public:
-    bool isPalindrom(string &s, int low, int high){
-        while(low < high){
-            if(s[low++] != s[high--]) return false;
+    bool isPalindrome(string& s, int left, int right){
+        while(left < right){
+            if(s[left++] != s[right--]) return false;
         }
         return true;
     }
-    void dfs(vector<vector<string>>& result, string &s, int start, vector<string> &currentList){
-        if(start >= s.length()) {
-            result.push_back(currentList);
+    void backtrack(vector<vector<string>>& ans, string& s, int left, vector<string>& cur){
+        if(left == s.length()){
+            ans.push_back(cur);
+            return;
         }
-        for(int end = start; end < s.length(); end++){
-            if(isPalindrom(s, start, end)){
-                currentList.push_back(s.substr(start, end-start+1));
-                dfs(result, s, end+1, currentList);
-                currentList.pop_back();
+        for(int right = left; right < s.length(); right++){
+            if(isPalindrome(s, left, right)){
+                cur.push_back(s.substr(left, right-left+1));
+                backtrack(ans, s, right+1, cur);
+                cur.pop_back();
             }
         }
     }
     vector<vector<string>> partition(string s) {
-        vector<vector<string>> result;
-        vector<string> currentList;
-        dfs(result, s, 0, currentList);
-        return result;
+        vector<string> cur;
+        vector<vector<string>> ans;
+        backtrack(ans, s, 0, cur);
+        return ans;
     }
 };
