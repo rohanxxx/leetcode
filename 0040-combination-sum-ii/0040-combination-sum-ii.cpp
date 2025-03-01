@@ -17,9 +17,9 @@ private:
         } 
         for (int i = index; i < candidates.size(); i++) {
             if (i > index && candidates[i] == candidates[i - 1]) continue;
-                tempList.push_back(candidates[i]);
-                backtrack(answer, tempList, candidates, totalLeft - candidates[i], i + 1);
-                tempList.pop_back();
+            tempList.push_back(candidates[i]);
+            backtrack(answer, tempList, candidates, totalLeft - candidates[i], i + 1);
+            tempList.pop_back();
         }
     }
 };
