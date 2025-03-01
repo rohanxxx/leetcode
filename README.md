@@ -671,6 +671,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/rohanxxx/leetcode/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/rohanxxx/leetcode/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/rohanxxx/leetcode/tree/master/0125-valid-palindrome) |
+| [0131-palindrome-partitioning](https://github.com/rohanxxx/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/rohanxxx/leetcode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/rohanxxx/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0159-longest-substring-with-at-most-two-distinct-characters](https://github.com/rohanxxx/leetcode/tree/master/0159-longest-substring-with-at-most-two-distinct-characters) |
@@ -1156,6 +1157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/rohanxxx/leetcode/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rohanxxx/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/rohanxxx/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0131-palindrome-partitioning](https://github.com/rohanxxx/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/rohanxxx/leetcode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/rohanxxx/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/rohanxxx/leetcode/tree/master/0198-house-robber) |
@@ -1505,6 +1507,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/rohanxxx/leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/rohanxxx/leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/rohanxxx/leetcode/tree/master/0079-word-search) |
+| [0131-palindrome-partitioning](https://github.com/rohanxxx/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0257-binary-tree-paths](https://github.com/rohanxxx/leetcode/tree/master/0257-binary-tree-paths) |
 | [0865-robot-room-cleaner](https://github.com/rohanxxx/leetcode/tree/master/0865-robot-room-cleaner) |
 | [1076-brace-expansion](https://github.com/rohanxxx/leetcode/tree/master/1076-brace-expansion) |
