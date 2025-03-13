@@ -6,12 +6,12 @@ public:
         sort(points.begin(), points.end(), [](const vector<int>& a, const vector<int>& b){
             return a[1] < b[1];
         });
-        
+
         int arrows = 1;
         int arrowPos = points[0][1];
+        int xStart, xEnd;
         for(auto p: points){
-            int xStart = p[0];
-            int xEnd = p[1];
+            xStart = p[0]; xEnd = p[1];
             if(arrowPos < xStart){
                 arrowPos = xEnd;
                 arrows++;
