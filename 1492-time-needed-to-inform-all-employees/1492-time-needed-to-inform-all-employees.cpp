@@ -1,19 +1,19 @@
 class Solution {
 public:
-    int maxTime = INT_MIN;
-    void dfs(unordered_map<int, vector<int>>& mp, vector<int>& informTime, int currentID, int totalTime){
-        maxTime = max(maxTime, totalTime);
-        for(auto& id: mp[currentID]){
-            dfs(mp, informTime, id, totalTime+informTime[id]);
+    int totalTime = 0;
+    void dfs(int n, vector<int>& informTime, unordered_map<int, vector<int>>& graph, int currentID, int time){
+        totalTime = max(time, totalTime);
+        for(int id: graph[currentID]){
+            dfs(n, informTime, graph, id, totalTime+informTime[id]);
         }
     }
     int numOfMinutes(int n, int headID, vector<int>& manager, vector<int>& informTime) {
-        unordered_map<int, vector<int>> mp;
-        for(int i = 0; i < manager.size(); i++){
+        unordered_map<int, vector<int>> graph;
+        for(int i = 0; i < n; i++){
             if(manager[i] == -1) continue;
-            mp[manager[i]].push_back(i);
+            graph[manager[i]].push_back(i);
         }
-        dfs(mp, informTime, headID, informTime[headID]);
-        return maxTime;
+        dfs(n, informTime, graph, headID, informTime[headID]);
+        return totalTime;
     }
 };
