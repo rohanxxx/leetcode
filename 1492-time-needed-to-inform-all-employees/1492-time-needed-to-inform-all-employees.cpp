@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int totalTime = 0;
+    int totalTime = INT_MIN;
     void dfs(int n, vector<int>& informTime, unordered_map<int, vector<int>>& graph, int currentID, int time){
         totalTime = max(time, totalTime);
         for(int id: graph[currentID]){
