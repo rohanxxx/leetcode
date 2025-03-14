@@ -269,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/rohanxxx/leetcode/tree/master/0744-network-delay-time) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/rohanxxx/leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0801-is-graph-bipartite](https://github.com/rohanxxx/leetcode/tree/master/0801-is-graph-bipartite) |
+| [0813-all-paths-from-source-to-target](https://github.com/rohanxxx/leetcode/tree/master/0813-all-paths-from-source-to-target) |
 | [0871-keys-and-rooms](https://github.com/rohanxxx/leetcode/tree/master/0871-keys-and-rooms) |
 | [0975-range-sum-of-bst](https://github.com/rohanxxx/leetcode/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/rohanxxx/leetcode/tree/master/0988-flip-equivalent-binary-trees) |
@@ -332,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0764-n-ary-tree-level-order-traversal](https://github.com/rohanxxx/leetcode/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/rohanxxx/leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0801-is-graph-bipartite](https://github.com/rohanxxx/leetcode/tree/master/0801-is-graph-bipartite) |
+| [0813-all-paths-from-source-to-target](https://github.com/rohanxxx/leetcode/tree/master/0813-all-paths-from-source-to-target) |
 | [0871-keys-and-rooms](https://github.com/rohanxxx/leetcode/tree/master/0871-keys-and-rooms) |
 | [1036-rotting-oranges](https://github.com/rohanxxx/leetcode/tree/master/1036-rotting-oranges) |
 | [1076-brace-expansion](https://github.com/rohanxxx/leetcode/tree/master/1076-brace-expansion) |
@@ -1327,6 +1329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/rohanxxx/leetcode/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/rohanxxx/leetcode/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/rohanxxx/leetcode/tree/master/0801-is-graph-bipartite) |
+| [0813-all-paths-from-source-to-target](https://github.com/rohanxxx/leetcode/tree/master/0813-all-paths-from-source-to-target) |
 | [0871-keys-and-rooms](https://github.com/rohanxxx/leetcode/tree/master/0871-keys-and-rooms) |
 | [1039-find-the-town-judge](https://github.com/rohanxxx/leetcode/tree/master/1039-find-the-town-judge) |
 | [1101-parallel-courses](https://github.com/rohanxxx/leetcode/tree/master/1101-parallel-courses) |
@@ -1547,6 +1550,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/rohanxxx/leetcode/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/rohanxxx/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0257-binary-tree-paths](https://github.com/rohanxxx/leetcode/tree/master/0257-binary-tree-paths) |
+| [0813-all-paths-from-source-to-target](https://github.com/rohanxxx/leetcode/tree/master/0813-all-paths-from-source-to-target) |
 | [0865-robot-room-cleaner](https://github.com/rohanxxx/leetcode/tree/master/0865-robot-room-cleaner) |
 | [1076-brace-expansion](https://github.com/rohanxxx/leetcode/tree/master/1076-brace-expansion) |
 | [1331-path-with-maximum-gold](https://github.com/rohanxxx/leetcode/tree/master/1331-path-with-maximum-gold) |
