@@ -23,9 +23,10 @@ class Solution {
 public:
     unordered_map<Node*, Node*> visited;
     Node* cloneGraph(Node* node) {
-        if(node == NULL) return node;
-        if(visited.find(node) != visited.end()) return visited[node];
-        
+        if(node == NULL) return NULL;
+        if(visited.find(node) != visited.end()){
+            return visited[node];
+        }
         Node* cloneNode = new Node(node->val, {});
         visited[node] = cloneNode;
         for(Node* n: node->neighbors){
