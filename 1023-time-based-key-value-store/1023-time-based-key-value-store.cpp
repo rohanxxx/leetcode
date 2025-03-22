@@ -13,7 +13,7 @@ public:
         }
         auto it = mp[key].upper_bound(timestamp);
         if(it == mp[key].begin()) return "";
-        // cout << "key: "<< key << ", timestamp: "<< timestamp<< ", prev(it)->second: " << prev(it)->second << endl;
+        // cout << "key: "<< key << ", timestamp: "<< timestamp<< ", it->second: " << *it[timestamp] << endl;
         return prev(it)->second;
     }
 };
