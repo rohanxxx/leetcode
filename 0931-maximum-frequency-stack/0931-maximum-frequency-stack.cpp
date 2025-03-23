@@ -9,8 +9,8 @@ public:
     }
     
     void push(int val) {
-        freq[val]++;
-        maxFreq = max(maxFreq, freq[val]);
+        // freq[val]++;
+        maxFreq = max(maxFreq, ++freq[val]);
         group[freq[val]].push(val);
     }
     
