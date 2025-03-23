@@ -1003,6 +1003,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/rohanxxx/leetcode/tree/master/0778-reorganize-string) |
 | [0808-number-of-matching-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0808-number-of-matching-subsequences) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0931-maximum-frequency-stack](https://github.com/rohanxxx/leetcode/tree/master/0931-maximum-frequency-stack) |
 | [0966-binary-subarrays-with-sum](https://github.com/rohanxxx/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [0976-minimum-area-rectangle](https://github.com/rohanxxx/leetcode/tree/master/0976-minimum-area-rectangle) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/rohanxxx/leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -1498,6 +1499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0654-maximum-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0654-maximum-binary-tree) |
 | [0739-daily-temperatures](https://github.com/rohanxxx/leetcode/tree/master/0739-daily-temperatures) |
 | [0916-decoded-string-at-index](https://github.com/rohanxxx/leetcode/tree/master/0916-decoded-string-at-index) |
+| [0931-maximum-frequency-stack](https://github.com/rohanxxx/leetcode/tree/master/0931-maximum-frequency-stack) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/rohanxxx/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1002-maximum-width-ramp](https://github.com/rohanxxx/leetcode/tree/master/1002-maximum-width-ramp) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/rohanxxx/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
@@ -1608,6 +1610,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/rohanxxx/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0729-my-calendar-i](https://github.com/rohanxxx/leetcode/tree/master/0729-my-calendar-i) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/rohanxxx/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0931-maximum-frequency-stack](https://github.com/rohanxxx/leetcode/tree/master/0931-maximum-frequency-stack) |
 | [0969-number-of-recent-calls](https://github.com/rohanxxx/leetcode/tree/master/0969-number-of-recent-calls) |
 | [1023-time-based-key-value-store](https://github.com/rohanxxx/leetcode/tree/master/1023-time-based-key-value-store) |
 | [1249-snapshot-array](https://github.com/rohanxxx/leetcode/tree/master/1249-snapshot-array) |
@@ -1722,6 +1725,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0493-reverse-pairs](https://github.com/rohanxxx/leetcode/tree/master/0493-reverse-pairs) |
 | [0729-my-calendar-i](https://github.com/rohanxxx/leetcode/tree/master/0729-my-calendar-i) |
+| [0931-maximum-frequency-stack](https://github.com/rohanxxx/leetcode/tree/master/0931-maximum-frequency-stack) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rohanxxx/leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2429-design-a-food-rating-system](https://github.com/rohanxxx/leetcode/tree/master/2429-design-a-food-rating-system) |
 ## Doubly-Linked List
