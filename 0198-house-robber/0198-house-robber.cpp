@@ -1,25 +1,25 @@
 class Solution {
 public:
+    int func(vector<int>& nums, vector<int>& dp, int n){
+        if(n == 0) return dp[n] = nums[n];
+        if(n < 0) return 0;
+        if(dp[n] != -1) return dp[n];
+
+        int take = nums[n] + func(nums, dp, n-2);
+        int notTake = 0+func(nums, dp, n-1);
+        
+        return dp[n] = max(take, notTake);
+    }
     int rob(vector<int>& nums) {
-        int len = nums.size();
-
-        vector<int> dp0, dp1;
-        dp0.push_back(nums[0]);
-        dp0.push_back(max(nums[1], nums[0]));
-
-        for(int i = 0; i < len-1; i++){
-            int size = dp0.size();
-            dp0.push_back(max(dp0[size-1], dp0[size-2]+nums[i]));
+        int n = nums.size();
+        vector<int> dp(n, 0); dp[0] = nums[0];
+        // func(nums, dp, n-1);
+        for(int i = 1; i < n; i++){
+            int take = nums[i];
+            if(i-2>=0) take += dp[i-2];
+            int notTake = dp[i-1];
+            dp[i] = max(take, notTake); 
         }
-
-        dp1.push_back(nums[1]);
-        dp1.push_back(max(nums[1], nums[2]));
-
-        for(int i = 1; i < len; i++){
-            int size = dp1.size();
-            dp1.push_back(max(dp1[size-1], dp1[size-2]+nums[i]));
-        }
-
-        return max(dp1.back(), dp0.back());
+        return dp[n-1];
     }
 };
