@@ -1,25 +1,28 @@
 class Solution {
 public:
-    int minPathSum(vector<vector<int>>& grid) {
-        int row = grid.size();
-        int col = grid[0].size();
-
-        vector<vector<int>> dp(row, vector<int>(col, 0));
+    int func(int i, int j, vector<vector<int>>& grid, vector<vector<int>>& dp){
+        int n = grid.size();
+        int m = grid[0].size();
         
-        dp[0][0] = grid[0][0];
-        for(int c = 1; c < col; c++){
-            dp[0][c] = dp[0][c-1]+grid[0][c];
+        if(i == 0 && j == 0) return dp[i][j] = grid[i][j];
+        if(i < 0 || i >= n || j < 0 || j >= m){
+            return INT_MAX;
         }
-        for(int r = 1; r < row; r++){
-            dp[r][0] += dp[r-1][0]+grid[r][0];
-        }
+        if(dp[i][j] != -1) return dp[i][j];
 
-        for(int r = 1; r < row; r++){
-            for(int c = 1; c < col; c++){
-                dp[r][c] = min(dp[r-1][c], dp[r][c-1]) + grid[r][c];
-            }
-        }
+        int up = func(i-1, j, grid, dp);
+        // int down = func(i+1, j, grid, dp);
+        int left = func(i, j-1, grid, dp);
+        // int right = func(i, j+1, grid, dp);
 
-        return dp[row-1][col-1];
+        int mini = min(up, left);
+        if(mini == INT_MAX) mini = 0;
+        return dp[i][j] = (grid[i][j] + mini);
+    }
+    int minPathSum(vector<vector<int>>& grid) {
+        int n = grid.size();
+        int m = grid[0].size();
+        vector<vector<int>> dp(n, vector<int>(m, -1));
+        return func(n-1, m-1, grid, dp);
     }
 };
