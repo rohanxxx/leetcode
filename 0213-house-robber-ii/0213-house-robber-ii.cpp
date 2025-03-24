@@ -1,30 +1,26 @@
 class Solution {
-public:
+public: 
+    int solve(vector<int>& nums, vector<int>& dp, int n){
+        if(n == 0) return dp[n] = nums[n];
+        if(n < 0) return 0;
+        if(dp[n] != -1) return dp[n];
+        int take = nums[n] + solve(nums, dp, n-2);
+        int notTake = solve(nums, dp, n-1);
+        return dp[n] = max(take, notTake);
+    }
     int rob(vector<int>& nums) {
-        int len = nums.size();
-        if(len == 1){
-            return nums.back();
+        int n = nums.size();
+        if(n == 1) return nums[0];
+        vector<int> temp1;
+        vector<int> temp2;
+        for(int i = 0; i < nums.size(); i++){
+            if(i != 0) temp1.push_back(nums[i]);
+            if(i != n-1) temp2.push_back(nums[i]);
         }
-        if(len == 2){
-            return max(nums[0], nums[1]);
-        } 
-        vector<int> dp0, dp1;
-        dp0.push_back(nums[0]);
-        dp0.push_back(max(nums[1], nums[0]));
-
-        for(int i = 2; i < len-1; i++){
-            int size = dp0.size();
-            dp0.push_back(max(dp0[size-1], dp0[size-2]+nums[i]));
-        }
-
-        dp1.push_back(nums[1]);
-        dp1.push_back(max(nums[1], nums[2]));
-
-        for(int i = 3; i < len; i++){
-            int size = dp1.size();
-            dp1.push_back(max(dp1[size-1], dp1[size-2]+nums[i]));
-        }
-
-        return max(dp1.back(), dp0.back());
+        vector<int> dp1(temp1.size(), -1);
+        vector<int> dp2(temp2.size(), -1);
+        int take1 = solve(temp1, dp1, temp1.size()-1);
+        int take2 = solve(temp2, dp2, temp2.size()-1);
+        return max(take1, take2);
     }
 };
