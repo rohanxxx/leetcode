@@ -14,7 +14,7 @@ public:
         int left = func(i, j-1, grid, dp);
 
         int mini = min(up, left);
-        if(mini == INT_MAX) mini = 0;
+        // if(mini == INT_MAX) mini = 0;
         return dp[i][j] = (grid[i][j] + mini);
     }
     int minPathSum(vector<vector<int>>& grid) {
