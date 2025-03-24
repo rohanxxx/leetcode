@@ -12,14 +12,8 @@ public:
     }
     int rob(vector<int>& nums) {
         int n = nums.size();
-        vector<int> dp(n, 0); dp[0] = nums[0];
-        // func(nums, dp, n-1);
-        for(int i = 1; i < n; i++){
-            int take = nums[i];
-            if(i-2>=0) take += dp[i-2];
-            int notTake = dp[i-1];
-            dp[i] = max(take, notTake); 
-        }
+        vector<int> dp(n, -1); //dp[0] = nums[0];
+        func(nums, dp, n-1);
         return dp[n-1];
     }
 };
