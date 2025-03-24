@@ -14,6 +14,7 @@ public:
         int n = obstacleGrid.size();
         int m = obstacleGrid[0].size();
         vector<vector<int>> dp(n, vector<int>(m, -1));
-        return func(obstacleGrid, n-1, m-1, dp);
+        func(obstacleGrid, n-1, m-1, dp);
+        return dp[n-1][m-1];
     }
 };
