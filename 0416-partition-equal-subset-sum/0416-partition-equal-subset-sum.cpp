@@ -23,7 +23,5 @@ public:
         int target = sum / 2;
         vector<vector<int>> dp(n, vector<int>(target+1, -1));
         return func(nums, dp, n-1, target);
-
-        // return dp[n-1][target];
     }
 };
