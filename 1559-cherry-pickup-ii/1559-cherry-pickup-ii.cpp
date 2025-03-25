@@ -32,5 +32,6 @@ public:
         int m = grid[0].size();
         vector<vector<vector<int>>> dp(n, vector<vector<int>>(m, vector<int>(m, -1)));
         return func(0, 0, m-1, n, m, grid, dp);
+        // return dp[][0][m-1];
     }
 };
