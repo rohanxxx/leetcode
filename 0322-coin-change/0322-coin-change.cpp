@@ -1,27 +1,27 @@
 class Solution {
 public:
-    int func(int ind, int T, vector<int> &nums, vector<vector<int>> &dp) {
-        if(ind == 0) {
-            if(T % nums[0] == 0) return T / nums[0];
-            return 1e9;
+    int func(int n, int target, vector<int>& coins, vector<vector<int>>& dp){
+        if(n == 0){
+            if(target % coins[0] == 0) return dp[0][target] = target/coins[0];
+            return INT_MAX;
         }
+        if(dp[n][target] != -1) return dp[n][target];
 
-        if(dp[ind][T] != -1) return dp[ind][T];
-
-        int notTake = 0 + func(ind - 1, T, nums, dp);
+        int notTake = func(n-1, target, coins, dp);
         int take = INT_MAX;
-
-        if(nums[ind] <= T) {
-            take = 1 + func(ind, T - nums[ind], nums, dp);
+        if(coins[n] <= target){
+            take = func(n, target-coins[n], coins, dp);
+            if(take != INT_MAX){
+                take++;
+            }
         }
-
-        return dp[ind][T] = min(take, notTake);
+        return dp[n][target] = min(take, notTake);
     }
     int coinChange(vector<int>& coins, int amount) {
         int n = coins.size();
         vector<vector<int>> dp(n, vector<int>(amount+1, -1));
         int res = func(n-1, amount, coins, dp);
-        if(res == 1e9) return -1;
+        if(res == INT_MAX) return -1;
         return res;
     }
 };
