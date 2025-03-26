@@ -1,29 +1,27 @@
 class Solution {
 public:
-    
-    int minCoinChange(vector<int>& coins, int rem, vector<int>& count){
-        if(rem < 0) return -1;
-        if(rem == 0) return 0;
-        
-        if(count[rem-1] != 0) return count[rem-1];
-        
-        int min = INT_MAX;
-        for(int coin: coins){
-            int res = minCoinChange(coins, rem-coin, count);
-            if(res >= 0 && res < min) min = 1+res;
+    int func(int ind, int T, vector<int> &nums, vector<vector<int>> &dp) {
+        if(ind == 0) {
+            if(T % nums[0] == 0) return T / nums[0];
+            return 1e9;
         }
-        
-        if(min == INT_MAX) count[rem-1] = -1;
-        else count[rem-1] = min;
-        
-        return count[rem-1];
-    }
 
+        if(dp[ind][T] != -1) return dp[ind][T];
+
+        int notTake = 0 + func(ind - 1, T, nums, dp);
+        int take = INT_MAX;
+
+        if(nums[ind] <= T) {
+            take = 1 + func(ind, T - nums[ind], nums, dp);
+        }
+
+        return dp[ind][T] = min(take, notTake);
+    }
     int coinChange(vector<int>& coins, int amount) {
-        if(amount < 1) return 0;
-        
-        vector<int> count(amount, 0);
-        return minCoinChange(coins, amount, count);
+        int n = coins.size();
+        vector<vector<int>> dp(n, vector<int>(amount+1, -1));
+        int res = func(n-1, amount, coins, dp);
+        if(res == 1e9) return -1;
+        return res;
     }
-
 };
