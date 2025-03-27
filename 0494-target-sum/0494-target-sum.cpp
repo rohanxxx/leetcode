@@ -16,21 +16,21 @@ public:
             } else {
                 return 0;
             }
-        } else {
-            // Check if the result is already computed
-            if (memo[currentIndex][currentSum + totalSum] != -1) {
-                return memo[currentIndex][currentSum + totalSum];
-            }
-            // Calculate ways by adding the current number
-            int add = calculateWays(nums, currentIndex + 1, currentSum + nums[currentIndex], target, memo);
-
-            // Calculate ways by subtracting the current number
-            int subtract = calculateWays(nums, currentIndex + 1, currentSum - nums[currentIndex], target, memo);
-
-            // Store the result in memoization table
-            memo[currentIndex][currentSum + totalSum] = add + subtract;
-
+        } 
+        
+        // Check if the result is already computed
+        if (memo[currentIndex][currentSum + totalSum] != -1) {
             return memo[currentIndex][currentSum + totalSum];
         }
+        // Calculate ways by adding the current number
+        int add = calculateWays(nums, currentIndex + 1, currentSum + nums[currentIndex], target, memo);
+
+        // Calculate ways by subtracting the current number
+        int subtract = calculateWays(nums, currentIndex + 1, currentSum - nums[currentIndex], target, memo);
+
+        // Store the result in memoization table
+        memo[currentIndex][currentSum + totalSum] = add + subtract;
+
+        return memo[currentIndex][currentSum + totalSum];
     }
 };
