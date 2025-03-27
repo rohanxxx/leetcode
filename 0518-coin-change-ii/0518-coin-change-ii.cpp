@@ -2,8 +2,8 @@ class Solution {
 public:
     int func(int i, int target, vector<int>& nums, vector<vector<int>>& dp){
         if(i == 0){
-            if(target % nums[0] == 0) return 1;
-            else return 0;
+            if(target % nums[0] == 0) return dp[i][target] = 1;
+            else return dp[i][target] = 0;
         }
         if(dp[i][target] != -1) return dp[i][target];
         int notTake = func(i-1, target, nums, dp);
