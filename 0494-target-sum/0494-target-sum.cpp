@@ -3,34 +3,25 @@ public:
     int totalSum;
 
     int findTargetSumWays(vector<int>& nums, int target) {
+        int n = nums.size();
         totalSum = accumulate(nums.begin(), nums.end(), 0);
-
-        vector<vector<int>> memo(nums.size(), vector<int>(2 * totalSum + 1, -1));
-        return calculateWays(nums, 0, 0, target, memo);
+        vector<vector<int>> dp(n+1, vector<int>(2 * totalSum + 1, -1));
+        return func(nums, 0, 0, target, dp);
     }
 
-    int calculateWays(vector<int>& nums, int currentIndex, int currentSum, int target, vector<vector<int>>& memo) {
-        if (currentIndex == nums.size()) {
-            if (currentSum == target) {
-                return 1;
-            } else {
-                return 0;
-            }
+    int func(vector<int>& nums, int i, int currentSum, int target, vector<vector<int>>& dp) {
+        if (i == nums.size()) {
+            if (currentSum == target) return 1;
+            else return 0;
         } 
         
-        // Check if the result is already computed
-        if (memo[currentIndex][currentSum + totalSum] != -1) {
-            return memo[currentIndex][currentSum + totalSum];
+        if (dp[i][currentSum + totalSum] != -1) {
+            return dp[i][currentSum + totalSum];
         }
-        // Calculate ways by adding the current number
-        int add = calculateWays(nums, currentIndex + 1, currentSum + nums[currentIndex], target, memo);
 
-        // Calculate ways by subtracting the current number
-        int subtract = calculateWays(nums, currentIndex + 1, currentSum - nums[currentIndex], target, memo);
+        int add = func(nums, i + 1, currentSum + nums[i], target, dp);
+        int subtract = func(nums, i + 1, currentSum - nums[i], target, dp);
 
-        // Store the result in memoization table
-        memo[currentIndex][currentSum + totalSum] = add + subtract;
-
-        return memo[currentIndex][currentSum + totalSum];
+        return dp[i][currentSum + totalSum] = add + subtract;
     }
 };
