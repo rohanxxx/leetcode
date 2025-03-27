@@ -519,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0487-max-consecutive-ones-ii](https://github.com/rohanxxx/leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0490-the-maze](https://github.com/rohanxxx/leetcode/tree/master/0490-the-maze) |
 | [0493-reverse-pairs](https://github.com/rohanxxx/leetcode/tree/master/0493-reverse-pairs) |
+| [0494-target-sum](https://github.com/rohanxxx/leetcode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/rohanxxx/leetcode/tree/master/0496-next-greater-element-i) |
 | [0502-ipo](https://github.com/rohanxxx/leetcode/tree/master/0502-ipo) |
 | [0523-continuous-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -1239,6 +1240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/rohanxxx/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/rohanxxx/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0487-max-consecutive-ones-ii](https://github.com/rohanxxx/leetcode/tree/master/0487-max-consecutive-ones-ii) |
+| [0494-target-sum](https://github.com/rohanxxx/leetcode/tree/master/0494-target-sum) |
 | [0629-k-inverse-pairs-array](https://github.com/rohanxxx/leetcode/tree/master/0629-k-inverse-pairs-array) |
 | [0647-palindromic-substrings](https://github.com/rohanxxx/leetcode/tree/master/0647-palindromic-substrings) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
@@ -1582,6 +1584,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/rohanxxx/leetcode/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/rohanxxx/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0257-binary-tree-paths](https://github.com/rohanxxx/leetcode/tree/master/0257-binary-tree-paths) |
+| [0494-target-sum](https://github.com/rohanxxx/leetcode/tree/master/0494-target-sum) |
 | [0813-all-paths-from-source-to-target](https://github.com/rohanxxx/leetcode/tree/master/0813-all-paths-from-source-to-target) |
 | [0865-robot-room-cleaner](https://github.com/rohanxxx/leetcode/tree/master/0865-robot-room-cleaner) |
 | [1076-brace-expansion](https://github.com/rohanxxx/leetcode/tree/master/1076-brace-expansion) |
