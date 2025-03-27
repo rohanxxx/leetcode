@@ -12,6 +12,7 @@ public:
     int longestPalindromeSubseq(string s) {
         int n = s.length();
         vector<vector<int>> dp(n, vector<int>(n, -1));
-        return func(0, n-1, s, dp);
+        func(0, n-1, s, dp);
+        return dp[0][n-1];
     }
 };
