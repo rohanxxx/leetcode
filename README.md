@@ -755,6 +755,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/rohanxxx/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1129-longest-string-chain](https://github.com/rohanxxx/leetcode/tree/master/1129-longest-string-chain) |
 | [1131-count-substrings-with-only-one-distinct-letter](https://github.com/rohanxxx/leetcode/tree/master/1131-count-substrings-with-only-one-distinct-letter) |
+| [1170-shortest-common-supersequence](https://github.com/rohanxxx/leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/rohanxxx/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1252-break-a-palindrome](https://github.com/rohanxxx/leetcode/tree/master/1252-break-a-palindrome) |
 | [1260-day-of-the-year](https://github.com/rohanxxx/leetcode/tree/master/1260-day-of-the-year) |
@@ -1256,6 +1257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1025-minimum-cost-for-tickets](https://github.com/rohanxxx/leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1086-divisor-game](https://github.com/rohanxxx/leetcode/tree/master/1086-divisor-game) |
 | [1129-longest-string-chain](https://github.com/rohanxxx/leetcode/tree/master/1129-longest-string-chain) |
+| [1170-shortest-common-supersequence](https://github.com/rohanxxx/leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1236-n-th-tribonacci-number](https://github.com/rohanxxx/leetcode/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/rohanxxx/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1286-constrained-subsequence-sum](https://github.com/rohanxxx/leetcode/tree/master/1286-constrained-subsequence-sum) |
