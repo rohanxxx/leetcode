@@ -14,31 +14,37 @@ public:
         }
         string ans = "";
         while(n > 0 && m > 0){
+            char temp;
             if(str1[n-1] == str2[m-1]){
-                ans += str1[n-1];
+                temp = str1[n-1];
+                ans = temp + ans;
                 n--; m--;
             }
             else{
                 if(dp[n-1][m] > dp[n][m-1]){
-                    ans += str1[n-1];
+                    temp = str1[n-1];
+                    ans = temp + ans;
                     n--;
                 }
                 else{
-                    ans += str2[m-1];
+                    temp = str2[m-1];
+                    ans = temp + ans;
                     m--;
                 }
             }
         }
 
         while(n > 0){
-            ans += str1[n-1];
+            char temp = str1[n-1];
+            ans = temp + ans;
             n--;
         }
         while(m > 0){
-            ans += str2[m-1];
+            char temp = str2[m-1];
+            ans = temp + ans;
             m--;
         }
-        reverse(ans.begin(), ans.end());
+        // reverse(ans.begin(), ans.end());
         return ans;
     }
 };
