@@ -14,9 +14,7 @@ public:
                     count[i] += count[prev];
                 }
             }
-            if(maxi < dp[i]){
-                maxi = dp[i];
-            }
+            maxi = max(maxi, dp[i]);
         }
         int nlsc = 0;
         for(int i = 0; i < n; i++){
