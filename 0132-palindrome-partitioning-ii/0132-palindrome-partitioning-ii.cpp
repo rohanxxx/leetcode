@@ -8,18 +8,6 @@ public:
         }
         return true;
     }
-    int func(int i, string& s, vector<int>& dp){
-        if(i == s.length()) return 0;
-        if(dp[i] != -1) return dp[i];
-        int minCost = INT_MAX;
-        for(int j = i; j < s.length(); j++){
-            if(isPalindrome(i, j, s)){
-                int cost = 1+func(j+1, s, dp);
-                minCost = min(minCost, cost);
-            }
-        }
-        return dp[i] = minCost;
-    }
     int minCut(string s) {
         int n = s.length();
         vector<int> dp(n+1, 0);
