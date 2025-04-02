@@ -1,7 +1,6 @@
 class Solution {
 public:
     bool isPalindrome(int i, int j, string& s){
-        // int i = 0, j = s.length();
         while(i <= j){
             if(s[i] != s[j]) return false;
             i++; j--;
