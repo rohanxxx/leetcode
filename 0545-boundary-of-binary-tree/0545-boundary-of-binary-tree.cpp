@@ -11,33 +11,28 @@
  */
 class Solution {
 public:
-    bool isLeaf(TreeNode* root){
-        return root->left == NULL && root->right == NULL;
+    bool isLeaf(TreeNode* node){
+        if(node->left == NULL && node->right == NULL) return true;
+        return false;
     }
-
-    void addLeaves(vector<int>& ans, TreeNode* root){
-        if(isLeaf(root)){
-            ans.push_back(root->val);
+    void addLeaves(vector<int>& ans, TreeNode* node){
+        if(!node) return;
+        if(isLeaf(node)) {
+            ans.push_back(node->val);
         }
         else{
-            if(root->left != NULL) addLeaves(ans, root->left);
-            if(root->right != NULL) addLeaves(ans, root->right);
+            if(node->left) addLeaves(ans, node->left);
+            if(node->right) addLeaves(ans, node->right);
         }
     }
-
     vector<int> boundaryOfBinaryTree(TreeNode* root) {
-        if(root == NULL) return {};
         vector<int> ans;
-        
+        if(!root) return ans;
         if(!isLeaf(root)) ans.push_back(root->val);
-        
         TreeNode* t = root->left;
-
-        // stores left boundary
         while(t != NULL){
             if(!isLeaf(t)) ans.push_back(t->val);
-            
-            if(t->left != NULL) t = t->left;
+            if(t->left) t = t->left;
             else t = t->right;
         }
 
@@ -45,6 +40,7 @@ public:
 
         stack<int> stack;
         t = root->right;
+
         while(t != NULL){
             if(!isLeaf(t)) stack.push(t->val);
 
@@ -58,5 +54,6 @@ public:
         }
 
         return ans;
+
     }
 };
