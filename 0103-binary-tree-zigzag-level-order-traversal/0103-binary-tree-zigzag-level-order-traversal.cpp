@@ -35,10 +35,6 @@ public:
             ans.push_back(level);
         }
 
-        /*for(int i = 0; i < ans.size(); i++){
-            if(i%2) reverse(ans[i].begin(), ans[i].end());
-        }*/
-
         return ans;
     }
 };
