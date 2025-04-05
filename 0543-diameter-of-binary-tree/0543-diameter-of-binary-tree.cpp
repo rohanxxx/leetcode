@@ -11,17 +11,17 @@
  */
 class Solution {
 public:
-    int diameter = 0;
-    int longestPath(TreeNode* root){
+    int diameter;
+    int dfs(TreeNode* root){
         if(!root) return 0;
-        int leftPath = longestPath(root->left);
-        int rightPath = longestPath(root->right);
-
-        diameter = max(diameter, leftPath+rightPath);
-        return max(leftPath, rightPath)+1;
+        int lh = dfs(root->left);
+        int rh = dfs(root->right);
+        diameter = max(diameter, lh+rh);
+        return 1+max(lh, rh);
     }
     int diameterOfBinaryTree(TreeNode* root) {
-        longestPath(root);
+        diameter = 0;
+        dfs(root);
         return diameter;
     }
 };
