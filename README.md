@@ -200,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0975-range-sum-of-bst](https://github.com/rohanxxx/leetcode/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/rohanxxx/leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1091-maximum-average-subtree](https://github.com/rohanxxx/leetcode/tree/master/1091-maximum-average-subtree) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/rohanxxx/leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -279,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0975-range-sum-of-bst](https://github.com/rohanxxx/leetcode/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/rohanxxx/leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1091-maximum-average-subtree](https://github.com/rohanxxx/leetcode/tree/master/1091-maximum-average-subtree) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/rohanxxx/leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -342,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0813-all-paths-from-source-to-target](https://github.com/rohanxxx/leetcode/tree/master/0813-all-paths-from-source-to-target) |
 | [0871-keys-and-rooms](https://github.com/rohanxxx/leetcode/tree/master/0871-keys-and-rooms) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/rohanxxx/leetcode/tree/master/1036-rotting-oranges) |
 | [1076-brace-expansion](https://github.com/rohanxxx/leetcode/tree/master/1076-brace-expansion) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -410,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0975-range-sum-of-bst](https://github.com/rohanxxx/leetcode/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/rohanxxx/leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1091-maximum-average-subtree](https://github.com/rohanxxx/leetcode/tree/master/1091-maximum-average-subtree) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/rohanxxx/leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -950,6 +954,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-reveal-cards-in-increasing-order](https://github.com/rohanxxx/leetcode/tree/master/0987-reveal-cards-in-increasing-order) |
 | [1014-k-closest-points-to-origin](https://github.com/rohanxxx/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1019-squares-of-a-sorted-array) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1052-campus-bikes](https://github.com/rohanxxx/leetcode/tree/master/1052-campus-bikes) |
 | [1074-high-five](https://github.com/rohanxxx/leetcode/tree/master/1074-high-five) |
 | [1098-largest-unique-number](https://github.com/rohanxxx/leetcode/tree/master/1098-largest-unique-number) |
@@ -1037,6 +1042,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0976-minimum-area-rectangle](https://github.com/rohanxxx/leetcode/tree/master/0976-minimum-area-rectangle) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/rohanxxx/leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1023-time-based-key-value-store](https://github.com/rohanxxx/leetcode/tree/master/1023-time-based-key-value-store) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1039-find-the-town-judge](https://github.com/rohanxxx/leetcode/tree/master/1039-find-the-town-judge) |
 | [1044-find-common-characters](https://github.com/rohanxxx/leetcode/tree/master/1044-find-common-characters) |
 | [1074-high-five](https://github.com/rohanxxx/leetcode/tree/master/1074-high-five) |
