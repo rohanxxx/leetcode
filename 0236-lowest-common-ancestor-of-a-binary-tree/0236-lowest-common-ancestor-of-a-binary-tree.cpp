@@ -9,13 +9,13 @@
  */
 class Solution {
 public:
-    TreeNode* dfs(TreeNode* root, TreeNode* p, TreeNode* q){
-        if(!root) return NULL;
-        TreeNode* left = dfs(root->left, p, q);
-        TreeNode* right = dfs(root->right, p, q);
+    TreeNode* dfs(TreeNode* node, TreeNode* p, TreeNode* q){
+        if(!node) return NULL;
+        TreeNode* left = dfs(node->left, p, q);
+        TreeNode* right = dfs(node->right, p, q);
 
-        if(left && right) return root;
-        if(root == p || root == q) return root;
+        if(left && right) return node;
+        if(node == p || node == q) return node;
         if(left) return left;
         if(right) return right;
         return NULL;
