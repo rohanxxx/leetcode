@@ -13,22 +13,24 @@ class Solution {
 public:
     int widthOfBinaryTree(TreeNode* root) {
         if(!root) return 0;
-        int maxWidth = INT_MIN;
-        queue<pair<TreeNode*, unsigned long long>> q; q.push({root, 0});
+        int ans = 0;
+        queue<pair<TreeNode*, long long>> q; q.push({root, 0});
         while(!q.empty()){
-            pair<TreeNode*, unsigned long long> head = q.front();
-            pair<TreeNode*, unsigned long long> curElement;
-            int currentLevelSize = q.size();
-            for(int i = 0; i < currentLevelSize; i++){
-                curElement = q.front(); q.pop();
-                TreeNode* node = curElement.first;
-                if(node->left) q.push({node->left, 2*(unsigned long long)curElement.second});
-                if(node->right) q.push({node->right, 2*(unsigned long long)curElement.second+1});
+            int size = q.size();
+            int minCurId = q.front().second;
+            int first, last;
+            for(int i = 0; i < size; i++){
+                TreeNode* node = q.front().first;
+                int curId = q.front().second - minCurId;
+                q.pop();
+                if(i == 0) first = curId;
+                if(i == size-1) last = curId;
+                if(node->left) q.push({node->left, (long long)2*curId + 1});
+                if(node->right) q.push({node->right, (long long)2*curId + 2});
             }
-            
-            maxWidth = max(maxWidth, (int)(curElement.second - head.second + 1));
-        }
 
-        return maxWidth;
+            ans = max(ans, last-first+1);
+        }
+        return ans;
     }
 };
