@@ -11,18 +11,28 @@
  */
 class Solution {
 public:
-    void dfs(TreeNode* root, int& count){
-        if(!root) {
-            return;
+    int leftHeight(TreeNode* root){
+        int height = 0;
+        while(root){
+            height++;
+            root = root->left;
         }
-        
-        count++;
-        dfs(root->left, count);
-        dfs(root->right, count);
+        return height;
     }
+    int rightHeight(TreeNode* root){
+        int height = 0;
+        while(root){
+            height++;
+            root = root->right;
+        }
+        return height;
+    }
+
     int countNodes(TreeNode* root) {
-        int count = 0;
-        dfs(root, count);
-        return count;   
+        if(!root) return 0;
+        int lh = leftHeight(root);
+        int rh = rightHeight(root);
+        if(lh == rh) return pow(2, lh)-1;
+        return 1 + countNodes(root->left) + countNodes(root->right);
     }
 };
