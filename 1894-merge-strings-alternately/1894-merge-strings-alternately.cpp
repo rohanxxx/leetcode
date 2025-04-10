@@ -9,10 +9,10 @@ public:
         }
 
         if(word1.size() > minSize){
-            ans += word1.substr(minSize);
+            return ans += word1.substr(minSize);
         }
         if(word2.size() > minSize){
-            ans += word2.substr(minSize);
+            return ans += word2.substr(minSize);
         }
 
         return ans;
