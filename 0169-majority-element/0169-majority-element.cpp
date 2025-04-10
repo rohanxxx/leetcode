@@ -6,8 +6,7 @@ public:
         int maxCount = 0;
         int maxElement = 0;
         for(int n: nums){
-            mp[n]++;
-            if(mp[n] > (size/2)){
+            if(++mp[n] > (size/2)){
                 if(maxCount < mp[n]){
                     maxElement = n;
                 }
