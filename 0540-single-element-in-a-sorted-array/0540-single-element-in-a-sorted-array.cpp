@@ -24,7 +24,6 @@ public:
     }
     int singleNonDuplicate(vector<int>& nums) {
         int n = nums.size();
-        // if(n == 1) return nums[0];
         int index = binarySearch(0, n-1, n, nums);
         if(index != -1) return nums[index];
         return -1;
