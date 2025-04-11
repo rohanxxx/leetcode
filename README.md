@@ -499,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0213-house-robber-ii](https://github.com/rohanxxx/leetcode/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/rohanxxx/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/rohanxxx/leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/rohanxxx/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/rohanxxx/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/rohanxxx/leetcode/tree/master/0239-sliding-window-maximum) |
@@ -953,6 +954,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/rohanxxx/leetcode/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/rohanxxx/leetcode/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/rohanxxx/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/rohanxxx/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/rohanxxx/leetcode/tree/master/0242-valid-anagram) |
 | [0252-meeting-rooms](https://github.com/rohanxxx/leetcode/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/rohanxxx/leetcode/tree/master/0253-meeting-rooms-ii) |
@@ -1023,6 +1025,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0187-repeated-dna-sequences](https://github.com/rohanxxx/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0202-happy-number](https://github.com/rohanxxx/leetcode/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/rohanxxx/leetcode/tree/master/0205-isomorphic-strings) |
+| [0217-contains-duplicate](https://github.com/rohanxxx/leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/rohanxxx/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/rohanxxx/leetcode/tree/master/0242-valid-anagram) |
 | [0249-group-shifted-strings](https://github.com/rohanxxx/leetcode/tree/master/0249-group-shifted-strings) |
