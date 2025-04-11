@@ -4,7 +4,6 @@ public:
         unordered_map<int, int> mp;
         for(int num: nums){
             if(mp[num]++) return true;
-            // mp[num]++;
         }
         return false;
     }
