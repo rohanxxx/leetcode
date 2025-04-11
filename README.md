@@ -464,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0057-insert-interval](https://github.com/rohanxxx/leetcode/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/rohanxxx/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/rohanxxx/leetcode/tree/master/0064-minimum-path-sum) |
+| [0066-plus-one](https://github.com/rohanxxx/leetcode/tree/master/0066-plus-one) |
 | [0068-text-justification](https://github.com/rohanxxx/leetcode/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/rohanxxx/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/rohanxxx/leetcode/tree/master/0075-sort-colors) |
@@ -1120,6 +1121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/rohanxxx/leetcode/tree/master/0012-integer-to-roman) |
 | [0048-rotate-image](https://github.com/rohanxxx/leetcode/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/rohanxxx/leetcode/tree/master/0062-unique-paths) |
+| [0066-plus-one](https://github.com/rohanxxx/leetcode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/rohanxxx/leetcode/tree/master/0070-climbing-stairs) |
 | [0149-max-points-on-a-line](https://github.com/rohanxxx/leetcode/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/rohanxxx/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
