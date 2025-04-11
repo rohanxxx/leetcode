@@ -18,6 +18,7 @@ public:
             return mid;
         }
         int checkLeft = binarySearch(left, mid-1, n, nums);
+        if(checkLeft > -1) return checkLeft;
         int checkRight = binarySearch(mid+1, right, n, nums);
         return max(checkLeft, checkRight);
     }
