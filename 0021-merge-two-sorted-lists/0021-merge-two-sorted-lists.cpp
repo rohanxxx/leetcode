@@ -29,8 +29,8 @@ public:
             temp = temp->next;
         }
 
-        if(!list1) temp->next = list2;
-        else temp->next = list1;
+        if(list1) temp->next = list1;
+        if(list2) temp->next = list2;
 
         return mergeList->next;
     }
