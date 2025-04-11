@@ -546,6 +546,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/rohanxxx/leetcode/tree/master/0525-contiguous-array) |
 | [0531-lonely-pixel-i](https://github.com/rohanxxx/leetcode/tree/master/0531-lonely-pixel-i) |
+| [0540-single-element-in-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/rohanxxx/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0575-distribute-candies](https://github.com/rohanxxx/leetcode/tree/master/0575-distribute-candies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -1472,6 +1473,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/rohanxxx/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0441-arranging-coins](https://github.com/rohanxxx/leetcode/tree/master/0441-arranging-coins) |
 | [0493-reverse-pairs](https://github.com/rohanxxx/leetcode/tree/master/0493-reverse-pairs) |
+| [0540-single-element-in-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0729-my-calendar-i](https://github.com/rohanxxx/leetcode/tree/master/0729-my-calendar-i) |
 | [0808-number-of-matching-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0808-number-of-matching-subsequences) |
