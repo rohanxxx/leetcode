@@ -1133,6 +1133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/rohanxxx/leetcode/tree/master/0202-happy-number) |
 | [0204-count-primes](https://github.com/rohanxxx/leetcode/tree/master/0204-count-primes) |
 | [0227-basic-calculator-ii](https://github.com/rohanxxx/leetcode/tree/master/0227-basic-calculator-ii) |
+| [0231-power-of-two](https://github.com/rohanxxx/leetcode/tree/master/0231-power-of-two) |
 | [0367-valid-perfect-square](https://github.com/rohanxxx/leetcode/tree/master/0367-valid-perfect-square) |
 | [0368-largest-divisible-subset](https://github.com/rohanxxx/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0369-plus-one-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0369-plus-one-linked-list) |
@@ -1366,6 +1367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0187-repeated-dna-sequences](https://github.com/rohanxxx/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0190-reverse-bits](https://github.com/rohanxxx/leetcode/tree/master/0190-reverse-bits) |
 | [0222-count-complete-tree-nodes](https://github.com/rohanxxx/leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0231-power-of-two](https://github.com/rohanxxx/leetcode/tree/master/0231-power-of-two) |
 | [0260-single-number-iii](https://github.com/rohanxxx/leetcode/tree/master/0260-single-number-iii) |
 | [0266-palindrome-permutation](https://github.com/rohanxxx/leetcode/tree/master/0266-palindrome-permutation) |
 | [0338-counting-bits](https://github.com/rohanxxx/leetcode/tree/master/0338-counting-bits) |
@@ -1558,6 +1560,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0025-reverse-nodes-in-k-group](https://github.com/rohanxxx/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0143-reorder-list](https://github.com/rohanxxx/leetcode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0206-reverse-linked-list) |
+| [0231-power-of-two](https://github.com/rohanxxx/leetcode/tree/master/0231-power-of-two) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0394-decode-string](https://github.com/rohanxxx/leetcode/tree/master/0394-decode-string) |
 | [0439-ternary-expression-parser](https://github.com/rohanxxx/leetcode/tree/master/0439-ternary-expression-parser) |
