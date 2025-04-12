@@ -1,7 +1,6 @@
 class Solution {
 public:
     int maximumCandies(vector<int>& candies, long long k) {
-        // priority_queue<int, vector<int>, greater<int>> minQ;
         int maxElement = INT_MIN;
         for(int num: candies){
             maxElement = max(maxElement, num);
