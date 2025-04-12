@@ -856,6 +856,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/rohanxxx/leetcode/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/rohanxxx/leetcode/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/rohanxxx/leetcode/tree/master/0042-trapping-rain-water) |
+| [0061-rotate-list](https://github.com/rohanxxx/leetcode/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/rohanxxx/leetcode/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/rohanxxx/leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/0088-merge-sorted-array) |
@@ -1539,6 +1540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/rohanxxx/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/rohanxxx/leetcode/tree/master/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/rohanxxx/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
+| [0061-rotate-list](https://github.com/rohanxxx/leetcode/tree/master/0061-rotate-list) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/rohanxxx/leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
