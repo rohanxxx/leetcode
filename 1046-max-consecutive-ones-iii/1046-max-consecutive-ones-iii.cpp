@@ -10,12 +10,10 @@ public:
             if(zeros > k){
                 // update the left pointer and zero count;
                 while(true){
-                    if(nums[left] == 0){
-                        left++;
+                    if(nums[left++] == 0){
                         zeros--;
                         break;
                     }
-                    left++;
                 }
             }
             maxLen = max(i-left+1, maxLen);
