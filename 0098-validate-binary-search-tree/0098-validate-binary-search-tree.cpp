@@ -23,7 +23,7 @@ public:
         }
 
         // The left and right subtree must also be valid.
-        return validate(root->right, root, high) and validate(root->left, low, root);
+        return validate(root->left, low, root) && validate(root->right, root, high);
     }
 
     bool isValidBST(TreeNode* root) {
