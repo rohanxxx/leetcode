@@ -2,6 +2,8 @@ class Solution {
 public:
     bool canChange(string start, string target) {
         int startLength = start.size();
+        // cout << "start.size(): " << start.size() << endl;
+        // cout << "target.size(): " << target.size() << endl;
         // Pointer for start string and target string
         int startIndex = 0, targetIndex = 0;
 
