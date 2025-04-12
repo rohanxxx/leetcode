@@ -8,15 +8,9 @@ public:
             int hourSpent = 0;
 
             for (int pile : piles) {
-                int quo = pile / middle;
-                int rem = pile % middle;
-                if(quo > 0){
-                    hourSpent += (quo + (rem > 0));
-                    if(hourSpent > h) break;
-                    continue; 
-                }
-
-                hourSpent++;
+                int curHourSpent = ceil((double)pile/(double)middle);
+                if(curHourSpent == 0) curHourSpent = 1;
+                hourSpent += curHourSpent;
                 if(hourSpent > h) break;
             }
 
