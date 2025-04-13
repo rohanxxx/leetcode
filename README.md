@@ -353,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1076-brace-expansion](https://github.com/rohanxxx/leetcode/tree/master/1076-brace-expansion) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1142-minimum-knight-moves](https://github.com/rohanxxx/leetcode/tree/master/1142-minimum-knight-moves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/rohanxxx/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1254-deepest-leaves-sum](https://github.com/rohanxxx/leetcode/tree/master/1254-deepest-leaves-sum) |
 | [1271-web-crawler](https://github.com/rohanxxx/leetcode/tree/master/1271-web-crawler) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/rohanxxx/leetcode/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
@@ -601,6 +602,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/rohanxxx/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1164-missing-number-in-arithmetic-progression](https://github.com/rohanxxx/leetcode/tree/master/1164-missing-number-in-arithmetic-progression) |
 | [1165-meeting-scheduler](https://github.com/rohanxxx/leetcode/tree/master/1165-meeting-scheduler) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/rohanxxx/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1200-remove-interval](https://github.com/rohanxxx/leetcode/tree/master/1200-remove-interval) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1249-snapshot-array](https://github.com/rohanxxx/leetcode/tree/master/1249-snapshot-array) |
@@ -717,6 +719,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0898-transpose-matrix](https://github.com/rohanxxx/leetcode/tree/master/0898-transpose-matrix) |
 | [1036-rotting-oranges](https://github.com/rohanxxx/leetcode/tree/master/1036-rotting-oranges) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/rohanxxx/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/rohanxxx/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1331-path-with-maximum-gold](https://github.com/rohanxxx/leetcode/tree/master/1331-path-with-maximum-gold) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/rohanxxx/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1559-cherry-pickup-ii](https://github.com/rohanxxx/leetcode/tree/master/1559-cherry-pickup-ii) |
