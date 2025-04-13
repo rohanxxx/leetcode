@@ -11,23 +11,22 @@
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
-        ListNode* dummy = new ListNode();
-        dummy->next = head;
-        ListNode* prevNode = dummy;
-
-        while(head && head->next){
-            ListNode* firstNode = head;
-            ListNode* secondNode = head->next;
-
-            // now swap operation
-            prevNode->next = secondNode;
-            firstNode->next = secondNode->next;
-            secondNode->next = firstNode;
-
-            prevNode = firstNode;
-            head = firstNode->next;
+        if(head == NULL) return NULL;
+        vector<ListNode*> v;
+        while(head){
+            v.push_back(head);
+            head = head->next;
         }
-
-        return dummy->next;
+        int n = v.size();
+        for(int i = 0; i < n; i += 2){
+            if(i+1 < n){
+                swap(v[i], v[i+1]);
+            }
+        }
+        for(int i = 1; i < n; i++){
+            v[i-1]->next = v[i];
+        }
+        v.back()->next = NULL;
+        return v[0];
     }
 };
