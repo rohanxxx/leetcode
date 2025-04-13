@@ -11,15 +11,19 @@
  */
 class Solution {
 public:
-    void recurse(TreeNode* root, vector<int>& v){
+    int ans;
+    void dfs(TreeNode* root, int& k, int& count){
         if(root == NULL) return;
-        recurse(root->left, v);
-        v.push_back(root->val);
-        recurse(root->right, v);
+        dfs(root->left, k, count);
+        if(++count == k){
+            ans = root->val;
+        }
+        dfs(root->right, k, count);
     }
     int kthSmallest(TreeNode* root, int k) {
-        vector<int> v;
-        recurse(root, v);
-        return v[k-1];
+        ans = INT_MIN;
+        int count = 0;
+        dfs(root, k, count);
+        return ans;
     }
 };
