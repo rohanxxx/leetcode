@@ -11,10 +11,17 @@ public:
             prefix[right+1]--; 
         }
 
+        /*for(int i = 0; i <= n; i++){
+            cout << prefix[i] << " ";
+        }
+        cout << endl;*/
         for(int i = 1; i < n; i++){
             prefix[i] += prefix[i-1];
         }
-
+        /*for(int i = 0; i <= n; i++){
+            cout << prefix[i] << " ";
+        }
+        cout << endl;*/
         for(int i = 0; i < n; i++){
             nums[i] -= prefix[i];
             if(nums[i] > 0) return false;
