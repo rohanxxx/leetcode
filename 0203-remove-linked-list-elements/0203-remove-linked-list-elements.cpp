@@ -16,7 +16,6 @@ public:
         ListNode* temp = head;
         while(temp){
             if(temp->val != val){
-                // cout << "temp->val: " << temp ->val << endl;
                 q.push(temp);
             }
             temp = temp->next;
