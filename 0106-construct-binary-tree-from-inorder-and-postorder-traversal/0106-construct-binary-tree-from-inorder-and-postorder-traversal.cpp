@@ -1,23 +1,32 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
-    int postorderIndex;
-    unordered_map<int, int> mp;
-
 public:
-    TreeNode* helper(vector<int>& postorder, vector<int>& inorder, int left, int right) {
-        if (left > right) return NULL;
-        int root_val = postorder[postorderIndex--];
-        TreeNode* root = new TreeNode(root_val);
-        int index = mp[root_val];
-        root->right = helper(postorder, inorder, index + 1, right);
-        root->left = helper(postorder, inorder, left, index - 1);
+    int postorderIndex = 0;
+    unordered_map<int, int> inorderIndex;
+    TreeNode* binarySearch(vector<int>& postorder, int left, int right){
+        if(left > right) return NULL;
+        int rootVal = postorder[postorderIndex--];
+        TreeNode* root = new TreeNode(rootVal);
+        root->right = binarySearch(postorder, inorderIndex[rootVal]+1, right);
+        root->left = binarySearch(postorder, left, inorderIndex[rootVal]-1);
         return root;
     }
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
-        int n = postorder.size();
-        postorderIndex = n - 1;
-        for (int i = 0; i < n; i++) {
-            mp[inorder[i]] = i;
+        int n = inorder.size();
+        postorderIndex = n-1;
+        for(int i = 0; i < n; i++){
+            inorderIndex[inorder[i]] = i;
         }
-        return helper(postorder, inorder, 0, n - 1);
+        return binarySearch(postorder, 0, n-1);
     }
 };
