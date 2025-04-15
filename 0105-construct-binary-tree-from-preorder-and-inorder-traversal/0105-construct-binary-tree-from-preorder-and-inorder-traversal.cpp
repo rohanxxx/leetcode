@@ -11,20 +11,22 @@
  */
 class Solution {
 public:
-    int preOrderIndex = 0;
+    int preorderIndex = 0;
     unordered_map<int, int> inorderIndex;
-    
-    TreeNode* convert(vector<int>& preorder, int left, int right){
+    TreeNode* binarySearch(vector<int>& preorder, int left, int right){
         if(left > right) return NULL;
-        int rootValue = preorder[preOrderIndex++];
-        TreeNode* root = new TreeNode(rootValue);
-        root->left = convert(preorder, left, inorderIndex[rootValue]-1);
-        root->right = convert(preorder, inorderIndex[rootValue]+1, right);
+        int rootVal = preorder[preorderIndex++];
+        TreeNode* root = new TreeNode(rootVal);
+        root->left = binarySearch(preorder, left, inorderIndex[rootVal]-1);
+        root->right = binarySearch(preorder, inorderIndex[rootVal]+1, right);
+
         return root;
     }
-
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        for(int i = 0; i < inorder.size(); i++) inorderIndex[inorder[i]] = i;
-        return convert(preorder, 0, preorder.size()-1);
+        int n = inorder.size();
+        for(int i = 0; i < n; i++){
+            inorderIndex[inorder[i]] = i;
+        }
+        return binarySearch(preorder, 0, n-1);
     }
 };
