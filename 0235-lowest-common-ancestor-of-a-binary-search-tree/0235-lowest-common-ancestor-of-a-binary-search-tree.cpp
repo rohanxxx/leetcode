@@ -10,26 +10,19 @@
 
 class Solution {
 public:
-    TreeNode* dfs(TreeNode* currentNode, TreeNode* p, TreeNode* q){
-        if(!currentNode) return NULL;
-
-        TreeNode* leftTree = dfs(currentNode->left, p, q);
-        TreeNode* rightTree = dfs(currentNode->right, p, q);
-
-        if((leftTree && rightTree) || (currentNode == p || currentNode == q)) return currentNode;
+    TreeNode* dfs(TreeNode* node, TreeNode* p, TreeNode* q){
+        if(node == NULL) return NULL;
         
-        if(leftTree == NULL) return rightTree;
-        return leftTree;
+        TreeNode* left = dfs(node->left, p, q);
+        TreeNode* right = dfs(node->right, p, q);
+        if((node == p || node == q) || (left && right)){
+            return node;
+        }
+
+        if(left) return left;
+        return right;
     }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        /*if(!root) return NULL;
-        if(p->val < root->val && q->val < root->val) {
-            return lowestCommonAncestor(root->left, p, q);
-        }
-        if(p->val > root->val && q->val > root->val){
-            return lowestCommonAncestor(root->right, p, q);
-        }
-        return root;*/
         return dfs(root, p, q);
     }
 };
