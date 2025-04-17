@@ -12,7 +12,7 @@
 class Solution {
 public:
     void bst(TreeNode* node, int& val){
-        if(val <= node->val){
+        if(val < node->val){
             if(node->left){
                 bst(node->left, val);
             }
