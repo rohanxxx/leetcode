@@ -11,19 +11,20 @@
  */
 class Solution {
 public:
-    int ans;
-    void dfs(TreeNode* root, int& k, int& count){
-        if(root == NULL) return;
-        dfs(root->left, k, count);
+    int kthElement;
+    void bst(TreeNode* node, int& k, int& count){
+        if(!node) return;
+        bst(node->left, k, count);
         if(++count == k){
-            ans = root->val;
+            kthElement = node->val;
+            return;
         }
-        dfs(root->right, k, count);
+        bst(node->right, k, count);
     }
     int kthSmallest(TreeNode* root, int k) {
-        ans = INT_MIN;
         int count = 0;
-        dfs(root, k, count);
-        return ans;
+        kthElement = INT_MAX;
+        bst(root, k, count);
+        return kthElement;
     }
 };
