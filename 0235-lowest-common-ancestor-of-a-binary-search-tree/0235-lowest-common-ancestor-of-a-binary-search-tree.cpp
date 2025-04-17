@@ -10,19 +10,17 @@
 
 class Solution {
 public:
-    TreeNode* dfs(TreeNode* node, TreeNode* p, TreeNode* q){
-        if(node == NULL) return NULL;
-        
-        TreeNode* left = dfs(node->left, p, q);
-        TreeNode* right = dfs(node->right, p, q);
-        if((node == p || node == q) || (left && right)){
-            return node;
+    TreeNode* bst(TreeNode* node, TreeNode* p, TreeNode* q){
+        if(node == NULL)  return NULL;
+        if(node->val < p->val && node->val < q->val){
+            return bst(node->right, p, q);
         }
-
-        if(left) return left;
-        return right;
+        if (node->val > p->val && node->val > q->val){
+            return bst(node->left, p, q);
+        }
+        return node;
     }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        return dfs(root, p, q);
+        return bst(root, p, q);
     }
 };
