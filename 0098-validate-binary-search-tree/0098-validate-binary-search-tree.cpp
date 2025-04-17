@@ -11,22 +11,16 @@
  */
 class Solution {
 public:
-    bool validate(TreeNode* root, TreeNode* low, TreeNode* high) {
-        // Empty trees are valid BSTs.
-        if (root == nullptr) {
-            return true;
-        }
+    bool dfs(TreeNode* node, TreeNode* low, TreeNode* high){
+        if(node == NULL) return true;
+        if((low != NULL && node->val <= low->val) || (high != NULL && node->val >= high->val)) return false;
+        
+        bool left = dfs(node->left, low, node);
+        bool right = dfs(node->right, node, high);
 
-        // The current node's value must be between low and high.
-        if ((low != nullptr and root->val <= low->val) or (high != nullptr and root->val >= high->val)) {
-            return false;
-        }
-
-        // The left and right subtree must also be valid.
-        return validate(root->left, low, root) && validate(root->right, root, high);
+        return left && right;
     }
-
     bool isValidBST(TreeNode* root) {
-        return validate(root, nullptr, nullptr);
+        return dfs(root, NULL, NULL);
     }
 };
