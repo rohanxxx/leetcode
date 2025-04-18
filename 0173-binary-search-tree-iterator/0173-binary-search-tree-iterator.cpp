@@ -10,7 +10,7 @@
  * };
  */
 class BSTIterator {
-public:
+private:
     int index;
     vector<int> inorder;
     void bst(TreeNode* root){
@@ -19,6 +19,7 @@ public:
         inorder.push_back(root->val);
         bst(root->right);
     }
+public:
     BSTIterator(TreeNode* root) {
         bst(root);
         if(inorder.size() > 0) index = 0;
