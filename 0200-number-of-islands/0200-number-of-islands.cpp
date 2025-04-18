@@ -5,14 +5,15 @@ public:
         if(grid[r][c] == '0') return;
         if(grid[r][c] == '1') grid[r][c] = '0';
         
-        // up
-        if((r-1) >= 0) vanishIslands(grid, r-1, c);
-        // down
-        if((r+1) < m) vanishIslands(grid, r+1, c); 
-        // left
-        if((c-1) >= 0) vanishIslands(grid, r, c-1);
-        // right
-        if((c+1) < n) vanishIslands(grid, r, c+1);
+        vector<vector<int>> cood = {{{1,0}, {0,1}, {-1, 0}, {0, -1}};
+	    for(int i = 0; i < cood.size(); i++){
+		    int R = r+cood[i][0];
+		    int C = c+cood[i][1];
+		    if(R >= 0 && R < grid.size() && C >= 0 && C < grid[0].size()){
+			    vanishIslands(zzzzzR, C, grid);
+            }
+        }
+
     }
     int numIslands(vector<vector<char>>& grid) {
         m = grid.size();
