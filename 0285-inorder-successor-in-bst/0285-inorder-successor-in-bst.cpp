@@ -9,26 +9,17 @@
  */
 class Solution {
 public:
-    void bst(TreeNode* node, vector<TreeNode*>& inorder){
-        if(node == NULL) return;
-        bst(node->left, inorder);
-        inorder.push_back(node);
-        bst(node->right, inorder);
-    }
     TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p) {
-        vector<TreeNode*> inorder;
-        bst(root, inorder);
-        int index = 0;
-        for(int i = 0; i < inorder.size(); i++){
-            cout << inorder[i]->val << " ";
-            
-            if(inorder[i]->val == p->val){
-                index = (i+1);
-                break;
+        TreeNode* successor = NULL;
+        while(root){
+            if(p->val >= root->val){
+                root = root->right;
+            }
+            else{
+                successor = root;
+                root = root->left;
             }
         }
-        cout << endl;
-        if(index == inorder.size()) return NULL;
-        return inorder[index];
+        return successor;
     }
 };
