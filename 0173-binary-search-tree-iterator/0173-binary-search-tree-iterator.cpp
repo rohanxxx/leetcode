@@ -21,18 +21,18 @@ private:
     }
 public:
     BSTIterator(TreeNode* root) {
-        bst(root);
-        if(inorder.size() > 0) index = 0;
-        else index = 1;
+        this->bst(root);
+        if(this->inorder.size() > 0) this->index = 0;
+        else this->index = 1;
     }
     
     int next() {
         if(index >= inorder.size()) return NULL;
-        return inorder[index++];
+        return this->inorder[this->index++];
     }
     
     bool hasNext() {
-        if(index >= inorder.size()) return false;
+        if(this->index >= this->inorder.size()) return false;
         return true;
     }
 };
