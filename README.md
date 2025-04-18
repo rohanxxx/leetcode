@@ -205,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0988-flip-equivalent-binary-trees](https://github.com/rohanxxx/leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/rohanxxx/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1091-maximum-average-subtree](https://github.com/rohanxxx/leetcode/tree/master/1091-maximum-average-subtree) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/rohanxxx/leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -431,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0988-flip-equivalent-binary-trees](https://github.com/rohanxxx/leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/rohanxxx/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1091-maximum-average-subtree](https://github.com/rohanxxx/leetcode/tree/master/1091-maximum-average-subtree) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/rohanxxx/leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -602,6 +604,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1044-find-common-characters](https://github.com/rohanxxx/leetcode/tree/master/1044-find-common-characters) |
 | [1046-max-consecutive-ones-iii](https://github.com/rohanxxx/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/rohanxxx/leetcode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/rohanxxx/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1052-campus-bikes](https://github.com/rohanxxx/leetcode/tree/master/1052-campus-bikes) |
 | [1059-missing-element-in-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1059-missing-element-in-sorted-array) |
 | [1074-high-five](https://github.com/rohanxxx/leetcode/tree/master/1074-high-five) |
@@ -1634,6 +1637,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0931-maximum-frequency-stack](https://github.com/rohanxxx/leetcode/tree/master/0931-maximum-frequency-stack) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/rohanxxx/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1002-maximum-width-ramp](https://github.com/rohanxxx/leetcode/tree/master/1002-maximum-width-ramp) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/rohanxxx/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/rohanxxx/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1150-two-sum-bsts](https://github.com/rohanxxx/leetcode/tree/master/1150-two-sum-bsts) |
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/rohanxxx/leetcode/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
@@ -1806,6 +1810,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0654-maximum-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0654-maximum-binary-tree) |
 | [0739-daily-temperatures](https://github.com/rohanxxx/leetcode/tree/master/0739-daily-temperatures) |
 | [1002-maximum-width-ramp](https://github.com/rohanxxx/leetcode/tree/master/1002-maximum-width-ramp) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/rohanxxx/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -1826,6 +1831,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0789-kth-largest-element-in-a-stream](https://github.com/rohanxxx/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/rohanxxx/leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0975-range-sum-of-bst](https://github.com/rohanxxx/leetcode/tree/master/0975-range-sum-of-bst) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/rohanxxx/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1150-two-sum-bsts](https://github.com/rohanxxx/leetcode/tree/master/1150-two-sum-bsts) |
 ## Geometry
 |  |
