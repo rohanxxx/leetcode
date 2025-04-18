@@ -15,7 +15,7 @@ public:
         //first build the graph
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n; j++){
-                if(isConnected[i][j]) graph[i].push_back(j);
+                if(j != i && isConnected[i][j]) graph[i].push_back(j);
             }
         }
 
@@ -28,7 +28,6 @@ public:
                 dfs(graph, i, visited);
             }
         }
-
         return provinces;
     }
 };
