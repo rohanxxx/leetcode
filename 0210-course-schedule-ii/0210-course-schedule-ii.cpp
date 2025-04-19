@@ -1,54 +1,30 @@
 class Solution {
 public:
-    int WHITE = 1;
-    int GRAY = 2;
-    int BLACK = 3;
+    vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
+        int n = numCourses;
+        vector<int> indegree(n, 0);
+        vector<vector<int>> graph(n);
+        for(auto prereq: prerequisites){
+            indegree[prereq[0]]++;
+            graph[prereq[1]].push_back(prereq[0]);
+        }
 
-    void dfs(int node, map<int, int>& color, map<int, vector<int>>& adjList, bool& isPossible, vector<int>& topologicalOrder){
-        if(!isPossible) return;
-        color[node] = GRAY;
-        for(int neighbor: adjList[node]){
-            if(color[neighbor] == WHITE){
-                dfs(neighbor, color, adjList, isPossible, topologicalOrder);
-            }
-            else{
-                if(color[neighbor] == GRAY){
-                    isPossible = false;
+        queue<int> q;
+        for(int i = 0; i < n; i++){
+            if(indegree[i] == 0) q.push(i);
+        }
+
+        vector<int> topoSort;
+        while(!q.empty()){
+            int node = q.front(); q.pop();
+            topoSort.push_back(node);
+            for(int nextNode: graph[node]){
+                if(--indegree[nextNode] == 0){
+                    q.push(nextNode);
                 }
             }
         }
-
-        color[node] = BLACK;
-        topologicalOrder.push_back(node);
-    }
-
-    vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-        bool isPossible = true;
-        map<int, int> color;
-        map<int, vector<int>> adjList;
-        vector<int>topologicalOrder;
-
-        for(int i = 0; i < numCourses; i++) color[i] = WHITE;
-
-        //create the graph here
-        for(auto& prereq: prerequisites){
-            int dest = prereq[0];
-            int src = prereq[1];
-            adjList[src].push_back(dest);
-        }
-
-        //start recursing
-        for(int i = 0; i < numCourses && isPossible; i++){
-            if(color[i] == WHITE){
-                dfs(i, color, adjList, isPossible, topologicalOrder);
-            }
-        }
-
-        if(isPossible){
-            reverse(topologicalOrder.begin(), topologicalOrder.end());
-            return topologicalOrder;
-        }
-
+        if((int)topoSort.size() == n) return topoSort;
         return {};
     }
 };
