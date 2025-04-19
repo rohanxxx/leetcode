@@ -3,7 +3,7 @@ public:
     int m, n;
     void vanishIslands(vector<vector<char>>& grid, int r, int c){
         if(grid[r][c] == '0') return;
-        if(grid[r][c] == '1') grid[r][c] = '0';
+        grid[r][c] = '0';
         vector<vector<int>> cood = {{1,0}, {0,1}, {-1, 0}, {0, -1}};
         for(int i = 0; i < cood.size(); i++){
             int R = r+cood[i][0];
