@@ -16,10 +16,12 @@ public:
                 q.push(i);
             }
         }
-        vector<int> topoSort;
+        // vector<int> topoSort;
+        int count = 0;
         while(!q.empty()){
             int node = q.front(); q.pop();
-            topoSort.push_back(node);
+            // topoSort.push_back(node);
+            count++;
             for(int nextNode: graph[node]){
                 if(--indegree[nextNode] == 0){
                     q.push(nextNode);
@@ -27,6 +29,6 @@ public:
             }
         }
         // if(topoSort.size() == n) return true;
-        return (int)topoSort.size() == n;
+        return count == n;
     }
 };
