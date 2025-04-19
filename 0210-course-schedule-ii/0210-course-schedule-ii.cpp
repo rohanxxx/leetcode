@@ -25,6 +25,7 @@ public:
             }
         }
         if((int)topoSort.size() == n) return topoSort;
+        
         return {};
     }
 };
