@@ -1,36 +1,32 @@
 class Solution {
 public:
-    bool dfs(int node, vector<bool>& visited, vector<bool>& inStack, vector<vector<int>>& graph){
-        if(inStack[node]) return true;
-        if(visited[node]) return false;
-
-        inStack[node] = true;
-        visited[node] = true;
-
-        for(int nextNode: graph[node]){
-            if(dfs(nextNode, visited, inStack, graph)){
-                return true;
-            }
-        }
-        inStack[node] = false;
-        return false;
-    }
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        if(prerequisites.size() == 0) return true;
         int n = numCourses;
         vector<vector<int>> graph(n);
-        for(auto prereq: prerequisites){
+        vector<int> indegree(n, 0);
+        // build the graph here
+        for(vector<int> prereq: prerequisites){
+            indegree[prereq[0]]++;
             graph[prereq[1]].push_back(prereq[0]);
         }
-        vector<bool> visited (n, false);
-        vector<bool> inStack (n, false);
-
+        queue<int> q;
         for(int i = 0; i < n; i++){
-            // if detects cycle return false;
-            if(dfs(i, visited, inStack, graph)){
-                return false;
+            if(indegree[i] == 0){
+                // cout << "i: " << i << endl;
+                q.push(i);
             }
         }
-        return true;
+        vector<int> topoSort;
+        while(!q.empty()){
+            int node = q.front(); q.pop();
+            topoSort.push_back(node);
+            for(int nextNode: graph[node]){
+                if(--indegree[nextNode] == 0){
+                    q.push(nextNode);
+                }
+            }
+        }
+        // if(topoSort.size() == n) return true;
+        return (int)topoSort.size() == n;
     }
 };
