@@ -4,16 +4,14 @@ public:
     void vanishIslands(vector<vector<char>>& grid, int r, int c){
         if(grid[r][c] == '0') return;
         if(grid[r][c] == '1') grid[r][c] = '0';
-        
-        vector<vector<int>> cood = {{{1,0}, {0,1}, {-1, 0}, {0, -1}};
-	    for(int i = 0; i < cood.size(); i++){
-		    int R = r+cood[i][0];
-		    int C = c+cood[i][1];
-		    if(R >= 0 && R < grid.size() && C >= 0 && C < grid[0].size()){
-			    vanishIslands(zzzzzR, C, grid);
+        vector<vector<int>> cood = {{1,0}, {0,1}, {-1, 0}, {0, -1}};
+        for(int i = 0; i < cood.size(); i++){
+            int R = r+cood[i][0];
+            int C = c+cood[i][1];
+            if(R >= 0 && R < grid.size() && C >= 0 && C < grid[0].size()){
+                vanishIslands(grid, R, C);
             }
         }
-
     }
     int numIslands(vector<vector<char>>& grid) {
         m = grid.size();
