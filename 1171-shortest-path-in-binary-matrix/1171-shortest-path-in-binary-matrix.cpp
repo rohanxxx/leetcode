@@ -1,7 +1,6 @@
 class Solution {
 public:
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
-
         int n = grid.size();
         int m = grid[0].size();
 
@@ -19,7 +18,10 @@ public:
         queue<vector<int>> q; q.push({0,0,1});
         distance[0] = 1;
 
-        vector<vector<int>> deltaXY = {{-1, -1}, {-1, 1}, {1,-1}, {1,1}, {0,-1}, {0,1}, {-1, 0}, {1, 0}};
+        vector<vector<int>> deltaXY = {
+            {-1, -1}, {-1, 1}, {1,-1}, {1,1},
+             {0,-1}, {0,1}, {-1, 0}, {1, 0}
+             };
         while(!q.empty()){
             vector<int> v = q.front(); q.pop();
             int curRow = v[0];
