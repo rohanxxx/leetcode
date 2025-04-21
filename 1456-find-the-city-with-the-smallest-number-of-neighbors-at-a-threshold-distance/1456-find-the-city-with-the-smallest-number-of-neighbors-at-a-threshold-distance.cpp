@@ -22,27 +22,27 @@ public:
             for(int i = 0; i < n; i++){
                 for(int j = 0; j < n; j++){
                     //it means do not make any changes otherwise do the operation
-                    if(graph[i][via] == INT_MAX || graph[via][j] == INT_MAX){
+                    if(i == j || graph[i][via] == INT_MAX || graph[via][j] == INT_MAX){
                         continue;
                     }
                     graph[i][j] = min(graph[i][j], graph[i][via]+graph[via][j]);
                 }
             }
         }
+        
         int minCount = INT_MAX, ans;
         vector<int> reachable(n, 0);
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n; j++){
-                // cout << graph[i][j] << " ";
                 if(i == j) continue;
                 if(graph[i][j] <= distanceThreshold) reachable[i]++;
             }
-            // cout << endl;
             if(reachable[i] <= minCount){
                 minCount = reachable[i];
                 ans = i;
             }
         }
+        
         return ans;
     }
 };
