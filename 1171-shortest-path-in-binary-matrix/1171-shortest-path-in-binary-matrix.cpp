@@ -15,7 +15,7 @@ public:
         // first zero is the row
         // second zero is the col
         // third element is the distance to get to that particular vector
-        queue<vector<int>> q; q.push({0,0,1});
+        priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>> q; q.push({1,0,0});
         distance[0] = 1;
 
         vector<vector<int>> deltaXY = {
@@ -23,20 +23,20 @@ public:
              {0,-1}, {0,1}, {-1, 0}, {1, 0}
              };
         while(!q.empty()){
-            vector<int> v = q.front(); q.pop();
-            int curRow = v[0];
-            int curCol = v[1];
-            int curWeight = v[2];
-
+            vector<int> v = q.top(); q.pop();
+            int curRow = v[1];
+            int curCol = v[2];
+            int curWeight = v[0];
+            if(curRow == n-1 && curCol == m-1) {
+                return distance.back();
+            }
             for(vector<int> delta: deltaXY){
                 int nextRow = curRow+delta[0];
                 int nextCol = curCol+delta[1];
                 if(nextRow >= 0 && nextRow < n && nextCol >= 0 && nextCol < m && grid[nextRow][nextCol] == 0){
                     int newWeight = curWeight + 1;
-                    
                     if(newWeight < distance[nextRow * m + nextCol]){
-                        if(nextRow == n-1 && nextCol == m-1){}
-                        else q.push({nextRow, nextCol, newWeight});
+                        q.push({newWeight, nextRow, nextCol, newWeight});
                         distance[nextRow * m + nextCol] = newWeight;
                     }
                 }
