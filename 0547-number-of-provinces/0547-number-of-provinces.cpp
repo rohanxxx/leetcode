@@ -4,9 +4,9 @@ public:
         public:
             vector<int> parent, size;
             DSU(int n){
-                size.resize(n);
-                parent.resize(n);
-                for(int i = 0; i < n; i++){
+                size.resize(n+1);
+                parent.resize(n+1);
+                for(int i = 0; i < n+1; i++){
                     parent[i] = i;
                     size[i] = 1;
                 }
@@ -41,13 +41,13 @@ public:
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n; j++){
                 if(isConnected[i][j] == 1) {
-                    disjointSet.unionBySize(i, j);
+                    disjointSet.unionBySize(i+1, j+1);
                 }
             }
         }
 
         int provinces = 0;
-        for(int i = 0; i < n; i++){
+        for(int i = 1; i < n+1; i++){
             if(disjointSet.parent[i] == i){
                 provinces++;
             }
