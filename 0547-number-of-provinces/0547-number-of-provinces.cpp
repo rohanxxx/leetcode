@@ -1,31 +1,55 @@
 class Solution {
 public:
-    void dfs(vector<vector<int>>& graph, int node, vector<bool>& visited){
-        for(int i = 0; i < graph[node].size(); i++){
-            if(!visited[graph[node][i]]){
-                visited[graph[node][i]] = true;
-                dfs(graph, graph[node][i], visited);
+    class DSU{
+        public:
+            vector<int> parent, size;
+            DSU(int n){
+                size.resize(n);
+                parent.resize(n);
+                for(int i = 0; i < n; i++){
+                    parent[i] = i;
+                    size[i] = 1;
+                }
             }
-        }
-    }
+
+            int findParent(int node){
+                // this is our base case
+                if(parent[node] == node) return parent[node];
+                // this is where the path compression happens
+                return parent[node] = findParent(parent[node]);
+            }
+
+            void unionBySize(int node1, int node2){
+                int n1parent = findParent(node1);
+                int n2parent = findParent(node2);
+                
+                if(n1parent == n2parent) return;
+                if(size[n1parent] < size[n2parent]){
+                    parent[n1parent] = parent[n2parent];
+                    size[n2parent] += size[n1parent];
+                }
+                else {
+                    parent[n2parent] = parent[n1parent];
+                    size[n1parent] += size[n2parent];
+                } 
+            }
+    };
 
     int findCircleNum(vector<vector<int>>& isConnected) {
         int n = isConnected.size();
-        vector<vector<int>> graph(n);
-        //first build the graph
+        DSU disjointSet(n);
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n; j++){
-                if(j != i && isConnected[i][j]) graph[i].push_back(j);
+                if(isConnected[i][j] == 1) {
+                    disjointSet.unionBySize(i, j);
+                }
             }
         }
 
         int provinces = 0;
-        vector<bool> visited(n);
         for(int i = 0; i < n; i++){
-            if(!visited[i]){
-                visited[i] = true;
+            if(disjointSet.parent[i] == i){
                 provinces++;
-                dfs(graph, i, visited);
             }
         }
         return provinces;
