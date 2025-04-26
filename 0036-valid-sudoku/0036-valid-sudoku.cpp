@@ -2,9 +2,7 @@ class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
         int LEN = 9;
-        set <char> rows[9];
-        set <char> columns[9];
-        set <char> boxes[9];
+        vector<unordered_set<char>> rows(9), columns(9), boxes(9);
 
         for(int r = 0; r < LEN; r++){
             for(int c = 0; c < LEN; c++){
