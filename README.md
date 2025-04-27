@@ -193,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0545-boundary-of-binary-tree) |
 | [0549-binary-tree-longest-consecutive-sequence-ii](https://github.com/rohanxxx/leetcode/tree/master/0549-binary-tree-longest-consecutive-sequence-ii) |
+| [0572-subtree-of-another-tree](https://github.com/rohanxxx/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0582-kill-process](https://github.com/rohanxxx/leetcode/tree/master/0582-kill-process) |
 | [0654-maximum-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0654-maximum-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
@@ -279,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0545-boundary-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0545-boundary-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/rohanxxx/leetcode/tree/master/0547-number-of-provinces) |
 | [0549-binary-tree-longest-consecutive-sequence-ii](https://github.com/rohanxxx/leetcode/tree/master/0549-binary-tree-longest-consecutive-sequence-ii) |
+| [0572-subtree-of-another-tree](https://github.com/rohanxxx/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0582-kill-process](https://github.com/rohanxxx/leetcode/tree/master/0582-kill-process) |
 | [0662-maximum-width-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0669-trim-a-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0669-trim-a-binary-search-tree) |
@@ -434,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0545-boundary-of-binary-tree) |
 | [0549-binary-tree-longest-consecutive-sequence-ii](https://github.com/rohanxxx/leetcode/tree/master/0549-binary-tree-longest-consecutive-sequence-ii) |
+| [0572-subtree-of-another-tree](https://github.com/rohanxxx/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0654-maximum-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0654-maximum-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0669-trim-a-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0669-trim-a-binary-search-tree) |
@@ -889,6 +892,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/rohanxxx/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0459-repeated-substring-pattern](https://github.com/rohanxxx/leetcode/tree/master/0459-repeated-substring-pattern) |
+| [0572-subtree-of-another-tree](https://github.com/rohanxxx/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0616-add-bold-tag-in-string](https://github.com/rohanxxx/leetcode/tree/master/0616-add-bold-tag-in-string) |
 | [0812-rotate-string](https://github.com/rohanxxx/leetcode/tree/master/0812-rotate-string) |
 | [1764-maximum-repeating-substring](https://github.com/rohanxxx/leetcode/tree/master/1764-maximum-repeating-substring) |
@@ -1481,6 +1485,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/rohanxxx/leetcode/tree/master/0187-repeated-dna-sequences) |
+| [0572-subtree-of-another-tree](https://github.com/rohanxxx/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0694-number-of-distinct-islands](https://github.com/rohanxxx/leetcode/tree/master/0694-number-of-distinct-islands) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 ## Graph
