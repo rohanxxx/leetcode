@@ -13,7 +13,7 @@ public:
                 left++;
                 curWindow = right-left+1;
             }
-            curWindow = right-left+1;
+            //curWindow = right-left+1;
             if(curWindow-maxFreq <= k){
                 maxLen = max(maxLen, curWindow);
             }
