@@ -1,4 +1,8 @@
 class Solution {
+    /*
+        [2,1,5,6,2,3]
+        [0,1,2,3,4,5]
+    */
 public:
     int largestRectangleArea(vector<int>& heights) {
         int n = heights.size();
