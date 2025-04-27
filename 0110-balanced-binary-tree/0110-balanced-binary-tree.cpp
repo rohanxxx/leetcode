@@ -10,18 +10,22 @@
  * };
  */
 class Solution {
+    /* root
+        if abs(root->left height - root->right height) <= 1
+    */
 public:
-    int height(TreeNode* node){
-        if(!node) return 0;
-        return 1 + max(height(node->left), height(node->right));
-    }
-    bool dfs(TreeNode* node){
-        if(!node) return true;
-        int lh = height(node->left);
-        int rh = height(node->right);
-        return abs(lh - rh) < 2 && dfs(node->left) && dfs(node->right);
+    int dfs(TreeNode* root, bool& isBalanced){
+        if(root == NULL) return 0;
+        int leftHeight = dfs(root->left, isBalanced);
+        int rightHeight = dfs(root->right, isBalanced);
+        if(abs(leftHeight - rightHeight) > 1) {
+            isBalanced = false;
+        }
+        return 1+ max(leftHeight, rightHeight);
     }
     bool isBalanced(TreeNode* root) {
-        return dfs(root);
+        bool isBalanced = true;
+        dfs(root, isBalanced);
+        return isBalanced;
     }
 };
