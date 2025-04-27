@@ -18,7 +18,7 @@ public:
             return;
         }
         curDepth++;
-        depth = max(depth, curDepth);
+        //depth = max(depth, curDepth);
         dfs(root->left, curDepth);
         dfs(root->right,curDepth);
     }
