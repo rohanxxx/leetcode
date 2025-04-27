@@ -11,13 +11,21 @@
  */
 class Solution {
 public:
-    int dfs(TreeNode* node){
-        if(!node) return 0;
-        int left_count = dfs(node->left);
-        int right_count = dfs(node->right);
-        return 1 + max(left_count, right_count);
+    int depth;
+    void dfs(TreeNode* root, int curDepth){
+        if(root == NULL){
+            depth = max(depth, curDepth);
+            return;
+        }
+        curDepth++;
+        depth = max(depth, curDepth);
+        dfs(root->left, curDepth);
+        dfs(root->right,curDepth);
     }
     int maxDepth(TreeNode* root) {
-        return dfs(root);
+        int curDepth;
+        depth = curDepth = 0;
+        dfs(root, curDepth);
+        return depth;
     }
 };
