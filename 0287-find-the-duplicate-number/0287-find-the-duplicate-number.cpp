@@ -6,6 +6,7 @@ public:
             int cur = abs(nums[i]);
             if(nums[cur] < 0){
                 duplicate = cur;
+                break;
             }
             nums[cur] *= -1;
         }
