@@ -9,18 +9,28 @@
  */
 
 class Solution {
+    /*
+        if(root->val == p->val || root->val == q->val){
+            return root;
+        }
+        if(root->val > p->val && root->val > q->val) then go to left
+        else if root->val < p->val && root->val < q->val then go to right
+
+        return root;
+    */
 public:
-    TreeNode* bst(TreeNode* node, TreeNode* p, TreeNode* q){
-        if(node == NULL)  return NULL;
-        if(node->val < p->val && node->val < q->val){
-            return bst(node->right, p, q);
+    TreeNode* dfs(TreeNode* root, TreeNode* p, TreeNode* q){
+        if(root == NULL) return NULL;
+        if(root->val == p->val || root->val == q->val) return root;
+        if(root->val > p->val && root->val > q->val){
+            return dfs(root->left, p, q);
         }
-        if (node->val > p->val && node->val > q->val){
-            return bst(node->left, p, q);
+        if(root->val < p->val && root->val < q->val){
+            return dfs(root->right, p, q);
         }
-        return node;
+        return root;
     }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        return bst(root, p, q);
+        return dfs(root, p, q);
     }
 };
