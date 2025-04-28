@@ -24,15 +24,12 @@ public:
                 add += l2->val;
                 l2 = l2->next;
             }
-
             carry = add/10;
-            add = add%10;
-
+            add = add % 10;
             temp->next = new ListNode(add);
             temp = temp->next;
         }
-
-        if(carry) temp->next = new ListNode(carry);
+        if(carry > 0) temp->next = new ListNode(carry);
         return sum->next;
     }
 };
