@@ -21,8 +21,7 @@ public:
 
 class Solution {
 public:
-    unordered_map<Node*, Node*> visited;
-    Node* cloneGraph(Node* node) {
+    Node* dfs(Node* node, unordered_map<Node*, Node*>& visited){
         if(node == NULL) return NULL;
         if(visited[node] != NULL){
             return visited[node];
@@ -30,8 +29,14 @@ public:
         Node* cloneNode = new Node(node->val, {});
         visited[node] = cloneNode;
         for(Node* n: node->neighbors){
-            cloneNode->neighbors.push_back(cloneGraph(n));
+            cloneNode->neighbors.push_back(dfs(n, visited));
         }
+        return cloneNode;
+    }
+    
+    Node* cloneGraph(Node* node) {
+        unordered_map<Node*, Node*> visited;
+        Node* cloneNode = dfs(node, visited);
         return cloneNode;
     }
 };
