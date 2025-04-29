@@ -1,66 +1,53 @@
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
-        queue<pair<int, int>> rottenQueue;
-        int freshOranges = 0;
-        int ROWS = grid.size(), COLS = grid[0].size();
-        
-        // Step 1: build the initial set of rotten oranges
-        for (int r = 0; r < ROWS; ++r) {
-            for (int c = 0; c < COLS; ++c) {
-                if (grid[r][c] == 2)
-                    rottenQueue.push(make_pair(r, c));
-                else if (grid[r][c] == 1)
-                    freshOranges++;
+        int n = grid.size();
+        int m = grid[0].size();
+        int orangeCount = 0;
+        queue<pair<int, int>> q;
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < m; j++){
+                if(grid[i][j] == 2){
+                    q.push({i,j});
+                    continue;
+                }
+                if(grid[i][j] == 1){
+                    orangeCount++;
+                }
             }
         }
-        
-        // Mark the end of a round/level with a special pair (-1, -1)
-        rottenQueue.push(make_pair(-1, -1));
-        
-        // Step 2: start the rotting process via BFS
-        int minutesElapsed = -1;
-        vector<vector<int>> directions = { {-1, 0}, {0, 1}, {1, 0}, {0, -1} };
-        
-        while (!rottenQueue.empty()) {
-            pair<int, int> p = rottenQueue.front();
-            rottenQueue.pop();
-            int row = p.first;
-            int col = p.second;
-            
-            if (row == -1) {
-                // We finish one round of processing
-                minutesElapsed++;
-                // to avoid the endless loop, add a marker for the next round
-                if (!rottenQueue.empty()) {
-                    rottenQueue.push(make_pair(-1, -1));
-                }
-            } else {
-                // this is a rotten orange
-                // then it would contaminate its neighbors
-                for (auto& d : directions) {
-                    int neighborRow = row + d[0];
-                    int neighborCol = col + d[1];
-                    
-                    if (neighborRow >= 0 && neighborRow < ROWS &&
-                        neighborCol >= 0 && neighborCol < COLS) {
-                        if (grid[neighborRow][neighborCol] == 1) {
-                            // this orange would be contaminated
-                            grid[neighborRow][neighborCol] = 2;
-                            freshOranges--;
-                            // this orange would then contaminate other oranges
-                            rottenQueue.push(make_pair(neighborRow, neighborCol));
+        //cout << "orangeCount: " << orangeCount << endl;
+        vector<vector<int>> d_xy = {{1,0}, {-1,0}, {0,1}, {0,-1}};
+
+        int time = -1;
+        while(!q.empty()){
+            int size = q.size();
+            for(int i = 0; i < size; i++){
+                orangeCount--;
+                pair<int, int> p = q.front(); q.pop();
+                int r = p.first;
+                int c = p.second;
+                for(auto xy: d_xy){
+                    int curRow = r + xy[0];
+                    int curCol = c + xy[1];
+                    if(curRow >= 0 && curRow < n && curCol >= 0 && curCol < m){
+                        if(grid[curRow][curCol] == 1){
+                            grid[curRow][curCol] = 2;
+                            q.push({curRow, curCol});
                         }
                     }
                 }
             }
+            time++;
         }
-        
-        // return elapsed minutes if no fresh orange left
-        if (freshOranges == 0) {
-            return minutesElapsed;
-        } else {
-            return -1;
+        //cout << "orangeCount: " << orangeCount << endl;
+        //if(orangeCount > 0) return -1;
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < m; j++){
+                if(grid[i][j] == 1) return -1;
+            }
         }
+        if(time == -1) return 0;
+        return time;
     }
 };
