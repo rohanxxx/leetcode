@@ -27,8 +27,7 @@ public:
     
         // Perform BFS from each gate
         while (!q.empty()) {
-            pair<int, int> point = q.front();
-            q.pop();
+            pair<int, int> point = q.front(); q.pop();
             int row = point.first;
             int col = point.second;
         
