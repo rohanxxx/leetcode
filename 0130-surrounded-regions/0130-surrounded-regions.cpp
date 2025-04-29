@@ -1,34 +1,61 @@
 class Solution {
 public:
-    int ROW, COL;
-    void dfs(vector<vector<char>>& board, int i, int j){
-        if(board[i][j] != 'O') return;
-        
-        board[i][j] = 'E';
-        if (j < COL - 1) dfs(board, i, j + 1);
-        if (i < ROW - 1) dfs(board, i + 1, j);
-        if (j > 0) dfs(board, i, j - 1);
-        if (i > 0) dfs(board, i - 1, j);
-    }
     void solve(vector<vector<char>>& board) {
-        ROW = board.size();
-        COL = board[0].size();
-        for(int i = 0; i < ROW; i++){
-            for(int j = 0; j < COL; j++){
-                if (i == 0 || j == 0 || i == ROW - 1 || j == COL - 1)
-                    dfs(board, i, j);
+        int n = board.size();
+        int m = board[0].size();
+
+        queue<pair<int, int>> q;
+
+        //TC -> O(n*m)
+        //mark the edge islands with 'E'
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < m; j++){
+                if(i == 0 || j == 0 || i == n-1 || j == m-1){
+                    if(board[i][j] == 'O'){
+                        q.push({i, j});
+                    }
+                }
             }
         }
-        for(int i = 0; i < ROW; i++){
-            for(int j = 0; j < COL; j++){
-                if(board[i][j] == 'O') {
-                    board[i][j] = 'X';
-                    continue;
+
+        vector<vector<int>> dir = {{1,0}, {-1,0}, {0,1}, {0,-1}};
+        while(!q.empty()){
+            pair<int, int> p = q.front(); q.pop();
+            int curRow = p.first;
+            int curCol = p.second;
+            
+            board[curRow][curCol] = 'E';
+            
+            for(auto it: dir){
+                int adjr = curRow + it[0];
+                int adjc = curCol + it[1];
+                if(adjr >= 0 && adjr < n && adjc >= 0 && adjc < m){
+                    if(board[adjr][adjc] == 'O'){
+                        q.push({adjr, adjc});
+                    }
                 }
+            }
+        }
+
+        //TC -> O(n*m)
+        //convert the regions to the water land
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < m; j++){
+                if(board[i][j] == 'O'){
+                    board[i][j] = 'X';
+                }
+            }
+        }
+
+        //TC -> O(n*m)
+        //mark the edge islands back to '0'
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < m; j++){
                 if(board[i][j] == 'E'){
                     board[i][j] = 'O';
                 }
             }
         }
+        return;
     }
 };
