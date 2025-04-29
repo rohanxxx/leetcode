@@ -24,7 +24,7 @@ public:
     unordered_map<Node*, Node*> visited;
     Node* cloneGraph(Node* node) {
         if(node == NULL) return NULL;
-        if(visited.find(node) != visited.end()){
+        if(visited[node] != NULL){
             return visited[node];
         }
         Node* cloneNode = new Node(node->val, {});
