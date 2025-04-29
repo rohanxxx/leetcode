@@ -290,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0687-longest-univalue-path](https://github.com/rohanxxx/leetcode/tree/master/0687-longest-univalue-path) |
 | [0690-employee-importance](https://github.com/rohanxxx/leetcode/tree/master/0690-employee-importance) |
 | [0694-number-of-distinct-islands](https://github.com/rohanxxx/leetcode/tree/master/0694-number-of-distinct-islands) |
+| [0695-max-area-of-island](https://github.com/rohanxxx/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/rohanxxx/leetcode/tree/master/0721-accounts-merge) |
 | [0744-network-delay-time](https://github.com/rohanxxx/leetcode/tree/master/0744-network-delay-time) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/rohanxxx/leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
@@ -362,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/rohanxxx/leetcode/tree/master/0684-redundant-connection) |
 | [0690-employee-importance](https://github.com/rohanxxx/leetcode/tree/master/0690-employee-importance) |
 | [0694-number-of-distinct-islands](https://github.com/rohanxxx/leetcode/tree/master/0694-number-of-distinct-islands) |
+| [0695-max-area-of-island](https://github.com/rohanxxx/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/rohanxxx/leetcode/tree/master/0721-accounts-merge) |
 | [0744-network-delay-time](https://github.com/rohanxxx/leetcode/tree/master/0744-network-delay-time) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/rohanxxx/leetcode/tree/master/0764-n-ary-tree-level-order-traversal) |
@@ -599,6 +601,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0673-number-of-longest-increasing-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0690-employee-importance](https://github.com/rohanxxx/leetcode/tree/master/0690-employee-importance) |
 | [0692-top-k-frequent-words](https://github.com/rohanxxx/leetcode/tree/master/0692-top-k-frequent-words) |
+| [0695-max-area-of-island](https://github.com/rohanxxx/leetcode/tree/master/0695-max-area-of-island) |
 | [0697-degree-of-an-array](https://github.com/rohanxxx/leetcode/tree/master/0697-degree-of-an-array) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/rohanxxx/leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
@@ -759,6 +762,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0490-the-maze](https://github.com/rohanxxx/leetcode/tree/master/0490-the-maze) |
 | [0531-lonely-pixel-i](https://github.com/rohanxxx/leetcode/tree/master/0531-lonely-pixel-i) |
 | [0542-01-matrix](https://github.com/rohanxxx/leetcode/tree/master/0542-01-matrix) |
+| [0695-max-area-of-island](https://github.com/rohanxxx/leetcode/tree/master/0695-max-area-of-island) |
 | [0898-transpose-matrix](https://github.com/rohanxxx/leetcode/tree/master/0898-transpose-matrix) |
 | [1036-rotting-oranges](https://github.com/rohanxxx/leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/rohanxxx/leetcode/tree/master/1073-number-of-enclaves) |
@@ -1832,6 +1836,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/rohanxxx/leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/rohanxxx/leetcode/tree/master/0684-redundant-connection) |
 | [0694-number-of-distinct-islands](https://github.com/rohanxxx/leetcode/tree/master/0694-number-of-distinct-islands) |
+| [0695-max-area-of-island](https://github.com/rohanxxx/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/rohanxxx/leetcode/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/rohanxxx/leetcode/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/rohanxxx/leetcode/tree/master/1073-number-of-enclaves) |
