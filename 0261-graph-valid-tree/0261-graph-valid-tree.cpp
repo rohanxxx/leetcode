@@ -1,33 +1,52 @@
 class Solution {
 public:
+    /*
+    visited: 0 1 2 
+    queue: {0,-1}/ {1,0}/ {2,1}/ {3,1}/ {4,1} {3,2}
+    */
     bool validTree(int n, vector<vector<int>>& edges) {
-        vector<vector<int>> tree(n);
-        //bulding the graph
-        for(auto &edge: edges){
-            tree[edge[0]].push_back(edge[1]);
-            tree[edge[1]].push_back(edge[0]);
+        vector<int> visited(n);
+        vector<vector<int>> graph(n);
+
+        //built the graph
+        //O(E)
+        for(auto it: edges){
+            graph[it[0]].push_back(it[1]);
+            graph[it[1]].push_back(it[0]);
         }
 
-        unordered_map<int, int> parent;
-        parent[0] = -1;
+        int components = 0;
+        //pair<node, parentNode>
+        queue<pair<int, int>> q; 
+        for(int i = 0; i < n; i++){
+            if(visited[i] == 0){
+                components++;
+                q.push({i, -1});
+                visited[i] = 1;
+                //TC: O(V + 2E)
+                while(!q.empty()){
+                    int node = q.front().first;
+                    int parentNode = q.front().second;
 
-        queue<int> stack;
-        stack.push(0);
+                    q.pop();
 
-        while(!stack.empty()){
-            int node = stack.front(); stack.pop();
-            for(auto nextNode: tree[node]){
-                //detects the parentNode
-                if(parent[node] == nextNode) continue;
-                //detects the cycle
-                if(parent.find(nextNode) != parent.end()) return false;
-
-                //dfs
-                stack.push(nextNode);
-                parent[nextNode] = node;
+                    for(auto adjNode: graph[node]){
+                        if(visited[adjNode] == 0){
+                            visited[adjNode] = 1;
+                            q.push({adjNode, node});
+                        }
+                        else{
+                            if(adjNode != parentNode){
+                                return false;
+                            }
+                        }
+                    }
+                }
             }
         }
 
-        return parent.size() == n;
+        if(components > 1) return false;
+
+        return true;
     }
 };
