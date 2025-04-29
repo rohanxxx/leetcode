@@ -1,55 +1,50 @@
-class DSU {
-private:
-    vector<int> parent;
-    vector<int> rank;
-public:
-    DSU(int size){
-        parent.resize(size);
-        rank.resize(size, 0);
-        for(int i = 0; i < size; i++){
-            parent[i] = i;
-        }
-    }
-
-    int find(int x){
-        if(parent[x] != x){
-            parent[x] = find(parent[x]);
-        }
-        return parent[x];
-    }
-
-    bool unionSets(int x, int y){
-        int xr = find(x);
-        int yr = find(y);
-
-        if(xr == yr){
-            return false;
-        }
-        else if (rank[xr] < rank[yr]){
-            parent[xr] = yr;
-        }
-        else if (rank[xr] > rank[yr]){
-            parent[yr] = xr;
-        }
-        else{
-            parent[yr] = xr;
-            rank[xr]++;
-        }
-
-        return true;
-    }
-};
-
 class Solution {
 public:
+    class DSU{
+        public:
+            vector<int> parent, size;
+            DSU(int n){
+                size.resize(n+1);
+                parent.resize(n+1);
+                for(int i = 0; i < n+1; i++){
+                    parent[i] = i;
+                    size[i] = 1;
+                }
+            }
+
+            int findParent(int node){
+                // this is our base case
+                if(parent[node] == node) return parent[node];
+                // this is where the path compression happens
+                return parent[node] = findParent(parent[node]);
+            }
+
+            bool unionBySize(int node1, int node2){
+                int n1parent = findParent(node1);
+                int n2parent = findParent(node2);
+                
+                if(n1parent == n2parent) return true;
+                if(size[n1parent] < size[n2parent]){
+                    parent[n1parent] = parent[n2parent];
+                    size[n2parent] += size[n1parent];
+                }
+                else {
+                    parent[n2parent] = parent[n1parent];
+                    size[n1parent] += size[n2parent];
+                } 
+                return false;
+            }
+    };
+
     vector<int> findRedundantConnection(vector<vector<int>>& edges) {
-        DSU dsu(1000+1);
-        for(const auto& edge: edges){
-            if(!dsu.unionSets(edge[0], edge[1])){
-                return edge;
+        int n = edges.size();
+        
+        DSU dsu(n);
+        for(auto it: edges){
+            if(dsu.unionBySize(it[0], it[1])){
+                return {it[0], it[1]};
             }
         }
-
         return {};
     }
 };
