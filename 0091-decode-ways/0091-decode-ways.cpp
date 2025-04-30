@@ -16,7 +16,7 @@ public:
     }
     int numDecodings(string s) {
         int n = s.length();
-        vector<int> dp(n+1, -1);
+        vector<int> dp(n, -1);
         return solve(0, s, dp);
     }
 };
