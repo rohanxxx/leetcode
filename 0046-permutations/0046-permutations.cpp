@@ -1,25 +1,31 @@
 class Solution {
 public:
-    vector<vector<int>> ans;
-    void backtrack(vector<int>& nums, vector<int>& current){
-        if(current.size() == nums.size()){
-            ans.push_back(current);
+    /*
+                            [1,2,3]
+        [1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]
+        [1 2 3]
+        [2,3,1]
+        [2,1,3] 
+    */
+    void backtrack(vector<int> cur, vector<vector<int>>& ans, vector<int>& nums, int& n){
+        if(cur.size() == n){
+            ans.push_back(cur);
             return;
         }
-
-        for(int& num: nums){
-            // if not found then push it to the current vector
-            if(find(current.begin(), current.end(), num) == current.end()){
-                current.push_back(num);
-                backtrack(nums, current);
-                current.pop_back();
+        for(int num: nums){
+            if(find(cur.begin(), cur.end(), num) == cur.end()){
+                cur.push_back(num);
+                backtrack(cur, ans, nums, n);
+                cur.pop_back();
             }
         }
         return;
     }
     vector<vector<int>> permute(vector<int>& nums) {
-        vector<int> current;
-        backtrack(nums, current);
+        int n = nums.size();
+        vector<int> cur;
+        vector<vector<int>> ans;
+        backtrack(cur, ans, nums, n);
         return ans;
     }
 };
