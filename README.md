@@ -683,6 +683,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1672-find-the-index-of-the-large-integer](https://github.com/rohanxxx/leetcode/tree/master/1672-find-the-index-of-the-large-integer) |
 | [1682-most-visited-sector-in-a-circular-track](https://github.com/rohanxxx/leetcode/tree/master/1682-most-visited-sector-in-a-circular-track) |
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/rohanxxx/leetcode/tree/master/1693-sum-of-all-odd-length-subarrays) |
+| [1706-min-cost-to-connect-all-points](https://github.com/rohanxxx/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1762-furthest-building-you-can-reach](https://github.com/rohanxxx/leetcode/tree/master/1762-furthest-building-you-can-reach) |
 | [1784-minimum-initial-energy-to-finish-tasks](https://github.com/rohanxxx/leetcode/tree/master/1784-minimum-initial-energy-to-finish-tasks) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
@@ -1540,6 +1541,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1442-number-of-operations-to-make-network-connected](https://github.com/rohanxxx/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/rohanxxx/leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1661-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/rohanxxx/leetcode/tree/master/1661-minimum-number-of-vertices-to-reach-all-nodes) |
+| [1706-min-cost-to-connect-all-points](https://github.com/rohanxxx/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1916-find-center-of-star-graph](https://github.com/rohanxxx/leetcode/tree/master/1916-find-center-of-star-graph) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rohanxxx/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rohanxxx/leetcode/tree/master/2206-detonate-the-maximum-bombs) |
@@ -1856,6 +1858,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/rohanxxx/leetcode/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/rohanxxx/leetcode/tree/master/1073-number-of-enclaves) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/rohanxxx/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1706-min-cost-to-connect-all-points](https://github.com/rohanxxx/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rohanxxx/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Shortest Path
@@ -1988,4 +1991,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1300-critical-connections-in-a-network](https://github.com/rohanxxx/leetcode/tree/master/1300-critical-connections-in-a-network) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/rohanxxx/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
