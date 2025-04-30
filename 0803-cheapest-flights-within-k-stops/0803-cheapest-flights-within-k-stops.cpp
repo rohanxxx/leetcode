@@ -26,9 +26,6 @@ public:
                 int adjNode = adj.first;
                 int adjCost = adj.second;
                 int totalCost = adjCost + curCost;
-                /*cout << "totalCost: " << totalCost << endl;
-                cout << "adjNode: " << adjNode << endl;
-                cout << "costs[adjNode]: " << costs[adjNode] << endl << endl;*/
                 int totalStop = curStop + 1;
                 if(totalCost < costs[adjNode]){
                     costs[adjNode] = totalCost;
@@ -36,13 +33,9 @@ public:
                 }
             }
         }
-        /*
-        for(int i = 0; i < costs.size(); i++){
-            cout << costs[i] << " ";
-        }
-        cout << endl;
-        */
+        
         if(costs[dst] == INT_MAX) return -1;
+        
         return costs[dst];
     }
 };
