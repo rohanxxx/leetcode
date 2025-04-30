@@ -20,14 +20,14 @@ public:
         if(n==1) return 1;
         if(n==2) return 2;
         vector<int> dp(n+1, 0);
-        dp[1] = 1;
-        dp[2] = 2;
+        int prev1 = 1;
+        int prev2 = 2;
         for(int i = 3; i <= n; i++){
-            int take1 = 0, take2 = 0;
-            if(i-1 >= 0) take1 = dp[i-1];
-            if(i-2 >= 0) take2 = dp[i-2];
-            dp[i] = take1+take2;
+            int take1 = prev1;
+            int take2 = prev2;
+            prev1 = prev2;
+            prev2 = take1+take2;
         }
-        return dp[n];
+        return prev2;
     }
 };
