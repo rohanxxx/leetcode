@@ -9,6 +9,7 @@ public:
         
         int count = 0;
         queue<string> q; q.push(beginWord);
+        //O(logN)
         set.erase(beginWord);
         while(!q.empty()){
             count++;
@@ -16,15 +17,19 @@ public:
             for(int i = 0; i < size; i++){
                 string node = q.front(); q.pop();
                 if(node == endWord) return count;
+                //O(k*26*logN)
                 for(int i = 0; i < node.size(); i++){
-                    string temp = node;
+                    char original = node[i];
+                    //O(26)
                     for(char c = 'a'; c <= 'z'; c++){
-                        temp[i] = c;
-                        if(set.find(temp) != set.end()){
-                            q.push(temp);
-                            set.erase(temp);
+                        node[i] = c;
+                        if(set.find(node) != set.end()){
+                            q.push(node);
+                            //O(logN)
+                            set.erase(node);
                         }
                     }
+                    node[i] = original;
                 }
             }
         }
