@@ -25,23 +25,23 @@ public:
     int numDistinct(string s, string t) {
         int n = s.length();
         int m = t.length();
-        vector<vector<long long>> dp(n+1, vector<long long>(m+1, 0));
-        /*for(int j = 0; j <= m; j++){
-            dp[n][j] = 0;
-        }*/
-        for(int i = 0; i <= n; i++){
+        //vector<vector<long long>> dp(n+1, vector<long long>(m+1, 0));
+        vector<long long> front(m+1, 0), cur(m+1, 0);
+        front[m] = cur[m] = 1;
+        /*for(int i = 0; i <= n; i++){
             dp[i][m] = 1;
-        }
+        }*/
         for(int i = n-1; i >= 0; i--){
             for(int j = m-1; j >= 0; j--){
                 int matched = 0;
                 if(s[i] == t[j]){
-                    matched = dp[i+1][j+1];
+                    matched = front[j+1];
                 }
-                int regardless = dp[i+1][j];
-                dp[i][j] = (long long)matched+regardless;
+                int regardless = front[j];
+                cur[j] = (long long)matched+regardless;
             }
+            front = cur;
         }
-        return dp[0][0];
+        return front[0];
     }
 };
