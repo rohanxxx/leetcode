@@ -9,7 +9,7 @@ class Solution {
     */
 public:
     //O(2^n*m) imporove it to O(n*m)
-    int func(int i, int j, string& s, string& t, vector<vector<int>>& dp){
+    /*int func(int i, int j, string& s, string& t, vector<vector<int>>& dp){
         if(j == t.length()) return 1;
         if(j < t.length() && i == s.length()) return 0;
         
@@ -21,7 +21,7 @@ public:
         }
         int regardless = func(i+1, j, s, t, dp);
         return dp[i][j] = matched+regardless;
-    }
+    }*/
     int numDistinct(string s, string t) {
         int n = s.length();
         int m = t.length();
