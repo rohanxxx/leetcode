@@ -2,14 +2,12 @@ class Solution {
 public:
     vector<int> countBits(int n) {
         vector<int> ans;
-        ans.push_back(0);
-    
-        for(int i = 1; i < n+1; i++){
-            int decVal = i;
+        for(int j = 0; j <= n; j++){
             int count = 0;
-            while(decVal > 0){
-                count += decVal & 1; // checking if least significant number is 1
-                decVal >>= 1; // right shift by 1
+            for(int i = 0; i < 32; i++){
+                if(j & (1 << i)){
+                    count++;
+                }
             }
             ans.push_back(count);
         }
