@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int func(int i, int flag, vector<int>& prices, vector<vector<int>>& dp){
+    /*int func(int i, int flag, vector<int>& prices, vector<vector<int>>& dp){
         if(i >= prices.size()) return 0;
         if(dp[i][flag] != -1) return dp[i][flag];
         int profit = 0;
@@ -16,7 +16,7 @@ public:
         }
 
         return dp[i][flag] = profit; 
-    }
+    }*/
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
         vector<vector<int>> dp(n, vector<int>(2, 0));
