@@ -26,9 +26,9 @@ public:
         int n = s.length();
         int m = t.length();
         vector<vector<long long>> dp(n+1, vector<long long>(m+1, 0));
-        for(int j = 0; j <= m; j++){
+        /*for(int j = 0; j <= m; j++){
             dp[n][j] = 0;
-        }
+        }*/
         for(int i = 0; i <= n; i++){
             dp[i][m] = 1;
         }
