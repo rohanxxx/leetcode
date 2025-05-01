@@ -1,17 +1,34 @@
 class Solution {
+    /*
+        rabbbit         rabbit
+        0123456         0123456
+        
+        0123 56
+        01 3456
+        012 456
+    */
 public:
+    //O(2^n*m) imporove it to O(n*m)
+    int func(int i, int j, string& s, string& t, vector<vector<int>>& dp){
+        if(j == t.length()){
+            return 1;
+        }
+        if(j < t.length() && i == s.length()){
+            return 0;
+        }
+        if(dp[i][j] != -1) return dp[i][j];
+        
+        int matched = 0;
+        if(s[i] == t[j]){
+            matched = func(i+1, j+1, s, t, dp);
+        }
+        int regardless = func(i+1, j, s, t, dp);
+        return dp[i][j] = matched+regardless;
+    }
     int numDistinct(string s, string t) {
         int n = s.length();
         int m = t.length();
-        vector<vector<long long>> dp(n+1, vector<long long>(m+1, 0));
-        for(long i = 0; i <= n; i++) dp[i][0] = 1;
-        // for(long j = 1; j <= m; j++) dp[0][j] = 0;
-        for(long i = 1; i <= n; i++){
-            for(long j = 1; j <= m; j++){
-                if(s[i-1] == t[j-1]) dp[i][j] = (long long)((long long)dp[i-1][j-1] + dp[i-1][j]);
-                else dp[i][j] = dp[i-1][j];
-            }
-        }
-        return dp[n][m];
+        vector<vector<int>> dp(n, vector<int>(m, -1));
+        return func(0, 0, s, t, dp);
     }
 };
