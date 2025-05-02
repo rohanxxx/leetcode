@@ -11,17 +11,15 @@
  */
 class Solution {
 public:
-    void dfs(TreeNode* root){
-        if(root == NULL) return;
-        TreeNode* curLeft = root->left;
-        TreeNode* curRight = root->right;
-        root->left = curRight;
-        root->right = curLeft;
-        dfs(root->left);
-        dfs(root->right);
+    TreeNode* dfs(TreeNode* root){
+        if(root == NULL) return NULL;
+        TreeNode* left = root->left;
+        TreeNode* right = root->right;
+        root->left = dfs(right);
+        root->right = dfs(left);
+        return root;
     }
     TreeNode* invertTree(TreeNode* root) {
-        dfs(root);
-        return root;
+        return dfs(root);
     }
 };
