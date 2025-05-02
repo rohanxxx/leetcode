@@ -11,16 +11,16 @@
  */
 class Solution {
 public:
-    int dfs(TreeNode* root, int& maxSum){
+    int maxSum = INT_MIN;
+    int dfs(TreeNode* root){
         if(root == NULL) return 0;
-        int leftPath = max(dfs(root->left, maxSum), 0);
-        int rightPath = max(dfs(root->right, maxSum), 0);
-        maxSum = max(maxSum, root->val+leftPath+rightPath);
-        return root->val+max(leftPath, rightPath); 
+        int leftPathSum = max(dfs(root->left), 0);
+        int rigthPathSum = max(dfs(root->right), 0);
+        maxSum = max(maxSum, root->val + leftPathSum + rigthPathSum);
+        return root->val + max(leftPathSum, rigthPathSum);
     }
     int maxPathSum(TreeNode* root) {
-        int maxSum = INT_MIN;
-        dfs(root, maxSum);
+        dfs(root);
         return maxSum;
     }
 };
