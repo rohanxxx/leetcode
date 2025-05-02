@@ -12,13 +12,12 @@
 class Solution {
 public:
     bool dfs(TreeNode* p, TreeNode* q){
-        if(p == NULL && q == NULL) return true;
-        if(p == NULL || q == NULL) return false;
-        bool leftCheck = dfs(p->left, q->left);
-        bool rightCheck = dfs(p->right, q->right);
-        return p->val == q->val && leftCheck && rightCheck;
+        if(p == NULL || q == NULL) return p == q;
+        bool leftTree = dfs(p->left, q->left);
+        bool rightTree = dfs(p->right, q->right);
+        return p->val == q->val && leftTree && rightTree;
     }
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        return dfs(p, q);
+        return dfs(p, q);   
     }
 };
