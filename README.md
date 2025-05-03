@@ -831,6 +831,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0187-repeated-dna-sequences](https://github.com/rohanxxx/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0205-isomorphic-strings](https://github.com/rohanxxx/leetcode/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/rohanxxx/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0224-basic-calculator](https://github.com/rohanxxx/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/rohanxxx/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0242-valid-anagram](https://github.com/rohanxxx/leetcode/tree/master/0242-valid-anagram) |
 | [0249-group-shifted-strings](https://github.com/rohanxxx/leetcode/tree/master/0249-group-shifted-strings) |
@@ -1238,6 +1239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/rohanxxx/leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/rohanxxx/leetcode/tree/master/0202-happy-number) |
 | [0204-count-primes](https://github.com/rohanxxx/leetcode/tree/master/0204-count-primes) |
+| [0224-basic-calculator](https://github.com/rohanxxx/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/rohanxxx/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0231-power-of-two](https://github.com/rohanxxx/leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/rohanxxx/leetcode/tree/master/0268-missing-number) |
@@ -1705,6 +1707,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/rohanxxx/leetcode/tree/master/0143-reorder-list) |
 | [0203-remove-linked-list-elements](https://github.com/rohanxxx/leetcode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0206-reverse-linked-list) |
+| [0224-basic-calculator](https://github.com/rohanxxx/leetcode/tree/master/0224-basic-calculator) |
 | [0231-power-of-two](https://github.com/rohanxxx/leetcode/tree/master/0231-power-of-two) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0394-decode-string](https://github.com/rohanxxx/leetcode/tree/master/0394-decode-string) |
@@ -1727,6 +1730,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/rohanxxx/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/rohanxxx/leetcode/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/rohanxxx/leetcode/tree/master/0173-binary-search-tree-iterator) |
+| [0224-basic-calculator](https://github.com/rohanxxx/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/rohanxxx/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/rohanxxx/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
