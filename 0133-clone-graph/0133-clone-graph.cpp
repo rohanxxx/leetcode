@@ -26,7 +26,7 @@ public:
         if(visited[node] != NULL){
             return visited[node];
         }
-        Node* cloneNode = new Node(node->val, {});
+        Node* cloneNode = new Node(node->val);
         visited[node] = cloneNode;
         for(Node* n: node->neighbors){
             cloneNode->neighbors.push_back(dfs(n, visited));
