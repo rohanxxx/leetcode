@@ -1,19 +1,30 @@
 class Solution {
 public:
+/*
+    ()
+    {}
+    []
+    s = ())
+    s = ((()))
+    stack = 
+*/
     int minAddToMakeValid(string s) {
-        // int count = 0;
+        int count = 0;
         stack<char> stack;
         for(char c: s){
-            if(stack.empty()){
+            if(c == '('){
                 stack.push(c);
-                continue;
             }
-            if(stack.top() == '(' && c == ')'){
-                stack.pop();
-                continue;
+            else if(c == ')'){
+                if(stack.empty()){
+                    count++;
+                }
+                else{
+                    stack.pop();
+                }
             }
-            stack.push(c);
         }
-        return stack.size();
+        if(stack.size() > 0) return (int)stack.size()+count;
+        return count;
     }
 };
