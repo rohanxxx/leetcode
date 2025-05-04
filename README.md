@@ -899,6 +899,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/rohanxxx/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1472-increasing-decreasing-string](https://github.com/rohanxxx/leetcode/tree/master/1472-increasing-decreasing-string) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/rohanxxx/leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1543-simplified-fractions](https://github.com/rohanxxx/leetcode/tree/master/1543-simplified-fractions) |
 | [1632-number-of-good-ways-to-split-a-string](https://github.com/rohanxxx/leetcode/tree/master/1632-number-of-good-ways-to-split-a-string) |
 | [1764-maximum-repeating-substring](https://github.com/rohanxxx/leetcode/tree/master/1764-maximum-repeating-substring) |
 | [1894-merge-strings-alternately](https://github.com/rohanxxx/leetcode/tree/master/1894-merge-strings-alternately) |
@@ -1274,6 +1275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1260-day-of-the-year](https://github.com/rohanxxx/leetcode/tree/master/1260-day-of-the-year) |
 | [1274-number-of-days-between-two-dates](https://github.com/rohanxxx/leetcode/tree/master/1274-number-of-days-between-two-dates) |
 | [1345-perform-string-shifts](https://github.com/rohanxxx/leetcode/tree/master/1345-perform-string-shifts) |
+| [1543-simplified-fractions](https://github.com/rohanxxx/leetcode/tree/master/1543-simplified-fractions) |
 | [1635-number-of-good-pairs](https://github.com/rohanxxx/leetcode/tree/master/1635-number-of-good-pairs) |
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/rohanxxx/leetcode/tree/master/1693-sum-of-all-odd-length-subarrays) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
@@ -2001,6 +2003,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/rohanxxx/leetcode/tree/master/0204-count-primes) |
+| [1543-simplified-fractions](https://github.com/rohanxxx/leetcode/tree/master/1543-simplified-fractions) |
 | [3702-maximum-subarray-with-equal-products](https://github.com/rohanxxx/leetcode/tree/master/3702-maximum-subarray-with-equal-products) |
 ## Ordered Set
 |  |
