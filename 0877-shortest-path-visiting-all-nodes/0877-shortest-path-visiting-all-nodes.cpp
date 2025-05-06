@@ -41,7 +41,7 @@ public:
             while (size--) {
                 auto [node, mask] = q.front();
                 q.pop();
-                cout << "node: " << node << ", mask: " << mask << endl;
+                //cout << "node: " << node << ", mask: " << mask << endl;
                 for (int neighbor : graph[node]) {
                     int nextMask = mask | int(pow(2, neighbor));
                     //cout << "nextMask: " << nextMask << ", neighbor: " << neighbor << endl;
