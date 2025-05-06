@@ -272,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/rohanxxx/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0333-largest-bst-subtree](https://github.com/rohanxxx/leetcode/tree/master/0333-largest-bst-subtree) |
+| [0365-water-and-jug-problem](https://github.com/rohanxxx/leetcode/tree/master/0365-water-and-jug-problem) |
 | [0366-find-leaves-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0366-find-leaves-of-binary-tree) |
 | [0399-evaluate-division](https://github.com/rohanxxx/leetcode/tree/master/0399-evaluate-division) |
 | [0437-path-sum-iii](https://github.com/rohanxxx/leetcode/tree/master/0437-path-sum-iii) |
@@ -361,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/rohanxxx/leetcode/tree/master/0322-coin-change) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/rohanxxx/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0365-water-and-jug-problem](https://github.com/rohanxxx/leetcode/tree/master/0365-water-and-jug-problem) |
 | [0399-evaluate-division](https://github.com/rohanxxx/leetcode/tree/master/0399-evaluate-division) |
 | [0463-island-perimeter](https://github.com/rohanxxx/leetcode/tree/master/0463-island-perimeter) |
 | [0490-the-maze](https://github.com/rohanxxx/leetcode/tree/master/0490-the-maze) |
@@ -1269,6 +1271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/rohanxxx/leetcode/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/rohanxxx/leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0268-missing-number](https://github.com/rohanxxx/leetcode/tree/master/0268-missing-number) |
+| [0365-water-and-jug-problem](https://github.com/rohanxxx/leetcode/tree/master/0365-water-and-jug-problem) |
 | [0367-valid-perfect-square](https://github.com/rohanxxx/leetcode/tree/master/0367-valid-perfect-square) |
 | [0368-largest-divisible-subset](https://github.com/rohanxxx/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0369-plus-one-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0369-plus-one-linked-list) |
