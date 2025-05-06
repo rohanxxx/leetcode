@@ -1273,6 +1273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0564-find-the-closest-palindrome](https://github.com/rohanxxx/leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [0670-maximum-swap](https://github.com/rohanxxx/leetcode/tree/master/0670-maximum-swap) |
 | [0912-random-pick-with-weight](https://github.com/rohanxxx/leetcode/tree/master/0912-random-pick-with-weight) |
+| [0923-super-egg-drop](https://github.com/rohanxxx/leetcode/tree/master/0923-super-egg-drop) |
 | [0976-minimum-area-rectangle](https://github.com/rohanxxx/leetcode/tree/master/0976-minimum-area-rectangle) |
 | [1013-fibonacci-number](https://github.com/rohanxxx/leetcode/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/rohanxxx/leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -1460,6 +1461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0747-min-cost-climbing-stairs](https://github.com/rohanxxx/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/rohanxxx/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0808-number-of-matching-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0808-number-of-matching-subsequences) |
+| [0923-super-egg-drop](https://github.com/rohanxxx/leetcode/tree/master/0923-super-egg-drop) |
 | [1013-fibonacci-number](https://github.com/rohanxxx/leetcode/tree/master/1013-fibonacci-number) |
 | [1025-minimum-cost-for-tickets](https://github.com/rohanxxx/leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1086-divisor-game](https://github.com/rohanxxx/leetcode/tree/master/1086-divisor-game) |
@@ -1647,6 +1649,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0808-number-of-matching-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0808-number-of-matching-subsequences) |
 | [0907-koko-eating-bananas](https://github.com/rohanxxx/leetcode/tree/master/0907-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/rohanxxx/leetcode/tree/master/0912-random-pick-with-weight) |
+| [0923-super-egg-drop](https://github.com/rohanxxx/leetcode/tree/master/0923-super-egg-drop) |
 | [1023-time-based-key-value-store](https://github.com/rohanxxx/leetcode/tree/master/1023-time-based-key-value-store) |
 | [1046-max-consecutive-ones-iii](https://github.com/rohanxxx/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1051-shortest-way-to-form-string](https://github.com/rohanxxx/leetcode/tree/master/1051-shortest-way-to-form-string) |
