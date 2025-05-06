@@ -10,43 +10,25 @@
  * };
  */
 class Solution {
-private:
-
-    vector<vector<int>> solution;
-
 public:
-    
-    int getHeight(TreeNode *root) {
+    int getHeight(TreeNode* root, vector<vector<int>>& ans){
+        if(root == NULL) return -1;
         
-        // return -1 for null nodes
-        if (!root) {
-            return -1;
+        int leftHeight = getHeight(root->left, ans);
+        int rightHeight = getHeight(root->right, ans);
+        int curHeight = max(leftHeight, rightHeight) + 1;
+
+        if(curHeight == ans.size()){
+            ans.push_back({});
         }
 
-        // first calculate the height of the left and right children
-        int leftHeight = getHeight(root->left);
-        int rightHeight = getHeight(root->right);
+        ans[curHeight].push_back(root->val);
         
-        // based on the height of the left and right children, obtain the height of the current (parent) node
-        int currHeight = max(leftHeight, rightHeight) + 1;
-        
-        // create space for node located at `currHeight` if not already exists
-        if (this->solution.size() == currHeight) {
-            this->solution.push_back({});
-        }
-
-        // insert the value at the correct position in the solution array
-        this->solution[currHeight].push_back(root->val);
-        
-        // return the height of the current node
-        return currHeight;
+        return curHeight;
     }
-    
     vector<vector<int>> findLeaves(TreeNode* root) {
-        // this->solution.clear();
-        
-        getHeight(root);
-        
-        return this->solution;
+        vector<vector<int>> ans;
+        getHeight(root, ans);
+        return ans;
     }
 };
