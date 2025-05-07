@@ -33,7 +33,6 @@ public:
 
             if(curNode->left == NULL && curNode->right == NULL){
                 allSum += curPathSum;
-                continue;
             }
 
             if(curNode->left){
