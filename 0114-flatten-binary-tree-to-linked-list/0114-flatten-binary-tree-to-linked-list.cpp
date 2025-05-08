@@ -11,27 +11,17 @@
  */
 class Solution {
 public:
-    vector<TreeNode* > preorder;
-    void dfs(TreeNode* currentNode){
-        if(currentNode == NULL) return;
-
-        TreeNode* left  = currentNode->left;
-        TreeNode* right = currentNode->right;
-        
-        currentNode->left = NULL;
-        currentNode->right = NULL;
-
-        preorder.push_back(currentNode);
-
-        dfs(left);
-        dfs(right);
+    TreeNode* prev;
+    void dfs(TreeNode* root){
+        if(root == NULL) return;
+        dfs(root->right);
+        dfs(root->left);
+        root->right = prev;
+        root->left = NULL;
+        prev = root;
     }
     void flatten(TreeNode* root) {
+        prev = NULL;
         dfs(root);
-        TreeNode* temp = root;
-        for(int i = 1; i < preorder.size(); i++){
-            temp->right = preorder[i];
-            temp = temp->right;
-        }
     }
 };
