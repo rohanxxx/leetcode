@@ -283,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0463-island-perimeter](https://github.com/rohanxxx/leetcode/tree/master/0463-island-perimeter) |
 | [0490-the-maze](https://github.com/rohanxxx/leetcode/tree/master/0490-the-maze) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0501-find-mode-in-binary-search-tree) |
+| [0514-freedom-trail](https://github.com/rohanxxx/leetcode/tree/master/0514-freedom-trail) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/rohanxxx/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0545-boundary-of-binary-tree) |
@@ -371,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/rohanxxx/leetcode/tree/master/0399-evaluate-division) |
 | [0463-island-perimeter](https://github.com/rohanxxx/leetcode/tree/master/0463-island-perimeter) |
 | [0490-the-maze](https://github.com/rohanxxx/leetcode/tree/master/0490-the-maze) |
+| [0514-freedom-trail](https://github.com/rohanxxx/leetcode/tree/master/0514-freedom-trail) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/rohanxxx/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0542-01-matrix](https://github.com/rohanxxx/leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/rohanxxx/leetcode/tree/master/0547-number-of-provinces) |
@@ -887,6 +889,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0459-repeated-substring-pattern](https://github.com/rohanxxx/leetcode/tree/master/0459-repeated-substring-pattern) |
 | [0482-license-key-formatting](https://github.com/rohanxxx/leetcode/tree/master/0482-license-key-formatting) |
 | [0484-find-permutation](https://github.com/rohanxxx/leetcode/tree/master/0484-find-permutation) |
+| [0514-freedom-trail](https://github.com/rohanxxx/leetcode/tree/master/0514-freedom-trail) |
 | [0516-longest-palindromic-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0564-find-the-closest-palindrome](https://github.com/rohanxxx/leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [0567-permutation-in-string](https://github.com/rohanxxx/leetcode/tree/master/0567-permutation-in-string) |
@@ -1480,6 +1483,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/rohanxxx/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0487-max-consecutive-ones-ii](https://github.com/rohanxxx/leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0494-target-sum](https://github.com/rohanxxx/leetcode/tree/master/0494-target-sum) |
+| [0514-freedom-trail](https://github.com/rohanxxx/leetcode/tree/master/0514-freedom-trail) |
 | [0516-longest-palindromic-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/rohanxxx/leetcode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/rohanxxx/leetcode/tree/master/0542-01-matrix) |
