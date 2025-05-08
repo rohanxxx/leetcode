@@ -40,6 +40,7 @@ public:
         int n = accounts.size();
         DSU dsu(n);
         unordered_map<string, int> mailMap;
+        //this loop takes O(NK)
         for(int i = 0; i < n; i++){
             for(int j = 1; j < accounts[i].size(); j++){
                 string email = accounts[i][j];
@@ -49,6 +50,7 @@ public:
                     mailMap[email] = i;
                 }
                 else{
+                    //this take logN
                     dsu.unionBySize(mailMap[email], i);
                 }
             }
