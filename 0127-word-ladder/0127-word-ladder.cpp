@@ -17,7 +17,7 @@ public:
             for(int i = 0; i < size; i++){
                 string node = q.front(); q.pop();
                 if(node == endWord) return count;
-                //O(k*26*logN)
+                //O(N*k*26*logN)
                 for(int i = 0; i < node.size(); i++){
                     char original = node[i];
                     //O(26)
