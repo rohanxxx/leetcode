@@ -1,60 +1,62 @@
-/*                  
-                    1 4
-                    3 2
-                       0  1  2 
-                    0 10 20 15
-                    1 21 30 14
-                    2 7  16 32
-
-                    row*3+col/2 -> 2
-
-                    5 - row = 1 and col = 2
-                    col = 5 % colSize = 2
-                    row = 5/colSize = 1
-
-                    we can our left = 0 and right = n*m
-                    then do a while loop to run it in condition like this 
-*/
 class Solution {
 public:
     vector<int> findPeakGrid(vector<vector<int>>& mat) {
         int row = mat.size();
         int col = mat[0].size();
+        vector<int> v;
 
-        int i = 0, j = col - 1;
+        for (int i = 0; i < row; i++) {
+            int low = 0;
+            int high = col - 1;
+            while (low <= high) {
+                int mid = (low + high) >> 1;
 
-        while (i >= 0 && i < row && j >= 0 && j < col) {
-            int up, down, left, right;
+                int u, l, d, r;
 
-            if (i - 1 < 0) up = -1;
-            else up = mat[i - 1][j];
+                // up
+                if (i > 0) {
+                    u = mat[i - 1][mid];
+                } else {
+                    u = -1;
+                }
 
-            if (i + 1 >= row) down = -1;
-            else down = mat[i + 1][j];
+                // left
+                if (mid > 0) {
+                    l = mat[i][mid - 1];
+                } else {
+                    l = -1;
+                }
 
-            if (j - 1 < 0) left = -1;
-            else left = mat[i][j - 1];
+                // down
+                if (i < row - 1) {
+                    d = mat[i + 1][mid];
+                } else {
+                    d = -1;
+                }
 
-            if (j + 1 >= col) right = -1;
-            else right = mat[i][j + 1];
+                // right
+                if (mid < col - 1) {
+                    r = mat[i][mid + 1];
+                } else {
+                    r = -1;
+                }
 
-            // check if current is a peak
-            if (mat[i][j] > up && mat[i][j] > down && mat[i][j] > left && mat[i][j] > right)
-                return {i, j};
+                int m1 = max(u, d);
+                int m2 = max(l, r);
+                int l1 = max(l, mat[i][0]);
+                int l2 = max(r, mat[i][col - 1]);
 
-            // find max among up, down, left, right
-            int maxm = max(max(up, down), max(left, right));
-
-            if (up == maxm)
-                i--;
-            else if (down == maxm)
-                i++;
-            else if (left == maxm)
-                j--;
-            else if (right == maxm)
-                j++;
+                if (mat[i][mid] >= max(m1, m2)) {
+                    v.push_back(i);
+                    v.push_back(mid);
+                    return v;
+                } else if (l1 > l2) {
+                    high = mid - 1;
+                } else {
+                    low = mid + 1;
+                }
+            }
         }
-
-        return {-1, -1};
+        return v;
     }
 };
