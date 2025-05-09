@@ -26,25 +26,17 @@ public:
         while (i >= 0 && i < row && j >= 0 && j < col) {
             int up, down, left, right;
 
-            if (i - 1 < 0)
-                up = -1;
-            else
-                up = mat[i - 1][j];
+            if (i - 1 < 0) up = -1;
+            else up = mat[i - 1][j];
 
-            if (i + 1 >= row)
-                down = -1;
-            else
-                down = mat[i + 1][j];
+            if (i + 1 >= row) down = -1;
+            else down = mat[i + 1][j];
 
-            if (j - 1 < 0)
-                left = -1;
-            else
-                left = mat[i][j - 1];
+            if (j - 1 < 0) left = -1;
+            else left = mat[i][j - 1];
 
-            if (j + 1 >= col)
-                right = -1;
-            else
-                right = mat[i][j + 1];
+            if (j + 1 >= col) right = -1;
+            else right = mat[i][j + 1];
 
             // check if current is a peak
             if (mat[i][j] > up && mat[i][j] > down && mat[i][j] > left && mat[i][j] > right)
