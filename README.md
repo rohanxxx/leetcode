@@ -724,6 +724,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rohanxxx/leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1559-cherry-pickup-ii](https://github.com/rohanxxx/leetcode/tree/master/1559-cherry-pickup-ii) |
 | [1582-design-browser-history](https://github.com/rohanxxx/leetcode/tree/master/1582-design-browser-history) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/rohanxxx/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/rohanxxx/leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/rohanxxx/leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1635-number-of-good-pairs](https://github.com/rohanxxx/leetcode/tree/master/1635-number-of-good-pairs) |
@@ -1721,6 +1722,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1397-search-suggestions-system](https://github.com/rohanxxx/leetcode/tree/master/1397-search-suggestions-system) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/rohanxxx/leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/rohanxxx/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/rohanxxx/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1672-find-the-index-of-the-large-integer](https://github.com/rohanxxx/leetcode/tree/master/1672-find-the-index-of-the-large-integer) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/rohanxxx/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2047-find-a-peak-element-ii](https://github.com/rohanxxx/leetcode/tree/master/2047-find-a-peak-element-ii) |
