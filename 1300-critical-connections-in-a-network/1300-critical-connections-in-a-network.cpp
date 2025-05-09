@@ -1,42 +1,52 @@
+/*
+                    0 - 1 - 3
+                    \   /
+                      2
+    tin =   0 1 2 3
+            0 1 2 3 
+    lin =   0 1 0 3
+                        0 
+*/
+
 class Solution {
 public:
-    int time;
-    void dfs(int node, int parent, vector<vector<int>>& graph, vector<int>& visited, vector<vector<int>>& ccn, vector<int>& tin, vector<int>& lin){
-        visited[node] = 1;
-        tin[node] = lin[node] = time;
+    int time = 0;
+    vector<vector<int>> ans;
 
+    void dfs(int curNode, int parentNode, vector<int>& tin, vector<int>& lin,  
+                    vector<int>& visited, vector<vector<int>>& graph)
+    {
+        tin[curNode] = lin[curNode] = time;
+        visited[curNode] = 1;
         time++;
-
-        for(int adjNode: graph[node]){
-            if(adjNode == parent) continue;
+        for(auto adjNode: graph[curNode]){
+            if(adjNode == parentNode) continue;
+            
             if(visited[adjNode] == 0){
-                dfs(adjNode, node, graph, visited, ccn, tin, lin);
-                lin[node] = min(lin[adjNode], lin[node]);
-                if(lin[adjNode] > tin[node]){
-                    ccn.push_back({node, adjNode});
+                dfs(adjNode, curNode, tin, lin, visited, graph);
+                lin[curNode] = min(lin[curNode], lin[adjNode]);
+                //basically checking critical connections
+                if(lin[adjNode] > tin[curNode]){
+                    ans.push_back({curNode, adjNode});
                 }
             }
             else{
-                lin[node] = min(lin[adjNode], lin[node]);
+                lin[curNode] = min(lin[curNode], lin[adjNode]);
             }
         }
     }
     vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
         vector<vector<int>> graph(n);
-        for(auto it: connections){
-            graph[it[0]].push_back(it[1]);
-            graph[it[1]].push_back(it[0]);
+        for(auto edges: connections){
+            graph[edges[0]].push_back(edges[1]);
+            graph[edges[1]].push_back(edges[0]);
         }
 
-        vector<vector<int>> ccn;
         vector<int> visited(n, 0);
         vector<int> tin(n, 0);
         vector<int> lin(n, 0);
-        
-        time = 0;
+        dfs(0, -1, tin, lin, visited, graph);
 
-        dfs(0, -1, graph, visited, ccn, tin, lin);
-        
-        return ccn;
+        return ans;
     }
 };
