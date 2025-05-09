@@ -621,6 +621,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/rohanxxx/leetcode/tree/master/0518-coin-change-ii) |
 | [0523-continuous-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/rohanxxx/leetcode/tree/master/0525-contiguous-array) |
+| [0527-word-abbreviation](https://github.com/rohanxxx/leetcode/tree/master/0527-word-abbreviation) |
 | [0531-lonely-pixel-i](https://github.com/rohanxxx/leetcode/tree/master/0531-lonely-pixel-i) |
 | [0540-single-element-in-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/rohanxxx/leetcode/tree/master/0542-01-matrix) |
@@ -891,6 +892,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0484-find-permutation](https://github.com/rohanxxx/leetcode/tree/master/0484-find-permutation) |
 | [0514-freedom-trail](https://github.com/rohanxxx/leetcode/tree/master/0514-freedom-trail) |
 | [0516-longest-palindromic-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0516-longest-palindromic-subsequence) |
+| [0527-word-abbreviation](https://github.com/rohanxxx/leetcode/tree/master/0527-word-abbreviation) |
 | [0564-find-the-closest-palindrome](https://github.com/rohanxxx/leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [0567-permutation-in-string](https://github.com/rohanxxx/leetcode/tree/master/0567-permutation-in-string) |
 | [0616-add-bold-tag-in-string](https://github.com/rohanxxx/leetcode/tree/master/0616-add-bold-tag-in-string) |
@@ -1041,6 +1043,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0484-find-permutation](https://github.com/rohanxxx/leetcode/tree/master/0484-find-permutation) |
 | [0502-ipo](https://github.com/rohanxxx/leetcode/tree/master/0502-ipo) |
 | [0517-super-washing-machines](https://github.com/rohanxxx/leetcode/tree/master/0517-super-washing-machines) |
+| [0527-word-abbreviation](https://github.com/rohanxxx/leetcode/tree/master/0527-word-abbreviation) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/rohanxxx/leetcode/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/rohanxxx/leetcode/tree/master/0624-maximum-distance-in-arrays) |
@@ -1106,6 +1109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/rohanxxx/leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/rohanxxx/leetcode/tree/master/0455-assign-cookies) |
 | [0502-ipo](https://github.com/rohanxxx/leetcode/tree/master/0502-ipo) |
+| [0527-word-abbreviation](https://github.com/rohanxxx/leetcode/tree/master/0527-word-abbreviation) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/rohanxxx/leetcode/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/rohanxxx/leetcode/tree/master/0692-top-k-frequent-words) |
@@ -1528,6 +1532,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/rohanxxx/leetcode/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/rohanxxx/leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/rohanxxx/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0527-word-abbreviation](https://github.com/rohanxxx/leetcode/tree/master/0527-word-abbreviation) |
 | [0616-add-bold-tag-in-string](https://github.com/rohanxxx/leetcode/tree/master/0616-add-bold-tag-in-string) |
 | [0692-top-k-frequent-words](https://github.com/rohanxxx/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0808-number-of-matching-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0808-number-of-matching-subsequences) |
