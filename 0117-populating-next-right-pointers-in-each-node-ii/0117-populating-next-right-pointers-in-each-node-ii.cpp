@@ -19,22 +19,32 @@ public:
 class Solution {
 public:
     Node* connect(Node* root) {
-        if(!root) return NULL;
+        //edge case
+        if(root == NULL) return root;
+        
         queue<Node*> q; q.push(root);
+
+        //TC: O(N)
+        //TC: O(max(q.size()))
         while(!q.empty()){
-            int curLevelSize = q.size();
-            for(int i = 0; i < curLevelSize; i++){
+            int size = q.size();
+            Node* prev = new Node();
+            for(int i = 0; i < size; i++){
                 Node* curNode = q.front(); q.pop();
-                if(curNode->left) q.push(curNode->left);
-                if(curNode->right) q.push(curNode->right);
-                if(i+1 == curLevelSize){
-                    curNode->next = NULL;
+                prev->next = curNode;
+                prev = prev->next;
+                if(curNode->left){
+                    q.push(curNode->left);
                 }
-                else{
-                    curNode->next = q.front();
+                if(curNode->right){
+                    q.push(curNode->right);
                 }
             }
+            
+            //last node points to null
+            prev->next = NULL;
         }
+
         return root;
     }
 };
