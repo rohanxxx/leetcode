@@ -759,6 +759,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2248-minimum-cost-of-buying-candies-with-discount](https://github.com/rohanxxx/leetcode/tree/master/2248-minimum-cost-of-buying-candies-with-discount) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/rohanxxx/leetcode/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
+| [2417-the-latest-time-to-catch-a-bus](https://github.com/rohanxxx/leetcode/tree/master/2417-the-latest-time-to-catch-a-bus) |
 | [2429-design-a-food-rating-system](https://github.com/rohanxxx/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/rohanxxx/leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/rohanxxx/leetcode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
@@ -1043,6 +1044,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/rohanxxx/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2232-adding-spaces-to-a-string](https://github.com/rohanxxx/leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/rohanxxx/leetcode/tree/master/2414-move-pieces-to-obtain-a-string) |
+| [2417-the-latest-time-to-catch-a-bus](https://github.com/rohanxxx/leetcode/tree/master/2417-the-latest-time-to-catch-a-bus) |
 ## Greedy
 |  |
 | ------- |
@@ -1164,6 +1166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2248-minimum-cost-of-buying-candies-with-discount](https://github.com/rohanxxx/leetcode/tree/master/2248-minimum-cost-of-buying-candies-with-discount) |
 | [2327-largest-number-after-digit-swaps-by-parity](https://github.com/rohanxxx/leetcode/tree/master/2327-largest-number-after-digit-swaps-by-parity) |
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/rohanxxx/leetcode/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
+| [2417-the-latest-time-to-catch-a-bus](https://github.com/rohanxxx/leetcode/tree/master/2417-the-latest-time-to-catch-a-bus) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/rohanxxx/leetcode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2479-meeting-rooms-iii](https://github.com/rohanxxx/leetcode/tree/master/2479-meeting-rooms-iii) |
 | [3151-minimum-processing-time](https://github.com/rohanxxx/leetcode/tree/master/3151-minimum-processing-time) |
@@ -1740,6 +1743,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/rohanxxx/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/rohanxxx/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2047-find-a-peak-element-ii](https://github.com/rohanxxx/leetcode/tree/master/2047-find-a-peak-element-ii) |
+| [2417-the-latest-time-to-catch-a-bus](https://github.com/rohanxxx/leetcode/tree/master/2417-the-latest-time-to-catch-a-bus) |
 | [2729-minimum-operations-to-make-numbers-non-positive](https://github.com/rohanxxx/leetcode/tree/master/2729-minimum-operations-to-make-numbers-non-positive) |
 | [3643-zero-array-transformation-ii](https://github.com/rohanxxx/leetcode/tree/master/3643-zero-array-transformation-ii) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/rohanxxx/leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
