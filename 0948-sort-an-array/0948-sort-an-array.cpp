@@ -7,25 +7,22 @@ public:
     void merge(vector<int>& nums, int left, int mid, int right){
         int p1 = left;
         int p2 = mid+1;
+        
         vector<int> temp;
         while(p1 <= mid && p2 <= right){
             if(nums[p1] <= nums[p2]){
-                temp.push_back(nums[p1]);
-                p1++;
+                temp.push_back(nums[p1++]);
             }
             else{
-                temp.push_back(nums[p2]);
-                p2++;
+                temp.push_back(nums[p2++]);
             }
         }
 
         while(p1 <= mid){
-            temp.push_back(nums[p1]);
-            p1++;
+            temp.push_back(nums[p1++]);
         }
         while(p2 <= right){
-            temp.push_back(nums[p2]);
-            p2++;
+            temp.push_back(nums[p2++]);
         }
 
 
