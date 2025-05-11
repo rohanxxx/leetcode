@@ -405,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/rohanxxx/leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/rohanxxx/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0813-all-paths-from-source-to-target](https://github.com/rohanxxx/leetcode/tree/master/0813-all-paths-from-source-to-target) |
+| [0833-bus-routes](https://github.com/rohanxxx/leetcode/tree/master/0833-bus-routes) |
 | [0871-keys-and-rooms](https://github.com/rohanxxx/leetcode/tree/master/0871-keys-and-rooms) |
 | [0877-shortest-path-visiting-all-nodes](https://github.com/rohanxxx/leetcode/tree/master/0877-shortest-path-visiting-all-nodes) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -680,6 +681,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/rohanxxx/leetcode/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/rohanxxx/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0808-number-of-matching-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0808-number-of-matching-subsequences) |
+| [0833-bus-routes](https://github.com/rohanxxx/leetcode/tree/master/0833-bus-routes) |
 | [0890-lemonade-change](https://github.com/rohanxxx/leetcode/tree/master/0890-lemonade-change) |
 | [0898-transpose-matrix](https://github.com/rohanxxx/leetcode/tree/master/0898-transpose-matrix) |
 | [0907-koko-eating-bananas](https://github.com/rohanxxx/leetcode/tree/master/0907-koko-eating-bananas) |
@@ -1273,6 +1275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0762-find-anagram-mappings](https://github.com/rohanxxx/leetcode/tree/master/0762-find-anagram-mappings) |
 | [0778-reorganize-string](https://github.com/rohanxxx/leetcode/tree/master/0778-reorganize-string) |
 | [0808-number-of-matching-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0808-number-of-matching-subsequences) |
+| [0833-bus-routes](https://github.com/rohanxxx/leetcode/tree/master/0833-bus-routes) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0931-maximum-frequency-stack](https://github.com/rohanxxx/leetcode/tree/master/0931-maximum-frequency-stack) |
 | [0940-fruit-into-baskets](https://github.com/rohanxxx/leetcode/tree/master/0940-fruit-into-baskets) |
