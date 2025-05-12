@@ -22,15 +22,13 @@ public:
         int n = graph.size();
         if (n == 1) return 0;
 
-        int endingMask = pow(2, n) - 1;
+        int endingMask = (1 << n) - 1;
         vector<vector<bool>> seen(n, vector<bool>(endingMask + 1, false));
         queue<pair<int, int>> q;
 
         // Initialize the queue with each node and a mask indicating only that node has been visited
         for (int i = 0; i < n; ++i) {
-            int mask = pow(2, i);
-            //cout << "i: " << i << endl;
-            //cout << "mask: " << mask << endl;
+            int mask = 1 << i;
             q.push({i, mask});
             seen[i][mask] = true;
         }
@@ -41,20 +39,17 @@ public:
             while (size--) {
                 auto [node, mask] = q.front();
                 q.pop();
-                //cout << "node: " << node << ", mask: " << mask << endl;
+
                 for (int neighbor : graph[node]) {
-                    int nextMask = mask | int(pow(2, neighbor));
-                    //cout << "nextMask: " << nextMask << ", neighbor: " << neighbor << endl;
+                    int nextMask = mask | (1 << neighbor);
                     if (nextMask == endingMask) {
                         return steps + 1;
                     }
-                    if (seen[neighbor][nextMask] == false) {
+                    if (!seen[neighbor][nextMask]) {
                         seen[neighbor][nextMask] = true;
-                        //cout << "line 53 " << endl;
                         q.push({neighbor, nextMask});
                     }
                 }
-                cout << endl;
             }
             steps++;
         }
