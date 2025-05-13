@@ -1,29 +1,36 @@
 class Solution {
 public:
     int minAreaRect(vector<vector<int>>& points) {
-        unordered_map<int, unordered_set<int>> hashmap;
-        for(auto& point: points){
-            hashmap[point[0]].insert(point[1]);
+        unordered_map<int, unordered_set<int>> rowMap;
+        for(auto &point: points){
+            int x = point[0];
+            int y = point[1];
+            rowMap[x].insert(y);
         }
+
         int minArea = INT_MAX;
-        for(int i = 0; i < points.size(); i++){
-            for(int j = i+1; j < points.size(); j++){
-                int x1 = points[i][0], y1 = points[i][1];
-                int x2 = points[j][0], y2 = points[j][1];
+        int n = points.size();
+        for(int i = 0; i < n; i++){
+            int x1 = points[i][0];
+            int y1 = points[i][1];
+            for(int j = i+1; j < n; j++){
+                int x2 = points[j][0];
+                int y2 = points[j][1];
                 if(x1 != x2 && y1 != y2){
-                    if( hashmap[x1].find(y2) != hashmap[x1].end()
-                                        &&
-                        hashmap[x2].find(y1) != hashmap[x2].end()){
-                            int w = abs(y2-y1);
-                            int l = abs(x2-x1);
-                            int area = w * l;
-                            minArea = min(area, minArea);
+                    if(rowMap[x1].find(y2) != rowMap[x1].end()
+                        &&
+                        rowMap[x2].find(y1) != rowMap[x2].end()){
+                            int height = abs(y2-y1);
+                            int width = abs(x2-x1);
+                            minArea = min(minArea, height*width);
                         }
                 }
             }
         }
-        if(minArea == INT_MAX) return 0;
-        
+
+        if(minArea == INT_MAX){
+            return -1;
+        }
         return minArea;
     }
 };
