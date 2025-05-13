@@ -11,41 +11,44 @@
  */
 
  /*
-    root = [5,4,8,11,null,13,4,7,2,null,null,5,1]
-                                            5
-                                        4       8
-                                    11  N       13      4
-                                7   2           N  n    5 1
-    
-    targetSum = 22;
-    {5,4,11,2}, {5,8,4,5}
+                                5
+                            4       8
+                        11          13  4
+                    7   2               5   1
+                output: {{5,4,11,2},{5,8,4,1}}
  */
 class Solution {
-public:
-    void dfs(TreeNode* root, int prev_sum, vector<int> temp, int& targetSum, vector<vector<int>>& ans){
-        if(root == NULL) return;
-        int curSum = prev_sum + root->val;
+    //implement my dfs
+    //inside the dfs check if root null
+    //check if it is leaf node
+    //if leaf then check with the targetsum if matches push it to the ans vector
+    //then we would call left and right child passing along with the root value in temp vector as parameter of dfs
+    void dfs(TreeNode* root, int curSum, int& targetSum, vector<int> temp, vector<vector<int>>& ans){
+        if(root == NULL){
+            return;
+        }
         temp.push_back(root->val);
-        //checks if it is a leaf node or not
+        //check if it's a leaf node
         if(root->left == NULL && root->right == NULL){
-            if(curSum == targetSum){
+            if(curSum+root->val == targetSum){
                 ans.push_back(temp);
             }
             return;
         }
-
-        dfs(root->left, curSum, temp, targetSum, ans);
-        dfs(root->right, curSum, temp, targetSum, ans);
-        temp.pop_back();
-        return;
+        dfs(root->left, curSum + root->val, targetSum, temp, ans);
+        dfs(root->right, curSum + root->val, targetSum, temp, ans);
     }
+
+public:
     vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
-        //edge case
-        if(root == NULL){
-            return vector<vector<int>>();
+        //first do edge case check if root is null
+        if(root == NULL) {
+            return vector<vector<int>> ();
         }
+        //declare our variable like vector<vector<int>> ans
         vector<vector<int>> ans;
-        dfs(root, 0, vector<int>(), targetSum, ans);
+        //call the dfs(root, temp, targetSum);
+        dfs(root, 0, targetSum, vector<int>(), ans);
         return ans;
     }
 };
