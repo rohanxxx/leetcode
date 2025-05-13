@@ -29,7 +29,7 @@ public:
         }
 
         if(minArea == INT_MAX){
-            return -1;
+            return 0;
         }
         return minArea;
     }
