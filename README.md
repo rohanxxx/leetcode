@@ -350,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/rohanxxx/leetcode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2416-evaluate-boolean-binary-tree) |
+| [2439-longest-cycle-in-a-graph](https://github.com/rohanxxx/leetcode/tree/master/2439-longest-cycle-in-a-graph) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rohanxxx/leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
@@ -433,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2121-find-if-path-exists-in-graph](https://github.com/rohanxxx/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rohanxxx/leetcode/tree/master/2206-detonate-the-maximum-bombs) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
+| [2439-longest-cycle-in-a-graph](https://github.com/rohanxxx/leetcode/tree/master/2439-longest-cycle-in-a-graph) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rohanxxx/leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/2914-find-the-safest-path-in-a-grid) |
@@ -1746,6 +1748,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2206-detonate-the-maximum-bombs](https://github.com/rohanxxx/leetcode/tree/master/2206-detonate-the-maximum-bombs) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/rohanxxx/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
+| [2439-longest-cycle-in-a-graph](https://github.com/rohanxxx/leetcode/tree/master/2439-longest-cycle-in-a-graph) |
 | [3189-find-champion-ii](https://github.com/rohanxxx/leetcode/tree/master/3189-find-champion-ii) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/rohanxxx/leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
@@ -1760,6 +1763,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1101-parallel-courses](https://github.com/rohanxxx/leetcode/tree/master/1101-parallel-courses) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/rohanxxx/leetcode/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/rohanxxx/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2439-longest-cycle-in-a-graph](https://github.com/rohanxxx/leetcode/tree/master/2439-longest-cycle-in-a-graph) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
 ## Binary Search
 |  |
