@@ -353,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2439-longest-cycle-in-a-graph](https://github.com/rohanxxx/leetcode/tree/master/2439-longest-cycle-in-a-graph) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rohanxxx/leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
 ## Breadth-First Search
 |  |
@@ -438,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rohanxxx/leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/2914-find-the-safest-path-in-a-grid) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
 ## Binary Tree
 |  |
@@ -1755,6 +1757,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2439-longest-cycle-in-a-graph](https://github.com/rohanxxx/leetcode/tree/master/2439-longest-cycle-in-a-graph) |
 | [3189-find-champion-ii](https://github.com/rohanxxx/leetcode/tree/master/3189-find-champion-ii) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/rohanxxx/leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 ## Topological Sort
@@ -1826,6 +1829,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2729-minimum-operations-to-make-numbers-non-positive](https://github.com/rohanxxx/leetcode/tree/master/2729-minimum-operations-to-make-numbers-non-positive) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3643-zero-array-transformation-ii](https://github.com/rohanxxx/leetcode/tree/master/3643-zero-array-transformation-ii) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/rohanxxx/leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 ## Prefix Sum
 |  |
@@ -2119,6 +2123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/rohanxxx/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/rohanxxx/leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Interactive
 |  |
 | ------- |
