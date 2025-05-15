@@ -773,6 +773,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1803-average-waiting-time](https://github.com/rohanxxx/leetcode/tree/master/1803-average-waiting-time) |
 | [1829-maximum-units-on-a-truck](https://github.com/rohanxxx/leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [1833-find-the-highest-altitude](https://github.com/rohanxxx/leetcode/tree/master/1833-find-the-highest-altitude) |
+| [1938-minimum-operations-to-make-the-array-increasing](https://github.com/rohanxxx/leetcode/tree/master/1938-minimum-operations-to-make-the-array-increasing) |
 | [1962-single-threaded-cpu](https://github.com/rohanxxx/leetcode/tree/master/1962-single-threaded-cpu) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/rohanxxx/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [1983-maximum-population-year](https://github.com/rohanxxx/leetcode/tree/master/1983-maximum-population-year) |
@@ -1140,6 +1141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1762-furthest-building-you-can-reach](https://github.com/rohanxxx/leetcode/tree/master/1762-furthest-building-you-can-reach) |
 | [1784-minimum-initial-energy-to-finish-tasks](https://github.com/rohanxxx/leetcode/tree/master/1784-minimum-initial-energy-to-finish-tasks) |
 | [1829-maximum-units-on-a-truck](https://github.com/rohanxxx/leetcode/tree/master/1829-maximum-units-on-a-truck) |
+| [1938-minimum-operations-to-make-the-array-increasing](https://github.com/rohanxxx/leetcode/tree/master/1938-minimum-operations-to-make-the-array-increasing) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/rohanxxx/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2088-minimum-time-to-type-word-using-special-typewriter](https://github.com/rohanxxx/leetcode/tree/master/2088-minimum-time-to-type-word-using-special-typewriter) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/rohanxxx/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
