@@ -626,6 +626,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0312-burst-balloons](https://github.com/rohanxxx/leetcode/tree/master/0312-burst-balloons) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/rohanxxx/leetcode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0322-coin-change](https://github.com/rohanxxx/leetcode/tree/master/0322-coin-change) |
+| [0325-maximum-size-subarray-sum-equals-k](https://github.com/rohanxxx/leetcode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/rohanxxx/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0334-increasing-triplet-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0346-moving-average-from-data-stream](https://github.com/rohanxxx/leetcode/tree/master/0346-moving-average-from-data-stream) |
@@ -1258,6 +1259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0305-number-of-islands-ii](https://github.com/rohanxxx/leetcode/tree/master/0305-number-of-islands-ii) |
 | [0311-sparse-matrix-multiplication](https://github.com/rohanxxx/leetcode/tree/master/0311-sparse-matrix-multiplication) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/rohanxxx/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
+| [0325-maximum-size-subarray-sum-equals-k](https://github.com/rohanxxx/leetcode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/rohanxxx/leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0347-top-k-frequent-elements](https://github.com/rohanxxx/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0358-rearrange-string-k-distance-apart](https://github.com/rohanxxx/leetcode/tree/master/0358-rearrange-string-k-distance-apart) |
@@ -1840,6 +1842,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/rohanxxx/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0253-meeting-rooms-ii](https://github.com/rohanxxx/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0303-range-sum-query-immutable](https://github.com/rohanxxx/leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0325-maximum-size-subarray-sum-equals-k](https://github.com/rohanxxx/leetcode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0370-range-addition](https://github.com/rohanxxx/leetcode/tree/master/0370-range-addition) |
 | [0410-split-array-largest-sum](https://github.com/rohanxxx/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0523-continuous-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0523-continuous-subarray-sum) |
