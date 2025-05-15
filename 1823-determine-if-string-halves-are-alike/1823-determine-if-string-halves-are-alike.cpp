@@ -51,9 +51,6 @@ public:
         int counter1 = countVowels(s, 0, mid);
         //it will check second half of the string 
         int counter2 = countVowels(s, mid, n);
-        //cout << "mid: " << mid << endl;
-        //cout << "counter1: " << counter1 << endl;
-        //cout << "counter2: " << counter2 << endl;
         //then check first half counter and 2nd half counter if match true otherwise false
         if(counter1 == counter2){
             return true;
