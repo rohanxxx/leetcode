@@ -1,45 +1,80 @@
+/*
+    1) Directed Acyclic graph
+    2) n is the node number 0 -> n-1
+    3) edges[i] = [fromi, toi]
+
+      0 1. .2.  3.    4.     5.       6.         7
+    [[],[],[],[0,1],[0,2],[0,1,3],[0,1,2,3,4],[0,1,2,3]]
+    Input: n = 8, edgeList = [[0,3],[0,4],[1,3],[2,4],[2,7],[3,5],[3,6],[3,7],[4,6]]
+
+    1 0 2
+     \|\|\
+      3 4 7
+      |\|
+      5 6
+*/
 class Solution {
 public:
-    // Helper method to perform DFS and find all children of a given node
-    void findChildren(int currentNode, vector<vector<int>>& adjacencyList, unordered_set<int>& visitedNodes) {
-        // Mark current node as visited
-        visitedNodes.insert(currentNode);
-
-        // Recursively traverse all neighbors
-        for (int neighbour : adjacencyList[currentNode]) {
-            if (visitedNodes.find(neighbour) == visitedNodes.end()) {
-                findChildren(neighbour, adjacencyList, visitedNodes);
-            }
-        }
-    }
-
+    //O(N^2*M)
     vector<vector<int>> getAncestors(int n, vector<vector<int>>& edges) {
-        // Initialize adjacency list for the graph
-        vector<vector<int>> adjacencyList(n);
-
-        // Populate the adjacency list with reversed edges
-        for (auto& edge : edges) {
-            int from = edge[0];
-            int to = edge[1];
-            adjacencyList[to].push_back(from);
+        //first do indegree count
+        //generate the graph
+        vector<int> visited(n, 0);
+        vector<int> indegree(n, 0);
+        vector<vector<int>> graph(n);
+        for(auto& it: edges){
+            int u = it[0];
+            int v = it[1];
+            graph[u].push_back(v);
+            indegree[v]++;
         }
-
-        vector<vector<int>> ancestorsList;
-
-        // For each node, find all its ancestors (children in reversed graph)
-        for (int i = 0; i < n; i++) {
-            vector<int> ancestors;
-            unordered_set<int> visited;
-            findChildren(i, adjacencyList, visited);
-            // Add visited nodes to the current nodes' ancestor list
-            for (int node = 0; node < n; node++) {
-                if (node == i) continue;
-                if (visited.find(node) != visited.end())
-                    ancestors.push_back(node);
+        
+        //O(N*M)
+        vector<set<int>> temp_ans(n);
+        //ancestors that has no parent and we push it to the queue
+        //pair<node, parent>
+        queue<pair<int, int>> q;
+        //O(N)
+        for(int i = 0; i < n; i++){
+            if(indegree[i] == 0){
+                visited[i] = 1;
+                q.push({i, -1});
             }
-            ancestorsList.push_back(ancestors);
         }
 
-        return ancestorsList;
+        //then do bfs keeping track of parent
+        //each traversal we use the adjNode parents and insert it the temp ans
+        //O(N^2 + E)
+        while(!q.empty()){
+            int curNode = q.front().first;
+            int parentNode = q.front().second;
+            q.pop();
+            //check the indegree is 0
+            //before checking that we will put the adjNode nodes parents to temp[adjNode]
+            for(auto adjNode: graph[curNode]){
+                if(temp_ans[curNode].size() > 0){
+                    for(auto it: temp_ans[curNode]){
+                        temp_ans[adjNode].insert(it);
+                    }
+                }
+                temp_ans[adjNode].insert(curNode);
+                if(visited[adjNode] == 0){
+                    if(--indegree[adjNode] == 0){
+                        visited[adjNode] = 1;
+                        q.push({adjNode, curNode});
+                    }
+                }
+            }
+        }
+
+        vector<vector<int>> ans(n);
+        //O(N*M)
+        for(int i = 0; i < n; i++){
+            for(auto& it: temp_ans[i]){
+                ans[i].push_back(it);
+            }
+        }
+
+        return ans;
     }
 };
