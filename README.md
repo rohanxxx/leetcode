@@ -676,6 +676,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0527-word-abbreviation](https://github.com/rohanxxx/leetcode/tree/master/0527-word-abbreviation) |
 | [0529-minesweeper](https://github.com/rohanxxx/leetcode/tree/master/0529-minesweeper) |
 | [0531-lonely-pixel-i](https://github.com/rohanxxx/leetcode/tree/master/0531-lonely-pixel-i) |
+| [0539-minimum-time-difference](https://github.com/rohanxxx/leetcode/tree/master/0539-minimum-time-difference) |
 | [0540-single-element-in-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/rohanxxx/leetcode/tree/master/0542-01-matrix) |
 | [0550-shortest-path-to-get-food](https://github.com/rohanxxx/leetcode/tree/master/0550-shortest-path-to-get-food) |
@@ -978,6 +979,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0514-freedom-trail](https://github.com/rohanxxx/leetcode/tree/master/0514-freedom-trail) |
 | [0516-longest-palindromic-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0527-word-abbreviation](https://github.com/rohanxxx/leetcode/tree/master/0527-word-abbreviation) |
+| [0539-minimum-time-difference](https://github.com/rohanxxx/leetcode/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/rohanxxx/leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [0567-permutation-in-string](https://github.com/rohanxxx/leetcode/tree/master/0567-permutation-in-string) |
 | [0616-add-bold-tag-in-string](https://github.com/rohanxxx/leetcode/tree/master/0616-add-bold-tag-in-string) |
@@ -1211,6 +1213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0502-ipo](https://github.com/rohanxxx/leetcode/tree/master/0502-ipo) |
 | [0506-relative-ranks](https://github.com/rohanxxx/leetcode/tree/master/0506-relative-ranks) |
 | [0527-word-abbreviation](https://github.com/rohanxxx/leetcode/tree/master/0527-word-abbreviation) |
+| [0539-minimum-time-difference](https://github.com/rohanxxx/leetcode/tree/master/0539-minimum-time-difference) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/rohanxxx/leetcode/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/rohanxxx/leetcode/tree/master/0692-top-k-frequent-words) |
@@ -1417,6 +1420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/rohanxxx/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0441-arranging-coins](https://github.com/rohanxxx/leetcode/tree/master/0441-arranging-coins) |
 | [0523-continuous-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0523-continuous-subarray-sum) |
+| [0539-minimum-time-difference](https://github.com/rohanxxx/leetcode/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/rohanxxx/leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [0670-maximum-swap](https://github.com/rohanxxx/leetcode/tree/master/0670-maximum-swap) |
 | [0912-random-pick-with-weight](https://github.com/rohanxxx/leetcode/tree/master/0912-random-pick-with-weight) |
