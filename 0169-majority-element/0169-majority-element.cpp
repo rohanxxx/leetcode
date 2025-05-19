@@ -8,7 +8,7 @@ public:
         for(int n: nums){
             if(++mp[n] > (size/2)){
                 if(maxCount < mp[n]){
-                    maxElement = n;
+                    return maxElement = n;
                 }
             }
         }
