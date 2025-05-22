@@ -28,10 +28,8 @@ public:
     long long countSubarrays(vector<int>& nums, int k) {
         // first find the max element
         int maxElement = INT_MIN;
-        unordered_map<int, int> freqMap;
         //TC: O(N)
         for(auto it: nums){
-            freqMap[it]++;
             if(it > maxElement){
                 //then update the maxElement
                 maxElement = it;
