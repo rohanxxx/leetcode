@@ -34,12 +34,10 @@ public:
                 int adjc = curCol + it[1];
                 if(adjr >= 0 && adjc >= 0 && adjr < n && adjc < m){
                     int newCost = 0;
-                    if(curCost < moveTime[adjr][adjc]){
-                        newCost = moveTime[adjr][adjc]+1;
-                    }
-                    else{
-                        newCost = curCost + 1;
-                    }
+                    
+                    if(curCost < moveTime[adjr][adjc]) newCost = moveTime[adjr][adjc]+1;
+                    else newCost = curCost + 1;
+                    
                     if(newCost < cost[adjr][adjc]){
                         cost[adjr][adjc] = newCost;
                         pq.push({newCost, adjr, adjc});
