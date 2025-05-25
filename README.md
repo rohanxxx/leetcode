@@ -1041,6 +1041,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1823-determine-if-string-halves-are-alike](https://github.com/rohanxxx/leetcode/tree/master/1823-determine-if-string-halves-are-alike) |
 | [1894-merge-strings-alternately](https://github.com/rohanxxx/leetcode/tree/master/1894-merge-strings-alternately) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/rohanxxx/leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1970-sorting-the-sentence](https://github.com/rohanxxx/leetcode/tree/master/1970-sorting-the-sentence) |
 | [2088-minimum-time-to-type-word-using-special-typewriter](https://github.com/rohanxxx/leetcode/tree/master/2088-minimum-time-to-type-word-using-special-typewriter) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/rohanxxx/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2154-minimum-moves-to-convert-string](https://github.com/rohanxxx/leetcode/tree/master/2154-minimum-moves-to-convert-string) |
@@ -1261,6 +1262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1829-maximum-units-on-a-truck](https://github.com/rohanxxx/leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [1962-single-threaded-cpu](https://github.com/rohanxxx/leetcode/tree/master/1962-single-threaded-cpu) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/rohanxxx/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [1970-sorting-the-sentence](https://github.com/rohanxxx/leetcode/tree/master/1970-sorting-the-sentence) |
 | [2117-find-original-array-from-doubled-array](https://github.com/rohanxxx/leetcode/tree/master/2117-find-original-array-from-doubled-array) |
 | [2248-minimum-cost-of-buying-candies-with-discount](https://github.com/rohanxxx/leetcode/tree/master/2248-minimum-cost-of-buying-candies-with-discount) |
 | [2327-largest-number-after-digit-swaps-by-parity](https://github.com/rohanxxx/leetcode/tree/master/2327-largest-number-after-digit-swaps-by-parity) |
