@@ -362,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2439-longest-cycle-in-a-graph](https://github.com/rohanxxx/leetcode/tree/master/2439-longest-cycle-in-a-graph) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rohanxxx/leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [2582-minimum-score-of-a-path-between-two-cities](https://github.com/rohanxxx/leetcode/tree/master/2582-minimum-score-of-a-path-between-two-cities) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
 ## Breadth-First Search
@@ -453,6 +454,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2439-longest-cycle-in-a-graph](https://github.com/rohanxxx/leetcode/tree/master/2439-longest-cycle-in-a-graph) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rohanxxx/leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [2582-minimum-score-of-a-path-between-two-cities](https://github.com/rohanxxx/leetcode/tree/master/2582-minimum-score-of-a-path-between-two-cities) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
@@ -1834,6 +1836,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/rohanxxx/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2439-longest-cycle-in-a-graph](https://github.com/rohanxxx/leetcode/tree/master/2439-longest-cycle-in-a-graph) |
+| [2582-minimum-score-of-a-path-between-two-cities](https://github.com/rohanxxx/leetcode/tree/master/2582-minimum-score-of-a-path-between-two-cities) |
 | [3189-find-champion-ii](https://github.com/rohanxxx/leetcode/tree/master/3189-find-champion-ii) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rohanxxx/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
@@ -2196,6 +2199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2035-count-sub-islands](https://github.com/rohanxxx/leetcode/tree/master/2035-count-sub-islands) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rohanxxx/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
+| [2582-minimum-score-of-a-path-between-two-cities](https://github.com/rohanxxx/leetcode/tree/master/2582-minimum-score-of-a-path-between-two-cities) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/rohanxxx/leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 ## Shortest Path
