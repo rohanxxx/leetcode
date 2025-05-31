@@ -16,10 +16,14 @@
 */
 class Solution {
 public:
+    //TC: O(NlogN + N) = O(NLogN)
+    //SC: O(logN) due to sorting algorithm worse case scenario
     int numRescueBoats(vector<int>& people, int limit) {
         int boatCount = 0;
+        //TC: O(NlogN)
         sort(people.begin(), people.end());
         int left = 0, right = people.size()-1;
+        //TC: O(N)
         while(left <= right){
             int w = people[left] + people[right];
             if(w <= limit){
