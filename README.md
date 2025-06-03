@@ -1489,6 +1489,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1993-sum-of-all-subset-xor-totals](https://github.com/rohanxxx/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rohanxxx/leetcode/tree/master/2206-detonate-the-maximum-bombs) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/rohanxxx/leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
+| [2507-number-of-common-factors](https://github.com/rohanxxx/leetcode/tree/master/2507-number-of-common-factors) |
 | [3227-find-missing-and-repeated-values](https://github.com/rohanxxx/leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/rohanxxx/leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
 | [3343-count-numbers-with-unique-digits-ii](https://github.com/rohanxxx/leetcode/tree/master/3343-count-numbers-with-unique-digits-ii) |
@@ -2295,6 +2296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/rohanxxx/leetcode/tree/master/0204-count-primes) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/rohanxxx/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2507-number-of-common-factors](https://github.com/rohanxxx/leetcode/tree/master/2507-number-of-common-factors) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/rohanxxx/leetcode/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/rohanxxx/leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
 | [3626-smallest-divisible-digit-product-i](https://github.com/rohanxxx/leetcode/tree/master/3626-smallest-divisible-digit-product-i) |
@@ -2309,6 +2311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/rohanxxx/leetcode/tree/master/0204-count-primes) |
 | [1543-simplified-fractions](https://github.com/rohanxxx/leetcode/tree/master/1543-simplified-fractions) |
+| [2507-number-of-common-factors](https://github.com/rohanxxx/leetcode/tree/master/2507-number-of-common-factors) |
 | [3702-maximum-subarray-with-equal-products](https://github.com/rohanxxx/leetcode/tree/master/3702-maximum-subarray-with-equal-products) |
 ## Ordered Set
 |  |
