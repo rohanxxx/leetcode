@@ -65,7 +65,7 @@ public:
         }
         for(int i = 0; i < n; i++){
             tree1Map[i] = bfs(i, graph1, k);
-            cout << "i: " << i << " tree1Map: " << tree1Map[i] << endl;
+            //cout << "i: " << i << " tree1Map: " << tree1Map[i] << endl;
         }
         int adjnCount = 0;
         for(int i = 0; i < m; i++){
