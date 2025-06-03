@@ -23,53 +23,64 @@
 */
 class Solution {
 public:
-    int bfs(vector<vector<int>>& r1,int k, int i, int n){
-        vector<bool>visited(n,false);
-        queue<int>q;
-        q.push(i);
-        int dist = 0;
-        int cnt = 0;
-        visited[i] = true;
-        while(!q.empty() && dist <= k){
-            int n1 = q.size();
-            while(n1--){
-                int temp = q.front();
-                q.pop();
-                cnt++;
-                for(int v: r1[temp]){
-                    if(!visited[v]){
-                        visited[v] = true;
-                        q.push(v);
+    int bfs(int node, unordered_map<int, vector<int>>& graph, int k){
+        int nCount = 0;
+        int n = graph.size()+1;
+        vector<int> visited(n, 0);
+        queue<vector<int>> q;
+        //{kCount, node}
+        q.push({0, node});
+        visited[node] = 1;
+        while(!q.empty()){
+            int curNode = q.front()[1];
+            int kCount = q.front()[0];
+            q.pop();
+            for(auto adjn: graph[curNode]){
+                if(visited[adjn] == 0){
+                    if(kCount+1 <= k){
+                        q.push({kCount+1, adjn});
+                        visited[adjn] = 1;
+                        nCount++;
                     }
                 }
             }
-            dist++;
         }
-        return cnt;
+        return nCount;
     }
     vector<int> maxTargetNodes(vector<vector<int>>& edges1, vector<vector<int>>& edges2, int k) {
-        int n = edges1.size();
-        int m = edges2.size();
-        vector<vector<int>>r1(n+1,vector<int>()),r2(m+1,vector<int>());
-        for(vector<int>&ans : edges1){
-            r1[ans[0]].push_back(ans[1]);
-            r1[ans[1]].push_back(ans[0]);
+        int n = edges1.size()+1;
+        int m = edges2.size()+1;
+        vector<int> ans (n, 0);
+        vector<int> tree1Map (n, 0);
+        vector<int> tree2Map (m, 0);
+        unordered_map<int, vector<int>> graph1;
+        unordered_map<int, vector<int>> graph2;
+        for(auto node: edges1){
+            graph1[node[0]].push_back(node[1]);
+            graph1[node[1]].push_back(node[0]);
         }
-        for(vector<int>&ans : edges2){
-            r2[ans[0]].push_back(ans[1]);
-            r2[ans[1]].push_back(ans[0]);
+        for(auto node: edges2){
+            graph2[node[0]].push_back(node[1]);
+            graph2[node[1]].push_back(node[0]);
         }
-        vector<int>curr(n+1);
-        for(int i=0;i<=n;i++){
-            curr[i] = bfs(r1,k,i,n+1);
+        for(int i = 0; i < n; i++){
+            tree1Map[i] = bfs(i, graph1, k);
+            cout << "i: " << i << " tree1Map: " << tree1Map[i] << endl;
         }
-        int dc = 0;
-        for(int i=0;i<=m;i++){
-            dc = max(dc,bfs(r2,k-1,i,m+1));
+        int adjnCount = 0;
+        for(int i = 0; i < m; i++){
+            tree2Map[i] = bfs(i, graph2, k-1);
+            adjnCount = max(adjnCount, tree2Map[i]);
         }
-        vector<int>ans;
-        for(int i=0;i<=n;i++){
-            ans.push_back(curr[i]+dc);
+        for(int i = 0; i < n; i++){
+            //cout 
+            ans[i] = tree1Map[i];
+            if(k > 0){
+                ans[i] += (adjnCount + 2);
+            }
+            if(ans[i] == 0){
+                ans[i] = 1;
+            }
         }
         return ans;
     }
