@@ -699,6 +699,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0624-maximum-distance-in-arrays](https://github.com/rohanxxx/leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0643-maximum-average-subarray-i](https://github.com/rohanxxx/leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0654-maximum-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0654-maximum-binary-tree) |
+| [0658-find-k-closest-elements](https://github.com/rohanxxx/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0675-cut-off-trees-for-golf-event](https://github.com/rohanxxx/leetcode/tree/master/0675-cut-off-trees-for-golf-event) |
@@ -1144,6 +1145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/rohanxxx/leetcode/tree/master/0567-permutation-in-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0647-palindromic-substrings](https://github.com/rohanxxx/leetcode/tree/master/0647-palindromic-substrings) |
+| [0658-find-k-closest-elements](https://github.com/rohanxxx/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0680-valid-palindrome-ii](https://github.com/rohanxxx/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0908-middle-of-the-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [0917-boats-to-save-people](https://github.com/rohanxxx/leetcode/tree/master/0917-boats-to-save-people) |
@@ -1260,6 +1262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0539-minimum-time-difference](https://github.com/rohanxxx/leetcode/tree/master/0539-minimum-time-difference) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/rohanxxx/leetcode/tree/master/0621-task-scheduler) |
+| [0658-find-k-closest-elements](https://github.com/rohanxxx/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/rohanxxx/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/rohanxxx/leetcode/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/rohanxxx/leetcode/tree/master/0778-reorganize-string) |
@@ -1583,6 +1586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0502-ipo](https://github.com/rohanxxx/leetcode/tree/master/0502-ipo) |
 | [0506-relative-ranks](https://github.com/rohanxxx/leetcode/tree/master/0506-relative-ranks) |
 | [0621-task-scheduler](https://github.com/rohanxxx/leetcode/tree/master/0621-task-scheduler) |
+| [0658-find-k-closest-elements](https://github.com/rohanxxx/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0675-cut-off-trees-for-golf-event](https://github.com/rohanxxx/leetcode/tree/master/0675-cut-off-trees-for-golf-event) |
 | [0692-top-k-frequent-words](https://github.com/rohanxxx/leetcode/tree/master/0692-top-k-frequent-words) |
@@ -1796,6 +1800,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0487-max-consecutive-ones-ii](https://github.com/rohanxxx/leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0567-permutation-in-string](https://github.com/rohanxxx/leetcode/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/rohanxxx/leetcode/tree/master/0643-maximum-average-subarray-i) |
+| [0658-find-k-closest-elements](https://github.com/rohanxxx/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0940-fruit-into-baskets](https://github.com/rohanxxx/leetcode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/rohanxxx/leetcode/tree/master/0966-binary-subarrays-with-sum) |
@@ -1914,6 +1919,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0441-arranging-coins](https://github.com/rohanxxx/leetcode/tree/master/0441-arranging-coins) |
 | [0493-reverse-pairs](https://github.com/rohanxxx/leetcode/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
+| [0658-find-k-closest-elements](https://github.com/rohanxxx/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0729-my-calendar-i](https://github.com/rohanxxx/leetcode/tree/master/0729-my-calendar-i) |
 | [0786-search-in-a-sorted-array-of-unknown-size](https://github.com/rohanxxx/leetcode/tree/master/0786-search-in-a-sorted-array-of-unknown-size) |
