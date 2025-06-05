@@ -1030,6 +1030,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1023-time-based-key-value-store](https://github.com/rohanxxx/leetcode/tree/master/1023-time-based-key-value-store) |
 | [1044-find-common-characters](https://github.com/rohanxxx/leetcode/tree/master/1044-find-common-characters) |
 | [1051-shortest-way-to-form-string](https://github.com/rohanxxx/leetcode/tree/master/1051-shortest-way-to-form-string) |
+| [1060-longest-repeating-substring](https://github.com/rohanxxx/leetcode/tree/master/1060-longest-repeating-substring) |
 | [1076-brace-expansion](https://github.com/rohanxxx/leetcode/tree/master/1076-brace-expansion) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/rohanxxx/leetcode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
 | [1119-robot-bounded-in-circle](https://github.com/rohanxxx/leetcode/tree/master/1119-robot-bounded-in-circle) |
@@ -1698,6 +1699,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0923-super-egg-drop](https://github.com/rohanxxx/leetcode/tree/master/0923-super-egg-drop) |
 | [1013-fibonacci-number](https://github.com/rohanxxx/leetcode/tree/master/1013-fibonacci-number) |
 | [1025-minimum-cost-for-tickets](https://github.com/rohanxxx/leetcode/tree/master/1025-minimum-cost-for-tickets) |
+| [1060-longest-repeating-substring](https://github.com/rohanxxx/leetcode/tree/master/1060-longest-repeating-substring) |
 | [1086-divisor-game](https://github.com/rohanxxx/leetcode/tree/master/1086-divisor-game) |
 | [1121-partition-array-for-maximum-sum](https://github.com/rohanxxx/leetcode/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/rohanxxx/leetcode/tree/master/1129-longest-string-chain) |
@@ -1819,6 +1821,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/rohanxxx/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [1060-longest-repeating-substring](https://github.com/rohanxxx/leetcode/tree/master/1060-longest-repeating-substring) |
 ## Hash Function
 |  |
 | ------- |
@@ -1827,6 +1830,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0694-number-of-distinct-islands](https://github.com/rohanxxx/leetcode/tree/master/0694-number-of-distinct-islands) |
 | [0711-number-of-distinct-islands-ii](https://github.com/rohanxxx/leetcode/tree/master/0711-number-of-distinct-islands-ii) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [1060-longest-repeating-substring](https://github.com/rohanxxx/leetcode/tree/master/1060-longest-repeating-substring) |
 ## Graph
 |  |
 | ------- |
@@ -1924,6 +1928,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1051-shortest-way-to-form-string](https://github.com/rohanxxx/leetcode/tree/master/1051-shortest-way-to-form-string) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/rohanxxx/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1059-missing-element-in-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1059-missing-element-in-sorted-array) |
+| [1060-longest-repeating-substring](https://github.com/rohanxxx/leetcode/tree/master/1060-longest-repeating-substring) |
 | [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/rohanxxx/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1150-two-sum-bsts](https://github.com/rohanxxx/leetcode/tree/master/1150-two-sum-bsts) |
@@ -2397,4 +2402,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1028-interval-list-intersections](https://github.com/rohanxxx/leetcode/tree/master/1028-interval-list-intersections) |
+## Suffix Array
+|  |
+| ------- |
+| [1060-longest-repeating-substring](https://github.com/rohanxxx/leetcode/tree/master/1060-longest-repeating-substring) |
 <!---LeetCode Topics End-->
