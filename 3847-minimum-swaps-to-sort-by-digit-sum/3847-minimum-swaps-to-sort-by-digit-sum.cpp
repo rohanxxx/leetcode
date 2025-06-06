@@ -29,7 +29,7 @@ public:
             pq.pop();
             if(nums[i] != num){
                 map[nums[i]] = index;
-                map[nums[index]] = i;
+                //map[nums[index]] = i;
                 swap(nums[i], nums[index]);
                 count++;
             }
