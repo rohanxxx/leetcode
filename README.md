@@ -1056,6 +1056,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1397-search-suggestions-system](https://github.com/rohanxxx/leetcode/tree/master/1397-search-suggestions-system) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/rohanxxx/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1472-increasing-decreasing-string](https://github.com/rohanxxx/leetcode/tree/master/1472-increasing-decreasing-string) |
+| [1512-design-underground-system](https://github.com/rohanxxx/leetcode/tree/master/1512-design-underground-system) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/rohanxxx/leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1543-simplified-fractions](https://github.com/rohanxxx/leetcode/tree/master/1543-simplified-fractions) |
 | [1632-number-of-good-ways-to-split-a-string](https://github.com/rohanxxx/leetcode/tree/master/1632-number-of-good-ways-to-split-a-string) |
@@ -1411,6 +1412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1464-reduce-array-size-to-the-half](https://github.com/rohanxxx/leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/rohanxxx/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1472-increasing-decreasing-string](https://github.com/rohanxxx/leetcode/tree/master/1472-increasing-decreasing-string) |
+| [1512-design-underground-system](https://github.com/rohanxxx/leetcode/tree/master/1512-design-underground-system) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/rohanxxx/leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1632-number-of-good-ways-to-split-a-string](https://github.com/rohanxxx/leetcode/tree/master/1632-number-of-good-ways-to-split-a-string) |
 | [1634-clone-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1634-clone-n-ary-tree) |
@@ -2203,6 +2205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1249-snapshot-array](https://github.com/rohanxxx/leetcode/tree/master/1249-snapshot-array) |
 | [1366-first-unique-number](https://github.com/rohanxxx/leetcode/tree/master/1366-first-unique-number) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/rohanxxx/leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1512-design-underground-system](https://github.com/rohanxxx/leetcode/tree/master/1512-design-underground-system) |
 | [1582-design-browser-history](https://github.com/rohanxxx/leetcode/tree/master/1582-design-browser-history) |
 | [2139-detect-squares](https://github.com/rohanxxx/leetcode/tree/master/2139-detect-squares) |
 | [2429-design-a-food-rating-system](https://github.com/rohanxxx/leetcode/tree/master/2429-design-a-food-rating-system) |
