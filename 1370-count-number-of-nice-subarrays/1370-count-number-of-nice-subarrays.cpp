@@ -16,17 +16,21 @@
 */
 class Solution {
 public:
-    int numberOfSubarrays(vector<int>& nums, int k) {
+    int func(vector<int>& nums, int k){
+        int left, sum, count;
+        left = sum = count = 0;
         int n = nums.size();
-        int curSum = 0, count = 0;
-        //{sum, freq}
-        unordered_map<int, int> freq;
-        freq[0] = 1;
-        for(int i = 0; i < n; i++){
-            curSum += (nums[i] % 2);
-            if(freq[curSum-k]) count += freq[curSum-k];
-            freq[curSum]++;
+        for(int right = 0; right < n; right++){
+            sum += (nums[right]%2);
+            while(sum > k){
+                sum = sum - nums[left]%2;
+                left++;
+            }
+            count += (right - left + 1);
         }
         return count;
+    }
+    int numberOfSubarrays(vector<int>& nums, int k) {
+        return func(nums, k) - func(nums, k-1);
     }
 };
