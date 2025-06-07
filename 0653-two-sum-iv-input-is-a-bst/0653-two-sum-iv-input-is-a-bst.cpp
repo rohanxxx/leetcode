@@ -11,20 +11,16 @@
  */
 class Solution {
 public:
-    void dfs(TreeNode* root, int k, bool& exists, unordered_map<int, int>& map){
-        if(root == NULL) return;
+    bool dfs(TreeNode* root, int k, unordered_map<int, int>& map){
+        if(root == NULL) return false;
         
-        if(map[k-root->val] == 1) exists = true;
-        if(exists == true) return;
+        if(map[k-root->val] == 1) return true;
 
         map[root->val] = 1;
-        dfs(root->left, k, exists, map);
-        dfs(root->right, k, exists, map);
+        return dfs(root->left, k, map) || dfs(root->right, k, map);
     }
     bool findTarget(TreeNode* root, int k) {
-        bool exists = false;
         unordered_map<int, int> map;
-        dfs(root, k, exists, map);
-        return exists;
+        return dfs(root, k, map);
     }
 };
