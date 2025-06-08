@@ -3,30 +3,32 @@
     1 1 2
     1 
 */
+// C++ Solution
 class Solution {
 public:
-    void backtrack(vector<int>& nums, unordered_map<int, bool>& map, 
-                            vector<int>& comb, set<vector<int>>& ans){
-        if(comb.size() == nums.size()){
-            ans.insert(comb);
+    vector<vector<int>> permuteUnique(vector<int>& nums) {
+        vector<vector<int>> results;
+        unordered_map<int, int> counter;
+        for (int num : nums) counter[num]++;
+        vector<int> comb;
+        backtrack(counter, comb, nums.size(), results);
+        return results;
+    }
+    void backtrack(unordered_map<int, int>& counter, vector<int>& comb, int N,
+                   vector<vector<int>>& results) {
+        if (comb.size() == N) {
+            results.push_back(comb);
             return;
         }
-
-        for(int i = 0; i < nums.size(); i++){
-            if(map[i] == false){
-                map[i] = true;
-                comb.push_back(nums[i]);
-                backtrack(nums, map, comb, ans);
-                comb.pop_back();
-                map[i] = false;
-            }
+        for (auto& item : counter) {
+            int num = item.first;
+            int count = item.second;
+            if (count == 0) continue;
+            comb.push_back(num);
+            counter[num]--;
+            backtrack(counter, comb, N, results);
+            comb.pop_back();
+            counter[num]++;
         }
-    }
-    vector<vector<int>> permuteUnique(vector<int>& nums) {
-        unordered_map<int, bool> indexMap;
-        set<vector<int>> ans;
-        vector<int> temp;
-        backtrack(nums, indexMap, temp, ans);
-        return vector<vector<int>>(ans.begin(), ans.end());
     }
 };
