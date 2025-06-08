@@ -16,9 +16,10 @@ struct Node {
     }
 };
 class MyCircularQueue {
-public:
+private:
     Node* Q, *front, *rear;
     int maxSize, curSize;
+public:
     MyCircularQueue(int k) {
         curSize = 0;
         maxSize = k;
