@@ -17,9 +17,7 @@ struct Node {
 };
 class MyCircularQueue {
 public:
-    Node* Q;
-    Node* front; 
-    Node* rear;
+    Node* Q, *front, *rear;
     int maxSize, curSize;
     MyCircularQueue(int k) {
         curSize = 0;
@@ -41,9 +39,8 @@ public:
     
     bool deQueue() {
         if(curSize == 0) return false;
-        curSize--;
         //this will reaturn -1 when the queue is empty
-        if(curSize == 0) front = rear = Q;
+        if(--curSize == 0) front = rear = Q;
         else front = front->next;
         return true;
     }
