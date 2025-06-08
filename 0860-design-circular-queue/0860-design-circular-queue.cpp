@@ -17,16 +17,14 @@ struct Node {
 };
 class MyCircularQueue {
 public:
+    Node* Q;
     Node* front; 
     Node* rear;
-    Node* Q;
     int maxSize, curSize;
     MyCircularQueue(int k) {
         curSize = 0;
         maxSize = k;
-        Q = new Node(-1);
-        front = Q;
-        rear = Q;
+        front = rear = Q = new Node(-1);
     }
     
     bool enQueue(int value) {
@@ -45,13 +43,8 @@ public:
         if(curSize == 0) return false;
         curSize--;
         //this will reaturn -1 when the queue is empty
-        if(curSize == 0){
-            front = Q;
-            rear = Q;
-        }
-        else{
-            front = front->next;
-        }
+        if(curSize == 0) front = rear = Q;
+        else front = front->next;
         return true;
     }
     
