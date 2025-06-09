@@ -821,6 +821,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1803-average-waiting-time](https://github.com/rohanxxx/leetcode/tree/master/1803-average-waiting-time) |
 | [1829-maximum-units-on-a-truck](https://github.com/rohanxxx/leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [1833-find-the-highest-altitude](https://github.com/rohanxxx/leetcode/tree/master/1833-find-the-highest-altitude) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/rohanxxx/leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/rohanxxx/leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1938-minimum-operations-to-make-the-array-increasing](https://github.com/rohanxxx/leetcode/tree/master/1938-minimum-operations-to-make-the-array-increasing) |
 | [1962-single-threaded-cpu](https://github.com/rohanxxx/leetcode/tree/master/1962-single-threaded-cpu) |
