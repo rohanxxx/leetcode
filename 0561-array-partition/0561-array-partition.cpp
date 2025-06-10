@@ -12,14 +12,20 @@
 class Solution {
 public:
     int arrayPairSum(vector<int>& nums) {
-        //TC: O(NLogN)
-        //SC: O(LogN)
-        sort(nums.begin(), nums.end());
-        
+        unordered_map<int, int> freq;
+        for(auto& num: nums) freq[num]++;
+        int count = 0;
         int ans = 0;
-        int n = nums.size();
-        //TC: O(N/2)
-        for(int i = 0; i < n; i+=2) ans += nums[i];
+
+        vector<int> v;
+        for(int i = -1e4; i <= 1e4; i++){
+            if(freq.find(i) != freq.end()){
+                for(int it = 0; it < freq[i]; it++) v.push_back(i);
+            }
+        }
+        for(int i = 0; i < nums.size(); i+=2){
+            ans += v[i];
+        }
         return ans;
     }
 };
