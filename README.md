@@ -299,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0463-island-perimeter](https://github.com/rohanxxx/leetcode/tree/master/0463-island-perimeter) |
 | [0490-the-maze](https://github.com/rohanxxx/leetcode/tree/master/0490-the-maze) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0501-find-mode-in-binary-search-tree) |
+| [0505-the-maze-ii](https://github.com/rohanxxx/leetcode/tree/master/0505-the-maze-ii) |
 | [0514-freedom-trail](https://github.com/rohanxxx/leetcode/tree/master/0514-freedom-trail) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/rohanxxx/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0529-minesweeper](https://github.com/rohanxxx/leetcode/tree/master/0529-minesweeper) |
@@ -407,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/rohanxxx/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/rohanxxx/leetcode/tree/master/0463-island-perimeter) |
 | [0490-the-maze](https://github.com/rohanxxx/leetcode/tree/master/0490-the-maze) |
+| [0505-the-maze-ii](https://github.com/rohanxxx/leetcode/tree/master/0505-the-maze-ii) |
 | [0514-freedom-trail](https://github.com/rohanxxx/leetcode/tree/master/0514-freedom-trail) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/rohanxxx/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0529-minesweeper](https://github.com/rohanxxx/leetcode/tree/master/0529-minesweeper) |
@@ -687,6 +689,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/rohanxxx/leetcode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/rohanxxx/leetcode/tree/master/0496-next-greater-element-i) |
 | [0502-ipo](https://github.com/rohanxxx/leetcode/tree/master/0502-ipo) |
+| [0505-the-maze-ii](https://github.com/rohanxxx/leetcode/tree/master/0505-the-maze-ii) |
 | [0506-relative-ranks](https://github.com/rohanxxx/leetcode/tree/master/0506-relative-ranks) |
 | [0517-super-washing-machines](https://github.com/rohanxxx/leetcode/tree/master/0517-super-washing-machines) |
 | [0518-coin-change-ii](https://github.com/rohanxxx/leetcode/tree/master/0518-coin-change-ii) |
@@ -933,6 +936,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0422-valid-word-square](https://github.com/rohanxxx/leetcode/tree/master/0422-valid-word-square) |
 | [0463-island-perimeter](https://github.com/rohanxxx/leetcode/tree/master/0463-island-perimeter) |
 | [0490-the-maze](https://github.com/rohanxxx/leetcode/tree/master/0490-the-maze) |
+| [0505-the-maze-ii](https://github.com/rohanxxx/leetcode/tree/master/0505-the-maze-ii) |
 | [0529-minesweeper](https://github.com/rohanxxx/leetcode/tree/master/0529-minesweeper) |
 | [0531-lonely-pixel-i](https://github.com/rohanxxx/leetcode/tree/master/0531-lonely-pixel-i) |
 | [0542-01-matrix](https://github.com/rohanxxx/leetcode/tree/master/0542-01-matrix) |
@@ -1620,6 +1624,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0358-rearrange-string-k-distance-apart](https://github.com/rohanxxx/leetcode/tree/master/0358-rearrange-string-k-distance-apart) |
 | [0451-sort-characters-by-frequency](https://github.com/rohanxxx/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0502-ipo](https://github.com/rohanxxx/leetcode/tree/master/0502-ipo) |
+| [0505-the-maze-ii](https://github.com/rohanxxx/leetcode/tree/master/0505-the-maze-ii) |
 | [0506-relative-ranks](https://github.com/rohanxxx/leetcode/tree/master/0506-relative-ranks) |
 | [0621-task-scheduler](https://github.com/rohanxxx/leetcode/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/rohanxxx/leetcode/tree/master/0658-find-k-closest-elements) |
@@ -1887,6 +1892,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/rohanxxx/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0399-evaluate-division](https://github.com/rohanxxx/leetcode/tree/master/0399-evaluate-division) |
+| [0505-the-maze-ii](https://github.com/rohanxxx/leetcode/tree/master/0505-the-maze-ii) |
 | [0511-all-paths-from-source-lead-to-destination](https://github.com/rohanxxx/leetcode/tree/master/0511-all-paths-from-source-lead-to-destination) |
 | [0547-number-of-provinces](https://github.com/rohanxxx/leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/rohanxxx/leetcode/tree/master/0684-redundant-connection) |
@@ -2294,6 +2300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/rohanxxx/leetcode/tree/master/0399-evaluate-division) |
+| [0505-the-maze-ii](https://github.com/rohanxxx/leetcode/tree/master/0505-the-maze-ii) |
 | [0744-network-delay-time](https://github.com/rohanxxx/leetcode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/rohanxxx/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1325-path-with-maximum-probability](https://github.com/rohanxxx/leetcode/tree/master/1325-path-with-maximum-probability) |
