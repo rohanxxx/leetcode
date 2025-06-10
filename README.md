@@ -701,6 +701,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0550-shortest-path-to-get-food](https://github.com/rohanxxx/leetcode/tree/master/0550-shortest-path-to-get-food) |
 | [0554-brick-wall](https://github.com/rohanxxx/leetcode/tree/master/0554-brick-wall) |
 | [0560-subarray-sum-equals-k](https://github.com/rohanxxx/leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0561-array-partition](https://github.com/rohanxxx/leetcode/tree/master/0561-array-partition) |
 | [0575-distribute-candies](https://github.com/rohanxxx/leetcode/tree/master/0575-distribute-candies) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0582-kill-process](https://github.com/rohanxxx/leetcode/tree/master/0582-kill-process) |
@@ -1206,6 +1207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0502-ipo](https://github.com/rohanxxx/leetcode/tree/master/0502-ipo) |
 | [0517-super-washing-machines](https://github.com/rohanxxx/leetcode/tree/master/0517-super-washing-machines) |
 | [0527-word-abbreviation](https://github.com/rohanxxx/leetcode/tree/master/0527-word-abbreviation) |
+| [0561-array-partition](https://github.com/rohanxxx/leetcode/tree/master/0561-array-partition) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/rohanxxx/leetcode/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/rohanxxx/leetcode/tree/master/0624-maximum-distance-in-arrays) |
@@ -1281,6 +1283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0506-relative-ranks](https://github.com/rohanxxx/leetcode/tree/master/0506-relative-ranks) |
 | [0527-word-abbreviation](https://github.com/rohanxxx/leetcode/tree/master/0527-word-abbreviation) |
 | [0539-minimum-time-difference](https://github.com/rohanxxx/leetcode/tree/master/0539-minimum-time-difference) |
+| [0561-array-partition](https://github.com/rohanxxx/leetcode/tree/master/0561-array-partition) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0594-longest-harmonious-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/rohanxxx/leetcode/tree/master/0621-task-scheduler) |
@@ -2446,6 +2449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting Sort
 |  |
 | ------- |
+| [0561-array-partition](https://github.com/rohanxxx/leetcode/tree/master/0561-array-partition) |
 | [0948-sort-an-array](https://github.com/rohanxxx/leetcode/tree/master/0948-sort-an-array) |
 ## Line Sweep
 |  |
