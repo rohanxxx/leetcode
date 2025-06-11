@@ -649,6 +649,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0265-paint-house-ii](https://github.com/rohanxxx/leetcode/tree/master/0265-paint-house-ii) |
 | [0268-missing-number](https://github.com/rohanxxx/leetcode/tree/master/0268-missing-number) |
 | [0280-wiggle-sort](https://github.com/rohanxxx/leetcode/tree/master/0280-wiggle-sort) |
+| [0281-zigzag-iterator](https://github.com/rohanxxx/leetcode/tree/master/0281-zigzag-iterator) |
 | [0283-move-zeroes](https://github.com/rohanxxx/leetcode/tree/master/0283-move-zeroes) |
 | [0286-walls-and-gates](https://github.com/rohanxxx/leetcode/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/rohanxxx/leetcode/tree/master/0287-find-the-duplicate-number) |
@@ -2210,6 +2211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/rohanxxx/leetcode/tree/master/0239-sliding-window-maximum) |
+| [0281-zigzag-iterator](https://github.com/rohanxxx/leetcode/tree/master/0281-zigzag-iterator) |
 | [0346-moving-average-from-data-stream](https://github.com/rohanxxx/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0362-design-hit-counter](https://github.com/rohanxxx/leetcode/tree/master/0362-design-hit-counter) |
 | [0860-design-circular-queue](https://github.com/rohanxxx/leetcode/tree/master/0860-design-circular-queue) |
@@ -2235,6 +2237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/rohanxxx/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0208-implement-trie-prefix-tree](https://github.com/rohanxxx/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0251-flatten-2d-vector](https://github.com/rohanxxx/leetcode/tree/master/0251-flatten-2d-vector) |
+| [0281-zigzag-iterator](https://github.com/rohanxxx/leetcode/tree/master/0281-zigzag-iterator) |
 | [0295-find-median-from-data-stream](https://github.com/rohanxxx/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0303-range-sum-query-immutable](https://github.com/rohanxxx/leetcode/tree/master/0303-range-sum-query-immutable) |
@@ -2438,6 +2441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/rohanxxx/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0251-flatten-2d-vector](https://github.com/rohanxxx/leetcode/tree/master/0251-flatten-2d-vector) |
+| [0281-zigzag-iterator](https://github.com/rohanxxx/leetcode/tree/master/0281-zigzag-iterator) |
 ## Biconnected Component
 |  |
 | ------- |
