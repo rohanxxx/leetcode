@@ -20,6 +20,7 @@
 class PeekingIterator : public Iterator {
 private:
     int it, size;
+    //SC: O(N)
     vector<int> queue;
 public:
 	PeekingIterator(const vector<int>& nums) : Iterator(nums) {
