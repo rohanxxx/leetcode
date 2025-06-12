@@ -19,8 +19,8 @@ down -> up
 */
 class Solution {
 public:
-    //TC: O(N+N) = O(2N) = O(N)
-    //SC: O(1)
+    //TC: O(N*N+N*N) = O(2N^2) = O(N^2)
+    //SC: O(N*N)
     vector<vector<int>> generateMatrix(int n) {
         //TC: O(N)
         vector<vector<int>> grid(n, vector<int>(n, 0));
@@ -29,25 +29,18 @@ public:
         int up = 0, down = n-1;
 
         int count = 0;
-        //TC: O(N)
-        //SC: O(1)
+        //TC: O(N*N)
+        //SC: O(N*N)
         while(count <= n*n-1){
             //left to right
-            for(int i = left; i <= right; i++){
-                grid[up][i] = ++count;
-            }
+            for(int i = left; i <= right; i++) grid[up][i] = ++count;
             //up to down
-            for(int i = up+1; i <= down; i++){
-                grid[i][right] = ++count;
-            }
+            for(int i = up+1; i <= down; i++) grid[i][right] = ++count;
             //right to left
-            for(int i = right-1; i >= left; i--){
-                grid[down][i] = ++count;
-            }
+            for(int i = right-1; i >= left; i--) grid[down][i] = ++count;
             //down to up
-            for(int i = down-1; i >= up+1; i--){
-                grid[i][left] = ++count;
-            }
+            for(int i = down-1; i >= up+1; i--) grid[i][left] = ++count;
+            
             left++; up++;
             right--; down--;
         }
