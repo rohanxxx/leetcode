@@ -625,6 +625,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/rohanxxx/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/rohanxxx/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0157-read-n-characters-given-read4](https://github.com/rohanxxx/leetcode/tree/master/0157-read-n-characters-given-read4) |
 | [0162-find-peak-element](https://github.com/rohanxxx/leetcode/tree/master/0162-find-peak-element) |
 | [0163-missing-ranges](https://github.com/rohanxxx/leetcode/tree/master/0163-missing-ranges) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/rohanxxx/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -2171,6 +2172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/rohanxxx/leetcode/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/rohanxxx/leetcode/tree/master/0059-spiral-matrix-ii) |
 | [0068-text-justification](https://github.com/rohanxxx/leetcode/tree/master/0068-text-justification) |
+| [0157-read-n-characters-given-read4](https://github.com/rohanxxx/leetcode/tree/master/0157-read-n-characters-given-read4) |
 | [0898-transpose-matrix](https://github.com/rohanxxx/leetcode/tree/master/0898-transpose-matrix) |
 | [0987-reveal-cards-in-increasing-order](https://github.com/rohanxxx/leetcode/tree/master/0987-reveal-cards-in-increasing-order) |
 | [1119-robot-bounded-in-circle](https://github.com/rohanxxx/leetcode/tree/master/1119-robot-bounded-in-circle) |
@@ -2327,6 +2329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Interactive
 |  |
 | ------- |
+| [0157-read-n-characters-given-read4](https://github.com/rohanxxx/leetcode/tree/master/0157-read-n-characters-given-read4) |
 | [0277-find-the-celebrity](https://github.com/rohanxxx/leetcode/tree/master/0277-find-the-celebrity) |
 | [0786-search-in-a-sorted-array-of-unknown-size](https://github.com/rohanxxx/leetcode/tree/master/0786-search-in-a-sorted-array-of-unknown-size) |
 | [0865-robot-room-cleaner](https://github.com/rohanxxx/leetcode/tree/master/0865-robot-room-cleaner) |
