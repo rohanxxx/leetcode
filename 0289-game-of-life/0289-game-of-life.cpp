@@ -53,7 +53,6 @@ public:
                 //if current cell dead or alive
                 //TC: O(1)
                 if(board[i][j] == 1){
-                    //if(count == 2 || count == 3) state[i][j] = 1;
                     if(count < 2 || count > 3) board[i][j] = -1;
                 }
                 else{
