@@ -1973,6 +1973,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0362-design-hit-counter](https://github.com/rohanxxx/leetcode/tree/master/0362-design-hit-counter) |
 | [0367-valid-perfect-square](https://github.com/rohanxxx/leetcode/tree/master/0367-valid-perfect-square) |
+| [0374-guess-number-higher-or-lower](https://github.com/rohanxxx/leetcode/tree/master/0374-guess-number-higher-or-lower) |
 | [0410-split-array-largest-sum](https://github.com/rohanxxx/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0441-arranging-coins](https://github.com/rohanxxx/leetcode/tree/master/0441-arranging-coins) |
 | [0493-reverse-pairs](https://github.com/rohanxxx/leetcode/tree/master/0493-reverse-pairs) |
@@ -2334,6 +2335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0157-read-n-characters-given-read4](https://github.com/rohanxxx/leetcode/tree/master/0157-read-n-characters-given-read4) |
 | [0277-find-the-celebrity](https://github.com/rohanxxx/leetcode/tree/master/0277-find-the-celebrity) |
+| [0374-guess-number-higher-or-lower](https://github.com/rohanxxx/leetcode/tree/master/0374-guess-number-higher-or-lower) |
 | [0786-search-in-a-sorted-array-of-unknown-size](https://github.com/rohanxxx/leetcode/tree/master/0786-search-in-a-sorted-array-of-unknown-size) |
 | [0865-robot-room-cleaner](https://github.com/rohanxxx/leetcode/tree/master/0865-robot-room-cleaner) |
 | [1271-web-crawler](https://github.com/rohanxxx/leetcode/tree/master/1271-web-crawler) |
