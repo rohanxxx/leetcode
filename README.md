@@ -2117,6 +2117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/rohanxxx/leetcode/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/rohanxxx/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0224-basic-calculator](https://github.com/rohanxxx/leetcode/tree/master/0224-basic-calculator) |
+| [0225-implement-stack-using-queues](https://github.com/rohanxxx/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0227-basic-calculator-ii](https://github.com/rohanxxx/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/rohanxxx/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
@@ -2228,6 +2229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/rohanxxx/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0239-sliding-window-maximum](https://github.com/rohanxxx/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0281-zigzag-iterator](https://github.com/rohanxxx/leetcode/tree/master/0281-zigzag-iterator) |
 | [0346-moving-average-from-data-stream](https://github.com/rohanxxx/leetcode/tree/master/0346-moving-average-from-data-stream) |
@@ -2254,6 +2256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/rohanxxx/leetcode/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/rohanxxx/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0208-implement-trie-prefix-tree](https://github.com/rohanxxx/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0225-implement-stack-using-queues](https://github.com/rohanxxx/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0251-flatten-2d-vector](https://github.com/rohanxxx/leetcode/tree/master/0251-flatten-2d-vector) |
 | [0281-zigzag-iterator](https://github.com/rohanxxx/leetcode/tree/master/0281-zigzag-iterator) |
 | [0284-peeking-iterator](https://github.com/rohanxxx/leetcode/tree/master/0284-peeking-iterator) |
