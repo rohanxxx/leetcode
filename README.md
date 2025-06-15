@@ -674,6 +674,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0334-increasing-triplet-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0346-moving-average-from-data-stream](https://github.com/rohanxxx/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/rohanxxx/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0360-sort-transformed-array](https://github.com/rohanxxx/leetcode/tree/master/0360-sort-transformed-array) |
 | [0361-bomb-enemy](https://github.com/rohanxxx/leetcode/tree/master/0361-bomb-enemy) |
 | [0362-design-hit-counter](https://github.com/rohanxxx/leetcode/tree/master/0362-design-hit-counter) |
 | [0368-largest-divisible-subset](https://github.com/rohanxxx/leetcode/tree/master/0368-largest-divisible-subset) |
@@ -1178,6 +1179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/rohanxxx/leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/rohanxxx/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/rohanxxx/leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0360-sort-transformed-array](https://github.com/rohanxxx/leetcode/tree/master/0360-sort-transformed-array) |
 | [0392-is-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/rohanxxx/leetcode/tree/master/0443-string-compression) |
 | [0455-assign-cookies](https://github.com/rohanxxx/leetcode/tree/master/0455-assign-cookies) |
@@ -1293,6 +1295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0314-binary-tree-vertical-order-traversal](https://github.com/rohanxxx/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/rohanxxx/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0358-rearrange-string-k-distance-apart](https://github.com/rohanxxx/leetcode/tree/master/0358-rearrange-string-k-distance-apart) |
+| [0360-sort-transformed-array](https://github.com/rohanxxx/leetcode/tree/master/0360-sort-transformed-array) |
 | [0368-largest-divisible-subset](https://github.com/rohanxxx/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0389-find-the-difference](https://github.com/rohanxxx/leetcode/tree/master/0389-find-the-difference) |
 | [0435-non-overlapping-intervals](https://github.com/rohanxxx/leetcode/tree/master/0435-non-overlapping-intervals) |
@@ -1526,6 +1529,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/rohanxxx/leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0268-missing-number](https://github.com/rohanxxx/leetcode/tree/master/0268-missing-number) |
 | [0342-power-of-four](https://github.com/rohanxxx/leetcode/tree/master/0342-power-of-four) |
+| [0360-sort-transformed-array](https://github.com/rohanxxx/leetcode/tree/master/0360-sort-transformed-array) |
 | [0365-water-and-jug-problem](https://github.com/rohanxxx/leetcode/tree/master/0365-water-and-jug-problem) |
 | [0367-valid-perfect-square](https://github.com/rohanxxx/leetcode/tree/master/0367-valid-perfect-square) |
 | [0368-largest-divisible-subset](https://github.com/rohanxxx/leetcode/tree/master/0368-largest-divisible-subset) |
