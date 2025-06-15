@@ -1525,6 +1525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/rohanxxx/leetcode/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/rohanxxx/leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0268-missing-number](https://github.com/rohanxxx/leetcode/tree/master/0268-missing-number) |
+| [0342-power-of-four](https://github.com/rohanxxx/leetcode/tree/master/0342-power-of-four) |
 | [0365-water-and-jug-problem](https://github.com/rohanxxx/leetcode/tree/master/0365-water-and-jug-problem) |
 | [0367-valid-perfect-square](https://github.com/rohanxxx/leetcode/tree/master/0367-valid-perfect-square) |
 | [0368-largest-divisible-subset](https://github.com/rohanxxx/leetcode/tree/master/0368-largest-divisible-subset) |
@@ -1835,6 +1836,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/rohanxxx/leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/rohanxxx/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/rohanxxx/leetcode/tree/master/0338-counting-bits) |
+| [0342-power-of-four](https://github.com/rohanxxx/leetcode/tree/master/0342-power-of-four) |
 | [0389-find-the-difference](https://github.com/rohanxxx/leetcode/tree/master/0389-find-the-difference) |
 | [0877-shortest-path-visiting-all-nodes](https://github.com/rohanxxx/leetcode/tree/master/0877-shortest-path-visiting-all-nodes) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/rohanxxx/leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
@@ -2103,6 +2105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/rohanxxx/leetcode/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/rohanxxx/leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
+| [0342-power-of-four](https://github.com/rohanxxx/leetcode/tree/master/0342-power-of-four) |
 | [0394-decode-string](https://github.com/rohanxxx/leetcode/tree/master/0394-decode-string) |
 | [0439-ternary-expression-parser](https://github.com/rohanxxx/leetcode/tree/master/0439-ternary-expression-parser) |
 | [1013-fibonacci-number](https://github.com/rohanxxx/leetcode/tree/master/1013-fibonacci-number) |
