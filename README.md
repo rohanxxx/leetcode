@@ -1036,6 +1036,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0394-decode-string](https://github.com/rohanxxx/leetcode/tree/master/0394-decode-string) |
 | [0399-evaluate-division](https://github.com/rohanxxx/leetcode/tree/master/0399-evaluate-division) |
 | [0402-remove-k-digits](https://github.com/rohanxxx/leetcode/tree/master/0402-remove-k-digits) |
+| [0408-valid-word-abbreviation](https://github.com/rohanxxx/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0409-longest-palindrome](https://github.com/rohanxxx/leetcode/tree/master/0409-longest-palindrome) |
 | [0415-add-strings](https://github.com/rohanxxx/leetcode/tree/master/0415-add-strings) |
 | [0424-longest-repeating-character-replacement](https://github.com/rohanxxx/leetcode/tree/master/0424-longest-repeating-character-replacement) |
@@ -1182,6 +1183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/rohanxxx/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0360-sort-transformed-array](https://github.com/rohanxxx/leetcode/tree/master/0360-sort-transformed-array) |
 | [0392-is-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0392-is-subsequence) |
+| [0408-valid-word-abbreviation](https://github.com/rohanxxx/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0443-string-compression](https://github.com/rohanxxx/leetcode/tree/master/0443-string-compression) |
 | [0455-assign-cookies](https://github.com/rohanxxx/leetcode/tree/master/0455-assign-cookies) |
 | [0567-permutation-in-string](https://github.com/rohanxxx/leetcode/tree/master/0567-permutation-in-string) |
