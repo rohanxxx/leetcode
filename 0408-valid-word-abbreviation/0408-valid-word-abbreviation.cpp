@@ -17,7 +17,6 @@ public:
         int j = 0;
         int integer = 0;
         for(int i = 0; i < abbr.size(); i++){
-            cout << "i: " << i << endl;
             if(isdigit(abbr[i])){
                 if(abbr[i] == '0' && integer == 0) return false;
                 integer = (integer * 10) + (abbr[i] - '0');
