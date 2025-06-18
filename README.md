@@ -1021,6 +1021,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0187-repeated-dna-sequences](https://github.com/rohanxxx/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0205-isomorphic-strings](https://github.com/rohanxxx/leetcode/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/rohanxxx/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0214-shortest-palindrome](https://github.com/rohanxxx/leetcode/tree/master/0214-shortest-palindrome) |
 | [0224-basic-calculator](https://github.com/rohanxxx/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/rohanxxx/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/rohanxxx/leetcode/tree/master/0241-different-ways-to-add-parentheses) |
@@ -1144,6 +1145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/rohanxxx/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0214-shortest-palindrome](https://github.com/rohanxxx/leetcode/tree/master/0214-shortest-palindrome) |
 | [0459-repeated-substring-pattern](https://github.com/rohanxxx/leetcode/tree/master/0459-repeated-substring-pattern) |
 | [0572-subtree-of-another-tree](https://github.com/rohanxxx/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0616-add-bold-tag-in-string](https://github.com/rohanxxx/leetcode/tree/master/0616-add-bold-tag-in-string) |
@@ -1910,12 +1912,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/rohanxxx/leetcode/tree/master/0187-repeated-dna-sequences) |
+| [0214-shortest-palindrome](https://github.com/rohanxxx/leetcode/tree/master/0214-shortest-palindrome) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [1060-longest-repeating-substring](https://github.com/rohanxxx/leetcode/tree/master/1060-longest-repeating-substring) |
 ## Hash Function
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/rohanxxx/leetcode/tree/master/0187-repeated-dna-sequences) |
+| [0214-shortest-palindrome](https://github.com/rohanxxx/leetcode/tree/master/0214-shortest-palindrome) |
 | [0572-subtree-of-another-tree](https://github.com/rohanxxx/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0694-number-of-distinct-islands](https://github.com/rohanxxx/leetcode/tree/master/0694-number-of-distinct-islands) |
 | [0711-number-of-distinct-islands-ii](https://github.com/rohanxxx/leetcode/tree/master/0711-number-of-distinct-islands-ii) |
