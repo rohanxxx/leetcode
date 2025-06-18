@@ -13,8 +13,8 @@ class Solution {
 public:
     string shortestPalindrome(string s) {
         long long prefixMap = 0, suffixMap = 0;
-        long long base = 29, power = 1;
-        
+        long long base = 26, power = 1;
+
         int index = -1;
 
         int mod = 1e9 + 7;
