@@ -12,8 +12,8 @@ class Solution {
     vector<ListNode*> lists;
     int listSize;
 public:
-    //TC: O(N)
-    //SC: O(N)
+    //TC: O(1e4)
+    //SC: O(1e4)
     Solution(ListNode* head) {
         srand(time(0));
         ListNode* temp = head;
