@@ -19,9 +19,7 @@ public:
         string ans = "";
         //TC: O(N)
         for(auto& [sender, count]: wordCount){
-            //cout << "sender: " << sender << " count: " << count << endl;
             if(maxCount <= count){
-                //cout << "sender: " << sender << " count: " << count << endl;
                 if(maxCount == count){
                     if(ans < sender) ans = sender;
                 }
