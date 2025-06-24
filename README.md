@@ -1070,6 +1070,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0520-detect-capital](https://github.com/rohanxxx/leetcode/tree/master/0520-detect-capital) |
 | [0527-word-abbreviation](https://github.com/rohanxxx/leetcode/tree/master/0527-word-abbreviation) |
 | [0539-minimum-time-difference](https://github.com/rohanxxx/leetcode/tree/master/0539-minimum-time-difference) |
+| [0541-reverse-string-ii](https://github.com/rohanxxx/leetcode/tree/master/0541-reverse-string-ii) |
 | [0564-find-the-closest-palindrome](https://github.com/rohanxxx/leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [0567-permutation-in-string](https://github.com/rohanxxx/leetcode/tree/master/0567-permutation-in-string) |
 | [0616-add-bold-tag-in-string](https://github.com/rohanxxx/leetcode/tree/master/0616-add-bold-tag-in-string) |
@@ -1211,6 +1212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0408-valid-word-abbreviation](https://github.com/rohanxxx/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0443-string-compression](https://github.com/rohanxxx/leetcode/tree/master/0443-string-compression) |
 | [0455-assign-cookies](https://github.com/rohanxxx/leetcode/tree/master/0455-assign-cookies) |
+| [0541-reverse-string-ii](https://github.com/rohanxxx/leetcode/tree/master/0541-reverse-string-ii) |
 | [0567-permutation-in-string](https://github.com/rohanxxx/leetcode/tree/master/0567-permutation-in-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0647-palindromic-substrings](https://github.com/rohanxxx/leetcode/tree/master/0647-palindromic-substrings) |
