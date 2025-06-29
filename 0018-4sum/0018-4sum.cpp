@@ -5,8 +5,8 @@ public:
         if(nums.size() < 4) return {};
         set <vector<int>> sets;
         vector<vector<int>> ans;
-        for(int i = 0; i < nums.size()-3; i++){
-            for(int j = i+1; j <nums.size()-2; j++){
+        for(int i = 0; i < nums.size(); i++){
+            for(int j = i+1; j <nums.size(); j++){
                 int lo = j+1;
                 int hi = nums.size()-1;
                 while(lo < hi){
