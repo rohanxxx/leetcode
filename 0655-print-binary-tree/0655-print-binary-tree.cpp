@@ -45,6 +45,7 @@ public:
                     if (node->right)
                         q.push({node->right, index + offset});
                 }
+
             }
             depth++;
         }
