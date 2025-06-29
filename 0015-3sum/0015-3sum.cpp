@@ -4,16 +4,9 @@ public:
         sort(nums.begin(), nums.end());
         set<vector<int>> set;
         for(int i = 0; i < nums.size(); i++){
-            int j = i+1, k = nums.size()-1;
-            while(j < k){
-                int sum = nums[i] + nums[j] + nums[k];
-                if(sum == 0){
-                    set.insert({nums[i], nums[j], nums[k]});
-                    j++;
-                }
-                else{
-                    if(sum < 0) j++;
-                    else k--;
+            for(int j = i+1; j < nums.size(); j++){
+                for(int k = j+1; k < nums.size(); k++){
+                    if(nums[i]+nums[j]+nums[k] == 0) set.insert({nums[i], nums[j], nums[k]});
                 }
             }
         }
