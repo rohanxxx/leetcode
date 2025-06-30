@@ -1,18 +1,15 @@
 class Solution {
 public:
-    //TC: O(N)
-    //SC: O(N)
     vector<int> twoSum(vector<int>& nums, int target) {
-        //{key->nums[j], val-> index of nums[j]}
-        //SC: O(N) at max in worstcase
-        unordered_map<int, int> hashmap;
+        //SC: O(N)
+        unordered_map<int, int> hashmap; //{key-> nums[i], val-> i}
 
         int n = nums.size();
-        //TC: O(N*1*1) = O(N)
+        //O(N*1*1) = O(N)
         for(int i = 0; i < n; i++){
-            int numsJ = target-nums[i];
-            //checks whether numsJ exists in my hashmap or not
-            //if exists then go inside the if loop
+            //nums[i]+nums[j] == target
+            //nums[j] = target - nums[i]
+            int numsJ = target - nums[i];
             if(hashmap.find(numsJ) != hashmap.end()){
                 return {hashmap[numsJ], i};
             }
