@@ -895,6 +895,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2587-design-memory-allocator](https://github.com/rohanxxx/leetcode/tree/master/2587-design-memory-allocator) |
 | [2685-first-completely-painted-row-or-column](https://github.com/rohanxxx/leetcode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2729-minimum-operations-to-make-numbers-non-positive](https://github.com/rohanxxx/leetcode/tree/master/2729-minimum-operations-to-make-numbers-non-positive) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/rohanxxx/leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/rohanxxx/leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2868-continuous-subarrays](https://github.com/rohanxxx/leetcode/tree/master/2868-continuous-subarrays) |
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/rohanxxx/leetcode/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
@@ -1539,6 +1540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/rohanxxx/leetcode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/rohanxxx/leetcode/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2685-first-completely-painted-row-or-column](https://github.com/rohanxxx/leetcode/tree/master/2685-first-completely-painted-row-or-column) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/rohanxxx/leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/rohanxxx/leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/rohanxxx/leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3227-find-missing-and-repeated-values](https://github.com/rohanxxx/leetcode/tree/master/3227-find-missing-and-repeated-values) |
@@ -1914,6 +1916,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1632-number-of-good-ways-to-split-a-string](https://github.com/rohanxxx/leetcode/tree/master/1632-number-of-good-ways-to-split-a-string) |
 | [1650-find-root-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1650-find-root-of-n-ary-tree) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/rohanxxx/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/rohanxxx/leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/rohanxxx/leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3508-number-of-bit-changes-to-make-two-integers-equal](https://github.com/rohanxxx/leetcode/tree/master/3508-number-of-bit-changes-to-make-two-integers-equal) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/rohanxxx/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
