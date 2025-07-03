@@ -860,6 +860,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1833-find-the-highest-altitude](https://github.com/rohanxxx/leetcode/tree/master/1833-find-the-highest-altitude) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/rohanxxx/leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/rohanxxx/leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1909-buildings-with-an-ocean-view](https://github.com/rohanxxx/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 | [1938-minimum-operations-to-make-the-array-increasing](https://github.com/rohanxxx/leetcode/tree/master/1938-minimum-operations-to-make-the-array-increasing) |
 | [1939-queries-on-number-of-points-inside-a-circle](https://github.com/rohanxxx/leetcode/tree/master/1939-queries-on-number-of-points-inside-a-circle) |
 | [1962-single-threaded-cpu](https://github.com/rohanxxx/leetcode/tree/master/1962-single-threaded-cpu) |
@@ -2243,6 +2244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1582-design-browser-history](https://github.com/rohanxxx/leetcode/tree/master/1582-design-browser-history) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/rohanxxx/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1666-make-the-string-great](https://github.com/rohanxxx/leetcode/tree/master/1666-make-the-string-great) |
+| [1909-buildings-with-an-ocean-view](https://github.com/rohanxxx/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/rohanxxx/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/rohanxxx/leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2470-removing-stars-from-a-string](https://github.com/rohanxxx/leetcode/tree/master/2470-removing-stars-from-a-string) |
@@ -2466,6 +2468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1002-maximum-width-ramp](https://github.com/rohanxxx/leetcode/tree/master/1002-maximum-width-ramp) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/rohanxxx/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/rohanxxx/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1909-buildings-with-an-ocean-view](https://github.com/rohanxxx/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 ## Binary Search Tree
 |  |
 | ------- |
