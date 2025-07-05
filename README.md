@@ -1631,6 +1631,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1274-number-of-days-between-two-dates](https://github.com/rohanxxx/leetcode/tree/master/1274-number-of-days-between-two-dates) |
 | [1345-perform-string-shifts](https://github.com/rohanxxx/leetcode/tree/master/1345-perform-string-shifts) |
 | [1370-count-number-of-nice-subarrays](https://github.com/rohanxxx/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1406-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/rohanxxx/leetcode/tree/master/1406-subtract-the-product-and-sum-of-digits-of-an-integer) |
 | [1543-simplified-fractions](https://github.com/rohanxxx/leetcode/tree/master/1543-simplified-fractions) |
 | [1585-the-kth-factor-of-n](https://github.com/rohanxxx/leetcode/tree/master/1585-the-kth-factor-of-n) |
 | [1635-number-of-good-pairs](https://github.com/rohanxxx/leetcode/tree/master/1635-number-of-good-pairs) |
