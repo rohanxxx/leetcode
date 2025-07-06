@@ -30,13 +30,11 @@ public:
             leftSide -> depth = leftSide->depth+1;
             leftSide -> node = root;
             return leftSide;
-            //new Obj(leftSide->depth+1, root);
         }
 
         if(leftSide->depth > rightSide->depth){
             leftSide -> depth = leftSide->depth+1;
             return leftSide;
-            //return new Obj(leftSide->depth+1, leftSide->node);
         }
 
         rightSide->depth = rightSide->depth+1;
