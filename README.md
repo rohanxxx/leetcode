@@ -1656,6 +1656,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2432-number-of-zero-filled-subarrays](https://github.com/rohanxxx/leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2507-number-of-common-factors](https://github.com/rohanxxx/leetcode/tree/master/2507-number-of-common-factors) |
 | [2608-count-the-digits-that-divide-a-number](https://github.com/rohanxxx/leetcode/tree/master/2608-count-the-digits-that-divide-a-number) |
+| [2812-find-the-maximum-achievable-number](https://github.com/rohanxxx/leetcode/tree/master/2812-find-the-maximum-achievable-number) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/rohanxxx/leetcode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3227-find-missing-and-repeated-values](https://github.com/rohanxxx/leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3321-type-of-triangle](https://github.com/rohanxxx/leetcode/tree/master/3321-type-of-triangle) |
