@@ -887,6 +887,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1833-find-the-highest-altitude](https://github.com/rohanxxx/leetcode/tree/master/1833-find-the-highest-altitude) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/rohanxxx/leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/rohanxxx/leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1899-count-items-matching-a-rule](https://github.com/rohanxxx/leetcode/tree/master/1899-count-items-matching-a-rule) |
 | [1909-buildings-with-an-ocean-view](https://github.com/rohanxxx/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 | [1938-minimum-operations-to-make-the-array-increasing](https://github.com/rohanxxx/leetcode/tree/master/1938-minimum-operations-to-make-the-array-increasing) |
 | [1939-queries-on-number-of-points-inside-a-circle](https://github.com/rohanxxx/leetcode/tree/master/1939-queries-on-number-of-points-inside-a-circle) |
@@ -1178,6 +1179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1823-determine-if-string-halves-are-alike](https://github.com/rohanxxx/leetcode/tree/master/1823-determine-if-string-halves-are-alike) |
 | [1894-merge-strings-alternately](https://github.com/rohanxxx/leetcode/tree/master/1894-merge-strings-alternately) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/rohanxxx/leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1899-count-items-matching-a-rule](https://github.com/rohanxxx/leetcode/tree/master/1899-count-items-matching-a-rule) |
 | [1970-sorting-the-sentence](https://github.com/rohanxxx/leetcode/tree/master/1970-sorting-the-sentence) |
 | [2088-minimum-time-to-type-word-using-special-typewriter](https://github.com/rohanxxx/leetcode/tree/master/2088-minimum-time-to-type-word-using-special-typewriter) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/rohanxxx/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
