@@ -870,6 +870,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/rohanxxx/leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/rohanxxx/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1635-number-of-good-pairs](https://github.com/rohanxxx/leetcode/tree/master/1635-number-of-good-pairs) |
+| [1651-shuffle-string](https://github.com/rohanxxx/leetcode/tree/master/1651-shuffle-string) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/rohanxxx/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1672-find-the-index-of-the-large-integer](https://github.com/rohanxxx/leetcode/tree/master/1672-find-the-index-of-the-large-integer) |
 | [1682-most-visited-sector-in-a-circular-track](https://github.com/rohanxxx/leetcode/tree/master/1682-most-visited-sector-in-a-circular-track) |
@@ -1171,6 +1172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1537-maximum-score-after-splitting-a-string](https://github.com/rohanxxx/leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1543-simplified-fractions](https://github.com/rohanxxx/leetcode/tree/master/1543-simplified-fractions) |
 | [1632-number-of-good-ways-to-split-a-string](https://github.com/rohanxxx/leetcode/tree/master/1632-number-of-good-ways-to-split-a-string) |
+| [1651-shuffle-string](https://github.com/rohanxxx/leetcode/tree/master/1651-shuffle-string) |
 | [1666-make-the-string-great](https://github.com/rohanxxx/leetcode/tree/master/1666-make-the-string-great) |
 | [1764-maximum-repeating-substring](https://github.com/rohanxxx/leetcode/tree/master/1764-maximum-repeating-substring) |
 | [1823-determine-if-string-halves-are-alike](https://github.com/rohanxxx/leetcode/tree/master/1823-determine-if-string-halves-are-alike) |
