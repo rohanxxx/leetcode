@@ -981,6 +981,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/rohanxxx/leetcode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3822-fill-a-special-grid](https://github.com/rohanxxx/leetcode/tree/master/3822-fill-a-special-grid) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
+| [3836-phone-number-prefix](https://github.com/rohanxxx/leetcode/tree/master/3836-phone-number-prefix) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/rohanxxx/leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/rohanxxx/leetcode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 ## Matrix
@@ -1217,6 +1218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3736-find-valid-pair-of-adjacent-digits-in-string](https://github.com/rohanxxx/leetcode/tree/master/3736-find-valid-pair-of-adjacent-digits-in-string) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/rohanxxx/leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
+| [3836-phone-number-prefix](https://github.com/rohanxxx/leetcode/tree/master/3836-phone-number-prefix) |
 ## String Matching
 |  |
 | ------- |
@@ -1455,6 +1457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3151-minimum-processing-time](https://github.com/rohanxxx/leetcode/tree/master/3151-minimum-processing-time) |
 | [3321-type-of-triangle](https://github.com/rohanxxx/leetcode/tree/master/3321-type-of-triangle) |
 | [3430-count-days-without-meetings](https://github.com/rohanxxx/leetcode/tree/master/3430-count-days-without-meetings) |
+| [3836-phone-number-prefix](https://github.com/rohanxxx/leetcode/tree/master/3836-phone-number-prefix) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/rohanxxx/leetcode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 | [3859-maximum-product-of-two-digits](https://github.com/rohanxxx/leetcode/tree/master/3859-maximum-product-of-two-digits) |
 ## Hash Table
@@ -1945,6 +1948,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3193-maximum-strong-pair-xor-i](https://github.com/rohanxxx/leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/rohanxxx/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/rohanxxx/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3836-phone-number-prefix](https://github.com/rohanxxx/leetcode/tree/master/3836-phone-number-prefix) |
 ## Memoization
 |  |
 | ------- |
