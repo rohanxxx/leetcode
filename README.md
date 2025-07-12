@@ -944,6 +944,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3227-find-missing-and-repeated-values](https://github.com/rohanxxx/leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3254-number-of-divisible-triplet-sums](https://github.com/rohanxxx/leetcode/tree/master/3254-number-of-divisible-triplet-sums) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/rohanxxx/leetcode/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/rohanxxx/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3311-ant-on-the-boundary](https://github.com/rohanxxx/leetcode/tree/master/3311-ant-on-the-boundary) |
 | [3321-type-of-triangle](https://github.com/rohanxxx/leetcode/tree/master/3321-type-of-triangle) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/rohanxxx/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -1200,6 +1201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/rohanxxx/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/rohanxxx/leetcode/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3194-find-words-containing-character](https://github.com/rohanxxx/leetcode/tree/master/3194-find-words-containing-character) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/rohanxxx/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/rohanxxx/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3447-clear-digits](https://github.com/rohanxxx/leetcode/tree/master/3447-clear-digits) |
 | [3468-find-the-encrypted-string](https://github.com/rohanxxx/leetcode/tree/master/3468-find-the-encrypted-string) |
@@ -1227,6 +1229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0812-rotate-string](https://github.com/rohanxxx/leetcode/tree/master/0812-rotate-string) |
 | [1764-maximum-repeating-substring](https://github.com/rohanxxx/leetcode/tree/master/1764-maximum-repeating-substring) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/rohanxxx/leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/rohanxxx/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3684-substring-matching-pattern](https://github.com/rohanxxx/leetcode/tree/master/3684-substring-matching-pattern) |
 ## Two Pointers
 |  |
@@ -1940,6 +1943,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/rohanxxx/leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1397-search-suggestions-system](https://github.com/rohanxxx/leetcode/tree/master/1397-search-suggestions-system) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/rohanxxx/leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/rohanxxx/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/rohanxxx/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Memoization
 |  |
@@ -2029,6 +2033,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0214-shortest-palindrome](https://github.com/rohanxxx/leetcode/tree/master/0214-shortest-palindrome) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [1060-longest-repeating-substring](https://github.com/rohanxxx/leetcode/tree/master/1060-longest-repeating-substring) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/rohanxxx/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Hash Function
 |  |
 | ------- |
@@ -2039,6 +2044,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0711-number-of-distinct-islands-ii](https://github.com/rohanxxx/leetcode/tree/master/0711-number-of-distinct-islands-ii) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/rohanxxx/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [1060-longest-repeating-substring](https://github.com/rohanxxx/leetcode/tree/master/1060-longest-repeating-substring) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/rohanxxx/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Graph
 |  |
 | ------- |
