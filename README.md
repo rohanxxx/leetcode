@@ -761,6 +761,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/rohanxxx/leetcode/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/rohanxxx/leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0643-maximum-average-subarray-i](https://github.com/rohanxxx/leetcode/tree/master/0643-maximum-average-subarray-i) |
+| [0648-replace-words](https://github.com/rohanxxx/leetcode/tree/master/0648-replace-words) |
 | [0654-maximum-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0654-maximum-binary-tree) |
 | [0658-find-k-closest-elements](https://github.com/rohanxxx/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0659-split-array-into-consecutive-subsequences) |
@@ -1132,6 +1133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/rohanxxx/leetcode/tree/master/0567-permutation-in-string) |
 | [0616-add-bold-tag-in-string](https://github.com/rohanxxx/leetcode/tree/master/0616-add-bold-tag-in-string) |
 | [0647-palindromic-substrings](https://github.com/rohanxxx/leetcode/tree/master/0647-palindromic-substrings) |
+| [0648-replace-words](https://github.com/rohanxxx/leetcode/tree/master/0648-replace-words) |
 | [0680-valid-palindrome-ii](https://github.com/rohanxxx/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0686-repeated-string-match](https://github.com/rohanxxx/leetcode/tree/master/0686-repeated-string-match) |
 | [0692-top-k-frequent-words](https://github.com/rohanxxx/leetcode/tree/master/0692-top-k-frequent-words) |
@@ -1530,6 +1532,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0616-add-bold-tag-in-string](https://github.com/rohanxxx/leetcode/tree/master/0616-add-bold-tag-in-string) |
 | [0621-task-scheduler](https://github.com/rohanxxx/leetcode/tree/master/0621-task-scheduler) |
+| [0648-replace-words](https://github.com/rohanxxx/leetcode/tree/master/0648-replace-words) |
 | [0652-find-duplicate-subtrees](https://github.com/rohanxxx/leetcode/tree/master/0652-find-duplicate-subtrees) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/rohanxxx/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0659-split-array-into-consecutive-subsequences) |
@@ -1944,6 +1947,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0386-lexicographical-numbers](https://github.com/rohanxxx/leetcode/tree/master/0386-lexicographical-numbers) |
 | [0527-word-abbreviation](https://github.com/rohanxxx/leetcode/tree/master/0527-word-abbreviation) |
 | [0616-add-bold-tag-in-string](https://github.com/rohanxxx/leetcode/tree/master/0616-add-bold-tag-in-string) |
+| [0648-replace-words](https://github.com/rohanxxx/leetcode/tree/master/0648-replace-words) |
 | [0692-top-k-frequent-words](https://github.com/rohanxxx/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0808-number-of-matching-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0808-number-of-matching-subsequences) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/rohanxxx/leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
