@@ -30,6 +30,8 @@ public:
             int n = word.size();
 
             vector<vector<int>> pairs;
+
+            //TC: O(N)
             for (int i = index; i < n; i++) {
                 if (node->children[word[i] - 'a'] == NULL) {
                     return pairs;
@@ -52,6 +54,7 @@ public:
         vector<vector<int>> ans;
 
         int n = text.size();
+        //TC: O(N*N*M)
         for(int i = 0; i < n; i++){
             vector<vector<int>> pairs = trie->getRange(i, text);
             for(auto& pair: pairs){
