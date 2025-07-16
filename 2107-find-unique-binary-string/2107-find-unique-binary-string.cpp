@@ -1,7 +1,7 @@
 class Solution {
 public:
     string ans;
-    void backtrack(unordered_set<string>& set, int& n, string cur){
+    void backtrack(unordered_set<string>& set, int& n, string& cur){
         if(cur.size() == n){
             if(set.find(cur) == set.end()){
                 ans = cur;
@@ -10,7 +10,9 @@ public:
         }
 
         for(auto& it: {"0", "1"}){
-            backtrack(set, n, cur+it);
+            cur += it;
+            backtrack(set, n, cur);
+            cur.pop_back();
         }
 
         return;
@@ -19,7 +21,9 @@ public:
         ans = "";
         int n = nums.size();
         unordered_set<string> set(nums.begin(), nums.end());
-        backtrack(set, n, "");
+
+        string cur = "";
+        backtrack(set, n, cur);
         return ans;
     }
 };
