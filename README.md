@@ -233,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1150-two-sum-bsts](https://github.com/rohanxxx/leetcode/tree/master/1150-two-sum-bsts) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/rohanxxx/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/rohanxxx/leetcode/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1254-deepest-leaves-sum](https://github.com/rohanxxx/leetcode/tree/master/1254-deepest-leaves-sum) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/rohanxxx/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
@@ -358,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1150-two-sum-bsts](https://github.com/rohanxxx/leetcode/tree/master/1150-two-sum-bsts) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/rohanxxx/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/rohanxxx/leetcode/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1254-deepest-leaves-sum](https://github.com/rohanxxx/leetcode/tree/master/1254-deepest-leaves-sum) |
 | [1271-web-crawler](https://github.com/rohanxxx/leetcode/tree/master/1271-web-crawler) |
 | [1300-critical-connections-in-a-network](https://github.com/rohanxxx/leetcode/tree/master/1300-critical-connections-in-a-network) |
@@ -473,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1142-minimum-knight-moves](https://github.com/rohanxxx/leetcode/tree/master/1142-minimum-knight-moves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/rohanxxx/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/rohanxxx/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/rohanxxx/leetcode/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1254-deepest-leaves-sum](https://github.com/rohanxxx/leetcode/tree/master/1254-deepest-leaves-sum) |
 | [1271-web-crawler](https://github.com/rohanxxx/leetcode/tree/master/1271-web-crawler) |
 | [1396-count-servers-that-communicate](https://github.com/rohanxxx/leetcode/tree/master/1396-count-servers-that-communicate) |
@@ -583,6 +586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1150-two-sum-bsts](https://github.com/rohanxxx/leetcode/tree/master/1150-two-sum-bsts) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/rohanxxx/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/rohanxxx/leetcode/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1254-deepest-leaves-sum](https://github.com/rohanxxx/leetcode/tree/master/1254-deepest-leaves-sum) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/rohanxxx/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
