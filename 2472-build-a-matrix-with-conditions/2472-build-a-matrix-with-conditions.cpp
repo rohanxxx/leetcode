@@ -1,5 +1,14 @@
 class Solution {
 public:
+    void buildGraph(vector<vector<int>>& rowConditions, vector<vector<int>>& graph, vector<int>& indegree){
+        for(vector<int>& pair: rowConditions){
+            int u = pair[0];
+            int v = pair[1];
+            graph[u].push_back(v);
+            indegree[v]++;
+        }
+        return;
+    }
     //build topoSort
     void topoSort(queue<int>& q, vector<int>& topoSort, vector<int>& indegree, vector<vector<int>>& graph){
         while(!q.empty()){
@@ -20,18 +29,8 @@ public:
         //TC:O(K+K)
         //build the graph
         //TC: O(N+E)
-        for(vector<int>& pair: rowConditions){
-            int u = pair[0];
-            int v = pair[1];
-            rowGraph[u].push_back(v);
-            rowIndegree[v]++;
-        }
-        for(vector<int>& pair: colConditions){
-            int u = pair[0];
-            int v = pair[1];
-            colGraph[u].push_back(v);
-            colIndegree[v]++;
-        }
+        buildGraph(rowConditions, rowGraph, rowIndegree);
+        buildGraph(colConditions, colGraph, colIndegree);
 
         queue<int> rowQ, colQ;
         //TC: O(N)
