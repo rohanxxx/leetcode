@@ -916,6 +916,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2047-find-a-peak-element-ii](https://github.com/rohanxxx/leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2058-concatenation-of-array](https://github.com/rohanxxx/leetcode/tree/master/2058-concatenation-of-array) |
 | [2103-find-all-groups-of-farmland](https://github.com/rohanxxx/leetcode/tree/master/2103-find-all-groups-of-farmland) |
+| [2107-find-unique-binary-string](https://github.com/rohanxxx/leetcode/tree/master/2107-find-unique-binary-string) |
 | [2117-find-original-array-from-doubled-array](https://github.com/rohanxxx/leetcode/tree/master/2117-find-original-array-from-doubled-array) |
 | [2139-detect-squares](https://github.com/rohanxxx/leetcode/tree/master/2139-detect-squares) |
 | [2195-time-needed-to-buy-tickets](https://github.com/rohanxxx/leetcode/tree/master/2195-time-needed-to-buy-tickets) |
@@ -1207,6 +1208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2009-longest-word-with-all-prefixes](https://github.com/rohanxxx/leetcode/tree/master/2009-longest-word-with-all-prefixes) |
 | [2088-minimum-time-to-type-word-using-special-typewriter](https://github.com/rohanxxx/leetcode/tree/master/2088-minimum-time-to-type-word-using-special-typewriter) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/rohanxxx/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2107-find-unique-binary-string](https://github.com/rohanxxx/leetcode/tree/master/2107-find-unique-binary-string) |
 | [2128-reverse-prefix-of-word](https://github.com/rohanxxx/leetcode/tree/master/2128-reverse-prefix-of-word) |
 | [2154-minimum-moves-to-convert-string](https://github.com/rohanxxx/leetcode/tree/master/2154-minimum-moves-to-convert-string) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/rohanxxx/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -1607,6 +1609,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/rohanxxx/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/rohanxxx/leetcode/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [2107-find-unique-binary-string](https://github.com/rohanxxx/leetcode/tree/master/2107-find-unique-binary-string) |
 | [2117-find-original-array-from-doubled-array](https://github.com/rohanxxx/leetcode/tree/master/2117-find-original-array-from-doubled-array) |
 | [2139-detect-squares](https://github.com/rohanxxx/leetcode/tree/master/2139-detect-squares) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/rohanxxx/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -2433,6 +2436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-path-with-maximum-gold](https://github.com/rohanxxx/leetcode/tree/master/1331-path-with-maximum-gold) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/rohanxxx/leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/rohanxxx/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2107-find-unique-binary-string](https://github.com/rohanxxx/leetcode/tree/master/2107-find-unique-binary-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/rohanxxx/leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Queue
 |  |
