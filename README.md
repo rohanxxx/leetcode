@@ -191,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0314-binary-tree-vertical-order-traversal](https://github.com/rohanxxx/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0331-verify-preorder-serialization-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0331-verify-preorder-serialization-of-a-binary-tree) |
 | [0333-largest-bst-subtree](https://github.com/rohanxxx/leetcode/tree/master/0333-largest-bst-subtree) |
+| [0341-flatten-nested-list-iterator](https://github.com/rohanxxx/leetcode/tree/master/0341-flatten-nested-list-iterator) |
 | [0366-find-leaves-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0366-find-leaves-of-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/rohanxxx/leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0437-path-sum-iii](https://github.com/rohanxxx/leetcode/tree/master/0437-path-sum-iii) |
@@ -298,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/rohanxxx/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0333-largest-bst-subtree](https://github.com/rohanxxx/leetcode/tree/master/0333-largest-bst-subtree) |
+| [0341-flatten-nested-list-iterator](https://github.com/rohanxxx/leetcode/tree/master/0341-flatten-nested-list-iterator) |
 | [0365-water-and-jug-problem](https://github.com/rohanxxx/leetcode/tree/master/0365-water-and-jug-problem) |
 | [0366-find-leaves-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0366-find-leaves-of-binary-tree) |
 | [0386-lexicographical-numbers](https://github.com/rohanxxx/leetcode/tree/master/0386-lexicographical-numbers) |
@@ -2320,6 +2322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/rohanxxx/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0331-verify-preorder-serialization-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0331-verify-preorder-serialization-of-a-binary-tree) |
+| [0341-flatten-nested-list-iterator](https://github.com/rohanxxx/leetcode/tree/master/0341-flatten-nested-list-iterator) |
 | [0388-longest-absolute-file-path](https://github.com/rohanxxx/leetcode/tree/master/0388-longest-absolute-file-path) |
 | [0394-decode-string](https://github.com/rohanxxx/leetcode/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/rohanxxx/leetcode/tree/master/0402-remove-k-digits) |
@@ -2445,6 +2448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/rohanxxx/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/rohanxxx/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0281-zigzag-iterator](https://github.com/rohanxxx/leetcode/tree/master/0281-zigzag-iterator) |
+| [0341-flatten-nested-list-iterator](https://github.com/rohanxxx/leetcode/tree/master/0341-flatten-nested-list-iterator) |
 | [0346-moving-average-from-data-stream](https://github.com/rohanxxx/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0362-design-hit-counter](https://github.com/rohanxxx/leetcode/tree/master/0362-design-hit-counter) |
 | [0860-design-circular-queue](https://github.com/rohanxxx/leetcode/tree/master/0860-design-circular-queue) |
@@ -2478,6 +2482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/rohanxxx/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0303-range-sum-query-immutable](https://github.com/rohanxxx/leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0341-flatten-nested-list-iterator](https://github.com/rohanxxx/leetcode/tree/master/0341-flatten-nested-list-iterator) |
 | [0346-moving-average-from-data-stream](https://github.com/rohanxxx/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/rohanxxx/leetcode/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/rohanxxx/leetcode/tree/master/0362-design-hit-counter) |
@@ -2691,6 +2696,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0251-flatten-2d-vector](https://github.com/rohanxxx/leetcode/tree/master/0251-flatten-2d-vector) |
 | [0281-zigzag-iterator](https://github.com/rohanxxx/leetcode/tree/master/0281-zigzag-iterator) |
 | [0284-peeking-iterator](https://github.com/rohanxxx/leetcode/tree/master/0284-peeking-iterator) |
+| [0341-flatten-nested-list-iterator](https://github.com/rohanxxx/leetcode/tree/master/0341-flatten-nested-list-iterator) |
 ## Biconnected Component
 |  |
 | ------- |
