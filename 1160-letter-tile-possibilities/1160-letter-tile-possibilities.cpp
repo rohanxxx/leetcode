@@ -1,32 +1,25 @@
 class Solution {
 public:
-    int count = 0;
-    void backtrack(string cur, string& tiles, unordered_set<int>& visitedIndex, unordered_set<string>& visitedStrings){
-        int n = tiles.size();
-        
-        if(cur.size() >= n) return;
+    int numTilePossibilities(string tiles) {
+        unordered_map<char, int> count;
+        for (char c : tiles) {
+            count[c]++;
+        }
 
-        for(int i = 0; i < n; i++){
-            if(visitedIndex.find(i) == visitedIndex.end()){
-                visitedIndex.insert(i);
-                cur += tiles[i];
-                //cur string not found
-                if(visitedStrings.find(cur) == visitedStrings.end()){
-                    count++;
-                    visitedStrings.insert(cur);
-                }
-                backtrack(cur, tiles, visitedIndex, visitedStrings);
-                cur.pop_back();
-                visitedIndex.erase(i);
+        return backtrack(count);
+    }
+
+private:
+    int backtrack(unordered_map<char, int>& count) {
+        int res = 0;
+        for (auto& [c, freq] : count) {
+            if (freq > 0) {
+                count[c]--;
+                res += 1; // count this combination
+                res += backtrack(count); // continue exploring
+                count[c]++; // backtrack
             }
         }
-    }
-    int numTilePossibilities(string tiles) {
-        unordered_set<int> visitedIndex;
-        unordered_set<string> visitedStrings;
-
-        backtrack("", tiles, visitedIndex, visitedStrings);
-
-        return count;
+        return res;
     }
 };
