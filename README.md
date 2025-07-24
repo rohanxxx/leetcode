@@ -956,6 +956,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/rohanxxx/leetcode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2454-largest-local-values-in-a-matrix](https://github.com/rohanxxx/leetcode/tree/master/2454-largest-local-values-in-a-matrix) |
 | [2472-build-a-matrix-with-conditions](https://github.com/rohanxxx/leetcode/tree/master/2472-build-a-matrix-with-conditions) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/rohanxxx/leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2479-meeting-rooms-iii](https://github.com/rohanxxx/leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2500-minimum-costs-using-the-train-line](https://github.com/rohanxxx/leetcode/tree/master/2500-minimum-costs-using-the-train-line) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/rohanxxx/leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -1504,6 +1505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/rohanxxx/leetcode/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
 | [2417-the-latest-time-to-catch-a-bus](https://github.com/rohanxxx/leetcode/tree/master/2417-the-latest-time-to-catch-a-bus) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/rohanxxx/leetcode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/rohanxxx/leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2479-meeting-rooms-iii](https://github.com/rohanxxx/leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2586-longest-square-streak-in-an-array](https://github.com/rohanxxx/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
 | [3151-minimum-processing-time](https://github.com/rohanxxx/leetcode/tree/master/3151-minimum-processing-time) |
@@ -1649,6 +1651,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2429-design-a-food-rating-system](https://github.com/rohanxxx/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/rohanxxx/leetcode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rohanxxx/leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/rohanxxx/leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2479-meeting-rooms-iii](https://github.com/rohanxxx/leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/rohanxxx/leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2586-longest-square-streak-in-an-array](https://github.com/rohanxxx/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
@@ -1867,6 +1870,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/rohanxxx/leetcode/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
 | [2429-design-a-food-rating-system](https://github.com/rohanxxx/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/rohanxxx/leetcode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/rohanxxx/leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2479-meeting-rooms-iii](https://github.com/rohanxxx/leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2868-continuous-subarrays](https://github.com/rohanxxx/leetcode/tree/master/2868-continuous-subarrays) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/2914-find-the-safest-path-in-a-grid) |
