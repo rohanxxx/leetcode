@@ -1229,6 +1229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1894-merge-strings-alternately](https://github.com/rohanxxx/leetcode/tree/master/1894-merge-strings-alternately) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/rohanxxx/leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1899-count-items-matching-a-rule](https://github.com/rohanxxx/leetcode/tree/master/1899-count-items-matching-a-rule) |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/rohanxxx/leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1970-sorting-the-sentence](https://github.com/rohanxxx/leetcode/tree/master/1970-sorting-the-sentence) |
 | [2009-longest-word-with-all-prefixes](https://github.com/rohanxxx/leetcode/tree/master/2009-longest-word-with-all-prefixes) |
 | [2088-minimum-time-to-type-word-using-special-typewriter](https://github.com/rohanxxx/leetcode/tree/master/2088-minimum-time-to-type-word-using-special-typewriter) |
@@ -1640,6 +1641,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1650-find-root-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1650-find-root-of-n-ary-tree) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/rohanxxx/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/rohanxxx/leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/rohanxxx/leetcode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2107-find-unique-binary-string](https://github.com/rohanxxx/leetcode/tree/master/2107-find-unique-binary-string) |
 | [2117-find-original-array-from-doubled-array](https://github.com/rohanxxx/leetcode/tree/master/2117-find-original-array-from-doubled-array) |
@@ -1795,6 +1797,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/rohanxxx/leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1635-number-of-good-pairs](https://github.com/rohanxxx/leetcode/tree/master/1635-number-of-good-pairs) |
 | [1823-determine-if-string-halves-are-alike](https://github.com/rohanxxx/leetcode/tree/master/1823-determine-if-string-halves-are-alike) |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/rohanxxx/leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1983-maximum-population-year](https://github.com/rohanxxx/leetcode/tree/master/1983-maximum-population-year) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/rohanxxx/leetcode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2139-detect-squares](https://github.com/rohanxxx/leetcode/tree/master/2139-detect-squares) |
