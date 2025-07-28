@@ -13,16 +13,15 @@ class Solution {
 public:
     TreeNode* dfs(TreeNode* root){
         if(root == NULL) return root;
-        TreeNode* rootLeft = dfs(root->left);
-        TreeNode* rootRight = dfs(root->right);
-
-        if(rootLeft == NULL && rootRight == NULL && root->val == 0){
-            return NULL;
-        }
 
         TreeNode* newRoot = root;
-        newRoot->left = rootLeft;
-        newRoot->right = rootRight;
+
+        newRoot->left = dfs(root->left);
+        newRoot->right = dfs(root->right);
+
+        if(newRoot->left == NULL && newRoot->right == NULL && newRoot->val == 0){
+            return NULL;
+        }
         return newRoot;
     }
     TreeNode* pruneTree(TreeNode* root) {
