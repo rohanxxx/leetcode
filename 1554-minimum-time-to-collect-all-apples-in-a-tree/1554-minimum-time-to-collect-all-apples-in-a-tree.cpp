@@ -1,5 +1,6 @@
 class Solution {
 public:
+    //O(N+E)
     int dfs(int node, int parent, vector<bool>& hasApple, vector<vector<int>>& graph){
         int childTime = 0, totalTime = 0;
         for(auto& child: graph[node]){
@@ -12,6 +13,7 @@ public:
         return totalTime;
     }
     int minTime(int n, vector<vector<int>>& edges, vector<bool>& hasApple) {
+        //SC: O(N+E)
         vector<vector<int>> graph(n);
         for(auto& edge: edges){
             graph[edge[0]].push_back(edge[1]);
