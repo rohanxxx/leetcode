@@ -246,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1492-time-needed-to-inform-all-employees](https://github.com/rohanxxx/leetcode/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/rohanxxx/leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/rohanxxx/leetcode/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1609-find-all-the-lonely-nodes](https://github.com/rohanxxx/leetcode/tree/master/1609-find-all-the-lonely-nodes) |
 | [1634-clone-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1634-clone-n-ary-tree) |
 | [1650-find-root-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1650-find-root-of-n-ary-tree) |
@@ -387,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1492-time-needed-to-inform-all-employees](https://github.com/rohanxxx/leetcode/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/rohanxxx/leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/rohanxxx/leetcode/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1558-course-schedule-iv](https://github.com/rohanxxx/leetcode/tree/master/1558-course-schedule-iv) |
 | [1609-find-all-the-lonely-nodes](https://github.com/rohanxxx/leetcode/tree/master/1609-find-all-the-lonely-nodes) |
 | [1634-clone-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1634-clone-n-ary-tree) |
@@ -505,6 +507,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1492-time-needed-to-inform-all-employees](https://github.com/rohanxxx/leetcode/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/rohanxxx/leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/rohanxxx/leetcode/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1558-course-schedule-iv](https://github.com/rohanxxx/leetcode/tree/master/1558-course-schedule-iv) |
 | [1609-find-all-the-lonely-nodes](https://github.com/rohanxxx/leetcode/tree/master/1609-find-all-the-lonely-nodes) |
 | [1634-clone-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1634-clone-n-ary-tree) |
@@ -1650,6 +1653,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1472-increasing-decreasing-string](https://github.com/rohanxxx/leetcode/tree/master/1472-increasing-decreasing-string) |
 | [1500-count-largest-group](https://github.com/rohanxxx/leetcode/tree/master/1500-count-largest-group) |
 | [1512-design-underground-system](https://github.com/rohanxxx/leetcode/tree/master/1512-design-underground-system) |
+| [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/rohanxxx/leetcode/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/rohanxxx/leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1632-number-of-good-ways-to-split-a-string](https://github.com/rohanxxx/leetcode/tree/master/1632-number-of-good-ways-to-split-a-string) |
 | [1634-clone-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1634-clone-n-ary-tree) |
