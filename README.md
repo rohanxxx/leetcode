@@ -240,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/rohanxxx/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/rohanxxx/leetcode/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1254-deepest-leaves-sum](https://github.com/rohanxxx/leetcode/tree/master/1254-deepest-leaves-sum) |
+| [1427-all-elements-in-two-binary-search-trees](https://github.com/rohanxxx/leetcode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/rohanxxx/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/rohanxxx/leetcode/tree/master/1492-time-needed-to-inform-all-employees) |
@@ -378,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1300-critical-connections-in-a-network](https://github.com/rohanxxx/leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/rohanxxx/leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1396-count-servers-that-communicate](https://github.com/rohanxxx/leetcode/tree/master/1396-count-servers-that-communicate) |
+| [1427-all-elements-in-two-binary-search-trees](https://github.com/rohanxxx/leetcode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/rohanxxx/leetcode/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/rohanxxx/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/rohanxxx/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
@@ -614,6 +616,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/rohanxxx/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/rohanxxx/leetcode/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1254-deepest-leaves-sum](https://github.com/rohanxxx/leetcode/tree/master/1254-deepest-leaves-sum) |
+| [1427-all-elements-in-two-binary-search-trees](https://github.com/rohanxxx/leetcode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/rohanxxx/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/rohanxxx/leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
@@ -1499,6 +1502,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1306-minimum-absolute-difference](https://github.com/rohanxxx/leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/rohanxxx/leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1397-search-suggestions-system](https://github.com/rohanxxx/leetcode/tree/master/1397-search-suggestions-system) |
+| [1427-all-elements-in-two-binary-search-trees](https://github.com/rohanxxx/leetcode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 | [1464-reduce-array-size-to-the-half](https://github.com/rohanxxx/leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/rohanxxx/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/rohanxxx/leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
@@ -2671,6 +2675,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/rohanxxx/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/rohanxxx/leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1150-two-sum-bsts](https://github.com/rohanxxx/leetcode/tree/master/1150-two-sum-bsts) |
+| [1427-all-elements-in-two-binary-search-trees](https://github.com/rohanxxx/leetcode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 ## Geometry
 |  |
