@@ -492,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0945-snakes-and-ladders](https://github.com/rohanxxx/leetcode/tree/master/0945-snakes-and-ladders) |
 | [0971-shortest-bridge](https://github.com/rohanxxx/leetcode/tree/master/0971-shortest-bridge) |
 | [1005-univalued-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1005-univalued-binary-tree) |
+| [1007-numbers-with-same-consecutive-differences](https://github.com/rohanxxx/leetcode/tree/master/1007-numbers-with-same-consecutive-differences) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/rohanxxx/leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/rohanxxx/leetcode/tree/master/1073-number-of-enclaves) |
@@ -2503,6 +2504,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/rohanxxx/leetcode/tree/master/0494-target-sum) |
 | [0813-all-paths-from-source-to-target](https://github.com/rohanxxx/leetcode/tree/master/0813-all-paths-from-source-to-target) |
 | [0865-robot-room-cleaner](https://github.com/rohanxxx/leetcode/tree/master/0865-robot-room-cleaner) |
+| [1007-numbers-with-same-consecutive-differences](https://github.com/rohanxxx/leetcode/tree/master/1007-numbers-with-same-consecutive-differences) |
 | [1076-brace-expansion](https://github.com/rohanxxx/leetcode/tree/master/1076-brace-expansion) |
 | [1160-letter-tile-possibilities](https://github.com/rohanxxx/leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1331-path-with-maximum-gold](https://github.com/rohanxxx/leetcode/tree/master/1331-path-with-maximum-gold) |
