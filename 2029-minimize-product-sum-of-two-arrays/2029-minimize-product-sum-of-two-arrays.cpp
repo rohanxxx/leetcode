@@ -19,15 +19,26 @@ public:
         8+12+16+15+14 => 
     */
     int minProductSum(vector<int>& nums1, vector<int>& nums2) {
-        int n = nums1.size();
-        //O(NlogN + MlogM)
-        sort(nums1.begin(), nums1.end());
-        sort(nums2.begin(), nums2.end());
+        vector<int> map1(101), map2(101);
+        //O(N+M)
+        for(auto& num: nums1) map1[num]++;
+        for(auto& num: nums2) map2[num]++;
 
         int product = 0;
-        for(int i = 0; i < n; i++){
-            product += (nums1[i]*nums2[n-i-1]);
+        int i = 0, j = 100;
+        //O(101)
+        while(i <= 100 && j >= 0){
+            while(i <= 100 && map1[i] == 0) i++;
+            while(j >= 0 && map2[j] == 0) j--;
+            if(i <= 100 && j >= 0){
+                product += (i*j);
+
+                //decrement the freq
+                map1[i]--;
+                map2[j]--;
+            }
         }
+
         return product;
     }
 };
