@@ -22,7 +22,7 @@ public:
             }
 
             // avoid duplicate when k == 0
-            if (prevDigit - k >= 0) {
+            if (k != 0 && prevDigit - k >= 0) {
                 int newNum = curNum * 10 + (prevDigit - k);
                 q.push(newNum);
             }
