@@ -216,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0671-second-minimum-node-in-a-binary-tree) |
 | [0687-longest-univalue-path](https://github.com/rohanxxx/leetcode/tree/master/0687-longest-univalue-path) |
 | [0690-employee-importance](https://github.com/rohanxxx/leetcode/tree/master/0690-employee-importance) |
+| [0743-closest-leaf-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0743-closest-leaf-in-a-binary-tree) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/rohanxxx/leetcode/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
@@ -348,6 +349,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0711-number-of-distinct-islands-ii](https://github.com/rohanxxx/leetcode/tree/master/0711-number-of-distinct-islands-ii) |
 | [0721-accounts-merge](https://github.com/rohanxxx/leetcode/tree/master/0721-accounts-merge) |
 | [0737-sentence-similarity-ii](https://github.com/rohanxxx/leetcode/tree/master/0737-sentence-similarity-ii) |
+| [0743-closest-leaf-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0743-closest-leaf-in-a-binary-tree) |
 | [0744-network-delay-time](https://github.com/rohanxxx/leetcode/tree/master/0744-network-delay-time) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0794-swim-in-rising-water](https://github.com/rohanxxx/leetcode/tree/master/0794-swim-in-rising-water) |
@@ -476,6 +478,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0711-number-of-distinct-islands-ii](https://github.com/rohanxxx/leetcode/tree/master/0711-number-of-distinct-islands-ii) |
 | [0721-accounts-merge](https://github.com/rohanxxx/leetcode/tree/master/0721-accounts-merge) |
 | [0737-sentence-similarity-ii](https://github.com/rohanxxx/leetcode/tree/master/0737-sentence-similarity-ii) |
+| [0743-closest-leaf-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0743-closest-leaf-in-a-binary-tree) |
 | [0744-network-delay-time](https://github.com/rohanxxx/leetcode/tree/master/0744-network-delay-time) |
 | [0753-open-the-lock](https://github.com/rohanxxx/leetcode/tree/master/0753-open-the-lock) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/rohanxxx/leetcode/tree/master/0764-n-ary-tree-level-order-traversal) |
@@ -602,6 +605,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0669-trim-a-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0669-trim-a-binary-search-tree) |
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0671-second-minimum-node-in-a-binary-tree) |
 | [0687-longest-univalue-path](https://github.com/rohanxxx/leetcode/tree/master/0687-longest-univalue-path) |
+| [0743-closest-leaf-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0743-closest-leaf-in-a-binary-tree) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/rohanxxx/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
