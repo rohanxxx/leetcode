@@ -12,33 +12,28 @@
 class Solution {
 public:
     vector<vector<int>> verticalOrder(TreeNode* root) {
-        if(root == NULL){
-            return vector<vector<int>>();
-        }
-        
-        map<int, vector<int>> map;
-        queue<pair<TreeNode* ,int>> q;
-        q.push({root, 0});
+        if(!root) return vector<vector<int>>();
+        unordered_map<int, vector<int>> map;
+        int minPoint = 0, maxPoint = 0;
+
+        queue<pair<TreeNode*, int>> q; q.push({root, 0});
         while(!q.empty()){
-            TreeNode* curNode = q.front().first;
-            int lineNumber = q.front().second;
-            
+            TreeNode* node = q.front().first;
+            int point = q.front().second;
             q.pop();
 
-            map[lineNumber].push_back(curNode->val);
-            
-            if(curNode->left){
-                q.push({curNode->left, lineNumber-1});
-            }
-            if(curNode->right){
-                q.push({curNode->right, lineNumber+1});
-            }
+            map[point].push_back(node->val);
+            minPoint = min(minPoint, point);
+            maxPoint = max(maxPoint, point);
+
+            if(node->left) q.push({node->left, point-1});
+            if(node->right) q.push({node->right, point+1});
         }
 
         vector<vector<int>> ans;
-        for(auto it: map){
-            //vector<int> temp = it.second;
-            ans.push_back(it.second);
+        while(minPoint <= maxPoint){
+            ans.push_back(map[minPoint]);
+            minPoint++;
         }
         return ans;
     }
