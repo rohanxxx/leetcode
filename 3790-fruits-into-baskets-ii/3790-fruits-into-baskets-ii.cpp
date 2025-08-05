@@ -13,9 +13,9 @@ public:
         int n = fruits.size(), count = 0;
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n; j++){
-                if(fruits[i] <= baskets[j] && seen[j] == 0){
+                if(fruits[i] <= baskets[j]){
                     count++;
-                    seen[j] = 1;
+                    baskets[j] = 0;
                     break;
                 }
             }
