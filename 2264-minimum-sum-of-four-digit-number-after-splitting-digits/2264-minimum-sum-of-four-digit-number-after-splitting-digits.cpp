@@ -19,8 +19,9 @@ public:
         }
 
         sort(digits.begin(), digits.end());
-        int i = 0, j = 1, n = digits.size();
+        
         int num1 = 0, num2 = 0;
+        int i = 0, j = 1, n = digits.size();
         while(i < n || j < n){
             if(i < n && i % 2 == 0){
                 num1 *= 10;
