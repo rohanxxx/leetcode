@@ -21,7 +21,7 @@ public:
                 count++;
             }
         }
-        if(valid) return count;
-        return -1;
+        //if(valid) return count;
+        return count;
     }
 };
