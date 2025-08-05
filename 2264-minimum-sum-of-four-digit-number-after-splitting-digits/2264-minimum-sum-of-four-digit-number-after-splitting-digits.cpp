@@ -10,18 +10,24 @@
 */
 class Solution {
 public:
+    //TC: O(N+N+NLogN)
+    //SC: O(N)
     int minimumSum(int num) {
+        //SC: O(N)
         vector<int> digits;
+        //TC: O(N)
         while(num){
             int pop = num % 10;
             digits.push_back(pop);
             num = num/10;
         }
 
+        //TC: O(NlogN)
         sort(digits.begin(), digits.end());
         
         int num1 = 0, num2 = 0;
         int i = 0, j = 1, n = digits.size();
+        //TC: O(N)
         while(i < n || j < n){
             if(i < n && i % 2 == 0){
                 num1 *= 10;
