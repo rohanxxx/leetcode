@@ -1,14 +1,15 @@
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
-        for(int i = 0; i <= n; i++){
-            if((long long)pow(2, i) == n){
-                return true;
-            }
-            if((long long)pow(2, i) > n){
-                return false;
-            }
+        long long pow = 2;
+
+        if(n == 1 || n == 2) return true; 
+        for(int i = 2; i <= n; i++){
+            pow *= 2;
+            if(pow == n) return true;
+            if(pow > n) return false;
         }
+
         return false;
     }
 };
