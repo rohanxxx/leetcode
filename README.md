@@ -1022,6 +1022,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/rohanxxx/leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/rohanxxx/leetcode/tree/master/3429-special-array-i) |
 | [3430-count-days-without-meetings](https://github.com/rohanxxx/leetcode/tree/master/3430-count-days-without-meetings) |
+| [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/rohanxxx/leetcode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3463-alternating-groups-i](https://github.com/rohanxxx/leetcode/tree/master/3463-alternating-groups-i) |
 | [3472-bitwise-or-of-adjacent-elements](https://github.com/rohanxxx/leetcode/tree/master/3472-bitwise-or-of-adjacent-elements) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/rohanxxx/leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -1122,6 +1123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3227-find-missing-and-repeated-values](https://github.com/rohanxxx/leetcode/tree/master/3227-find-missing-and-repeated-values) |
+| [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/rohanxxx/leetcode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rohanxxx/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3691-minimum-operations-to-make-columns-strictly-increasing](https://github.com/rohanxxx/leetcode/tree/master/3691-minimum-operations-to-make-columns-strictly-increasing) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/rohanxxx/leetcode/tree/master/3708-zigzag-grid-traversal-with-skip) |
