@@ -24,7 +24,6 @@ public:
                     maxCount = prevCount + curCount;
                 }
             }
-            // (if nums[i] == 0 and i+1 == n, do nothing; result is already tracked)
         }
 
         if (maxCount == n) return maxCount - 1; // all ones: must delete one
