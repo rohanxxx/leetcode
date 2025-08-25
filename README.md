@@ -793,6 +793,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/rohanxxx/leetcode/tree/master/0494-target-sum) |
 | [0495-teemo-attacking](https://github.com/rohanxxx/leetcode/tree/master/0495-teemo-attacking) |
 | [0496-next-greater-element-i](https://github.com/rohanxxx/leetcode/tree/master/0496-next-greater-element-i) |
+| [0498-diagonal-traverse](https://github.com/rohanxxx/leetcode/tree/master/0498-diagonal-traverse) |
 | [0502-ipo](https://github.com/rohanxxx/leetcode/tree/master/0502-ipo) |
 | [0505-the-maze-ii](https://github.com/rohanxxx/leetcode/tree/master/0505-the-maze-ii) |
 | [0506-relative-ranks](https://github.com/rohanxxx/leetcode/tree/master/0506-relative-ranks) |
@@ -1093,6 +1094,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0422-valid-word-square](https://github.com/rohanxxx/leetcode/tree/master/0422-valid-word-square) |
 | [0463-island-perimeter](https://github.com/rohanxxx/leetcode/tree/master/0463-island-perimeter) |
 | [0490-the-maze](https://github.com/rohanxxx/leetcode/tree/master/0490-the-maze) |
+| [0498-diagonal-traverse](https://github.com/rohanxxx/leetcode/tree/master/0498-diagonal-traverse) |
 | [0505-the-maze-ii](https://github.com/rohanxxx/leetcode/tree/master/0505-the-maze-ii) |
 | [0529-minesweeper](https://github.com/rohanxxx/leetcode/tree/master/0529-minesweeper) |
 | [0531-lonely-pixel-i](https://github.com/rohanxxx/leetcode/tree/master/0531-lonely-pixel-i) |
@@ -2505,6 +2507,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0289-game-of-life](https://github.com/rohanxxx/leetcode/tree/master/0289-game-of-life) |
 | [0415-add-strings](https://github.com/rohanxxx/leetcode/tree/master/0415-add-strings) |
 | [0495-teemo-attacking](https://github.com/rohanxxx/leetcode/tree/master/0495-teemo-attacking) |
+| [0498-diagonal-traverse](https://github.com/rohanxxx/leetcode/tree/master/0498-diagonal-traverse) |
 | [0898-transpose-matrix](https://github.com/rohanxxx/leetcode/tree/master/0898-transpose-matrix) |
 | [0987-reveal-cards-in-increasing-order](https://github.com/rohanxxx/leetcode/tree/master/0987-reveal-cards-in-increasing-order) |
 | [1119-robot-bounded-in-circle](https://github.com/rohanxxx/leetcode/tree/master/1119-robot-bounded-in-circle) |
