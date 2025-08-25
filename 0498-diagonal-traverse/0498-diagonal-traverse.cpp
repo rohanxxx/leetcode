@@ -1,10 +1,10 @@
 class Solution {
 public:
     vector<int> findDiagonalOrder(vector<vector<int>>& mat) {
-        int n = mat.size(), m = mat[0].size();
+        int n = mat.size();
+        int m = mat[0].size();
+        
         vector<int> ans;
-        //ans.reserve(n * m);
-
         int i = 0, j = 0, dir = 0; // 0 = up-right, 1 = down-left
 
         for (int cnt = 0; cnt < n * m; ++cnt) {
