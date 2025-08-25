@@ -14,7 +14,7 @@ class Solution(object):
         while i < n and j < m:
             ans.append(mat[i][j])
             if i == n-1 and j == m-1:
-                break;
+                break
             if d == 0:
                 if j == m-1:
                     i += 1 
