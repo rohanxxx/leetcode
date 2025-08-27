@@ -1009,6 +1009,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2856-count-complete-subarrays-in-an-array](https://github.com/rohanxxx/leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2868-continuous-subarrays](https://github.com/rohanxxx/leetcode/tree/master/2868-continuous-subarrays) |
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/rohanxxx/leetcode/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
+| [2880-find-the-closest-marked-node](https://github.com/rohanxxx/leetcode/tree/master/2880-find-the-closest-marked-node) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/rohanxxx/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3151-minimum-processing-time](https://github.com/rohanxxx/leetcode/tree/master/3151-minimum-processing-time) |
@@ -1949,6 +1950,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2479-meeting-rooms-iii](https://github.com/rohanxxx/leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2612-minimum-cost-to-buy-apples](https://github.com/rohanxxx/leetcode/tree/master/2612-minimum-cost-to-buy-apples) |
 | [2868-continuous-subarrays](https://github.com/rohanxxx/leetcode/tree/master/2868-continuous-subarrays) |
+| [2880-find-the-closest-marked-node](https://github.com/rohanxxx/leetcode/tree/master/2880-find-the-closest-marked-node) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/rohanxxx/leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/rohanxxx/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
@@ -2241,6 +2243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2582-minimum-score-of-a-path-between-two-cities](https://github.com/rohanxxx/leetcode/tree/master/2582-minimum-score-of-a-path-between-two-cities) |
 | [2612-minimum-cost-to-buy-apples](https://github.com/rohanxxx/leetcode/tree/master/2612-minimum-cost-to-buy-apples) |
 | [2793-count-the-number-of-complete-components](https://github.com/rohanxxx/leetcode/tree/master/2793-count-the-number-of-complete-components) |
+| [2880-find-the-closest-marked-node](https://github.com/rohanxxx/leetcode/tree/master/2880-find-the-closest-marked-node) |
 | [3189-find-champion-ii](https://github.com/rohanxxx/leetcode/tree/master/3189-find-champion-ii) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rohanxxx/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
@@ -2683,6 +2686,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/rohanxxx/leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2612-minimum-cost-to-buy-apples](https://github.com/rohanxxx/leetcode/tree/master/2612-minimum-cost-to-buy-apples) |
+| [2880-find-the-closest-marked-node](https://github.com/rohanxxx/leetcode/tree/master/2880-find-the-closest-marked-node) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rohanxxx/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Interactive
