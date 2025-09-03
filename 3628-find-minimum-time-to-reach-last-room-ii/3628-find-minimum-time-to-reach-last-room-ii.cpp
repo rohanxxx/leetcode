@@ -24,9 +24,6 @@ public:
             int r       = it[2];
             int c       = it[3];
 
-            // Skip stale state
-            //if (curCost != dist[r][c][check]) continue;
-
             if(r == n-1 && c == m-1){
                 return curCost;
             }
