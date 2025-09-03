@@ -1047,6 +1047,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3616-make-array-elements-equal-to-zero](https://github.com/rohanxxx/leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/rohanxxx/leetcode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rohanxxx/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rohanxxx/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3632-button-with-longest-push-time](https://github.com/rohanxxx/leetcode/tree/master/3632-button-with-longest-push-time) |
 | [3639-zero-array-transformation-i](https://github.com/rohanxxx/leetcode/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/rohanxxx/leetcode/tree/master/3643-zero-array-transformation-ii) |
@@ -1134,6 +1135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3227-find-missing-and-repeated-values](https://github.com/rohanxxx/leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/rohanxxx/leetcode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rohanxxx/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rohanxxx/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3691-minimum-operations-to-make-columns-strictly-increasing](https://github.com/rohanxxx/leetcode/tree/master/3691-minimum-operations-to-make-columns-strictly-increasing) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/rohanxxx/leetcode/tree/master/3708-zigzag-grid-traversal-with-skip) |
 | [3822-fill-a-special-grid](https://github.com/rohanxxx/leetcode/tree/master/3822-fill-a-special-grid) |
@@ -1958,6 +1960,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/rohanxxx/leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/rohanxxx/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rohanxxx/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rohanxxx/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -2249,6 +2252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2880-find-the-closest-marked-node](https://github.com/rohanxxx/leetcode/tree/master/2880-find-the-closest-marked-node) |
 | [3189-find-champion-ii](https://github.com/rohanxxx/leetcode/tree/master/3189-find-champion-ii) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rohanxxx/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rohanxxx/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/rohanxxx/leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
@@ -2691,6 +2695,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2612-minimum-cost-to-buy-apples](https://github.com/rohanxxx/leetcode/tree/master/2612-minimum-cost-to-buy-apples) |
 | [2880-find-the-closest-marked-node](https://github.com/rohanxxx/leetcode/tree/master/2880-find-the-closest-marked-node) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rohanxxx/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rohanxxx/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Interactive
 |  |
