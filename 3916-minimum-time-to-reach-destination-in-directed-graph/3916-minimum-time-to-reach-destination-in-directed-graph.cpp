@@ -1,7 +1,11 @@
 class Solution {
 public:
     int minTime(int n, vector<vector<int>>& edges) {
+        //SC: O(N+E)
+        //TC: O(N)
         vector<vector<vector<int>>> graph(n);
+
+        //TC: O(E)
         for(auto& it: edges){
             int u = it[0];
             int v = it[1];
@@ -17,6 +21,7 @@ public:
         minHeap.push({0, 0});
         minTime[0] = 0;
         
+        //TC: O(LogN*E)
         while(!minHeap.empty()){
             auto top = minHeap.top();
             minHeap.pop();
