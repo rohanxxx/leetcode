@@ -1962,6 +1962,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/rohanxxx/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rohanxxx/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rohanxxx/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3916-minimum-time-to-reach-destination-in-directed-graph](https://github.com/rohanxxx/leetcode/tree/master/3916-minimum-time-to-reach-destination-in-directed-graph) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -2258,6 +2259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/rohanxxx/leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
+| [3916-minimum-time-to-reach-destination-in-directed-graph](https://github.com/rohanxxx/leetcode/tree/master/3916-minimum-time-to-reach-destination-in-directed-graph) |
 ## Topological Sort
 |  |
 | ------- |
@@ -2700,6 +2702,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rohanxxx/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rohanxxx/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
+| [3916-minimum-time-to-reach-destination-in-directed-graph](https://github.com/rohanxxx/leetcode/tree/master/3916-minimum-time-to-reach-destination-in-directed-graph) |
 ## Interactive
 |  |
 | ------- |
