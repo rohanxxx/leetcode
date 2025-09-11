@@ -1020,6 +1020,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3194-find-words-containing-character](https://github.com/rohanxxx/leetcode/tree/master/3194-find-words-containing-character) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/rohanxxx/leetcode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3227-find-missing-and-repeated-values](https://github.com/rohanxxx/leetcode/tree/master/3227-find-missing-and-repeated-values) |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/rohanxxx/leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/rohanxxx/leetcode/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3254-number-of-divisible-triplet-sums](https://github.com/rohanxxx/leetcode/tree/master/3254-number-of-divisible-triplet-sums) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/rohanxxx/leetcode/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
@@ -1304,6 +1305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/rohanxxx/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/rohanxxx/leetcode/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3194-find-words-containing-character](https://github.com/rohanxxx/leetcode/tree/master/3194-find-words-containing-character) |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/rohanxxx/leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/rohanxxx/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/rohanxxx/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3447-clear-digits](https://github.com/rohanxxx/leetcode/tree/master/3447-clear-digits) |
@@ -2256,6 +2258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2865-find-shortest-path-with-k-hops](https://github.com/rohanxxx/leetcode/tree/master/2865-find-shortest-path-with-k-hops) |
 | [2880-find-the-closest-marked-node](https://github.com/rohanxxx/leetcode/tree/master/2880-find-the-closest-marked-node) |
 | [3189-find-champion-ii](https://github.com/rohanxxx/leetcode/tree/master/3189-find-champion-ii) |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/rohanxxx/leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rohanxxx/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rohanxxx/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
@@ -2702,6 +2705,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2612-minimum-cost-to-buy-apples](https://github.com/rohanxxx/leetcode/tree/master/2612-minimum-cost-to-buy-apples) |
 | [2865-find-shortest-path-with-k-hops](https://github.com/rohanxxx/leetcode/tree/master/2865-find-shortest-path-with-k-hops) |
 | [2880-find-the-closest-marked-node](https://github.com/rohanxxx/leetcode/tree/master/2880-find-the-closest-marked-node) |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/rohanxxx/leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rohanxxx/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rohanxxx/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
