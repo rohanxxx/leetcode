@@ -846,6 +846,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/rohanxxx/leetcode/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/rohanxxx/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0808-number-of-matching-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0808-number-of-matching-subsequences) |
+| [0830-largest-triangle-area](https://github.com/rohanxxx/leetcode/tree/master/0830-largest-triangle-area) |
 | [0833-bus-routes](https://github.com/rohanxxx/leetcode/tree/master/0833-bus-routes) |
 | [0854-making-a-large-island](https://github.com/rohanxxx/leetcode/tree/master/0854-making-a-large-island) |
 | [0860-design-circular-queue](https://github.com/rohanxxx/leetcode/tree/master/0860-design-circular-queue) |
@@ -1799,6 +1800,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0564-find-the-closest-palindrome](https://github.com/rohanxxx/leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [0670-maximum-swap](https://github.com/rohanxxx/leetcode/tree/master/0670-maximum-swap) |
 | [0728-self-dividing-numbers](https://github.com/rohanxxx/leetcode/tree/master/0728-self-dividing-numbers) |
+| [0830-largest-triangle-area](https://github.com/rohanxxx/leetcode/tree/master/0830-largest-triangle-area) |
 | [0900-reordered-power-of-2](https://github.com/rohanxxx/leetcode/tree/master/0900-reordered-power-of-2) |
 | [0912-random-pick-with-weight](https://github.com/rohanxxx/leetcode/tree/master/0912-random-pick-with-weight) |
 | [0923-super-egg-drop](https://github.com/rohanxxx/leetcode/tree/master/0923-super-egg-drop) |
@@ -2775,6 +2777,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/rohanxxx/leetcode/tree/master/0149-max-points-on-a-line) |
+| [0830-largest-triangle-area](https://github.com/rohanxxx/leetcode/tree/master/0830-largest-triangle-area) |
 | [0976-minimum-area-rectangle](https://github.com/rohanxxx/leetcode/tree/master/0976-minimum-area-rectangle) |
 | [1014-k-closest-points-to-origin](https://github.com/rohanxxx/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1939-queries-on-number-of-points-inside-a-circle](https://github.com/rohanxxx/leetcode/tree/master/1939-queries-on-number-of-points-inside-a-circle) |
