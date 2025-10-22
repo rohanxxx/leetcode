@@ -4,6 +4,13 @@
 */
 class Solution {
 public:
+    //push solution
+    void push_solution(vector<int>& ans, int& n){
+        for(int i = 1; i <= n/2; i++){
+            ans.push_back(i);
+            ans.push_back(-i);
+        }
+    }
     vector<int> sumZero(int n) {
         int oe = n % 2;
         //if oe is 0 then even
@@ -12,19 +19,13 @@ public:
         vector<int> ans;
         //even case
         if (oe == 0){
-            for(int i = 1; i <= n/2; i++){
-                ans.push_back(i);
-                ans.push_back(-i);
-            }
+            push_solution(ans, n);
             return ans;
         }
 
         //odd case
         ans.push_back(0);
-        for(int i = 1; i <= n/2; i++){
-            ans.push_back(i);
-            ans.push_back(-i);
-        }
+        push_solution(ans, n);
         return ans;
     }
 };
