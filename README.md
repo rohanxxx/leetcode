@@ -529,6 +529,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2035-count-sub-islands](https://github.com/rohanxxx/leetcode/tree/master/2035-count-sub-islands) |
 | [2103-find-all-groups-of-farmland](https://github.com/rohanxxx/leetcode/tree/master/2103-find-all-groups-of-farmland) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rohanxxx/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
+| [2171-second-minimum-time-to-reach-destination](https://github.com/rohanxxx/leetcode/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rohanxxx/leetcode/tree/master/2206-detonate-the-maximum-bombs) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2439-longest-cycle-in-a-graph](https://github.com/rohanxxx/leetcode/tree/master/2439-longest-cycle-in-a-graph) |
@@ -2259,6 +2260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1916-find-center-of-star-graph](https://github.com/rohanxxx/leetcode/tree/master/1916-find-center-of-star-graph) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/rohanxxx/leetcode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rohanxxx/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
+| [2171-second-minimum-time-to-reach-destination](https://github.com/rohanxxx/leetcode/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rohanxxx/leetcode/tree/master/2206-detonate-the-maximum-bombs) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/rohanxxx/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2230-minimum-cost-to-reach-city-with-discounts](https://github.com/rohanxxx/leetcode/tree/master/2230-minimum-cost-to-reach-city-with-discounts) |
@@ -2719,6 +2721,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1325-path-with-maximum-probability](https://github.com/rohanxxx/leetcode/tree/master/1325-path-with-maximum-probability) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/rohanxxx/leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [2171-second-minimum-time-to-reach-destination](https://github.com/rohanxxx/leetcode/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2230-minimum-cost-to-reach-city-with-discounts](https://github.com/rohanxxx/leetcode/tree/master/2230-minimum-cost-to-reach-city-with-discounts) |
 | [2612-minimum-cost-to-buy-apples](https://github.com/rohanxxx/leetcode/tree/master/2612-minimum-cost-to-buy-apples) |
 | [2678-design-graph-with-shortest-path-calculator](https://github.com/rohanxxx/leetcode/tree/master/2678-design-graph-with-shortest-path-calculator) |
