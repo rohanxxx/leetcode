@@ -60,9 +60,6 @@ public:
         // per-EDGE answers
         vector<bool> ans(m, false);
 
-        // no path? return all false
-        if (minWeight[n-1] == INF) return ans;
-
         // DFS back from target to mark all edges on any shortest path
         seen.assign(n, 0);
         dfs(n-1, ans, map);
