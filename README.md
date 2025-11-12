@@ -235,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1021-distribute-coins-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/rohanxxx/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/rohanxxx/leetcode/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1091-maximum-average-subtree](https://github.com/rohanxxx/leetcode/tree/master/1091-maximum-average-subtree) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/rohanxxx/leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/rohanxxx/leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
@@ -376,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1021-distribute-coins-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/rohanxxx/leetcode/tree/master/1073-number-of-enclaves) |
+| [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/rohanxxx/leetcode/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1091-maximum-average-subtree](https://github.com/rohanxxx/leetcode/tree/master/1091-maximum-average-subtree) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/rohanxxx/leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/rohanxxx/leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
@@ -634,6 +636,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1021-distribute-coins-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/rohanxxx/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/rohanxxx/leetcode/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1091-maximum-average-subtree](https://github.com/rohanxxx/leetcode/tree/master/1091-maximum-average-subtree) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/rohanxxx/leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/rohanxxx/leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
