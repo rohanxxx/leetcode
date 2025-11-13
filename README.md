@@ -1054,6 +1054,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3463-alternating-groups-i](https://github.com/rohanxxx/leetcode/tree/master/3463-alternating-groups-i) |
 | [3472-bitwise-or-of-adjacent-elements](https://github.com/rohanxxx/leetcode/tree/master/3472-bitwise-or-of-adjacent-elements) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/rohanxxx/leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/rohanxxx/leetcode/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/rohanxxx/leetcode/tree/master/3515-find-if-digit-game-can-be-won) |
 | [3519-find-the-number-of-winning-players](https://github.com/rohanxxx/leetcode/tree/master/3519-find-the-number-of-winning-players) |
 | [3533-snake-in-matrix](https://github.com/rohanxxx/leetcode/tree/master/3533-snake-in-matrix) |
@@ -1866,6 +1867,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3321-type-of-triangle](https://github.com/rohanxxx/leetcode/tree/master/3321-type-of-triangle) |
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/rohanxxx/leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
 | [3343-count-numbers-with-unique-digits-ii](https://github.com/rohanxxx/leetcode/tree/master/3343-count-numbers-with-unique-digits-ii) |
+| [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/rohanxxx/leetcode/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/rohanxxx/leetcode/tree/master/3515-find-if-digit-game-can-be-won) |
 | [3553-check-if-two-chessboard-squares-have-the-same-color](https://github.com/rohanxxx/leetcode/tree/master/3553-check-if-two-chessboard-squares-have-the-same-color) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/rohanxxx/leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
