@@ -44,6 +44,7 @@ public:
 
         // find first missing
         for (int i = 0; i < n; i++) {
+            //cout << nums[i] << " ";
             if (nums[i] >= 0) return i + 1;
         }
 
