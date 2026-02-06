@@ -22,7 +22,6 @@ public:
             }
 
             longest_len = max(longest_len, right-left);
-            // cout << "s[right]: " << s[right] << endl;
         }
         return longest_len;
     }
