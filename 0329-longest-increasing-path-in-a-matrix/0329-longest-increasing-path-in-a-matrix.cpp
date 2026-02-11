@@ -37,12 +37,7 @@ public:
                 maxPath = max(dfs(r, c, -1, -1, matrix, cache), maxPath);
             }
         }
-        /*
-        for (int r = 0; r < n; r++) {
-            for (int c = 0; c < m; c++) {
-                maxPath = max(maxPath, cache[r][c]);
-            }
-        }*/
+        
         return maxPath;
     }
 };
