@@ -31,18 +31,18 @@ public:
         dir = {{0,1}, {0,-1}, {1,0}, {-1,0}};
         vector<vector<int>> cache(n, vector<int>(m, 1));
 
+        int maxPath = 0;
         for (int r = 0; r < n; r++) {
             for (int c = 0; c < m; c++) {
-                dfs(r, c, -1, -1, matrix, cache);
+                maxPath = max(dfs(r, c, -1, -1, matrix, cache), maxPath);
             }
         }
-
-        int maxPath = 0;
+        /*
         for (int r = 0; r < n; r++) {
             for (int c = 0; c < m; c++) {
                 maxPath = max(maxPath, cache[r][c]);
             }
-        }
+        }*/
         return maxPath;
     }
 };
