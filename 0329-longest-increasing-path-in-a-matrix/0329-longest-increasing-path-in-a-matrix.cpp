@@ -1,28 +1,48 @@
 class Solution {
 public:
-    int m, n;
-    vector<vector<int>>dir = {{0,1}, {1,0}, {0,-1}, {-1,0}};
+    int n, m;
+    vector<vector<int>> dir;
 
-    int dfs(vector<vector<int>>& matrix, int i, int j, vector<vector<int>>& cache){
-        if(cache[i][j] != 0) return cache[i][j];
-        for(int k = 0; k < dir.size(); k++){
-            int x = i+dir[k][0], y = j+dir[k][1];
-            if(0 <= x && x < m && 0 <= y && y < n && matrix[x][y] > matrix[i][j])
-                cache[i][j] = max(cache[i][j], dfs(matrix, x, y, cache));
+    int dfs(int r, int c, int prevR, int prevC, vector<vector<int>>& matrix, vector<vector<int>>& cache) {
+
+        // invalid move (must be strictly increasing compared to previous cell)
+        if (prevR != -1 && matrix[r][c] <= matrix[prevR][prevC]) return 0;
+
+        // memo: longest path starting at (r,c) depends only on (r,c)
+        if (cache[r][c] != 1) return cache[r][c];
+
+        int bestFromNeighbors = 0;
+        for (auto &it : dir) {
+            int adjr = it[0] + r;
+            int adjc = it[1] + c;
+            if (adjr >= 0 && adjr < n && adjc >= 0 && adjc < m) {
+                bestFromNeighbors = max(bestFromNeighbors, dfs(adjr, adjc, r, c, matrix, cache));
+            }
         }
-        return ++cache[i][j];
-    }
-    int longestIncreasingPath(vector<vector<int>>& matrix) {
-        m = matrix.size();
-        if(m == 0) return 0;
-        
-        n = matrix[0].size();
 
-        vector<vector<int>> cache(m, vector<int>(n,0));
-        int longest_path = 0;
-        for(int i = 0; i < m; i++)
-            for(int j = 0; j < n; j++)
-                longest_path = max(longest_path, dfs(matrix, i, j, cache));
-        return longest_path;
+        // overwrite (don't accumulate)
+        return cache[r][c] = cache[r][c] + bestFromNeighbors;
+    }
+
+    int longestIncreasingPath(vector<vector<int>>& matrix) {
+        n = matrix.size();
+        m = matrix[0].size();
+
+        dir = {{0,1}, {0,-1}, {1,0}, {-1,0}};
+        vector<vector<int>> cache(n, vector<int>(m, 1));
+
+        for (int r = 0; r < n; r++) {
+            for (int c = 0; c < m; c++) {
+                dfs(r, c, -1, -1, matrix, cache);
+            }
+        }
+
+        int maxPath = 0;
+        for (int r = 0; r < n; r++) {
+            for (int c = 0; c < m; c++) {
+                maxPath = max(maxPath, cache[r][c]);
+            }
+        }
+        return maxPath;
     }
 };
