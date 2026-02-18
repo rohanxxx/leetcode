@@ -1787,6 +1787,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rohanxxx/leetcode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3736-find-valid-pair-of-adjacent-digits-in-string](https://github.com/rohanxxx/leetcode/tree/master/3736-find-valid-pair-of-adjacent-digits-in-string) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/rohanxxx/leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
+| [3815-design-auction-system](https://github.com/rohanxxx/leetcode/tree/master/3815-design-auction-system) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/rohanxxx/leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/rohanxxx/leetcode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
@@ -2010,6 +2011,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/rohanxxx/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rohanxxx/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rohanxxx/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3815-design-auction-system](https://github.com/rohanxxx/leetcode/tree/master/3815-design-auction-system) |
 | [3916-minimum-time-to-reach-destination-in-directed-graph](https://github.com/rohanxxx/leetcode/tree/master/3916-minimum-time-to-reach-destination-in-directed-graph) |
 ## Bucket Sort
 |  |
@@ -2703,6 +2705,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2429-design-a-food-rating-system](https://github.com/rohanxxx/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [2587-design-memory-allocator](https://github.com/rohanxxx/leetcode/tree/master/2587-design-memory-allocator) |
 | [2678-design-graph-with-shortest-path-calculator](https://github.com/rohanxxx/leetcode/tree/master/2678-design-graph-with-shortest-path-calculator) |
+| [3815-design-auction-system](https://github.com/rohanxxx/leetcode/tree/master/3815-design-auction-system) |
 ## Data Stream
 |  |
 | ------- |
@@ -2879,6 +2882,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2868-continuous-subarrays](https://github.com/rohanxxx/leetcode/tree/master/2868-continuous-subarrays) |
 | [3790-fruits-into-baskets-ii](https://github.com/rohanxxx/leetcode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/rohanxxx/leetcode/tree/master/3791-fruits-into-baskets-iii) |
+| [3815-design-auction-system](https://github.com/rohanxxx/leetcode/tree/master/3815-design-auction-system) |
 ## Doubly-Linked List
 |  |
 | ------- |
