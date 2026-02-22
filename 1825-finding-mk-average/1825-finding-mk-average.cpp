@@ -1,81 +1,146 @@
-// OJ: https://leetcode.com/contest/weekly-contest-236/problems/finding-mk-average/
-// Author: github.com/lzl124631x
-// Time: 
-//     MKAverage: O(1)
-//     addElement: O(logM)
-//     calculateMKAverage: O(1)
-// Space: O(M)
+#include <bits/stdc++.h>
+using namespace std;
+
 class MKAverage {
-    multiset<int> top, bot, mid;
-    queue<int> q;
-    long sum = 0, m, k;
-public:
-    MKAverage(int m, int k) : m(m), k(k) {}
-    
-    void addElement(int n) {
-        if (q.size() < m) mid.insert(n); // when there are less than `m` numbers, always insert into `mid`.
-        q.push(n);
-        if (q.size() == m) {
-            // when we reached exactly `m` numbers, we nudge numbers from `mid` to `top` and `bot`, and calculate `sum`.
-            for (int i = 0; i < k; ++i) {
-                bot.insert(*mid.begin());
-                mid.erase(mid.begin());
-            }
-            for (int i = 0; i < k; ++i) {
-                top.insert(*mid.rbegin());
-                mid.erase(prev(mid.end()));
-            }
-            for (int x : mid) sum += x;
-        } else if (q.size() > m) {
-            // when we've seen more than `m` numbers. We first add the new number `n` to where it should belong.
-            // If we add `n` to `top` or `bot`, we balance them with `mid` to make sure `top` and `bot` have exactly `k` numbers
-            if (n < *bot.rbegin()) {
-                bot.insert(n);
-                int x = *bot.rbegin();
-                bot.erase(prev(bot.end()));
-                mid.insert(x);
-                sum += x; 
-            } else if (n > *top.begin()) {
-                top.insert(n);
-                int x = *top.begin();
-                top.erase(top.begin());
-                mid.insert(x);
-                sum += x;
-            } else {
-                mid.insert(n);
-                sum += n;
-            }
-            // Then we remove the number `rm` that is no longer one of the latest `m` numbers.
-            int rm = q.front();
-            q.pop();
-            auto it = mid.find(rm);
-            if (it != mid.end()) { // first try removing from `mid`, then `top` or `bot`.
-                mid.erase(it);
-                sum -= rm;
-            } else {
-                it = top.find(rm);
-                if (it != top.end()) {
-                    top.erase(it);
-                } else {
-                    bot.erase(bot.find(rm));
-                }
-            }
-            // Lastly, balance `top` and `bot` if needed
-            if (bot.size() < k) {
-                int x = *mid.begin();
-                bot.insert(x);
-                mid.erase(mid.begin());
-                sum -= x;
-            } else if (top.size() < k) {
-                int x = *mid.rbegin();
-                top.insert(x);
-                mid.erase(prev(mid.end()));
-                sum -= x;
-            }
+private:
+    int k, m;
+    long long sum, minSum, maxSum;
+
+    deque<int> v;                 // keep name v, but must be deque for pop_front
+    multiset<int> minHeap;        // k smallest
+    multiset<int> midHeap;        // middle (m - 2k)
+    multiset<int> maxHeap;        // k largest
+
+    void rebalance() {
+        // Fix sizes: minHeap size == k
+        while ((int)minHeap.size() > k) {
+            multiset<int>::iterator it = prev(minHeap.end()); // largest in minHeap
+            int x = *it;
+            minHeap.erase(it);
+            minSum -= x;
+
+            midHeap.insert(x);
+        }
+        while ((int)minHeap.size() < k && !midHeap.empty()) {
+            multiset<int>::iterator it = midHeap.begin();     // smallest in midHeap
+            int x = *it;
+            midHeap.erase(it);
+
+            minHeap.insert(x);
+            minSum += x;
+        }
+
+        // Fix sizes: maxHeap size == k
+        while ((int)maxHeap.size() > k) {
+            multiset<int>::iterator it = maxHeap.begin();     // smallest in maxHeap
+            int x = *it;
+            maxHeap.erase(it);
+            maxSum -= x;
+
+            midHeap.insert(x);
+        }
+        while ((int)maxHeap.size() < k && !midHeap.empty()) {
+            multiset<int>::iterator it = prev(midHeap.end()); // largest in midHeap
+            int x = *it;
+            midHeap.erase(it);
+
+            maxHeap.insert(x);
+            maxSum += x;
+        }
+
+        // Fix ordering: all minHeap <= midHeap <= maxHeap
+        while (!minHeap.empty() && !midHeap.empty()) {
+            int a = *prev(minHeap.end()); // largest in minHeap
+            int b = *midHeap.begin();     // smallest in midHeap
+            if (a <= b) break;
+
+            // swap a and b
+            minHeap.erase(prev(minHeap.end()));
+            midHeap.erase(midHeap.begin());
+
+            minHeap.insert(b);
+            midHeap.insert(a);
+
+            minSum += (long long)b - a;
+        }
+
+        while (!midHeap.empty() && !maxHeap.empty()) {
+            int a = *prev(midHeap.end()); // largest in midHeap
+            int b = *maxHeap.begin();     // smallest in maxHeap
+            if (a <= b) break;
+
+            // swap a and b
+            midHeap.erase(prev(midHeap.end()));
+            maxHeap.erase(maxHeap.begin());
+
+            midHeap.insert(b);
+            maxHeap.insert(a);
+
+            maxSum += (long long)a - b;
         }
     }
-    
+
+    void eraseOne(multiset<int>& ms, int x) {
+        multiset<int>::iterator it = ms.find(x);
+        if (it != ms.end()) ms.erase(it);
+    }
+
+public:
+    MKAverage(int m, int k) {
+        this->m = m;
+        this->k = k;
+        sum = minSum = maxSum = 0;
+    }
+
+    void addElement(int num) {
+        v.push_back(num);
+        sum += num;
+
+        // insert into one of the buckets (roughly)
+        if (!minHeap.empty() && num <= *prev(minHeap.end())) {
+            minHeap.insert(num);
+            minSum += num;
+        } else if (!maxHeap.empty() && num >= *maxHeap.begin()) {
+            maxHeap.insert(num);
+            maxSum += num;
+        } else {
+            midHeap.insert(num);
+        }
+
+        // if window too big, remove oldest
+        if ((int)v.size() > m) {
+            int delElement = v.front();
+            v.pop_front();
+            sum -= delElement;
+
+            // remove from whichever set contains it
+            multiset<int>::iterator it;
+
+            it = minHeap.find(delElement);
+            if (it != minHeap.end()) {
+                minHeap.erase(it);
+                minSum -= delElement;
+            } else {
+                it = maxHeap.find(delElement);
+                if (it != maxHeap.end()) {
+                    maxHeap.erase(it);
+                    maxSum -= delElement;
+                } else {
+                    eraseOne(midHeap, delElement);
+                }
+            }
+        }
+
+        rebalance();
+    }
+
     int calculateMKAverage() {
-        return q.size() == m ? (sum / (m - 2 * k)) : -1;
+        if ((int)v.size() < m) return -1;
+
+        int denom = m - 2 * k;
+        if (denom <= 0) return 0;
+
+        long long middleSum = sum - minSum - maxSum;
+        return (int)(middleSum / denom);
     }
 };
