@@ -1992,6 +1992,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rohanxxx/leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1753-path-with-minimum-effort](https://github.com/rohanxxx/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/rohanxxx/leetcode/tree/master/1762-furthest-building-you-can-reach) |
+| [1825-finding-mk-average](https://github.com/rohanxxx/leetcode/tree/master/1825-finding-mk-average) |
 | [1917-maximum-average-pass-ratio](https://github.com/rohanxxx/leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [1962-single-threaded-cpu](https://github.com/rohanxxx/leetcode/tree/master/1962-single-threaded-cpu) |
 | [2012-process-tasks-using-servers](https://github.com/rohanxxx/leetcode/tree/master/2012-process-tasks-using-servers) |
@@ -2658,6 +2659,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1286-constrained-subsequence-sum](https://github.com/rohanxxx/leetcode/tree/master/1286-constrained-subsequence-sum) |
 | [1366-first-unique-number](https://github.com/rohanxxx/leetcode/tree/master/1366-first-unique-number) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rohanxxx/leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1825-finding-mk-average](https://github.com/rohanxxx/leetcode/tree/master/1825-finding-mk-average) |
 | [2195-time-needed-to-buy-tickets](https://github.com/rohanxxx/leetcode/tree/master/2195-time-needed-to-buy-tickets) |
 | [2868-continuous-subarrays](https://github.com/rohanxxx/leetcode/tree/master/2868-continuous-subarrays) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/rohanxxx/leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -2703,6 +2705,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1512-design-underground-system](https://github.com/rohanxxx/leetcode/tree/master/1512-design-underground-system) |
 | [1582-design-browser-history](https://github.com/rohanxxx/leetcode/tree/master/1582-design-browser-history) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/rohanxxx/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
+| [1825-finding-mk-average](https://github.com/rohanxxx/leetcode/tree/master/1825-finding-mk-average) |
 | [2139-detect-squares](https://github.com/rohanxxx/leetcode/tree/master/2139-detect-squares) |
 | [2429-design-a-food-rating-system](https://github.com/rohanxxx/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [2587-design-memory-allocator](https://github.com/rohanxxx/leetcode/tree/master/2587-design-memory-allocator) |
@@ -2719,6 +2722,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0969-number-of-recent-calls](https://github.com/rohanxxx/leetcode/tree/master/0969-number-of-recent-calls) |
 | [1366-first-unique-number](https://github.com/rohanxxx/leetcode/tree/master/1366-first-unique-number) |
 | [1582-design-browser-history](https://github.com/rohanxxx/leetcode/tree/master/1582-design-browser-history) |
+| [1825-finding-mk-average](https://github.com/rohanxxx/leetcode/tree/master/1825-finding-mk-average) |
 ## Union Find
 |  |
 | ------- |
@@ -2880,6 +2884,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/rohanxxx/leetcode/tree/master/0729-my-calendar-i) |
 | [0931-maximum-frequency-stack](https://github.com/rohanxxx/leetcode/tree/master/0931-maximum-frequency-stack) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rohanxxx/leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1825-finding-mk-average](https://github.com/rohanxxx/leetcode/tree/master/1825-finding-mk-average) |
 | [2429-design-a-food-rating-system](https://github.com/rohanxxx/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [2868-continuous-subarrays](https://github.com/rohanxxx/leetcode/tree/master/2868-continuous-subarrays) |
 | [3790-fruits-into-baskets-ii](https://github.com/rohanxxx/leetcode/tree/master/3790-fruits-into-baskets-ii) |
