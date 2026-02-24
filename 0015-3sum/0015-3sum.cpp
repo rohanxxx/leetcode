@@ -10,7 +10,7 @@ public:
             int hi = n-1;
             while(lo < hi){
                 if(nums[i] + nums[lo] + nums[hi] == 0){
-                    set.insert({i, lo, hi});
+                    set.insert({nums[i], nums[lo], nums[hi]});
                     lo++;
                 }
                 else if(nums[i] + nums[lo] + nums[hi] < 0){
