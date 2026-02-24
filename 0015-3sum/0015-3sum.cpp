@@ -1,26 +1,28 @@
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
-        sort(begin(nums), end(nums));
-        vector<vector<int>> res;
-        for (int i = 0; i < nums.size() && nums[i] <= 0; ++i)
-            if (i == 0 || nums[i - 1] != nums[i]) {
-                twoSumII(nums, i, res);
-            }
-        return res;
-    }
-    void twoSumII(vector<int>& nums, int i, vector<vector<int>>& res) {
-        int lo = i + 1, hi = nums.size() - 1;
-        while (lo < hi) {
-            int sum = nums[i] + nums[lo] + nums[hi];
-            if (sum < 0) {
-                ++lo;
-            } else if (sum > 0) {
-                --hi;
-            } else {
-                res.push_back({nums[i], nums[lo++], nums[hi--]});
-                while (lo < hi && nums[lo] == nums[lo - 1]) ++lo;
+        //TC: O(NlogN)
+        sort(nums.begin(), nums.end());
+        set<vector<int>> set;
+        int n = nums.size();
+        for(int i = 0; i < n; i++){
+            int lo = i+1;
+            int hi = n-1;
+            while(lo < hi){
+                if(nums[i] + nums[lo] + nums[hi] == 0){
+                    set.insert({i, lo, hi});
+                    lo++;
+                }
+                else if(nums[i] + nums[lo] + nums[hi] < 0){
+                    lo++;
+                }
+                else{
+                    hi--;
+                }
             }
         }
+
+        vector<vector<int>> ans(set.begin(), set.end());
+        return ans;
     }
 };
