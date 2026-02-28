@@ -2,17 +2,18 @@ class Solution {
 public:
     int minMeetingRooms(vector<vector<int>>& intervals) {
         sort(intervals.begin(), intervals.end());
-        
-        priority_queue<int, vector<int>, greater<int>> minQue;
-        int roomsRequired = 0;
-        for(auto interval: intervals){
-            if(!minQue.empty()){
-                if(minQue.top() <= interval[0]) minQue.pop();
+        priority_queue<int, vector<int>, greater<int>> minHeap;
+        for(auto it: intervals){
+            if(minHeap.empty()){
+                minHeap.push(it[1]);
+                continue;
             }
-            minQue.push(interval[1]);
-            roomsRequired = max((int)minQue.size(), roomsRequired);
+            if(it[0] >= minHeap.top()){
+                minHeap.pop();
+            }
+            minHeap.push(it[1]);
         }
 
-        return roomsRequired;
+        return (int)minHeap.size();
     }
 };
