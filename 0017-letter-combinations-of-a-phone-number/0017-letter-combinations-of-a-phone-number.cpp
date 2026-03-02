@@ -1,27 +1,24 @@
 class Solution {
 public:
-    vector<string> combinations;
-    unordered_map<char, string> phoneBook;
-    void backtrack(string& digits, string cur, int index){
-        if(cur.length() == digits.length()){
-            if(cur == "") return;
-            combinations.push_back(cur);
+    unordered_map<int, string> map = {
+        {2, "abc"}, {3, "def"}, {4, "ghi"}, {5, "jkl"}, {6, "mno"}, 
+        {7, "pqrs"}, {8, "tuv"}, {9, "wxyz"}
+    };
+    void dfs(int index, string cur, string& digits, vector<string>& ans){
+        if(cur.size() == digits.size()){
+            ans.push_back(cur);
             return;
         }
-        int len = phoneBook[digits[index]].length();
-        for(int i = 0; i < len; i++){
-            cur += phoneBook[digits[index]][i];
-            backtrack(digits, cur, index+1);
+
+        for(auto it: map[digits[index]-'0']){
+            cur.push_back(it);
+            dfs(index+1, cur, digits, ans);
             cur.pop_back();
         }
     }
     vector<string> letterCombinations(string digits) {
-           phoneBook = {
-            {'2', "abc"}, {'3', "def"}, {'4', "ghi"},
-            {'5', "jkl"}, {'6', "mno"}, {'7', "pqrs"},
-            {'8', "tuv"}, {'9', "wxyz"}
-           };
-           backtrack(digits, "", 0);
-           return combinations;
+        vector<string> ans;
+        dfs(0, "", digits, ans);
+        return ans;
     }
 };
