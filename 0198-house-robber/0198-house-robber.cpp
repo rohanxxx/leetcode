@@ -4,6 +4,7 @@
 */
 class Solution {
 public:
+    /*
     int dfs(int i, vector<int>& nums, vector<int>& dp){
         if(i < 0) return 0;
         if(dp[i] != INT_MIN) return dp[i];
@@ -24,5 +25,22 @@ public:
             dp[i] = max(take, notTake);
         }
         return dfs(n-1, nums, dp);
+    }*/
+
+    int rob(vector<int>& nums) {
+        int n = nums.size();
+        //vector<int> dp(n, 0);
+        int p1 = 0, p2 = 0;
+        for(int i = 0; i < n; i++) {
+            int take = nums[i];
+            int notTake = 0; 
+            if(i-2 >= 0) take += p2;
+            if(i-1 >= 0) notTake += p1;
+            int res = max(take, notTake);
+
+            p2 = p1;
+            p1 = res;
+        }
+        return p1;
     }
 };
