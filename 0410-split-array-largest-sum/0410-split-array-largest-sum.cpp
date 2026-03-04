@@ -1,30 +1,34 @@
 class Solution {
 public:
-    int countSplits(vector<int>& nums, int hi){
-        int splits = 1;
-        long long sum = 0;
-        for(int i = 0; i < nums.size(); i++){
-            sum += nums[i];
-            if(sum > hi){
-                splits++;
-                sum = nums[i];
-            }
+    int dfs(vector<vector<int>>& dp, vector<int>& nums, int index, int k){
+        int n = nums.size();
+
+        // last partition takes the rest
+        if(k == 1){
+            int sum = 0;
+            for(int i = index; i < n; i++) sum += nums[i];
+            return sum;
         }
-        return splits;
+
+        if(dp[index][k] != -1) return dp[index][k];
+
+        int curSum = 0;
+        int res = INT_MAX;
+
+        for(int i = index; i <= n - k; i++){
+            curSum += nums[i];
+            int maxSum = max(curSum, dfs(dp, nums, i+1, k-1));
+            res = min(res, maxSum);
+
+            if(curSum > res) break; // pruning (same as Python)
+        }
+
+        return dp[index][k] = res;
     }
+
     int splitArray(vector<int>& nums, int k) {
-        //TC: O(N+N) = O(2N) = O(N)
-        int lo = *max_element(nums.begin(), nums.end()); //gives max element
-        int hi = accumulate(nums.begin(), nums.end(), 0); //gives sum of arr
-
-        //TC: O(log(sum))
-        while(lo <= hi){
-            int mid = lo+(hi-lo)/2;
-            int count = countSplits(nums, mid);
-            if(count > k) lo = mid+1;
-            else hi = mid-1;
-        }
-
-        return lo;
+        int n = nums.size();
+        vector<vector<int>> dp(n, vector<int>(k+1, -1));
+        return dfs(dp, nums, 0, k);
     }
 };
