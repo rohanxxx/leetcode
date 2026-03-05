@@ -4,11 +4,13 @@ public:
         unordered_map<string, vector<string>> anagrams;
         for(auto s: strs){
             vector<int> map(26, 0);
+            //TC:O(M)
             for(auto c: s){
                 map[c-'a']++;
             }
 
             string key = "";
+            //O(26+M)
             for(int i = 0; i < 26; i++){
                 for(int j = 0; j < map[i]; j++){
                     key.push_back(char(i+'a'));
