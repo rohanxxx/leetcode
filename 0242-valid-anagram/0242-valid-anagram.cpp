@@ -5,9 +5,10 @@ public:
         for(char c: s) smap[c-'a']++;
         for(char c: t) tmap[c-'a']++;
 
-        for(int i = 0; i < 26; i++){
+        /*for(int i = 0; i < 26; i++){
             if(smap[i] != tmap[i]) return false;
-        }
+        }*/
+        if(smap != tmap) return false;
 
         return true;
     }
