@@ -985,6 +985,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1929-concatenation-of-array](https://github.com/rohanxxx/leetcode/tree/master/1929-concatenation-of-array) |
 | [1938-minimum-operations-to-make-the-array-increasing](https://github.com/rohanxxx/leetcode/tree/master/1938-minimum-operations-to-make-the-array-increasing) |
 | [1939-queries-on-number-of-points-inside-a-circle](https://github.com/rohanxxx/leetcode/tree/master/1939-queries-on-number-of-points-inside-a-circle) |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/rohanxxx/leetcode/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [1962-single-threaded-cpu](https://github.com/rohanxxx/leetcode/tree/master/1962-single-threaded-cpu) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/rohanxxx/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [1983-maximum-population-year](https://github.com/rohanxxx/leetcode/tree/master/1983-maximum-population-year) |
@@ -2552,6 +2553,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/rohanxxx/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1666-make-the-string-great](https://github.com/rohanxxx/leetcode/tree/master/1666-make-the-string-great) |
 | [1909-buildings-with-an-ocean-view](https://github.com/rohanxxx/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/rohanxxx/leetcode/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/rohanxxx/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2128-reverse-prefix-of-word](https://github.com/rohanxxx/leetcode/tree/master/2128-reverse-prefix-of-word) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/rohanxxx/leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
@@ -2814,6 +2816,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/rohanxxx/leetcode/tree/master/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/rohanxxx/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1909-buildings-with-an-ocean-view](https://github.com/rohanxxx/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/rohanxxx/leetcode/tree/master/1944-number-of-visible-people-in-a-queue) |
 ## Binary Search Tree
 |  |
 | ------- |
