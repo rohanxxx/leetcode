@@ -6,7 +6,6 @@ public:
     MedianFinder() {}
     
     void addNum(int num) {
-        this->v.push_back(num);
         int index = lower_bound(this->v.begin(), this->v.end(), num) - this->v.begin();
         this->v.insert(this->v.begin()+index, num);
         this->size = this->v.size();
