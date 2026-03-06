@@ -1,18 +1,21 @@
 class MedianFinder {
-    vector<int> nums;
+private: 
+    int size;
+    vector<int> v;
 public:
     MedianFinder() {}
+    
     void addNum(int num) {
-        if(nums.empty()) nums.push_back(num);
-        else nums.insert(lower_bound(nums.begin(), nums.end(), num), num); 
-        // nums.push_back(num); 
+        this->v.push_back(num);
+        int index = lower_bound(this->v.begin(), this->v.end(), num) - this->v.begin();
+        this->v.insert(this->v.begin()+index, num);
+        this->size = this->v.size();
     }
     
     double findMedian() {
-        // sort(nums.begin(), nums.end());
-        int size = nums.size();
-        if(size%2) return (double)nums[size/2];
-        return ((double)nums[size/2-1]+nums[size/2])*0.5;
+        //odd
+        if(size%2) return (double)v[size/2];
+        return ((double)v[size/2-1]+v[size/2])*0.5;
     }
 };
 
