@@ -38,9 +38,9 @@ public:
             return a[0] < b[0];
         });*/
         sort(envelopes.begin(), envelopes.end(), comp);
-        for(auto it: envelopes){
+        /*for(auto it: envelopes){
             cout << "[" << it[0] << "," << it[1] << "] ";
-        }
+        }*/
         vector<int> secondDim(envelopes.size());
         for (int i = 0; i < envelopes.size(); i++) {
             secondDim[i] = envelopes[i][1];
