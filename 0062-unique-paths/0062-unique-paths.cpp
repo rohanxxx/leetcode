@@ -22,12 +22,26 @@ public:
         if(dp[r][c] != 0) return dp[r][c];
 
         int left = dfs(r-1, c, dp);
-        int right = dfs(r, c-1, dp);
+        int up = dfs(r, c-1, dp);
 
-        return dp[r][c] = left+right;
+        return dp[r][c] = left+up;
     }
     int uniquePaths(int m, int n) {
         vector<vector<int>> dp(m+1, vector<int>(n+1, 0));
-        return dfs(m, n, dp);
+        //return dfs(m, n, dp);
+
+        for(int r = 1; r <= m; r++){
+            for(int c = 1; c <= n; c++){
+                if(r == 1 && c == 1){
+                    dp[r][c] = 1;
+                    continue;
+                }
+                int left = dp[r-1][c];
+                int up = dp[r][c-1];
+                dp[r][c] = left + up;
+            }
+        }
+
+        return dp[m][n];
     }
 };
