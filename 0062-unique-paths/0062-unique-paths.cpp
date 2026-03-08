@@ -7,9 +7,9 @@
 
     return the possible unique paths that the robot can take to reach the goal state
 
-    1 0 0 0 0 0 0
-    0 0 0 0 0 0 0
-    0 0 0 0 0 0 0
+    1 1 1 1   1  1  1
+    1 2 3 4   5  6  7
+    1 3 6 10 15 21 28
 
     
 */
@@ -30,18 +30,21 @@ public:
         vector<vector<int>> dp(m+1, vector<int>(n+1, 0));
         //return dfs(m, n, dp);
 
+        vector<int> prev(n+1, 0);
         for(int r = 1; r <= m; r++){
+            vector<int> cur(n+1, 0);
             for(int c = 1; c <= n; c++){
                 if(r == 1 && c == 1){
-                    dp[r][c] = 1;
+                    cur[c] = 1;
                     continue;
                 }
-                int left = dp[r-1][c];
-                int up = dp[r][c-1];
-                dp[r][c] = left + up;
+                int left = prev[c];
+                int up = cur[c-1];
+                cur[c] = left + up;
             }
+            prev = cur;
         }
 
-        return dp[m][n];
+        return prev[n];
     }
 };
