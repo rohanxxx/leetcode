@@ -12,8 +12,7 @@ public:
         for(int right = 0; right < n; right++){
             if(nums[right] == 0) k--;
             while(k < 0){
-                if(nums[left] == 0) k++;
-                left++;
+                if(nums[left++] == 0) k++;
             }
             maxLen = max(maxLen, right-left+1);
         }
