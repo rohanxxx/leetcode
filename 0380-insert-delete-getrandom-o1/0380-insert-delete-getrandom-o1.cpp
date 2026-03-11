@@ -1,6 +1,6 @@
 class RandomizedSet {
 private:
-    vector<int> uset;
+    unordered_set<int> uset;
 public:
     RandomizedSet() {
         srand(time(0));
@@ -8,16 +8,16 @@ public:
     
     bool insert(int val) {
         if(uset.empty()){
-            uset.push_back(val);
+            uset.insert(val);
             return true;
         }
 
-        auto it = find(uset.begin(), uset.end(), val);
+        auto it = uset.find(val);
         if (it != uset.end()) {
             return false;
         }
 
-        uset.push_back(val);
+        uset.insert(val);
         return true;
     }
     
@@ -26,7 +26,7 @@ public:
             return false;
         }
         // Find and erase element 30 from the vector
-        auto it = find(uset.begin(), uset.end(), val);
+        auto it = uset.find(val);
         if (it != uset.end()) {
             uset.erase(it);  
             return true;
@@ -37,7 +37,9 @@ public:
     
     int getRandom() {
         int randomIndex = rand() % uset.size();
-        int randomElement = uset[randomIndex];
+        auto it = uset.begin();
+        advance(it, randomIndex);
+        int randomElement = *it;
         return randomElement;
     }
 };
