@@ -1,23 +1,22 @@
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
-        int LEN = 9;
-        vector<unordered_set<char>> rows(9), columns(9), boxes(9);
-
-        for(int r = 0; r < LEN; r++){
-            for(int c = 0; c < LEN; c++){
-                char val = board[r][c];
-
-                if(val == '.') continue;
-                
-                if(rows[r].find(val) != rows[r].end()) return false;
-                if(columns[c].find(val) != columns[c].end()) return false;
-                int boxIndex = r/3 *3 + c/3;
-                if(boxes[boxIndex].find(val) != boxes[boxIndex].end()) return false;
-                
-                rows[r].insert(val);
-                columns[c].insert(val);
-                boxes[boxIndex].insert(val); 
+        unordered_map<char, unordered_set<char>> rowMap, colMap, boxMap;
+        for(int i = 0; i < 9; i++){
+            for(int j = 0; j < 9; j++){
+                char c = board[i][j];
+                if(c > '0'){
+                    //if found 
+                    if(rowMap[i].find(c) != rowMap[i].end()) return false;
+                    if(colMap[j].find(c) != colMap[j].end()) return false;
+                    
+                    int index = (i/3)*3+(j/3);
+                    if(boxMap[index].find(c) != boxMap[index].end()) return false;
+                    
+                    rowMap[i].insert(c);
+                    colMap[j].insert(c);
+                    boxMap[index].insert(c);
+                }
             }
         }
         return true;
