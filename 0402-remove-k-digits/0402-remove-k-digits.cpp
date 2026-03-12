@@ -1,34 +1,39 @@
+/*
+    num = "1432219", k = 3
+
+
+*/
 class Solution {
 public:
     string removeKdigits(string num, int k) {
-        deque<char> stack;
-
-        for (char digit : num) {
-            while (!stack.empty() && k > 0 && stack.back() > digit) {
-                stack.pop_back();
+        stack<char> stack;
+        for(char c: num){
+            if(stack.empty()){
+                stack.push(c);
+                continue;
+            }
+            while(!stack.empty() && stack.top() > c && k > 0){
+                stack.pop();
                 k--;
             }
-            stack.push_back(digit);
+            stack.push(c);
         }
 
-        // Remove remaining digits from the back if needed
-        for (int i = 0; i < k; ++i) {
-            stack.pop_back();
+        while(!stack.empty() && k > 0){
+            stack.pop(); k--;
         }
 
-        // Build result while skipping leading zeros
-        string result;
-        bool leadingZero = true;
-        for (char digit : stack) {
-            if (leadingZero && digit == '0') continue;
-            leadingZero = false;
-            result += digit;
+        string newNum = "";
+        while(!stack.empty()){
+            newNum.push_back(stack.top());
+            stack.pop();
         }
 
-        if (result.empty()) {
-            return "0";
-        } else {
-            return result;
-        }
+        while(!newNum.empty() && newNum.back() == '0') newNum.pop_back();
+
+        reverse(newNum.begin(), newNum.end());
+
+        if(newNum.empty()) return "0";
+        return newNum;
     }
 };
