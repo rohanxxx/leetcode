@@ -1,17 +1,23 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
-        int p1 = 0, p2 = numbers.size()-1;
-        while(p1 < p2){
-            if(numbers[p1]+numbers[p2] == target){
-                return {p1+1, p2+1};
+        int left = 0, right = numbers.size()-1;
+
+        //TC: O(N)
+        //SC: O(1)
+        while(left < right){
+            int twoSum = numbers[left] + numbers[right];
+            if(twoSum == target){
+                return {left+1, right+1};
+            }
+            if(twoSum < target){
+                left++;
             }
             else{
-                if(numbers[p1]+ numbers[p2] < target) p1++;
-                else p2--;
+                right--;
             }
         }
 
-        return {-1, -1};
+        return {};
     }
 };
