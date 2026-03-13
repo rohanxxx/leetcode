@@ -1,27 +1,28 @@
 class Solution {
 public:
-    bool func(vector<int>& nums, vector<vector<int>>& dp, int i, int target){
-        if(target == 0) return true;
-        if(i == 0) return (nums[i] == target);
-        if(dp[i][target] != -1) return dp[i][target];
-        
-        bool notTake = func(nums, dp, i-1, target);
-        bool take = false;
+    bool dfs(int i, int cur, vector<int>& nums, vector<vector<int>>& dp){
+        if(cur == 0) return true;
+        if(cur < 0) return false;
+        if(i == 0) return nums[i] == cur;
 
-        if(nums[i] <= target){
-            take = func(nums, dp, i-1, target-nums[i]);
-        }
+        if(dp[i][cur] != -1) return dp[i][cur];
 
-        return dp[i][target] = take || notTake;
+        bool take = dfs(i-1, cur-nums[i], nums, dp);
+        bool notTake = dfs(i-1, cur, nums, dp);
+
+        return dp[i][cur] = (take || notTake);
     }
     bool canPartition(vector<int>& nums) {
-        int n = nums.size(), sum = 0;
-        
-        for(int i = 0; i < n; i++) sum += nums[i];
-        if(sum % 2 == 1) return false;
-        
-        int target = sum / 2;
-        vector<vector<int>> dp(n, vector<int>(target+1, -1));
-        return func(nums, dp, n-1, target);
+        int sum = 0;
+        for(int num: nums){
+            sum += num;
+        }
+        //if odd sum partitioning is impossible
+        if(sum % 2){
+            return false;
+        }
+        int n = nums.size();
+        vector<vector<int>> dp(n, vector<int>((sum/2)+1, -1));
+        return dfs(n-1, sum/2, nums, dp);
     }
 };
