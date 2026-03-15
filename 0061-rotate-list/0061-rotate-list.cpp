@@ -8,29 +8,40 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+ /*
+
+    3 2 1 0
+    1 2 3 4 5 -> 1 2 3 4 5 
+    make it a cycle 
+    n-(k%n)
+ */
 class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
-        if(k == 0) return head;
-        if(head == NULL) return NULL;
+        if(head == NULL) return head;
         
         int n = 0;
         ListNode* temp = head;
+        ListNode* prev = NULL;
         while(temp){
             n++;
+            prev = temp;
             temp = temp->next;
         }
-        vector<ListNode*> arr(n);
+        
+        prev->next = head; //makes it a cycle
+        
+        int newHeadIndex = n-(k%n);
         temp = head;
-        for(int i = 0; i < n; i++){
-            int index = (i+k) % n;
-            arr[index] = temp;
+
+        while(newHeadIndex){
+            prev = temp;
             temp = temp->next;
+            newHeadIndex--;
         }
-        for(int i = 0; i < n-1; i++){
-            arr[i]->next = arr[i+1];
-        }
-        arr[n-1]->next = NULL;
-        return arr[0];
+
+        head = temp;
+        prev->next = NULL;
+        return head;
     }
 };
