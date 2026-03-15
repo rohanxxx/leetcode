@@ -1,25 +1,37 @@
 class Solution {
 public:
-    bool wordBreak(string s, vector<string>& wordDict) {
-        int n = s.length();
-        
-        queue<int> q; q.push(0);
-        vector<bool> seen(n, false);
-        unordered_set<string> words(wordDict.begin(), wordDict.end());
+    bool dfs(int i, string cur, string& s, unordered_set<string>& set,
+             unordered_map<string, int>& dp) {
+        int n = (int)s.length();
 
-        while(!q.empty()){
-            int start = q.front(); q.pop();
-            if(start == n) return true;
-
-            for(int end = start+1; end <= n; end++){
-                if(seen[end]) continue;
-                if(words.find(s.substr(start, end-start)) != words.end()){
-                    seen[end] = true;
-                    q.push(end);
-                }
-            }
+        if (i < n) {
+            cur.push_back(s[i]);
         }
 
-        return false;
+        // base case
+        if (i == n) {
+            return set.find(cur) != set.end();
+        }
+
+        string key = to_string(i) + "#" + cur;
+        if (dp.find(key) != dp.end()) {
+            return dp[key];
+        }
+
+        bool take = false, notTake = false;
+
+        if (set.find(cur) != set.end()) {
+            take = dfs(i + 1, "", s, set, dp);
+        }
+
+        notTake = dfs(i + 1, cur, s, set, dp);
+
+        return dp[key] = (take || notTake);
+    }
+
+    bool wordBreak(string s, vector<string>& wordDict) {
+        unordered_set<string> set(wordDict.begin(), wordDict.end());
+        unordered_map<string, int> dp;
+        return dfs(0, "", s, set, dp);
     }
 };
