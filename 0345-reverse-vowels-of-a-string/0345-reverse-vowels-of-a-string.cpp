@@ -1,30 +1,24 @@
-/*
-    Input: s = "IceCreAm"
-    Output: "AceCreIm"
-
-    IceCreAm
-    
-    IeeA
-    AeeI
-*/
 class Solution {
 public:
     string reverseVowels(string s) {
-        string vowels = "";
-        for(auto c: s){
-            if(toupper(c) == 'A' || toupper(c) == 'E' || toupper(c) == 'I' || toupper(c) == 'O' || toupper(c) == 'U'){
-                vowels += c;
+        int l = 0, r = (int)s.length()-1;
+        while(l <= r){
+            char c1 = tolower(s[l]);
+            while(l <= r && c1 != 'a' && c1 != 'e' && c1 != 'i' && c1 != 'o' && c1 != 'u'){
+                l++;
+                c1 = tolower(s[l]);
             }
-        }
 
-        //reverse(vowels)
-        int ptr = vowels.size()-1;
-        for(auto& c: s){
-            if(toupper(c) == 'A' || toupper(c) == 'E' || toupper(c) == 'I' || toupper(c) == 'O' || toupper(c) == 'U'){
-                c = vowels[ptr];
-                ptr--;
+            char c2 = tolower(s[r]);
+            while(l <= r && c2 != 'a' && c2 != 'e' && c2 != 'i' && c2 != 'o' && c2 != 'u'){
+                r--;
+                c2 = tolower(s[r]);
             }
-            if(ptr < 0) break;
+            if(l <= r){
+                swap(s[l], s[r]);
+            }
+            l++;
+            r--;
         }
 
         return s;
