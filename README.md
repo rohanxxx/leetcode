@@ -238,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/rohanxxx/leetcode/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1091-maximum-average-subtree](https://github.com/rohanxxx/leetcode/tree/master/1091-maximum-average-subtree) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/rohanxxx/leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
+| [1110-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/rohanxxx/leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1150-two-sum-bsts](https://github.com/rohanxxx/leetcode/tree/master/1150-two-sum-bsts) |
@@ -380,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/rohanxxx/leetcode/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1091-maximum-average-subtree](https://github.com/rohanxxx/leetcode/tree/master/1091-maximum-average-subtree) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/rohanxxx/leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
+| [1110-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/rohanxxx/leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1150-two-sum-bsts](https://github.com/rohanxxx/leetcode/tree/master/1150-two-sum-bsts) |
@@ -639,6 +641,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/rohanxxx/leetcode/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1091-maximum-average-subtree](https://github.com/rohanxxx/leetcode/tree/master/1091-maximum-average-subtree) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/rohanxxx/leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
+| [1110-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/rohanxxx/leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1150-two-sum-bsts](https://github.com/rohanxxx/leetcode/tree/master/1150-two-sum-bsts) |
@@ -910,6 +913,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1098-largest-unique-number](https://github.com/rohanxxx/leetcode/tree/master/1098-largest-unique-number) |
 | [1101-the-earliest-moment-when-everyone-become-friends](https://github.com/rohanxxx/leetcode/tree/master/1101-the-earliest-moment-when-everyone-become-friends) |
 | [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
+| [1110-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
 | [1121-partition-array-for-maximum-sum](https://github.com/rohanxxx/leetcode/tree/master/1121-partition-array-for-maximum-sum) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/rohanxxx/leetcode/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1129-longest-string-chain](https://github.com/rohanxxx/leetcode/tree/master/1129-longest-string-chain) |
@@ -1736,6 +1740,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1074-high-five](https://github.com/rohanxxx/leetcode/tree/master/1074-high-five) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/rohanxxx/leetcode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
 | [1098-largest-unique-number](https://github.com/rohanxxx/leetcode/tree/master/1098-largest-unique-number) |
+| [1110-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
 | [1123-single-row-keyboard](https://github.com/rohanxxx/leetcode/tree/master/1123-single-row-keyboard) |
 | [1129-longest-string-chain](https://github.com/rohanxxx/leetcode/tree/master/1129-longest-string-chain) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/rohanxxx/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
