@@ -1,33 +1,41 @@
 class Solution {
 public:
-    int ROWS, COLS;
-    vector<vector<char>> boardCopy;
+    bool dfs(int r, int c, int i, string& word, vector<vector<char>>& board, vector<pair<int, int>>& dir){
+        int n = board.size();
+        int m = board[0].size();
+        int k = word.size();
 
-    bool backtrack(int row, int col, const string& word, int index){
-        if(index >= word.length()) return true;
-        if(row < 0 || row == ROWS || col < 0 || col == COLS || boardCopy[row][col] != word[index]) return false;
-        
-        boardCopy[row][col] = '#';
+        if(i == k) return true;
 
-        int rowOffset[4] = {0,1,0,-1};
-        int colOffset[4] = {1,0,-1,0};
+        if(r < 0 || r >= n || c < 0 || c >= m || board[r][c] != word[i]) return false;
 
-        bool res = false;
-        for(int i = 0; i < 4; i++){
-            res = backtrack(row+rowOffset[i], col+colOffset[i], word, index+1);
-            if (res) break;
+        char temp = board[r][c];
+        board[r][c] = '0';
+
+        for(auto it : dir){
+            int adjr = r + it.first;
+            int adjc = c + it.second;
+            if(dfs(adjr, adjc, i + 1, word, board, dir)){
+                board[r][c] = temp;
+                return true;
+            }
         }
-        boardCopy[row][col] = word[index];
-        return res;
+
+        board[r][c] = temp;
+        return false;
     }
 
     bool exist(vector<vector<char>>& board, string word) {
-        boardCopy = board;
-        ROWS = board.size(), COLS = board[0].size();
+        vector<pair<int, int>> dir = {{0,1}, {1,0}, {0,-1}, {-1,0}};
 
-        for(int row = 0; row < ROWS; row++){
-            for(int col = 0; col < COLS; col++){
-                if(backtrack(row, col, word, 0)) return true;
+        int n = board.size();
+        int m = board[0].size();
+
+        for(int r = 0; r < n; r++){
+            for(int c = 0; c < m; c++){
+                if(dfs(r, c, 0, word, board, dir)){
+                    return true;
+                }
             }
         }
 
