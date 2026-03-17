@@ -11,19 +11,26 @@
  */
 class Solution {
 public:
+    //TC: O(V+N+E)
+    //SC: O(V+N+E)
     vector<TreeNode*> delNodes(TreeNode* root, vector<int>& to_delete) {
         vector<TreeNode*> forest;
         if(root == NULL) return forest;
 
+        //TC: O(M)
+        //SC: O(M)
         unordered_set<int> set(to_delete.begin(), to_delete.end());
 
         queue<TreeNode*> q; q.push(root);
 
+        //TC: O(N)
+        //SC: O(N)
         while(!q.empty()){
             TreeNode* node = q.front(); q.pop();
 
             if(node->left){
                 q.push(node->left);
+                //O(1)
                 if(set.find(node->left->val) != set.end()){
                     node->left = NULL;
                 }
