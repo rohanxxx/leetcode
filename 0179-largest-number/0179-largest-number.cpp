@@ -1,5 +1,9 @@
 class Solution {
 public:
+    static bool comp(string& a, string& b){
+        if(a+b > b+a) return true;
+        return false;
+    }
     string largestNumber(vector<int> &nums) {
         vector<string> numStrings;
         // Convert each integer to a string
@@ -8,7 +12,7 @@ public:
         }
 
         // Sort strings based on concatenated values
-        sort(numStrings.begin(), numStrings.end(), [](string &a, string &b) { return a + b > b + a; });
+        sort(numStrings.begin(), numStrings.end(), comp);
 
         for(int i = 0; i < numStrings.size(); i++){
             cout << numStrings[i] << " ";
