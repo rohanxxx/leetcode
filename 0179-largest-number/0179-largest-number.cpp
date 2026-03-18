@@ -14,10 +14,10 @@ public:
         // Sort strings based on concatenated values
         sort(numStrings.begin(), numStrings.end(), comp);
 
-        for(int i = 0; i < numStrings.size(); i++){
+        /*for(int i = 0; i < numStrings.size(); i++){
             cout << numStrings[i] << " ";
         }
-        cout << endl;
+        cout << endl;*/
 
         // Handle the case where the largest number is zero
         if (numStrings[0] == "0") return "0";
