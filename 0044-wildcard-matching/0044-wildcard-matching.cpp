@@ -13,7 +13,6 @@ public:
 
         if(dp[i][j] != -1) return dp[i][j];
 
-        bool res = false;
         if(p[j-1] == '*'){
             return dp[i][j] = dfs(i, j-1, s, p, dp) || dfs(i-1, j, s, p, dp);
         }
@@ -26,7 +25,38 @@ public:
     bool isMatch(string s, string p) {
         int n = s.length();
         int m = p.length();
-        vector<vector<int>> dp(n+1, vector<int>(m+1, -1));
-        return dfs(n, m, s, p, dp);
+        vector<vector<int>> dp(n+1, vector<int>(m+1, 0));
+        dp[0][0] = 1;
+        for(int i = 1; i <= n; i++){
+            dp[i][0] = 0;
+        }
+
+        for(int j = 1; j <= m; j++) {
+            bool flag = true;
+
+            for(int jj = 1; jj <= j; jj++) {
+                if(p[jj - 1] != '*') {
+                    flag = false;
+                    break;
+                }
+            }
+
+            dp[0][j] = flag;
+        }
+
+        for(int i = 1; i <= n; i++){
+            for(int j = 1; j <= m; j++){
+                if(p[j-1] == '*'){
+                    dp[i][j] = dp[i][j-1] || dp[i-1][j];
+                }
+                else if(s[i-1] == p[j-1] || p[j-1] == '?'){
+                    dp[i][j] = dp[i-1][j-1];
+                }
+                else{
+                    dp[i][j] = 0;
+                }
+            }
+        }
+        return dp[n][m];
     }
 };
