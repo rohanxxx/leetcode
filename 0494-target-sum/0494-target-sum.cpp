@@ -1,26 +1,32 @@
 class Solution {
 public:
-/*
-    nums = [1,1,1,1,1]
-    sum = 5 [-5 -> 10]
-    sum*2 = -1+totalSum 4? 1+totalSum = 6
-*/
-    int func(int i, int curSum, int& sum, int& target, vector<int>& nums, vector<vector<int>>& dp){
-        if(i == nums.size()){
-            if(target == curSum) return 1;
-            else return 0;
-        }
-        if(dp[i][curSum+sum] != -1) return dp[i][curSum+sum];
-        int plus = func(i+1, curSum+nums[i], sum, target, nums, dp);
-        int minus = func(i+1, curSum-nums[i], sum, target, nums, dp);
-        return dp[i][curSum+sum] = plus+minus;
+    int dfs(int i, int t, int& sum, vector<int>& nums, vector<vector<int>>& dp){
+        // FIX 1: if t goes out of possible dp range
+        if(t < -sum || t > sum) return 0;
+
+        if(t == 0 && i == 0) return 1;
+        if(t != 0 && i == 0) return 0;
+
+        if(dp[i][t + sum] != -1) return dp[i][t + sum];
+        
+        int take1 = dfs(i-1, t-nums[i-1], sum, nums, dp); // + case
+        int take2 = dfs(i-1, t+nums[i-1], sum, nums, dp); // - case
+        
+        return dp[i][t + sum] = take1 + take2;
     }
+
     int findTargetSumWays(vector<int>& nums, int target) {
-        int n = nums.size(), sum = 0;
-        for(int i = 0; i < n; i++){
-            sum += nums[i];
+        int n = nums.size();
+        
+        int sum = 0;
+        for(int num : nums){
+            sum += num;
         }
-        vector<vector<int>> dp(n, vector<int>(1+2*sum, -1));
-        return func(0, 0, sum, target, nums, dp);
+
+        // FIX 2: impossible case
+        if(target < -sum || target > sum) return 0;
+
+        vector<vector<int>> dp(n+1, vector<int>(sum*2 + 1, -1));
+        return dfs(n, target, sum, nums, dp);
     }
 };
