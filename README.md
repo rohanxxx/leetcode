@@ -1828,6 +1828,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/rohanxxx/leetcode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/rohanxxx/leetcode/tree/master/0009-palindrome-number) |
 | [0012-integer-to-roman](https://github.com/rohanxxx/leetcode/tree/master/0012-integer-to-roman) |
+| [0029-divide-two-integers](https://github.com/rohanxxx/leetcode/tree/master/0029-divide-two-integers) |
 | [0043-multiply-strings](https://github.com/rohanxxx/leetcode/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/rohanxxx/leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/rohanxxx/leetcode/tree/master/0050-powx-n) |
@@ -2206,6 +2207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/rohanxxx/leetcode/tree/master/0029-divide-two-integers) |
 | [0078-subsets](https://github.com/rohanxxx/leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/rohanxxx/leetcode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/rohanxxx/leetcode/tree/master/0136-single-number) |
