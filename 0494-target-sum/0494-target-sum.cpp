@@ -24,7 +24,7 @@ public:
         }
 
         // FIX 2: impossible case
-        if(target < -sum || target > sum) return 0;
+        //if(target < -sum || target > sum) return 0;
 
         vector<vector<int>> dp(n+1, vector<int>(sum*2 + 1, -1));
         return dfs(n, target, sum, nums, dp);
