@@ -11,20 +11,21 @@
  */
 class Solution {
 public:
-    int kthElement;
-    void bst(TreeNode* node, int& k, int& count){
-        if(!node) return;
-        bst(node->left, k, count);
-        if(++count == k){
-            kthElement = node->val;
-            return;
-        }
-        bst(node->right, k, count);
+    void dfs(TreeNode* root, vector<int>& inorder){
+        if(root == NULL) return;
+        
+        dfs(root->left, inorder);
+        inorder.push_back(root->val);
+        dfs(root->right, inorder);
+        
+        return;
     }
     int kthSmallest(TreeNode* root, int k) {
-        int count = 0;
-        kthElement = INT_MAX;
-        bst(root, k, count);
-        return kthElement;
+        vector<int> inorder;
+        dfs(root, inorder);
+        if(inorder.size() >= k){ 
+            return inorder[k-1];
+        }
+        return -1;
     }
 };
