@@ -1,12 +1,10 @@
 class Solution {
 public:
     int numSquares(int n) {
-        // Precompute all perfect squares ≤ n
-        vector<int> squares;
-        for (int i = 1; i * i <= n; i++) {
-            squares.push_back(i * i);
+        vector<long long> sq;
+        for(int i = 1; i*i <= n; i++){
+            sq.push_back(i*i);
         }
-
         queue<int> q;
         unordered_set<int> visited;
 
@@ -14,34 +12,25 @@ public:
         visited.insert(n);
 
         int level = 0;
-
-        while (!q.empty()) {
+        while(!q.empty()){
             int size = q.size();
-            level++;
-
-            while (size--) {
-                int remainder = q.front();
+            while(size--){
+                int rem = q.front();
                 q.pop();
 
-                for (int square : squares) {
-                    if (remainder == square) {
-                        return level;
-                    }
-
-                    if (remainder < square) {
-                        break;
-                    }
-
-                    int next = remainder - square;
-
-                    if (!visited.count(next)) {
-                        visited.insert(next);
-                        q.push(next);
+                if(rem == 0) return level;
+                if(rem < 0) continue;
+                for(int square: sq){
+                    int nextRem = rem-square;
+                    if(visited.find(nextRem) == visited.end()){
+                        q.push(nextRem);
+                        visited.insert(nextRem);
                     }
                 }
             }
+            level++;
         }
 
-        return level;
+        return -1;
     }
 };
