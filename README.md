@@ -429,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2793-count-the-number-of-complete-components](https://github.com/rohanxxx/leetcode/tree/master/2793-count-the-number-of-complete-components) |
 | [3386-find-edges-in-shortest-paths](https://github.com/rohanxxx/leetcode/tree/master/3386-find-edges-in-shortest-paths) |
+| [3481-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3481-apply-substitutions) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/rohanxxx/leetcode/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
@@ -552,6 +553,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2793-count-the-number-of-complete-components](https://github.com/rohanxxx/leetcode/tree/master/2793-count-the-number-of-complete-components) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3386-find-edges-in-shortest-paths](https://github.com/rohanxxx/leetcode/tree/master/3386-find-edges-in-shortest-paths) |
+| [3481-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3481-apply-substitutions) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/rohanxxx/leetcode/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
@@ -1079,6 +1081,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3472-bitwise-or-of-adjacent-elements](https://github.com/rohanxxx/leetcode/tree/master/3472-bitwise-or-of-adjacent-elements) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/rohanxxx/leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/rohanxxx/leetcode/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
+| [3481-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3481-apply-substitutions) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/rohanxxx/leetcode/tree/master/3515-find-if-digit-game-can-be-won) |
 | [3519-find-the-number-of-winning-players](https://github.com/rohanxxx/leetcode/tree/master/3519-find-the-number-of-winning-players) |
 | [3533-snake-in-matrix](https://github.com/rohanxxx/leetcode/tree/master/3533-snake-in-matrix) |
@@ -1361,6 +1364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/rohanxxx/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3447-clear-digits](https://github.com/rohanxxx/leetcode/tree/master/3447-clear-digits) |
 | [3468-find-the-encrypted-string](https://github.com/rohanxxx/leetcode/tree/master/3468-find-the-encrypted-string) |
+| [3481-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3481-apply-substitutions) |
 | [3484-lexicographically-smallest-string-after-a-swap](https://github.com/rohanxxx/leetcode/tree/master/3484-lexicographically-smallest-string-after-a-swap) |
 | [3533-snake-in-matrix](https://github.com/rohanxxx/leetcode/tree/master/3533-snake-in-matrix) |
 | [3543-count-substrings-that-satisfy-k-constraint-i](https://github.com/rohanxxx/leetcode/tree/master/3543-count-substrings-that-satisfy-k-constraint-i) |
@@ -1811,6 +1815,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/rohanxxx/leetcode/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/rohanxxx/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3343-count-numbers-with-unique-digits-ii](https://github.com/rohanxxx/leetcode/tree/master/3343-count-numbers-with-unique-digits-ii) |
+| [3481-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3481-apply-substitutions) |
 | [3519-find-the-number-of-winning-players](https://github.com/rohanxxx/leetcode/tree/master/3519-find-the-number-of-winning-players) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/rohanxxx/leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/rohanxxx/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
@@ -2382,6 +2387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/rohanxxx/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2439-longest-cycle-in-a-graph](https://github.com/rohanxxx/leetcode/tree/master/2439-longest-cycle-in-a-graph) |
 | [2472-build-a-matrix-with-conditions](https://github.com/rohanxxx/leetcode/tree/master/2472-build-a-matrix-with-conditions) |
+| [3481-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3481-apply-substitutions) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
 ## Binary Search
 |  |
@@ -3048,4 +3054,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/rohanxxx/leetcode/tree/master/0207-course-schedule) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/rohanxxx/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [3481-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3481-apply-substitutions) |
 <!---LeetCode Topics End-->
