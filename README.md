@@ -454,6 +454,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/rohanxxx/leetcode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0226-invert-binary-tree) |
 | [0261-graph-valid-tree](https://github.com/rohanxxx/leetcode/tree/master/0261-graph-valid-tree) |
+| [0279-perfect-squares](https://github.com/rohanxxx/leetcode/tree/master/0279-perfect-squares) |
 | [0286-walls-and-gates](https://github.com/rohanxxx/leetcode/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0310-minimum-height-trees](https://github.com/rohanxxx/leetcode/tree/master/0310-minimum-height-trees) |
@@ -1850,6 +1851,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/rohanxxx/leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0263-ugly-number](https://github.com/rohanxxx/leetcode/tree/master/0263-ugly-number) |
 | [0268-missing-number](https://github.com/rohanxxx/leetcode/tree/master/0268-missing-number) |
+| [0279-perfect-squares](https://github.com/rohanxxx/leetcode/tree/master/0279-perfect-squares) |
 | [0326-power-of-three](https://github.com/rohanxxx/leetcode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/rohanxxx/leetcode/tree/master/0342-power-of-four) |
 | [0343-integer-break](https://github.com/rohanxxx/leetcode/tree/master/0343-integer-break) |
@@ -2102,6 +2104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0256-paint-house](https://github.com/rohanxxx/leetcode/tree/master/0256-paint-house) |
 | [0265-paint-house-ii](https://github.com/rohanxxx/leetcode/tree/master/0265-paint-house-ii) |
 | [0276-paint-fence](https://github.com/rohanxxx/leetcode/tree/master/0276-paint-fence) |
+| [0279-perfect-squares](https://github.com/rohanxxx/leetcode/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/rohanxxx/leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/rohanxxx/leetcode/tree/master/0312-burst-balloons) |
