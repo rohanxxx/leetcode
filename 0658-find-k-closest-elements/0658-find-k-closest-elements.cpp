@@ -13,7 +13,7 @@ public:
     }
 
     vector<int> findClosestElements(vector<int>& arr, int k, int x) {
-        int index = binarySearch(x, arr);
+        int index = lower_bound(arr.begin(), arr.end(), x) - arr.begin();
         int n = arr.size();
         int a = index-1;
         int b = index;
