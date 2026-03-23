@@ -12,8 +12,7 @@ public:
             curSum += nums[i];
             while(left <= i && curSum >= target){
                 minLen = min(minLen, i-left+1);
-                curSum -= nums[left];
-                left++;
+                curSum -= nums[left++];
             }
         }
 
