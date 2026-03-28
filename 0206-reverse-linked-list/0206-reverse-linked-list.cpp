@@ -14,15 +14,23 @@ public:
          1 ->2 ->3 ->4 ->5
     */
     ListNode* reverseList(ListNode* head) {
-        ListNode* cur = head;
-        ListNode* prev = NULL;
-        ListNode* Next = NULL;
-        while(cur){
-            Next = cur->next;
-            cur->next = prev;
-            prev = cur;
-            cur = Next;
+        vector<ListNode*> v;
+        ListNode* temp = head;
+        while(temp){
+            v.push_back(temp);
+            temp = temp->next;
         }
-        return prev;
+        int n = v.size();
+        for(int i = n-1; i >= 0; i--){
+            if(i == 0){
+                v[i]->next = NULL;
+                break;
+            }
+            v[i]->next = v[i-1];
+        }
+        if(n == 0){
+            return NULL;
+        }
+        return v[n-1];
     }
 };
