@@ -11,21 +11,25 @@
  */
 class Solution {
 public:
-    int depth;
-    void dfs(TreeNode* root, int curDepth){
-        if(root == NULL){
-            depth = max(depth, curDepth);
-            return;
-        }
-        curDepth++;
-        //depth = max(depth, curDepth);
-        dfs(root->left, curDepth);
-        dfs(root->right,curDepth);
-    }
     int maxDepth(TreeNode* root) {
-        int curDepth;
-        depth = curDepth = 0;
-        dfs(root, curDepth);
+        int depth = 0;
+        if(!root){
+            return depth;
+        }
+        queue<TreeNode*> q; q.push(root);
+        while(!q.empty()){
+            depth++;
+            int width = q.size();
+            for(int i = 0; i < width; i++){
+                TreeNode* cur = q.front(); q.pop();
+                if(cur->left){
+                    q.push(cur->left);
+                }
+                if(cur->right){
+                    q.push(cur->right);
+                }
+            }
+        }
         return depth;
     }
 };
