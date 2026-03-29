@@ -9,19 +9,25 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+ /*
+    TreeNode* dfs(TreeNode* root){
+        if(!root) return NULL;
+        TreeNode* newLeft = dfs(root->right);
+        TreeNode* newRight = dfs(root->left);
+        root->left = newLeft;
+        root->right = newRight;
+        return root;
+    }
+ */
 class Solution {
 public:
     TreeNode* dfs(TreeNode* root){
-        if(root == NULL) return root;
-        TreeNode* l = root->left;
-        TreeNode* r = root->right;
-        
-        root->left = r;
-        root->right = l;
-
-        dfs(root->left);
-        dfs(root->right);
-        
+        if(!root) return NULL;
+        TreeNode* newLeft = dfs(root->right);
+        TreeNode* newRight = dfs(root->left);
+        root->left = newLeft;
+        root->right = newRight;
         return root;
     }
     TreeNode* invertTree(TreeNode* root) {
