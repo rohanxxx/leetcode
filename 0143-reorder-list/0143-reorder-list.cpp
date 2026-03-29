@@ -8,41 +8,57 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
 class Solution {
 public:
     void reorderList(ListNode* head) {
-        if(head == NULL) return;
-        ListNode* fast = head;
-        ListNode* slow = head;
-
-        while(fast && fast->next){
-            slow = slow->next;
-            fast = fast->next->next;
+        if(head == NULL || head->next == NULL){
+            return;
         }
 
         ListNode* prev = NULL;
-        ListNode* curr = slow;
-        ListNode* temp;
-
-        //reversing the second half of the linkedlist
-        while(curr){
-            temp = curr->next;
-            curr->next = prev;
-            prev = curr;
-            curr = temp;
+        ListNode* slow = head;
+        ListNode* fast = head;
+        //find the mid
+        //TC: O(N/2)
+        while(fast && fast->next){
+            prev = slow;
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        
+        if(prev){
+            prev->next = NULL;
         }
 
-        ListNode* first = head;
-        ListNode* second = prev; //this hold the second half reverse order
-
-        while(second->next){
-            temp = first->next;
-            first->next = second;
-            first = temp;
-
-            temp = second->next;
-            second->next = first;
-            second = temp;
+        prev = NULL;
+        ListNode* cur = slow;
+        ListNode* Next = NULL;
+        //reverse the second Half
+        while(cur){
+            Next = cur->next;
+            cur->next = prev;
+            prev = cur;
+            cur = Next;
         }
+
+        ListNode* firstHalf = head;
+        ListNode* secondHalf = prev;
+        ListNode* prevFirst = NULL;
+        ListNode* prevSecond = NULL;
+        while(firstHalf && secondHalf){
+            prevFirst = firstHalf;
+            firstHalf = firstHalf->next;
+
+            prevSecond = secondHalf;
+            secondHalf = secondHalf->next;
+
+            prevFirst->next = prevSecond;
+            if(firstHalf){
+                prevSecond->next = firstHalf;
+            }
+        }
+
+        return;
     }
 };
