@@ -11,17 +11,18 @@
  */
 class Solution {
 public:
-    int maxCount = 0;
-    int dfs(TreeNode* root){
-        if(root == NULL) return 0;
-        int leftCount = dfs(root->left);
-        int rightCount = dfs(root->right);
-
-        maxCount = max(maxCount, leftCount+rightCount);
-        return 1+(int)max(leftCount, rightCount);
+    int dfs(TreeNode* root, int& maxDepth){
+        if(!root){
+            return 0;
+        }
+        int leftCount = dfs(root->left, maxDepth);
+        int rightCount = dfs(root->right, maxDepth);
+        maxDepth = max(maxDepth, leftCount+rightCount);
+        return 1 + (int)max(leftCount, rightCount);
     }
     int diameterOfBinaryTree(TreeNode* root) {
-        dfs(root);
-        return maxCount;
+        int maxDepth = 0;
+        dfs(root, maxDepth);
+        return maxDepth;
     }
 };
