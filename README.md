@@ -894,6 +894,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/rohanxxx/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/rohanxxx/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [0971-shortest-bridge](https://github.com/rohanxxx/leetcode/tree/master/0971-shortest-bridge) |
+| [0973-k-closest-points-to-origin](https://github.com/rohanxxx/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [0976-minimum-area-rectangle](https://github.com/rohanxxx/leetcode/tree/master/0976-minimum-area-rectangle) |
 | [0987-reveal-cards-in-increasing-order](https://github.com/rohanxxx/leetcode/tree/master/0987-reveal-cards-in-increasing-order) |
 | [1002-maximum-width-ramp](https://github.com/rohanxxx/leetcode/tree/master/1002-maximum-width-ramp) |
@@ -1603,6 +1604,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0917-boats-to-save-people](https://github.com/rohanxxx/leetcode/tree/master/0917-boats-to-save-people) |
 | [0941-sort-array-by-parity](https://github.com/rohanxxx/leetcode/tree/master/0941-sort-array-by-parity) |
 | [0948-sort-an-array](https://github.com/rohanxxx/leetcode/tree/master/0948-sort-an-array) |
+| [0973-k-closest-points-to-origin](https://github.com/rohanxxx/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [0976-minimum-area-rectangle](https://github.com/rohanxxx/leetcode/tree/master/0976-minimum-area-rectangle) |
 | [0987-reveal-cards-in-increasing-order](https://github.com/rohanxxx/leetcode/tree/master/0987-reveal-cards-in-increasing-order) |
 | [1014-k-closest-points-to-origin](https://github.com/rohanxxx/leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -1882,6 +1884,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0900-reordered-power-of-2](https://github.com/rohanxxx/leetcode/tree/master/0900-reordered-power-of-2) |
 | [0912-random-pick-with-weight](https://github.com/rohanxxx/leetcode/tree/master/0912-random-pick-with-weight) |
 | [0923-super-egg-drop](https://github.com/rohanxxx/leetcode/tree/master/0923-super-egg-drop) |
+| [0973-k-closest-points-to-origin](https://github.com/rohanxxx/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [0976-minimum-area-rectangle](https://github.com/rohanxxx/leetcode/tree/master/0976-minimum-area-rectangle) |
 | [1013-fibonacci-number](https://github.com/rohanxxx/leetcode/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/rohanxxx/leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -1993,6 +1996,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0654-maximum-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0654-maximum-binary-tree) |
 | [0912-sort-an-array](https://github.com/rohanxxx/leetcode/tree/master/0912-sort-an-array) |
 | [0948-sort-an-array](https://github.com/rohanxxx/leetcode/tree/master/0948-sort-an-array) |
+| [0973-k-closest-points-to-origin](https://github.com/rohanxxx/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/rohanxxx/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1285-balance-a-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/1285-balance-a-binary-search-tree) |
 | [3822-fill-a-special-grid](https://github.com/rohanxxx/leetcode/tree/master/3822-fill-a-special-grid) |
@@ -2024,6 +2028,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/rohanxxx/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0912-sort-an-array](https://github.com/rohanxxx/leetcode/tree/master/0912-sort-an-array) |
 | [0948-sort-an-array](https://github.com/rohanxxx/leetcode/tree/master/0948-sort-an-array) |
+| [0973-k-closest-points-to-origin](https://github.com/rohanxxx/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/rohanxxx/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/rohanxxx/leetcode/tree/master/1046-last-stone-weight) |
 | [1074-high-five](https://github.com/rohanxxx/leetcode/tree/master/1074-high-five) |
@@ -2075,6 +2080,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/rohanxxx/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/rohanxxx/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0973-k-closest-points-to-origin](https://github.com/rohanxxx/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/rohanxxx/leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Dynamic Programming
 |  |
@@ -2922,6 +2928,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/rohanxxx/leetcode/tree/master/0149-max-points-on-a-line) |
 | [0830-largest-triangle-area](https://github.com/rohanxxx/leetcode/tree/master/0830-largest-triangle-area) |
+| [0973-k-closest-points-to-origin](https://github.com/rohanxxx/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [0976-minimum-area-rectangle](https://github.com/rohanxxx/leetcode/tree/master/0976-minimum-area-rectangle) |
 | [1014-k-closest-points-to-origin](https://github.com/rohanxxx/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1939-queries-on-number-of-points-inside-a-circle](https://github.com/rohanxxx/leetcode/tree/master/1939-queries-on-number-of-points-inside-a-circle) |
