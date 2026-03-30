@@ -13,15 +13,15 @@ public:
     
 
 */
-    //TC: O(N+N)= O(2N) = O(N)
+    //TC: O(NLogN+NLogN)= O(NLogN)
     int lastStoneWeight(vector<int>& stones) {
         //SC: O(N)
         priority_queue<int> pq;
-        //TC: O(N)
+        //TC: O(NLogN)
         for(int stone: stones){
             pq.push(stone);
         }
-        //TC: O(N)
+        //TC: O(NLogN)
         while((int)pq.size() > 1){
             int y = pq.top(); pq.pop();
             int x = pq.top(); pq.pop();
