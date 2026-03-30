@@ -1,8 +1,9 @@
 class Solution {
 public:
     vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
-        //vector<pair<int, vector<int>>> disVec;
         //maxHeap
+        //TC: O(NlogK)
+        //SC: O(K)
         priority_queue<pair<int, vector<int>>> pq;
         for(int i = 0; i < points.size(); i++){
             int dis = points[i][0]*points[i][0] + points[i][1]*points[i][1];
@@ -12,7 +13,8 @@ public:
             }
         }
 
-        //sort(disVec.begin(), disVec.end());
+        //TC: O(KlogK)
+        //SC: O(K)
         vector<vector<int>> ans(k);
         for(int i = k-1; i >= 0; i--){
             vector<int> point = pq.top().second; pq.pop();
