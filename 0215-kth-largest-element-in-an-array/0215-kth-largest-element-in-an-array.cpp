@@ -6,12 +6,17 @@
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
+        int maxElement = INT_MIN;
+        int minElement = INT_MAX;
         unordered_map<int, int> freq;
         for(auto num: nums){
             freq[num]++;
+            maxElement = max(maxElement, num);
+            minElement = min(minElement, num);
         }
 
-        for(int i = 1e4; i >= -1e4; i--){
+        
+        for(int i = maxElement; i >= minElement; i--){
             if(freq.find(i) != freq.end()){
                 k -= freq[i];
             }
