@@ -19,12 +19,15 @@ public:
         //pair<node, parentNode>
         queue<pair<int, int>> q; 
         for(int i = 0; i < n; i++){
+            
             if(visited[i] == 0){
+
                 components++;
                 q.push({i, -1});
                 visited[i] = 1;
                 //TC: O(V + 2E)
                 while(!q.empty()){
+
                     int node = q.front().first;
                     int parentNode = q.front().second;
 
@@ -41,11 +44,16 @@ public:
                             }
                         }
                     }
+
                 }
+
             }
+
         }
 
-        if(components > 1) return false;
+        if(components > 1) {
+            return false;
+        }
 
         return true;
     }
