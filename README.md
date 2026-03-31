@@ -3065,6 +3065,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/rohanxxx/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/rohanxxx/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/rohanxxx/leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/rohanxxx/leetcode/tree/master/0695-max-area-of-island) |
 | [1101-the-earliest-moment-when-everyone-become-friends](https://github.com/rohanxxx/leetcode/tree/master/1101-the-earliest-moment-when-everyone-become-friends) |
 ## Graph Theory
 |  |
