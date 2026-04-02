@@ -1,70 +1,75 @@
-struct Node{
-    vector<Node* > links;
-    Node(){
-        links.resize(26, NULL);
+class TrieNode {
+private:
+    vector<TrieNode*> links;
+    bool flag;
+public:
+    TrieNode(){
+        this->links.resize(26);
+        this->flag = false;
     }
-    bool flag = false;
     
     bool containsKey(char c){
-        return (links[c-'a'] != NULL);
+        if(this->links[c-'a'] == NULL){
+            return false;
+        }
+        return true;
     }
 
-    void put(char c, Node* node){
-        links[c-'a'] = node;
+    void put(char c){
+        this->links[c-'a'] = new TrieNode();
     }
 
-    Node* get(char c){
-        return links[c-'a'];
+    TrieNode* getNext(char c){
+        return this->links[c-'a'];
     }
-
     void setEnd(){
-        flag = true;
+        this->flag = true;
     }
-
-    bool isEnd(){
-        return flag;
+    bool getEnd(){
+        return this->flag;
     }
 };
 class Trie {
 private:
-    Node* root;
+    TrieNode* root;
 public:
     Trie() {
-        root = new Node();
+        root = new TrieNode();
     }
     
     void insert(string word) {
-        int n = word.length();
-        Node* node = root;
+        int n = word.size();
+        TrieNode* node = this->root;
         for(int i = 0; i < n; i++){
             if(!node->containsKey(word[i])){
-                node->put(word[i], new Node());
+                node->put(word[i]);
             }
-            node = node->get(word[i]);
+            node = node->getNext(word[i]);
         }
+        //at the end we have to mark the node true
         node->setEnd();
     }
     
     bool search(string word) {
-        Node* node = root;
-        int n = word.length();
+        int n = word.size();
+        TrieNode* node = this->root;
         for(int i = 0; i < n; i++){
             if(!node->containsKey(word[i])){
                 return false;
             }
-            node = node->get(word[i]);
+            node = node->getNext(word[i]);
         }
-        return node->isEnd();
+        return node->getEnd();
     }
     
     bool startsWith(string prefix) {
-        Node* node = root;
-        int n = prefix.length();
+        int n = prefix.size();
+        TrieNode* node = this->root;
         for(int i = 0; i < n; i++){
             if(!node->containsKey(prefix[i])){
                 return false;
             }
-            node = node->get(prefix[i]);
+            node = node->getNext(prefix[i]);
         }
         return true;
     }
