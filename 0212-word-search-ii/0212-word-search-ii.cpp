@@ -55,9 +55,9 @@ public:
         char ch = board[r][c];
         node = node->getNextNode(ch);
 
-        if (node == NULL) {
+        /*if (node == NULL) {
             return;
-        }
+        }*/
 
         word.push_back(ch);
 
