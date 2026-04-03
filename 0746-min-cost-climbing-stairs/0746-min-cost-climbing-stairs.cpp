@@ -18,17 +18,19 @@ public:
         vector<int> dp(n+1, 0);
         
         //if(i < 0) return 0; //just in case to avoid any sort of bound errors
-        dp[0] = cost[0];
-        dp[1] = cost[1];
+        int i_2 = cost[0];
+        int i_1 = cost[1];
         for(int i = 2; i <= n; i++){
             int curCost = 0;
             if(i < n){
                 curCost = cost[i];
             }
 
-            dp[i] = curCost + min(dp[i-1], dp[i-2]);
+            curCost += min(i_1, i_2);
+            i_2 = i_1;
+            i_1 = curCost;
         }
         
-        return dp[n];
+        return i_1;
     }
 };
