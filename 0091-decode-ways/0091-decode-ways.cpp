@@ -3,8 +3,8 @@ public:
     int numDecodings(string s) {
         int n = (int)s.length();
 
-        if(s[0] == '0') return 0;
-        if(n == 1) return 1;
+        //if(s[0] == '0') return 0;
+        //if(n == 1) return 1;
 
         vector<int> dp(n, 0);
 
