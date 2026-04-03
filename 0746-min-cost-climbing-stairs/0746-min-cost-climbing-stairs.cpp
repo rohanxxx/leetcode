@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int dfs(int i, const int& n, const vector<int>& cost, vector<int>& dp){
+    /*int dfs(int i, const int& n, const vector<int>& cost, vector<int>& dp){
         if(i < 0) return 0; //just in case to avoid any sort of bound errors
         if(i == 0) return cost[0];
         if(i == 1) return cost[1];
@@ -12,7 +12,7 @@ public:
             curCost = cost[i];
         }
         return dp[i] = curCost + min(dfs(i-1, n, cost, dp), dfs(i-2, n, cost, dp));
-    }
+    }*/
     int minCostClimbingStairs(vector<int>& cost) {
         const int n = cost.size();
         vector<int> dp(n+1, 0);
