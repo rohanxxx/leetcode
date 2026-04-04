@@ -1,28 +1,31 @@
 class Solution {
 public:
-    bool dfs(int i, int cur, vector<int>& nums, vector<vector<int>>& dp){
-        if(cur == 0) return true;
-        if(cur < 0) return false;
-        if(i == 0) return nums[i] == cur;
-
-        if(dp[i][cur] != -1) return dp[i][cur];
-
-        bool take = dfs(i-1, cur-nums[i], nums, dp);
-        bool notTake = dfs(i-1, cur, nums, dp);
-
-        return dp[i][cur] = (take || notTake);
-    }
     bool canPartition(vector<int>& nums) {
-        int sum = 0;
-        for(int num: nums){
-            sum += num;
+        int n = nums.size(), sum = 0;
+        
+        for(int i = 0; i < n; i++) sum += nums[i];
+        if(sum % 2 == 1) return false;
+        
+        int target = sum / 2;
+        vector<vector<bool>> dp(n, vector<bool>(target+1, 0));
+        for(int i = 0; i < n; i++){
+            dp[i][0] = true;
         }
-        //if odd sum partitioning is impossible
-        if(sum % 2){
-            return false;
+        /*if(nums[0] <= target){
+            dp[0][nums[0]] = true;
+        }*/
+        
+        for(int i = 1; i < n; i++){
+            for(int j = 1; j <= target; j++){
+                bool notTake = dp[i-1][j];
+                bool take = false;
+                if(nums[i] <= j){
+                    take = dp[i-1][j-nums[i]];
+                }
+                dp[i][j] = take || notTake;
+            }
         }
-        int n = nums.size();
-        vector<vector<int>> dp(n, vector<int>((sum/2)+1, -1));
-        return dfs(n-1, sum/2, nums, dp);
+
+        return dp[n-1][target];
     }
 };
