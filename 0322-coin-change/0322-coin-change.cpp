@@ -1,28 +1,34 @@
 class Solution {
 public:
-    int coinChange(vector<int>& coins, int target) {
-        int n = coins.size();
-        vector<vector<int>> dp(n, vector<int>(target+1, 0));
-        for(int t = 0; t <= target; t++){
-            if(t % coins[0] == 0) dp[0][t] = t/coins[0];
-            else dp[0][t] = INT_MAX;
+    int dfs(int i, int amount, vector<int>& coins, vector<vector<int>>& dp){
+        if(i == 0){
+            if(amount % coins[0] == 0){
+                return amount/coins[i];
+            }
+            return INT_MAX;
         }
-        // int res = func(n-1, amount, coins, dp);
-        for(int i = 1; i < n; i++){
-            for(int t = 0; t <= target; t++){
-                int notTake = dp[i-1][t];
-                int take = INT_MAX;
-                if(coins[i] <= t){
-                    take = dp[i][t-coins[i]];
-                    if(take != INT_MAX){
-                        take++;
-                    }
-                }
-                dp[i][t] = min(take, notTake);
+        if(dp[i][amount] != -1){
+            return dp[i][amount];
+        }
+        int take = INT_MAX, notTake = INT_MAX;
+        if(amount >= coins[i]){
+            take = dfs(i, amount-coins[i], coins, dp);
+            if(take != INT_MAX){
+                take++;
             }
         }
-        int res = dp[n-1][target];
-        if(res == INT_MAX) return -1;
-        return res;
+        notTake = dfs(i-1, amount, coins, dp);
+        return dp[i][amount] = min(take, notTake);
+    }
+    int coinChange(vector<int>& coins, int amount) {
+        int n = coins.size();
+        vector<vector<int>> dp(n, vector<int>(amount+1, -1));
+        int count = dfs(n-1, amount, coins, dp);
+
+        if(count != INT_MAX){
+            return count;
+        }
+
+        return -1;
     }
 };
