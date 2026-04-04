@@ -7,14 +7,11 @@ public:
         int maxProduct = INT_MIN;
         for(int i = 0; i < n; i++){
             prefix *= nums[i];
-            maxProduct = max(maxProduct, prefix);
+            suffix *= nums[n-i-1];
+            maxProduct = max({maxProduct, prefix, suffix});
             if(prefix == 0){
                 prefix = 1;
             }
-        }
-        for(int i = n-1; i >= 0; i--){
-            suffix *= nums[i];
-            maxProduct = max(maxProduct, suffix);
             if(suffix == 0){
                 suffix = 1;
             }
