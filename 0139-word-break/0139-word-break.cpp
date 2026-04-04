@@ -1,37 +1,24 @@
 class Solution {
 public:
-    bool dfs(int i, string cur, string& s, unordered_set<string>& set,
-             unordered_map<string, int>& dp) {
-        int n = (int)s.length();
-
-        if (i < n) {
-            cur.push_back(s[i]);
+    bool dfs(int i, const int& n, string& s, vector<string>& wordDict, vector<int>& dp){
+        if(i == n){
+            return true;
         }
-
-        // base case
-        if (i == n) {
-            return set.find(cur) != set.end();
+        if(dp[i] != -1){
+            return dp[i];
         }
-
-        string key = to_string(i) + "#" + cur;
-        if (dp.find(key) != dp.end()) {
-            return dp[key];
+        bool result = false;
+        for(auto word: wordDict){
+            int k = word.size();
+            if(i+k-1 < n && s.substr(i, k) == word){
+                result = (result || dfs(i+k, n, s, wordDict, dp));
+            }
         }
-
-        bool take = false, notTake = false;
-
-        if (set.find(cur) != set.end()) {
-            take = dfs(i + 1, "", s, set, dp);
-        }
-
-        notTake = dfs(i + 1, cur, s, set, dp);
-
-        return dp[key] = (take || notTake);
+        return dp[i] = result;
     }
-
     bool wordBreak(string s, vector<string>& wordDict) {
-        unordered_set<string> set(wordDict.begin(), wordDict.end());
-        unordered_map<string, int> dp;
-        return dfs(0, "", s, set, dp);
+        int n = s.length();
+        vector<int> dp(n,-1);
+        return dfs(0, n, s, wordDict, dp);
     }
 };
