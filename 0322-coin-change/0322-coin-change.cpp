@@ -1,34 +1,35 @@
 class Solution {
 public:
-    int dfs(int i, int amount, vector<int>& coins, vector<vector<int>>& dp){
-        if(i == 0){
-            if(amount % coins[0] == 0){
-                return amount/coins[i];
-            }
-            return INT_MAX;
-        }
-        if(dp[i][amount] != -1){
-            return dp[i][amount];
-        }
-        int take = INT_MAX, notTake = INT_MAX;
-        if(amount >= coins[i]){
-            take = dfs(i, amount-coins[i], coins, dp);
-            if(take != INT_MAX){
-                take++;
-            }
-        }
-        notTake = dfs(i-1, amount, coins, dp);
-        return dp[i][amount] = min(take, notTake);
-    }
     int coinChange(vector<int>& coins, int amount) {
         int n = coins.size();
-        vector<vector<int>> dp(n, vector<int>(amount+1, -1));
-        int count = dfs(n-1, amount, coins, dp);
-
-        if(count != INT_MAX){
-            return count;
+        //vector<vector<int>> dp(n, vector<int>(amount+1, 0));
+        vector<int> prev(amount+1, 0), curr(amount+1, 0);
+        for(int i = 0; i <= amount; i++){
+            if(i % coins[0] == 0){
+                prev[i] = i/coins[0];
+            }
+            else{
+                prev[i] = INT_MAX;
+            }
         }
 
-        return -1;
+        for(int i = 1; i < n; i++){
+            for(int j = 0; j <= amount; j++){
+                int take = INT_MAX;
+                int notTake = prev[j];
+                if(j >= coins[i]){
+                    take = curr[j-coins[i]];
+                    if(take != INT_MAX){
+                        take++;
+                    }
+                }
+                curr[j] = min(take, notTake);
+            }
+            prev = curr;
+        }
+        if(prev[amount] == INT_MAX){
+            return -1;
+        }
+        return prev[amount];
     }
 };
