@@ -1,34 +1,45 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
-
-/*
-     1->1->2->3->4->4->5->6
-*/
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        
-        priority_queue<pair<int, ListNode*>, vector<pair<int, ListNode*>>, greater<pair<int, ListNode*>>> pq;
-        for(ListNode* list: lists){
-            pq.push({list->val, list});
+        int amount = lists.size();
+        int interval = 1;
+
+        while (interval < amount) {
+            for (int i = 0; i < amount - interval; i += interval * 2) {
+                lists[i] = merge2Lists(lists[i], lists[i + interval]);
+            }
+            interval = interval * 2;
         }
 
-        ListNode* head = new ListNode(0);
-        ListNode* temp = head;
-        while(!pq.empty()){
-            ListNode* top = pq.top().second; pq.pop();
-            temp->next = top;
-            temp = temp->next;
+        if (amount > 0) {
+            return lists[0];
+        } else {
+            return NULL;
+        }
+    }
+
+private:
+    ListNode* merge2Lists(ListNode* l1, ListNode* l2) {
+        ListNode head(0);
+        ListNode* point = &head;
+
+        while (l1 != NULL && l2 != NULL) {
+            if (l1->val <= l2->val) {
+                point->next = l1;
+                l1 = l1->next;
+            } else {
+                point->next = l2;
+                l2 = l2->next;
+            }
+            point = point->next;
         }
 
-        return head->next;
+        if (l1 == NULL) {
+            point->next = l2;
+        } else {
+            point->next = l1;
+        }
+
+        return head.next;
     }
 };
