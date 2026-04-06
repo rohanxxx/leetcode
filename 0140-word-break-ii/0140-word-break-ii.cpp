@@ -6,12 +6,16 @@
 class Solution {
 public:
     vector<string> wordBreak(string s, vector<string>& wordDict) {
+        //SC: O(N)
         unordered_set<string> set(wordDict.begin(), wordDict.end());
         
         int n = s.length();
         //{index sentence}
+        //TC: O(2^N)
+        //SC: O(2^N)
         queue<pair<int, string>> q;
         q.push({0, ""});
+        //seen[0] = 1;
         vector<string> ans;
         while(!q.empty()){
             int index = q.front().first;
