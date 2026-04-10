@@ -1,22 +1,24 @@
+/*
+    [1,2,3]
+    {} {1} {2} {3} {1,2} {1,3} {2,3} {1,2,3}
+*/
 class Solution {
 public:
-    void backtracking(int index, vector<int> temp, set<vector<int>>& set, vector<int>& nums){
-        int n = nums.size();
-        set.insert(temp);
-        if(index == n){
-            return;
+    void backtrack(set<vector<int>>& set, vector<int>& nums, vector<int> cur, int idx){
+        set.insert(cur);
+        if(idx >= nums.size()) return;
+        //if(cur.size() == nums.size()) return;
+        
+        for(int i = idx; i < nums.size(); i++){
+            cur.push_back(nums[i]);
+            backtrack(set, nums, cur, i+1);
+            cur.pop_back();
         }
-        for(int i = index; i < n; i++){
-            temp.push_back(nums[i]);
-            backtracking(i+1, temp, set, nums);
-            temp.pop_back();
-        }
+        return;
     }
     vector<vector<int>> subsets(vector<int>& nums) {
-        vector<int> temp;
         set<vector<int>> set;
-        backtracking(0, temp, set,nums);
-        vector<vector<int>> ans(set.begin(), set.end());
-        return ans;
+        backtrack(set, nums, {}, 0);
+        return vector<vector<int>>(set.begin(), set.end());
     }
 };
