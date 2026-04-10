@@ -4,8 +4,8 @@
 */
 class Solution {
 public:
-    void backtrack(set<vector<int>>& set, vector<int>& nums, vector<int> cur, int idx){
-        set.insert(cur);
+    void backtrack(vector<vector<int>>& set, vector<int>& nums, vector<int> cur, int idx){
+        set.push_back(cur);
         if(idx >= nums.size()) return;
         //if(cur.size() == nums.size()) return;
         
@@ -17,8 +17,9 @@ public:
         return;
     }
     vector<vector<int>> subsets(vector<int>& nums) {
-        set<vector<int>> set;
+        vector<vector<int>> set;
         backtrack(set, nums, {}, 0);
-        return vector<vector<int>>(set.begin(), set.end());
+        //return vector<vector<int>>(set.begin(), set.end());
+        return set;
     }
 };
