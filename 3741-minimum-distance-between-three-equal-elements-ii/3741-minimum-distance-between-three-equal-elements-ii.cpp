@@ -18,7 +18,6 @@ public:
                 minSum = min(minSum, sum);
             }
         }
-
         if(minSum != INT_MAX){
             return minSum;
         }
