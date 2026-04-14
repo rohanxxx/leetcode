@@ -1,38 +1,40 @@
 class Solution {
 public:
-    long long dfs(int i, int j, vector<int>& robot, vector<vector<int>>& factory, vector<vector<long long>>& dp){
-        int n = robot.size();
-        int m = factory.size();
+    long long minimumTotalDistance(vector<int>& robots,
+                                   vector<vector<int>>& factories) {
+        // Sort robots and factories by position
+        sort(begin(robots), end(robots));
+        sort(begin(factories), end(factories));
 
-        if(i == n) return 0;
-        if(j == m) return 1e15; // FIX: large value instead of INT_MAX
-
-        if(dp[i][j] != -1) return dp[i][j];
-
-        long long res = 1e15;
-
-        // Option 1: skip this factory
-        res = dfs(i, j+1, robot, factory, dp);
-
-        // Option 2: assign k robots to this factory
-        long long dist = 0;
-        for(int k = 0; k < factory[j][1] && i + k < n; k++){
-            dist += abs((long long)robot[i + k] - factory[j][0]);
-            res = min(res, dist + dfs(i + k + 1, j + 1, robot, factory, dp));
+        // Flatten factory positions according to their capacities
+        vector<int> factoryPositions;
+        for (auto& factory : factories) {
+            for (int i = 0; i < factory[1]; i++) {
+                factoryPositions.push_back(factory[0]);
+            }
         }
 
-        return dp[i][j] = res;
-    }
+        int robotCount = robots.size(), factoryCount = factoryPositions.size();
+        vector<long long> next(factoryCount + 1, 0),
+            current(factoryCount + 1, 0);
 
-    long long minimumTotalDistance(vector<int>& robot, vector<vector<int>>& factory) {
-        sort(robot.begin(), robot.end());
-        sort(factory.begin(), factory.end());
+        current[factoryCount] = 1e12;
 
-        int n = robot.size();
-        int m = factory.size();
-
-        vector<vector<long long>> dp(n, vector<long long>(m, -1));
-
-        return dfs(0, 0, robot, factory, dp);
+        // Fill DP table using two rows for optimization
+        for (int i = robotCount - 1; i >= 0; i--) {
+            for (int j = factoryCount - 1; j >= 0; j--) {
+                // Assign current robot to current factory
+                long long assign =
+                    abs(robots[i] - factoryPositions[j]) + next[j + 1];
+                // Skip current factory for this robot
+                long long skip = current[j + 1];
+                // Take the minimum option
+                current[j] = min(assign, skip);
+            }
+            // Move to next robot
+            next = current;
+        }
+        // Return minimum distance starting from the first robot
+        return current[0];
     }
 };
