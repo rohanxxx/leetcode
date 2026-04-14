@@ -11,13 +11,17 @@
  */
 class Solution {
 public:
-    bool dfs(TreeNode* p, TreeNode* q){
-        if(p == NULL || q == NULL) return p == q;
-        if(p->val != q->val) return false;
-        return dfs(p->left, q->right) && dfs(p->right, q->left); 
+    bool dfs(TreeNode* p1, TreeNode* p2){
+        if(p1 == NULL && p2 == NULL){
+            return true;
+        }
+        if(p1 == NULL || p2 == NULL){
+            return false;
+        }
+
+        return p1->val == p2->val && dfs(p1->left, p2->right) && dfs(p1->right, p2->left);
     }
     bool isSymmetric(TreeNode* root) {
-        if(!root) return true;
         return dfs(root->left, root->right);
     }
 };
