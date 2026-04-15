@@ -5,9 +5,7 @@ public:
 
     void dfs(string curr, string beginWord, vector<string>& node){
         if(curr == beginWord){
-            reverse(node.begin(), node.end());
             ans.push_back(node);
-            reverse(node.begin(), node.end());
             return;
         }
 
@@ -31,6 +29,7 @@ public:
             int n = q.size();
             bool found = false;
 
+            //level order traversal
             for(int i = 0; i < n; i++){
                 string curr = q.front(); q.pop();
 
@@ -64,15 +63,23 @@ public:
                 }
             }
 
-            if(found) break;
+            if(found == true) {
+                break;
+            }
         }
 
-        if(levelCount.find(endWord) == levelCount.end()) return {};
+        //if there is no answer then return empty vector
+        if(levelCount.find(endWord) == levelCount.end()) {
+            return {};
+        }
 
         vector<string> node;
         node.push_back(endWord);
         dfs(endWord, beginWord, node);
 
+        for(auto& it: ans){
+            reverse(it.begin(), it.end());
+        }
         return ans;
     }
 };
