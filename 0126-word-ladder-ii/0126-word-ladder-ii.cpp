@@ -28,33 +28,43 @@ public:
         levelCount[beginWord] = 0;
 
         while(!q.empty()){
-            string curr = q.front(); q.pop();
-            int currLevel = levelCount[curr];
+            int n = q.size();
+            bool found = false;
 
-            string temp = curr;
+            for(int i = 0; i < n; i++){
+                string curr = q.front(); q.pop();
 
-            for(int i = 0; i < temp.size(); i++){
-                char o = temp[i];
-
-                for(char c = 'a'; c <= 'z'; c++){
-                    temp[i] = c;
-
-                    if(wordSet.find(temp) != wordSet.end()){
-                        // first time visiting
-                        if(levelCount.find(temp) == levelCount.end()){
-                            levelCount[temp] = currLevel + 1;
-                            q.push(temp);
-                            parent[temp].push_back(curr);
-                        }
-                        // same level → multiple parents
-                        else if(levelCount[temp] == currLevel + 1){
-                            parent[temp].push_back(curr);
-                        }
-                    }
+                if(curr == endWord){
+                    found = true;
                 }
 
-                temp[i] = o;
+                string temp = curr;
+
+                for(int j = 0; j < temp.size() && !found; j++){
+                    char o = temp[j];
+
+                    for(char c = 'a'; c <= 'z'; c++){
+                        temp[j] = c;
+
+                        if(wordSet.find(temp) != wordSet.end()){
+                            // first time visiting
+                            if(levelCount.find(temp) == levelCount.end()){
+                                levelCount[temp] = levelCount[curr] + 1;
+                                q.push(temp);
+                                parent[temp].push_back(curr);
+                            }
+                            // same level → multiple parents
+                            else if(levelCount[temp] == levelCount[curr] + 1){
+                                parent[temp].push_back(curr);
+                            }
+                        }
+                    }
+
+                    temp[j] = o;
+                }
             }
+
+            if(found) break;
         }
 
         if(levelCount.find(endWord) == levelCount.end()) return {};
