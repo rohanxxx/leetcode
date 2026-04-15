@@ -73,13 +73,13 @@ public:
             return {};
         }
 
-        vector<string> node;
-        node.push_back(endWord);
+        vector<string> node = {endWord};
         dfs(endWord, beginWord, node);
 
         for(auto& it: ans){
             reverse(it.begin(), it.end());
         }
+
         return ans;
     }
 };
