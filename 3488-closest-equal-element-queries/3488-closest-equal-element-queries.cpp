@@ -21,21 +21,33 @@ public:
                 int q = v.size();
 
                 int lb = lower_bound(v.begin(), v.end(), currIndex) - v.begin();
+                int ub = upper_bound(v.begin(), v.end(), currIndex) - v.begin();
 
-                // previous occurrence (circular)
-                int prevIdx = v[(lb - 1 + q) % q];
-                if(prevIdx != currIndex){
-                    int direct = abs(currIndex - prevIdx);
+                // check previous (in circular sense)
+                int prev = v[(lb - 1 + q) % q];
+                if(prev != currIndex){
+                    int direct = abs(currIndex - prev);
                     int circular = n - direct;
                     ans[i] = min(ans[i], min(direct, circular));
                 }
 
-                // next occurrence
-                int nextIdx = v[(lb + 1) % q];
-                if(nextIdx != currIndex){
-                    int direct = abs(currIndex - nextIdx);
-                    int circular = n - direct;
-                    ans[i] = min(ans[i], min(direct, circular));
+                // check next
+                if(ub < q){
+                    int next = v[ub];
+                    if(next != currIndex){
+                        int direct = abs(currIndex - next);
+                        int circular = n - direct;
+                        ans[i] = min(ans[i], min(direct, circular));
+                    }
+                }
+                else {
+                    // wrap around case
+                    int next = v[0];
+                    if(next != currIndex){
+                        int direct = abs(currIndex - next);
+                        int circular = n - direct;
+                        ans[i] = min(ans[i], min(direct, circular));
+                    }
                 }
             }
 
