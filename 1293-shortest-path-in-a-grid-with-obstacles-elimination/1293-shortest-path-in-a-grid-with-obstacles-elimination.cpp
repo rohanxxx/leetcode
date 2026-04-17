@@ -7,12 +7,12 @@ public:
         queue<vector<int>> q;
         if(grid[0][0] == 0){
             q.push({0,0,0,k});
-            string key = string("#"+to_string(0)+"#"+to_string(0)+"#"+to_string(k));
+            string key = string(to_string(0)+"#"+to_string(0)+"#"+to_string(k));
             visitedState.insert(key);
         }
         if(grid[0][0] == 1 && k > 0){
             q.push({0,0,0,k-1});
-            string key = string("#"+to_string(0)+"#"+to_string(0)+"#"+to_string(k-1));
+            string key = string(to_string(0)+"#"+to_string(0)+"#"+to_string(k-1));
             visitedState.insert(key);
         }
 
@@ -37,7 +37,7 @@ public:
                 }
                 //if blocked
                 if(grid[adjr][adjc] == 1 && currK > 0){
-                    string key = string("#"+to_string(adjr)+"#"+to_string(adjc)+"#"+to_string(currK-1));
+                    string key = string(to_string(adjr)+"#"+to_string(adjc)+"#"+to_string(currK-1));
                     //if not found
                     if(visitedState.find(key) == visitedState.end()){
                         q.push({adjr, adjc, step+1, currK-1});
@@ -46,7 +46,7 @@ public:
                 }
                 //if not blocked
                 if(grid[adjr][adjc] == 0){
-                    string key = string("#"+to_string(adjr)+"#"+to_string(adjc)+"#"+to_string(currK));
+                    string key = string(to_string(adjr)+"#"+to_string(adjc)+"#"+to_string(currK));
                     if(visitedState.find(key) == visitedState.end()){
                         q.push({adjr, adjc, step+1, currK});
                         visitedState.insert(key);
