@@ -31,7 +31,7 @@ public:
         int n = nums.size();
         int minDist = INT_MAX;
         unordered_map<int, int> map;
-        //TC: O(Nlog2)
+        //TC: O(Nlog(D))
         for(int i = 0; i < n; i++){
             int num = nums[i];
             //if found
