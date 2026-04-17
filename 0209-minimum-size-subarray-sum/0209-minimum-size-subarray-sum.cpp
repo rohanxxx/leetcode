@@ -1,25 +1,25 @@
-/*                      0 1 2 3 4 5
-    target = 7, nums = [2,3,1,2,4,3]
+/*
+    target = 7, 
+            0 1 2 3 4 5
+    nums = [2,3,1,2,4,3]
 */
 class Solution {
 public:
     int minSubArrayLen(int target, vector<int>& nums) {
-        int left = 0;
-        int curSum = 0;
-        int minLen = INT_MAX;
         int n = nums.size();
+        int minLen = INT_MAX;
+        int left = 0, sum = 0;
         for(int i = 0; i < n; i++){
-            curSum += nums[i];
-            while(left <= i && curSum >= target){
+            sum += nums[i];
+            while(left <= i && sum >= target){
                 minLen = min(minLen, i-left+1);
-                curSum -= nums[left++];
+                sum-= nums[left];
+                left++;
             }
         }
-
         if(minLen == INT_MAX){
-            minLen = 0;
+            return 0;
         }
-
         return minLen;
     }
 };
