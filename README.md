@@ -1132,6 +1132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3731-sum-of-variable-length-subarrays](https://github.com/rohanxxx/leetcode/tree/master/3731-sum-of-variable-length-subarrays) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/rohanxxx/leetcode/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/rohanxxx/leetcode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/rohanxxx/leetcode/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3790-fruits-into-baskets-ii](https://github.com/rohanxxx/leetcode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/rohanxxx/leetcode/tree/master/3791-fruits-into-baskets-iii) |
 | [3822-fill-a-special-grid](https://github.com/rohanxxx/leetcode/tree/master/3822-fill-a-special-grid) |
@@ -1873,6 +1874,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3736-find-valid-pair-of-adjacent-digits-in-string](https://github.com/rohanxxx/leetcode/tree/master/3736-find-valid-pair-of-adjacent-digits-in-string) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/rohanxxx/leetcode/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/rohanxxx/leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/rohanxxx/leetcode/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3815-design-auction-system](https://github.com/rohanxxx/leetcode/tree/master/3815-design-auction-system) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/rohanxxx/leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
@@ -1983,6 +1985,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3676-smallest-number-with-all-set-bits](https://github.com/rohanxxx/leetcode/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3702-maximum-subarray-with-equal-products](https://github.com/rohanxxx/leetcode/tree/master/3702-maximum-subarray-with-equal-products) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/rohanxxx/leetcode/tree/master/3704-count-partitions-with-even-sum-difference) |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/rohanxxx/leetcode/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3859-maximum-product-of-two-digits](https://github.com/rohanxxx/leetcode/tree/master/3859-maximum-product-of-two-digits) |
 ## Counting
 |  |
