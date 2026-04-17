@@ -530,6 +530,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/rohanxxx/leetcode/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1254-deepest-leaves-sum](https://github.com/rohanxxx/leetcode/tree/master/1254-deepest-leaves-sum) |
 | [1271-web-crawler](https://github.com/rohanxxx/leetcode/tree/master/1271-web-crawler) |
+| [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/rohanxxx/leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/rohanxxx/leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/rohanxxx/leetcode/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
@@ -951,6 +952,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1249-snapshot-array](https://github.com/rohanxxx/leetcode/tree/master/1249-snapshot-array) |
 | [1286-constrained-subsequence-sum](https://github.com/rohanxxx/leetcode/tree/master/1286-constrained-subsequence-sum) |
 | [1293-three-consecutive-odds](https://github.com/rohanxxx/leetcode/tree/master/1293-three-consecutive-odds) |
+| [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/rohanxxx/leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1306-minimum-absolute-difference](https://github.com/rohanxxx/leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1310-watering-plants](https://github.com/rohanxxx/leetcode/tree/master/1310-watering-plants) |
 | [1319-unique-number-of-occurrences](https://github.com/rohanxxx/leetcode/tree/master/1319-unique-number-of-occurrences) |
@@ -1191,6 +1193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/rohanxxx/leetcode/tree/master/1073-number-of-enclaves) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/rohanxxx/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/rohanxxx/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/rohanxxx/leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1331-path-with-maximum-gold](https://github.com/rohanxxx/leetcode/tree/master/1331-path-with-maximum-gold) |
 | [1396-count-servers-that-communicate](https://github.com/rohanxxx/leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/rohanxxx/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
