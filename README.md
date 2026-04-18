@@ -3150,6 +3150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/rohanxxx/leetcode/tree/master/0207-course-schedule) |
 | [0261-graph-valid-tree](https://github.com/rohanxxx/leetcode/tree/master/0261-graph-valid-tree) |
+| [0310-minimum-height-trees](https://github.com/rohanxxx/leetcode/tree/master/0310-minimum-height-trees) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/rohanxxx/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0743-network-delay-time](https://github.com/rohanxxx/leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/rohanxxx/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
