@@ -1,50 +1,53 @@
 class Solution {
 public:
     vector<int> findMinHeightTrees(int n, vector<vector<int>>& edges) {
-        if(n == 0) return {};
         if(n == 1) return {0};
 
-        vector<int> res;
-        vector<int> degree(n, 0);
-        vector<vector<int>> graph(n); 
+        vector<int> indegree(n);
+        vector<vector<int>> graph(n);
 
-        for(auto edge: edges){
-            degree[edge[0]]++;
-            degree[edge[1]]++;
-            graph[edge[0]].push_back(edge[1]);
-            graph[edge[1]].push_back(edge[0]);
+        for(auto& it: edges){
+            int u = it[0], v = it[1];
+            graph[u].push_back(v);
+            graph[v].push_back(u);
+            indegree[u]++;
+            indegree[v]++;
         }
 
-        queue<int> q; 
+        queue<pair<int,int>> q;
+
+        // push initial leaves
         for(int i = 0; i < n; i++){
-            if(degree[i] == 1) q.push(i);
+            if(indegree[i] == 1){
+                q.push({-1, i});
+            }
         }
 
-        while(n > 2){
-            int size = q.size();
-            n -= size;
+        int remainingNodes = n;
 
-            while(size > 0){
-                int node = q.front();
+        while(remainingNodes > 2){
+            int size = q.size();
+            remainingNodes -= size;
+
+            for(int i = 0; i < size; i++){
+                int parent = q.front().first;
+                int node = q.front().second;
                 q.pop();
-                for(auto nextNode: graph[node]){
-                    degree[nextNode]--;
-                    if(degree[nextNode] == 1){
-                        q.push(nextNode);
+
+                for(auto adjn: graph[node]){
+                    if(adjn != parent && --indegree[adjn] == 1){
+                        q.push({node, adjn});
                     }
                 }
-                size--;
             }
-
-
         }
 
+        vector<int> centroidNodes;
         while(!q.empty()){
-            int node = q.front();
+            centroidNodes.push_back(q.front().second);
             q.pop();
-            res.push_back(node);
         }
 
-        return res;
+        return centroidNodes;
     }
 };
