@@ -1989,6 +1989,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3702-maximum-subarray-with-equal-products](https://github.com/rohanxxx/leetcode/tree/master/3702-maximum-subarray-with-equal-products) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/rohanxxx/leetcode/tree/master/3704-count-partitions-with-even-sum-difference) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/rohanxxx/leetcode/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
+| [3783-mirror-distance-of-an-integer](https://github.com/rohanxxx/leetcode/tree/master/3783-mirror-distance-of-an-integer) |
 | [3859-maximum-product-of-two-digits](https://github.com/rohanxxx/leetcode/tree/master/3859-maximum-product-of-two-digits) |
 ## Counting
 |  |
