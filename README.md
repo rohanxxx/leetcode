@@ -949,6 +949,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1164-missing-number-in-arithmetic-progression](https://github.com/rohanxxx/leetcode/tree/master/1164-missing-number-in-arithmetic-progression) |
 | [1165-meeting-scheduler](https://github.com/rohanxxx/leetcode/tree/master/1165-meeting-scheduler) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/rohanxxx/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1182-shortest-distance-to-target-color](https://github.com/rohanxxx/leetcode/tree/master/1182-shortest-distance-to-target-color) |
 | [1200-remove-interval](https://github.com/rohanxxx/leetcode/tree/master/1200-remove-interval) |
 | [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1241-decompress-run-length-encoded-list](https://github.com/rohanxxx/leetcode/tree/master/1241-decompress-run-length-encoded-list) |
@@ -2230,6 +2231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/rohanxxx/leetcode/tree/master/1129-longest-string-chain) |
 | [1130-last-stone-weight-ii](https://github.com/rohanxxx/leetcode/tree/master/1130-last-stone-weight-ii) |
 | [1170-shortest-common-supersequence](https://github.com/rohanxxx/leetcode/tree/master/1170-shortest-common-supersequence) |
+| [1182-shortest-distance-to-target-color](https://github.com/rohanxxx/leetcode/tree/master/1182-shortest-distance-to-target-color) |
 | [1236-n-th-tribonacci-number](https://github.com/rohanxxx/leetcode/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/rohanxxx/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1286-constrained-subsequence-sum](https://github.com/rohanxxx/leetcode/tree/master/1286-constrained-subsequence-sum) |
@@ -2516,6 +2518,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/rohanxxx/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1150-two-sum-bsts](https://github.com/rohanxxx/leetcode/tree/master/1150-two-sum-bsts) |
+| [1182-shortest-distance-to-target-color](https://github.com/rohanxxx/leetcode/tree/master/1182-shortest-distance-to-target-color) |
 | [1249-snapshot-array](https://github.com/rohanxxx/leetcode/tree/master/1249-snapshot-array) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/rohanxxx/leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/rohanxxx/leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
