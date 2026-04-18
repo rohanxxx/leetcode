@@ -18,7 +18,7 @@ public:
 
         // push initial leaves
         for(int i = 0; i < n; i++){
-            if(indegree[i] == 1){
+            if(--indegree[i] == 0){
                 q.push({-1, i});
             }
         }
@@ -35,7 +35,7 @@ public:
                 q.pop();
 
                 for(auto adjn: graph[node]){
-                    if(adjn != parent && --indegree[adjn] == 1){
+                    if(adjn != parent && --indegree[adjn] == 0){
                         q.push({node, adjn});
                     }
                 }
