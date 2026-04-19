@@ -2,7 +2,7 @@ class Solution {
 public:
     unordered_map<string, bool> memo;
 
-    bool dfs(int turn, int& n, string& state){
+    bool dfs(int& n, string& state){
         // memo check
         if(memo.count(state)) return memo[state];
 
@@ -15,7 +15,7 @@ public:
                 state[i+1] = '-';
 
                 // opponent turn
-                bool nextPlayer = dfs(turn + 1, n, state);
+                bool nextPlayer = dfs(n, state);
 
                 // backtrack
                 state[i] = '+';
@@ -34,6 +34,6 @@ public:
 
     bool canWin(string currentState) {
         int n = currentState.length();
-        return dfs(0, n, currentState);
+        return dfs(n, currentState);
     }
 };
