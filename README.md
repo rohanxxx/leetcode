@@ -1916,6 +1916,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0263-ugly-number](https://github.com/rohanxxx/leetcode/tree/master/0263-ugly-number) |
 | [0268-missing-number](https://github.com/rohanxxx/leetcode/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/rohanxxx/leetcode/tree/master/0279-perfect-squares) |
+| [0294-flip-game-ii](https://github.com/rohanxxx/leetcode/tree/master/0294-flip-game-ii) |
 | [0326-power-of-three](https://github.com/rohanxxx/leetcode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/rohanxxx/leetcode/tree/master/0342-power-of-four) |
 | [0343-integer-break](https://github.com/rohanxxx/leetcode/tree/master/0343-integer-break) |
@@ -2182,6 +2183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0265-paint-house-ii](https://github.com/rohanxxx/leetcode/tree/master/0265-paint-house-ii) |
 | [0276-paint-fence](https://github.com/rohanxxx/leetcode/tree/master/0276-paint-fence) |
 | [0279-perfect-squares](https://github.com/rohanxxx/leetcode/tree/master/0279-perfect-squares) |
+| [0294-flip-game-ii](https://github.com/rohanxxx/leetcode/tree/master/0294-flip-game-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/rohanxxx/leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/rohanxxx/leetcode/tree/master/0312-burst-balloons) |
@@ -2291,6 +2293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/rohanxxx/leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/rohanxxx/leetcode/tree/master/0140-word-break-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/rohanxxx/leetcode/tree/master/0241-different-ways-to-add-parentheses) |
+| [0294-flip-game-ii](https://github.com/rohanxxx/leetcode/tree/master/0294-flip-game-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/rohanxxx/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [1013-fibonacci-number](https://github.com/rohanxxx/leetcode/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/rohanxxx/leetcode/tree/master/1236-n-th-tribonacci-number) |
@@ -2791,6 +2794,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/rohanxxx/leetcode/tree/master/0140-word-break-ii) |
 | [0212-word-search-ii](https://github.com/rohanxxx/leetcode/tree/master/0212-word-search-ii) |
 | [0257-binary-tree-paths](https://github.com/rohanxxx/leetcode/tree/master/0257-binary-tree-paths) |
+| [0294-flip-game-ii](https://github.com/rohanxxx/leetcode/tree/master/0294-flip-game-ii) |
 | [0357-count-numbers-with-unique-digits](https://github.com/rohanxxx/leetcode/tree/master/0357-count-numbers-with-unique-digits) |
 | [0494-target-sum](https://github.com/rohanxxx/leetcode/tree/master/0494-target-sum) |
 | [0813-all-paths-from-source-to-target](https://github.com/rohanxxx/leetcode/tree/master/0813-all-paths-from-source-to-target) |
@@ -3090,6 +3094,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Game Theory
 |  |
 | ------- |
+| [0294-flip-game-ii](https://github.com/rohanxxx/leetcode/tree/master/0294-flip-game-ii) |
 | [1086-divisor-game](https://github.com/rohanxxx/leetcode/tree/master/1086-divisor-game) |
 ## Binary Indexed Tree
 |  |
