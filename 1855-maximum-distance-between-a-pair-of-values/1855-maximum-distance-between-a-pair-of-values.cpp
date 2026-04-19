@@ -6,7 +6,7 @@
 */
 class Solution {
 public:
-    //TC: O(N)
+    //TC: O(N+M)
     int maxDistance(vector<int>& nums1, vector<int>& nums2) {
         int n = nums1.size();
         int m = nums2.size();
@@ -15,10 +15,10 @@ public:
 
         int maxDis = 0;
         while(i >= 0 && j >= 0){
-            if(i > j){
+            /*if(i > j){
                 i--;
                 continue;
-            }
+            }*/
             if(nums1[i] > nums2[j]){
                 j--;
                 continue;
