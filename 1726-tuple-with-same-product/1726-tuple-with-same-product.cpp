@@ -53,9 +53,12 @@
 */
 class Solution {
 public:
+    //TC: O(N*N)
+    //SC: O(M)
     int tupleSameProduct(vector<int>& nums) {
         unordered_map<long long, int> map;
         int n = nums.size();
+        //TC: O(N*(N-1))
         for(int i = 0; i < n; i++){
             for(int j = i+1; j < n; j++){
                 long long product = (long long)nums[i]*nums[j];
