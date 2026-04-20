@@ -884,6 +884,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0747-min-cost-climbing-stairs](https://github.com/rohanxxx/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0753-open-the-lock](https://github.com/rohanxxx/leetcode/tree/master/0753-open-the-lock) |
 | [0762-find-anagram-mappings](https://github.com/rohanxxx/leetcode/tree/master/0762-find-anagram-mappings) |
+| [0769-max-chunks-to-make-sorted](https://github.com/rohanxxx/leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0786-search-in-a-sorted-array-of-unknown-size](https://github.com/rohanxxx/leetcode/tree/master/0786-search-in-a-sorted-array-of-unknown-size) |
 | [0792-binary-search](https://github.com/rohanxxx/leetcode/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/rohanxxx/leetcode/tree/master/0794-swim-in-rising-water) |
@@ -1543,6 +1544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/rohanxxx/leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0763-partition-labels](https://github.com/rohanxxx/leetcode/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/rohanxxx/leetcode/tree/master/0767-reorganize-string) |
+| [0769-max-chunks-to-make-sorted](https://github.com/rohanxxx/leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0778-reorganize-string](https://github.com/rohanxxx/leetcode/tree/master/0778-reorganize-string) |
 | [0846-hand-of-straights](https://github.com/rohanxxx/leetcode/tree/master/0846-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/rohanxxx/leetcode/tree/master/0890-lemonade-change) |
@@ -1640,6 +1642,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/rohanxxx/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/rohanxxx/leetcode/tree/master/0721-accounts-merge) |
 | [0767-reorganize-string](https://github.com/rohanxxx/leetcode/tree/master/0767-reorganize-string) |
+| [0769-max-chunks-to-make-sorted](https://github.com/rohanxxx/leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0778-reorganize-string](https://github.com/rohanxxx/leetcode/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/rohanxxx/leetcode/tree/master/0807-custom-sort-string) |
 | [0808-number-of-matching-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0808-number-of-matching-subsequences) |
@@ -2689,6 +2692,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0654-maximum-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0654-maximum-binary-tree) |
 | [0739-daily-temperatures](https://github.com/rohanxxx/leetcode/tree/master/0739-daily-temperatures) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
+| [0769-max-chunks-to-make-sorted](https://github.com/rohanxxx/leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0853-car-fleet](https://github.com/rohanxxx/leetcode/tree/master/0853-car-fleet) |
 | [0907-sum-of-subarray-minimums](https://github.com/rohanxxx/leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [0916-decoded-string-at-index](https://github.com/rohanxxx/leetcode/tree/master/0916-decoded-string-at-index) |
@@ -2973,6 +2977,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rohanxxx/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0654-maximum-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0654-maximum-binary-tree) |
 | [0739-daily-temperatures](https://github.com/rohanxxx/leetcode/tree/master/0739-daily-temperatures) |
+| [0769-max-chunks-to-make-sorted](https://github.com/rohanxxx/leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0853-car-fleet](https://github.com/rohanxxx/leetcode/tree/master/0853-car-fleet) |
 | [0907-sum-of-subarray-minimums](https://github.com/rohanxxx/leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [1002-maximum-width-ramp](https://github.com/rohanxxx/leetcode/tree/master/1002-maximum-width-ramp) |
