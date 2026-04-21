@@ -1073,6 +1073,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2479-meeting-rooms-iii](https://github.com/rohanxxx/leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2500-minimum-costs-using-the-train-line](https://github.com/rohanxxx/leetcode/tree/master/2500-minimum-costs-using-the-train-line) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/rohanxxx/leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2563-count-the-number-of-fair-pairs](https://github.com/rohanxxx/leetcode/tree/master/2563-count-the-number-of-fair-pairs) |
 | [2586-longest-square-streak-in-an-array](https://github.com/rohanxxx/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2587-design-memory-allocator](https://github.com/rohanxxx/leetcode/tree/master/2587-design-memory-allocator) |
 | [2612-minimum-cost-to-buy-apples](https://github.com/rohanxxx/leetcode/tree/master/2612-minimum-cost-to-buy-apples) |
@@ -1510,6 +1511,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2271-rearrange-array-elements-by-sign](https://github.com/rohanxxx/leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/rohanxxx/leetcode/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2417-the-latest-time-to-catch-a-bus](https://github.com/rohanxxx/leetcode/tree/master/2417-the-latest-time-to-catch-a-bus) |
+| [2563-count-the-number-of-fair-pairs](https://github.com/rohanxxx/leetcode/tree/master/2563-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/rohanxxx/leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Greedy
 |  |
@@ -1697,6 +1699,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2463-minimum-total-distance-traveled](https://github.com/rohanxxx/leetcode/tree/master/2463-minimum-total-distance-traveled) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/rohanxxx/leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2479-meeting-rooms-iii](https://github.com/rohanxxx/leetcode/tree/master/2479-meeting-rooms-iii) |
+| [2563-count-the-number-of-fair-pairs](https://github.com/rohanxxx/leetcode/tree/master/2563-count-the-number-of-fair-pairs) |
 | [2586-longest-square-streak-in-an-array](https://github.com/rohanxxx/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
 | [3151-minimum-processing-time](https://github.com/rohanxxx/leetcode/tree/master/3151-minimum-processing-time) |
 | [3321-type-of-triangle](https://github.com/rohanxxx/leetcode/tree/master/3321-type-of-triangle) |
@@ -2548,6 +2551,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1966-frequency-of-the-most-frequent-element](https://github.com/rohanxxx/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2047-find-a-peak-element-ii](https://github.com/rohanxxx/leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2417-the-latest-time-to-catch-a-bus](https://github.com/rohanxxx/leetcode/tree/master/2417-the-latest-time-to-catch-a-bus) |
+| [2563-count-the-number-of-fair-pairs](https://github.com/rohanxxx/leetcode/tree/master/2563-count-the-number-of-fair-pairs) |
 | [2586-longest-square-streak-in-an-array](https://github.com/rohanxxx/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2729-minimum-operations-to-make-numbers-non-positive](https://github.com/rohanxxx/leetcode/tree/master/2729-minimum-operations-to-make-numbers-non-positive) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/2914-find-the-safest-path-in-a-grid) |
