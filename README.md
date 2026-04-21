@@ -415,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1650-find-root-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1650-find-root-of-n-ary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/rohanxxx/leetcode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1665-diameter-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1665-diameter-of-n-ary-tree) |
+| [1722-minimize-hamming-distance-after-swap-operations](https://github.com/rohanxxx/leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1753-path-with-minimum-effort](https://github.com/rohanxxx/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
 | [2009-longest-word-with-all-prefixes](https://github.com/rohanxxx/leetcode/tree/master/2009-longest-word-with-all-prefixes) |
@@ -1008,6 +1009,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/rohanxxx/leetcode/tree/master/1693-sum-of-all-odd-length-subarrays) |
 | [1706-min-cost-to-connect-all-points](https://github.com/rohanxxx/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/rohanxxx/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
+| [1722-minimize-hamming-distance-after-swap-operations](https://github.com/rohanxxx/leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1726-tuple-with-same-product](https://github.com/rohanxxx/leetcode/tree/master/1726-tuple-with-same-product) |
 | [1742-widest-vertical-area-between-two-points-containing-no-points](https://github.com/rohanxxx/leetcode/tree/master/1742-widest-vertical-area-between-two-points-containing-no-points) |
 | [1753-path-with-minimum-effort](https://github.com/rohanxxx/leetcode/tree/master/1753-path-with-minimum-effort) |
@@ -3166,6 +3168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/rohanxxx/leetcode/tree/master/0695-max-area-of-island) |
 | [1101-the-earliest-moment-when-everyone-become-friends](https://github.com/rohanxxx/leetcode/tree/master/1101-the-earliest-moment-when-everyone-become-friends) |
 | [1584-min-cost-to-connect-all-points](https://github.com/rohanxxx/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
+| [1722-minimize-hamming-distance-after-swap-operations](https://github.com/rohanxxx/leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 ## Graph Theory
 |  |
 | ------- |
