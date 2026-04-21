@@ -39,72 +39,68 @@
 class Solution {
 public:
     class DSU {
-    public:
+    private:
         vector<int> parent, size;
-
+    public:
         DSU(int n){
-            parent.resize(n);
-            size.resize(n, 1);
-            for(int i = 0; i < n; i++) parent[i] = i;
+            this->parent.resize(n);
+            this->size.resize(n, 1);
+            for(int i = 0; i < n; i++){
+                this->parent[i] = i;
+            }
         }
 
         int findParent(int node){
-            if(node != parent[node])
-                parent[node] = findParent(parent[node]);
-            return parent[node];
+            if(node != this->parent[node]){
+                this->parent[node] = findParent(this->parent[node]);
+            }
+            return this->parent[node];
         }
 
-        void unionBySize(int a, int b){
-            int p1 = findParent(a);
-            int p2 = findParent(b);
+        void unionBySize(int node1, int node2){
+            int p1 = findParent(node1);
+            int p2 = findParent(node2);
+
             if(p1 == p2) return;
 
-            if(size[p1] >= size[p2]){
-                parent[p2] = p1;
-                size[p1] += size[p2];
-            } else {
-                parent[p1] = p2;
-                size[p2] += size[p1];
+            if(this->size[p1] >= this->size[p2]){
+                this->parent[p2] = p1;
+                this->size[p1] += this->size[p2];   // ✅ fixed
+            }
+            else{
+                this->parent[p1] = p2;
+                this->size[p2] += this->size[p1];
             }
         }
     };
 
     int minimumHammingDistance(vector<int>& source, vector<int>& target, vector<vector<int>>& allowedSwaps) {
-        int n = source.size();
+        int n = target.size();
+
         DSU dsu(n);
 
-        for(auto &e : allowedSwaps){
-            dsu.unionBySize(e[0], e[1]);
+        // connect the edges
+        for(auto swap: allowedSwaps){
+            dsu.unionBySize(swap[0], swap[1]);
         }
 
-        // 🔥 FIX: map value -> list of indices
-        unordered_map<int, vector<int>> mp;
+        // 🔥 parent -> (value -> count)
+        unordered_map<int, unordered_map<int, int>> map;
+
         for(int i = 0; i < n; i++){
-            mp[target[i]].push_back(i);
+            int parent = dsu.findParent(i);
+            map[parent][target[i]]++;
         }
 
         int hammingDistance = 0;
 
         for(int i = 0; i < n; i++){
-            int val = source[i];
+            int parent = dsu.findParent(i);
 
-            bool found = false;
-
-            if(mp.count(val)){
-                auto &vec = mp[val];
-
-                // try to find a valid index in same component
-                for(int j = 0; j < vec.size(); j++){
-                    if(dsu.findParent(i) == dsu.findParent(vec[j])){
-                        // use this index
-                        vec.erase(vec.begin() + j);
-                        found = true;
-                        break;
-                    }
-                }
+            if(map[parent][source[i]] > 0){
+                map[parent][source[i]]--;   // consume match
             }
-
-            if(!found) {
+            else{
                 hammingDistance++;
             }
         }
