@@ -1,25 +1,25 @@
 class Solution {
 public:
-    void backtrack(vector<string>& ans, int& n, string cur, int leftCount, int rightCount){
-        if(n*2 == (int)cur.size()){
-            ans.push_back(cur);
+    void dfs(int left, int right, string& curr, int& n, vector<string>& ans){
+        if(curr.length() == n*2){
+            ans.push_back(curr);
             return;
         }
-
-        if(leftCount < n){
-            cur += "(";
-            backtrack(ans, n, cur, leftCount+1, rightCount);
-            cur.pop_back();
+        if(left < n){
+            curr.push_back('(');
+            dfs(left+1, right, curr, n, ans);
+            curr.pop_back();
         }
-        if(rightCount < leftCount){
-            cur += ")";
-            backtrack(ans, n, cur, leftCount, rightCount+1);
-            cur.pop_back();
+        if(right < left){
+            curr.push_back(')');
+            dfs(left, right+1, curr, n, ans);
+            curr.pop_back();
         }
     }
     vector<string> generateParenthesis(int n) {
+        string curr = "";
         vector<string> ans;
-        backtrack(ans, n, "", 0, 0);
+        dfs(0, 0, curr, n, ans);
         return ans;
     }
 };
