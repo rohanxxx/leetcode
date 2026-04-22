@@ -1,33 +1,43 @@
 /*
-Input: target = [1,2,3,2,1]
-      initial =  1 2 3 2 1 -> 0 0 0 0 0 -> 1 1 1 0 0 -> 1 2 2 1 0 -> 1 2 3 2 1
-                 0 1 2 3 4
-Output: 3
-Input: target = [3,1,5,4,2] output = 7
-                 0 1 2 3 4
-    operationCount = 1;
+    target = [3,1,1,2]
+              3,1,1,2
 
-Input: target = [3,1,1,2] output  4
-    3-1 = 2+1 = 3
-    if(i == 0) operationCount += (nums[i]-1);
-    if(nums[i] > nums[i-1]) operationCount += (nums[i]-nums[i-1]);
+    3+
+
+    3 1 1 2
+    3 1 1 2
+    3+1 => 4
+
+    prev >= curr
+
+    1,2,3,2,1
+    1,2,3,2,1
+    1+1+1
+
+    we have to update the peak and fall in each increment
+
+
 */
 class Solution {
 public:
+    //TC: O(N)
     int minNumberOperations(vector<int>& target) {
         int n = target.size();
-        int operationCount = 1;
+
+        int currPeak;
+        int opsCount = 0;
         //TC: O(N)
-        //SC: O(1) if we are not considering the target otherwise it's O(N)
         for(int i = 0; i < n; i++){
             if(i == 0){
-                operationCount += (target[i]-1);
+                currPeak = target[i];
+                opsCount += (currPeak);
                 continue;
             }
-            if(target[i] > target[i-1]){
-                operationCount += (target[i]-target[i-1]);
+            if(target[i] > currPeak){
+                opsCount += (target[i]-currPeak);
             }
+            currPeak = target[i];
         }
-        return operationCount;
+        return opsCount;
     }
 };
