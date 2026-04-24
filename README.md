@@ -1402,6 +1402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2576-minimum-penalty-for-a-shop](https://github.com/rohanxxx/leetcode/tree/master/2576-minimum-penalty-for-a-shop) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/rohanxxx/leetcode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/rohanxxx/leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [2833-furthest-point-from-origin](https://github.com/rohanxxx/leetcode/tree/master/2833-furthest-point-from-origin) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/rohanxxx/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/rohanxxx/leetcode/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3194-find-words-containing-character](https://github.com/rohanxxx/leetcode/tree/master/3194-find-words-containing-character) |
@@ -2044,6 +2045,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2139-detect-squares](https://github.com/rohanxxx/leetcode/tree/master/2139-detect-squares) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rohanxxx/leetcode/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2378-sender-with-largest-word-count](https://github.com/rohanxxx/leetcode/tree/master/2378-sender-with-largest-word-count) |
+| [2833-furthest-point-from-origin](https://github.com/rohanxxx/leetcode/tree/master/2833-furthest-point-from-origin) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/rohanxxx/leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3519-find-the-number-of-winning-players](https://github.com/rohanxxx/leetcode/tree/master/3519-find-the-number-of-winning-players) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rohanxxx/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
