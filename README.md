@@ -385,6 +385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/rohanxxx/leetcode/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1091-maximum-average-subtree](https://github.com/rohanxxx/leetcode/tree/master/1091-maximum-average-subtree) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/rohanxxx/leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
+| [1102-path-with-maximum-minimum-value](https://github.com/rohanxxx/leetcode/tree/master/1102-path-with-maximum-minimum-value) |
 | [1110-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/rohanxxx/leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -526,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/rohanxxx/leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/rohanxxx/leetcode/tree/master/1073-number-of-enclaves) |
 | [1076-brace-expansion](https://github.com/rohanxxx/leetcode/tree/master/1076-brace-expansion) |
+| [1102-path-with-maximum-minimum-value](https://github.com/rohanxxx/leetcode/tree/master/1102-path-with-maximum-minimum-value) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1142-minimum-knight-moves](https://github.com/rohanxxx/leetcode/tree/master/1142-minimum-knight-moves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/rohanxxx/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -942,6 +944,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1098-largest-unique-number](https://github.com/rohanxxx/leetcode/tree/master/1098-largest-unique-number) |
 | [1101-the-earliest-moment-when-everyone-become-friends](https://github.com/rohanxxx/leetcode/tree/master/1101-the-earliest-moment-when-everyone-become-friends) |
 | [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
+| [1102-path-with-maximum-minimum-value](https://github.com/rohanxxx/leetcode/tree/master/1102-path-with-maximum-minimum-value) |
 | [1110-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1110-delete-nodes-and-return-forest) |
 | [1121-partition-array-for-maximum-sum](https://github.com/rohanxxx/leetcode/tree/master/1121-partition-array-for-maximum-sum) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/rohanxxx/leetcode/tree/master/1126-minimum-cost-to-connect-sticks) |
@@ -1203,6 +1206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0971-shortest-bridge](https://github.com/rohanxxx/leetcode/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/rohanxxx/leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/rohanxxx/leetcode/tree/master/1073-number-of-enclaves) |
+| [1102-path-with-maximum-minimum-value](https://github.com/rohanxxx/leetcode/tree/master/1102-path-with-maximum-minimum-value) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/rohanxxx/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/rohanxxx/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/rohanxxx/leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
@@ -2111,6 +2115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1014-k-closest-points-to-origin](https://github.com/rohanxxx/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/rohanxxx/leetcode/tree/master/1046-last-stone-weight) |
 | [1074-high-five](https://github.com/rohanxxx/leetcode/tree/master/1074-high-five) |
+| [1102-path-with-maximum-minimum-value](https://github.com/rohanxxx/leetcode/tree/master/1102-path-with-maximum-minimum-value) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/rohanxxx/leetcode/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1286-constrained-subsequence-sum](https://github.com/rohanxxx/leetcode/tree/master/1286-constrained-subsequence-sum) |
 | [1304-longest-happy-string](https://github.com/rohanxxx/leetcode/tree/master/1304-longest-happy-string) |
@@ -2539,6 +2544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1059-missing-element-in-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1059-missing-element-in-sorted-array) |
 | [1060-longest-repeating-substring](https://github.com/rohanxxx/leetcode/tree/master/1060-longest-repeating-substring) |
 | [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
+| [1102-path-with-maximum-minimum-value](https://github.com/rohanxxx/leetcode/tree/master/1102-path-with-maximum-minimum-value) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/rohanxxx/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1150-two-sum-bsts](https://github.com/rohanxxx/leetcode/tree/master/1150-two-sum-bsts) |
 | [1182-shortest-distance-to-target-color](https://github.com/rohanxxx/leetcode/tree/master/1182-shortest-distance-to-target-color) |
@@ -3176,6 +3182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0261-graph-valid-tree](https://github.com/rohanxxx/leetcode/tree/master/0261-graph-valid-tree) |
 | [0695-max-area-of-island](https://github.com/rohanxxx/leetcode/tree/master/0695-max-area-of-island) |
 | [1101-the-earliest-moment-when-everyone-become-friends](https://github.com/rohanxxx/leetcode/tree/master/1101-the-earliest-moment-when-everyone-become-friends) |
+| [1102-path-with-maximum-minimum-value](https://github.com/rohanxxx/leetcode/tree/master/1102-path-with-maximum-minimum-value) |
 | [1584-min-cost-to-connect-all-points](https://github.com/rohanxxx/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/rohanxxx/leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 ## Graph Theory
