@@ -1,31 +1,41 @@
+/*
+     0 1 2 3 4 5 6 7 8
+    [1,1,2,3,3,4,4,8,8]
+*/
 class Solution {
 public:
-    int binarySearch(int left, int right, int& n, vector<int>& nums){
-        if(left > right) return -1;
-        int mid = (right+left)/2;
-        bool lc = false, rc = false;
-        if(mid-1 >= 0){ 
-            if(nums[mid-1] != nums[mid]) lc = true;
-        }
-        else lc = true;
-        if(mid+1 < n) {
-            if(nums[mid] != nums[mid+1]) rc = true;
-        }
-        else rc = true;
-        if(lc == true && rc == true) return mid;
-        
-        int checkLeft = binarySearch(left, mid-1, n, nums);
-        
-        if(checkLeft > -1) return checkLeft;
-        
-        int checkRight = binarySearch(mid+1, right, n, nums);
-        
-        return max(checkLeft, checkRight);
-    }
     int singleNonDuplicate(vector<int>& nums) {
         int n = nums.size();
-        int index = binarySearch(0, n-1, n, nums);
-        if(index != -1) return nums[index];
+        if(n % 2 == 0){
+            return -1;
+        }
+
+        int left = 0;
+        int right = n-1;
+
+        while(left <= right){
+            int mid = left + (right-left)/2;
+
+            // check if mid is the single element
+            if((mid == 0 || nums[mid] != nums[mid-1]) &&
+               (mid == n-1 || nums[mid] != nums[mid+1])){
+                return nums[mid];
+            }
+            // case 1: pair with right
+            else if(mid+1 < n && nums[mid] == nums[mid+1]){
+                int len = right - mid + 1;
+                if(len % 2 == 1) left = mid + 2;
+                else right = mid - 1;
+            }
+
+            // case 2: pair with left
+            else if(mid-1 >= 0 && nums[mid] == nums[mid-1]){
+                int len = mid - left + 1;
+                if(len % 2 == 1) right = mid - 2;
+                else left = mid + 1;
+            }
+        }
+
         return -1;
     }
 };
