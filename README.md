@@ -424,6 +424,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
 | [2009-longest-word-with-all-prefixes](https://github.com/rohanxxx/leetcode/tree/master/2009-longest-word-with-all-prefixes) |
 | [2035-count-sub-islands](https://github.com/rohanxxx/leetcode/tree/master/2035-count-sub-islands) |
+| [2092-find-all-people-with-secret](https://github.com/rohanxxx/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2103-find-all-groups-of-farmland](https://github.com/rohanxxx/leetcode/tree/master/2103-find-all-groups-of-farmland) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rohanxxx/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rohanxxx/leetcode/tree/master/2206-detonate-the-maximum-bombs) |
@@ -559,6 +560,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/rohanxxx/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
 | [2035-count-sub-islands](https://github.com/rohanxxx/leetcode/tree/master/2035-count-sub-islands) |
+| [2092-find-all-people-with-secret](https://github.com/rohanxxx/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2103-find-all-groups-of-farmland](https://github.com/rohanxxx/leetcode/tree/master/2103-find-all-groups-of-farmland) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rohanxxx/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/rohanxxx/leetcode/tree/master/2171-second-minimum-time-to-reach-destination) |
@@ -1707,6 +1709,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1966-frequency-of-the-most-frequent-element](https://github.com/rohanxxx/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [1970-sorting-the-sentence](https://github.com/rohanxxx/leetcode/tree/master/1970-sorting-the-sentence) |
 | [2029-minimize-product-sum-of-two-arrays](https://github.com/rohanxxx/leetcode/tree/master/2029-minimize-product-sum-of-two-arrays) |
+| [2092-find-all-people-with-secret](https://github.com/rohanxxx/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2117-find-original-array-from-doubled-array](https://github.com/rohanxxx/leetcode/tree/master/2117-find-original-array-from-doubled-array) |
 | [2248-minimum-cost-of-buying-candies-with-discount](https://github.com/rohanxxx/leetcode/tree/master/2248-minimum-cost-of-buying-candies-with-discount) |
 | [2264-minimum-sum-of-four-digit-number-after-splitting-digits](https://github.com/rohanxxx/leetcode/tree/master/2264-minimum-sum-of-four-digit-number-after-splitting-digits) |
@@ -3202,6 +3205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1584-min-cost-to-connect-all-points](https://github.com/rohanxxx/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/rohanxxx/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/rohanxxx/leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
+| [2092-find-all-people-with-secret](https://github.com/rohanxxx/leetcode/tree/master/2092-find-all-people-with-secret) |
 ## Graph Theory
 |  |
 | ------- |
@@ -3213,5 +3217,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/rohanxxx/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1245-tree-diameter](https://github.com/rohanxxx/leetcode/tree/master/1245-tree-diameter) |
 | [1584-min-cost-to-connect-all-points](https://github.com/rohanxxx/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
+| [2092-find-all-people-with-secret](https://github.com/rohanxxx/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [3481-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3481-apply-substitutions) |
 <!---LeetCode Topics End-->
