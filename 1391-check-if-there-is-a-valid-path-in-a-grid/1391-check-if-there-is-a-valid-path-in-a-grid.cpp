@@ -8,23 +8,17 @@ public:
         
         unordered_map<int, vector<pair<int, int>>> dir;
         //1->left & right
-        dir[1].push_back(left);
-        dir[1].push_back(right);
+        dir[1] = {left, right};
         //2-> upper & lower
-        dir[2].push_back(upper);
-        dir[2].push_back(lower);
+        dir[2] = {upper,lower};
         //3->left & lower
-        dir[3].push_back(left);
-        dir[3].push_back(lower);
+        dir[3] = {left, lower};
         //4->right & lower
-        dir[4].push_back(right);
-        dir[4].push_back(lower);
+        dir[4] = {right, lower};
         //5->left & upper
-        dir[5].push_back(left);
-        dir[5].push_back(upper);
+        dir[5] = {left, upper};
         //6->right & upper
-        dir[6].push_back(right);
-        dir[6].push_back(upper);
+        dir[6] = {right, upper};
 
         vector<vector<int>> visited(n, vector<int>(m, 0));
 
