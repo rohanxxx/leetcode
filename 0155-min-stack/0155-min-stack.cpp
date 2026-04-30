@@ -3,26 +3,31 @@ private:
     vector<pair<int, int>> stack;
 public:
     MinStack() {}
-    
     void push(int val) {
-        if(this->stack.empty()){
-            stack.push_back({val, val});
+        if(!stack.empty()){
+            int minSoFar = stack.back().second;
+            stack.push_back({val, min(val, minSoFar)});
             return;
         }
-        int newMin = min((int)this->stack.back().second, val);
-        stack.push_back({val, newMin});
+        stack.push_back({val, val});
     }
     
     void pop() {
-        this->stack.pop_back();
+        if(stack.empty()){
+            return;
+        }
+        stack.pop_back();
     }
     
     int top() {
-        return this->stack.back().first;
+        if(stack.empty()){
+            return INT_MIN;
+        }
+        return stack.back().first;
     }
     
     int getMin() {
-        return this->stack.back().second;
+        return stack.back().second;
     }
 };
 
