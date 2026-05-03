@@ -17,7 +17,7 @@ public:
         }
 
         string doubleString = s+s;
-        if(doubleString.find(goal) < (int)doubleString.length()){
+        if(doubleString.find(goal) < doubleString.length()){
             return true;
         }
 
