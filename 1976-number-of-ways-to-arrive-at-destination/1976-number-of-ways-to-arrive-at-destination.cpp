@@ -25,7 +25,7 @@ public:
             long long t = it[0];
             int node = it[1];
 
-            
+
 
             for(auto adj: graph[node]){
                 int adjn = adj.first;
