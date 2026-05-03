@@ -1355,6 +1355,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0763-partition-labels](https://github.com/rohanxxx/leetcode/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/rohanxxx/leetcode/tree/master/0767-reorganize-string) |
 | [0778-reorganize-string](https://github.com/rohanxxx/leetcode/tree/master/0778-reorganize-string) |
+| [0796-rotate-string](https://github.com/rohanxxx/leetcode/tree/master/0796-rotate-string) |
 | [0807-custom-sort-string](https://github.com/rohanxxx/leetcode/tree/master/0807-custom-sort-string) |
 | [0808-number-of-matching-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0808-number-of-matching-subsequences) |
 | [0812-rotate-string](https://github.com/rohanxxx/leetcode/tree/master/0812-rotate-string) |
@@ -1459,6 +1460,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/rohanxxx/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0616-add-bold-tag-in-string](https://github.com/rohanxxx/leetcode/tree/master/0616-add-bold-tag-in-string) |
 | [0686-repeated-string-match](https://github.com/rohanxxx/leetcode/tree/master/0686-repeated-string-match) |
+| [0796-rotate-string](https://github.com/rohanxxx/leetcode/tree/master/0796-rotate-string) |
 | [0812-rotate-string](https://github.com/rohanxxx/leetcode/tree/master/0812-rotate-string) |
 | [1764-maximum-repeating-substring](https://github.com/rohanxxx/leetcode/tree/master/1764-maximum-repeating-substring) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/rohanxxx/leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
