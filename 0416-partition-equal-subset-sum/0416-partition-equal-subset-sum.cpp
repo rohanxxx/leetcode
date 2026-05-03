@@ -1,19 +1,5 @@
 class Solution {
 public:
-    bool func(vector<int>& nums, vector<vector<int>>& dp, int i, int target){
-        if(target == 0) return true;
-        if(i == 0) return (nums[i] == target);
-        if(dp[i][target] != -1) return dp[i][target];
-        
-        bool notTake = func(nums, dp, i-1, target);
-        bool take = false;
-
-        if(nums[i] <= target){
-            take = func(nums, dp, i-1, target-nums[i]);
-        }
-
-        return dp[i][target] = take || notTake;
-    }
     bool canPartition(vector<int>& nums) {
         int n = nums.size(), sum = 0;
         
@@ -29,7 +15,9 @@ public:
         }
         //if(i == 0) return (nums[i] == target);
         //if(dp[i][target] != -1) return dp[i][target];
-        
+        if(nums[0] < target){
+            dp[0][nums[0]] = true;
+        }
         for(int i = 1; i < n; i++){
             for(int t = 0; t <= target; t++){
                 bool notTake = dp[i-1][t];
