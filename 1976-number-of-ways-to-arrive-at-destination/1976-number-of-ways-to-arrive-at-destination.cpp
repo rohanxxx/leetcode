@@ -36,9 +36,9 @@ public:
                 int adjn = adj.first;
                 int adjt = adj.second;
                 //if parent we skip
-                /*if(adjn == parent){
+                if(adjn == parent){
                     continue;
-                }*/
+                }
                 long long totalT = (long long)((long long)adjt+t);
                 if((long long)totalT > (long long)cost[adjn]){
                     continue;
