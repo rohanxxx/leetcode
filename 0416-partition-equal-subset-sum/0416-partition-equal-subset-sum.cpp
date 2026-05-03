@@ -7,7 +7,7 @@ public:
         if(sum % 2 == 1) return false;
         
         int target = sum / 2;
-        vector<vector<int>> dp(n, vector<int>(target+1, -1));
+        vector<vector<int>> dp(n, vector<int>(target+1, 0));
         //return func(nums, dp, n-1, target);
         //if(target == 0) return true;
         for(int i = 0; i < n; i++){
@@ -15,11 +15,11 @@ public:
         }
         //if(i == 0) return (nums[i] == target);
         //if(dp[i][target] != -1) return dp[i][target];
-        if(nums[0] < target){
+        if(nums[0] == target){
             dp[0][nums[0]] = true;
         }
         for(int i = 1; i < n; i++){
-            for(int t = 0; t <= target; t++){
+            for(int t = 1; t <= target; t++){
                 bool notTake = dp[i-1][t];
                 bool take = false;
 
