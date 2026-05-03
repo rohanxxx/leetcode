@@ -43,6 +43,6 @@ public:
             }
         }
 
-        return dp[0][0];
+        return dp[n-1][target];
     }
 };
