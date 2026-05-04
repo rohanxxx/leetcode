@@ -265,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/rohanxxx/leetcode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
+| [2368-reachable-nodes-with-restrictions](https://github.com/rohanxxx/leetcode/tree/master/2368-reachable-nodes-with-restrictions) |
 | [2384-root-equals-sum-of-children](https://github.com/rohanxxx/leetcode/tree/master/2384-root-equals-sum-of-children) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2416-evaluate-boolean-binary-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rohanxxx/leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
@@ -430,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2121-find-if-path-exists-in-graph](https://github.com/rohanxxx/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rohanxxx/leetcode/tree/master/2206-detonate-the-maximum-bombs) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/rohanxxx/leetcode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
+| [2368-reachable-nodes-with-restrictions](https://github.com/rohanxxx/leetcode/tree/master/2368-reachable-nodes-with-restrictions) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2416-evaluate-boolean-binary-tree) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/rohanxxx/leetcode/tree/master/2438-find-closest-node-to-given-two-nodes) |
@@ -566,6 +568,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2121-find-if-path-exists-in-graph](https://github.com/rohanxxx/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/rohanxxx/leetcode/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rohanxxx/leetcode/tree/master/2206-detonate-the-maximum-bombs) |
+| [2368-reachable-nodes-with-restrictions](https://github.com/rohanxxx/leetcode/tree/master/2368-reachable-nodes-with-restrictions) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2439-longest-cycle-in-a-graph](https://github.com/rohanxxx/leetcode/tree/master/2439-longest-cycle-in-a-graph) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/rohanxxx/leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
@@ -1077,6 +1080,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2292-counting-words-with-a-given-prefix](https://github.com/rohanxxx/leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2354-minimum-health-to-beat-game](https://github.com/rohanxxx/leetcode/tree/master/2354-minimum-health-to-beat-game) |
+| [2368-reachable-nodes-with-restrictions](https://github.com/rohanxxx/leetcode/tree/master/2368-reachable-nodes-with-restrictions) |
 | [2378-sender-with-largest-word-count](https://github.com/rohanxxx/leetcode/tree/master/2378-sender-with-largest-word-count) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/rohanxxx/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/rohanxxx/leetcode/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
@@ -1892,6 +1896,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/rohanxxx/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2240-intervals-between-identical-elements](https://github.com/rohanxxx/leetcode/tree/master/2240-intervals-between-identical-elements) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2368-reachable-nodes-with-restrictions](https://github.com/rohanxxx/leetcode/tree/master/2368-reachable-nodes-with-restrictions) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rohanxxx/leetcode/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2378-sender-with-largest-word-count](https://github.com/rohanxxx/leetcode/tree/master/2378-sender-with-largest-word-count) |
 | [2429-design-a-food-rating-system](https://github.com/rohanxxx/leetcode/tree/master/2429-design-a-food-rating-system) |
@@ -3223,6 +3228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/rohanxxx/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/rohanxxx/leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [2092-find-all-people-with-secret](https://github.com/rohanxxx/leetcode/tree/master/2092-find-all-people-with-secret) |
+| [2368-reachable-nodes-with-restrictions](https://github.com/rohanxxx/leetcode/tree/master/2368-reachable-nodes-with-restrictions) |
 ## Graph Theory
 |  |
 | ------- |
@@ -3236,5 +3242,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1584-min-cost-to-connect-all-points](https://github.com/rohanxxx/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/rohanxxx/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2092-find-all-people-with-secret](https://github.com/rohanxxx/leetcode/tree/master/2092-find-all-people-with-secret) |
+| [2368-reachable-nodes-with-restrictions](https://github.com/rohanxxx/leetcode/tree/master/2368-reachable-nodes-with-restrictions) |
 | [3481-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3481-apply-substitutions) |
 <!---LeetCode Topics End-->
