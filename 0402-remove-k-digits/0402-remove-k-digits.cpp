@@ -11,10 +11,6 @@ public:
 
         //TC: O(N)
         for(char c: num){
-            if(stack.empty()){
-                stack.push(c);
-                continue;
-            }
             while(!stack.empty() && stack.top() > c && k > 0){
                 stack.pop();
                 k--;
