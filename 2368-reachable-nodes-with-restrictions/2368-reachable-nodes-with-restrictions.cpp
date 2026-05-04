@@ -48,13 +48,7 @@ public:
             count++;
 
             for(auto adj: tree[node]){
-                if(adj == parent || visited[adj] == 1){
-                    continue;
-                }
-                //check if it's restricted
-                //then skip
-                //TC: O(1)
-                if(restrictedSet.find(adj) != restrictedSet.end()){
+                if(adj == parent || visited[adj] == 1 || restrictedSet.find(adj) != restrictedSet.end()){
                     continue;
                 }
                 //otherwise it's valid
