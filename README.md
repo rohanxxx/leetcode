@@ -3249,6 +3249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1245-tree-diameter](https://github.com/rohanxxx/leetcode/tree/master/1245-tree-diameter) |
 | [1584-min-cost-to-connect-all-points](https://github.com/rohanxxx/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/rohanxxx/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
+| [2077-paths-in-maze-that-lead-to-same-room](https://github.com/rohanxxx/leetcode/tree/master/2077-paths-in-maze-that-lead-to-same-room) |
 | [2092-find-all-people-with-secret](https://github.com/rohanxxx/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2368-reachable-nodes-with-restrictions](https://github.com/rohanxxx/leetcode/tree/master/2368-reachable-nodes-with-restrictions) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/rohanxxx/leetcode/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
