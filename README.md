@@ -1052,6 +1052,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/rohanxxx/leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1899-count-items-matching-a-rule](https://github.com/rohanxxx/leetcode/tree/master/1899-count-items-matching-a-rule) |
 | [1909-buildings-with-an-ocean-view](https://github.com/rohanxxx/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
+| [1914-cyclically-rotating-a-grid](https://github.com/rohanxxx/leetcode/tree/master/1914-cyclically-rotating-a-grid) |
 | [1917-maximum-average-pass-ratio](https://github.com/rohanxxx/leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/rohanxxx/leetcode/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [1929-concatenation-of-array](https://github.com/rohanxxx/leetcode/tree/master/1929-concatenation-of-array) |
@@ -1247,6 +1248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/rohanxxx/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/rohanxxx/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1791-richest-customer-wealth](https://github.com/rohanxxx/leetcode/tree/master/1791-richest-customer-wealth) |
+| [1914-cyclically-rotating-a-grid](https://github.com/rohanxxx/leetcode/tree/master/1914-cyclically-rotating-a-grid) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/rohanxxx/leetcode/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2035-count-sub-islands](https://github.com/rohanxxx/leetcode/tree/master/2035-count-sub-islands) |
 | [2047-find-a-peak-element-ii](https://github.com/rohanxxx/leetcode/tree/master/2047-find-a-peak-element-ii) |
@@ -2822,6 +2824,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1310-watering-plants](https://github.com/rohanxxx/leetcode/tree/master/1310-watering-plants) |
 | [1682-most-visited-sector-in-a-circular-track](https://github.com/rohanxxx/leetcode/tree/master/1682-most-visited-sector-in-a-circular-track) |
 | [1803-average-waiting-time](https://github.com/rohanxxx/leetcode/tree/master/1803-average-waiting-time) |
+| [1914-cyclically-rotating-a-grid](https://github.com/rohanxxx/leetcode/tree/master/1914-cyclically-rotating-a-grid) |
 | [1929-concatenation-of-array](https://github.com/rohanxxx/leetcode/tree/master/1929-concatenation-of-array) |
 | [2058-concatenation-of-array](https://github.com/rohanxxx/leetcode/tree/master/2058-concatenation-of-array) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/rohanxxx/leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
