@@ -8,6 +8,8 @@
 */
 class Solution {
 public:
+    //TC: O(N*N)
+    //SC: O(N*N)
     int dfs(int i, int count, vector<int>& nums, int target, vector<vector<int>>& dp){
         int n = nums.size();
         
@@ -31,6 +33,7 @@ public:
         vector<vector<int>> dp(n+1, vector<int>(n+1, -1));
         
         int res = dfs(0, 0, nums, target, dp);
+        res = dp[0][0];
         if(res == INT_MIN){
             return -1;
         }
