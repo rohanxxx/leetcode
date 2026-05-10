@@ -1,19 +1,30 @@
 class Solution {
 public:
-    bool wordBreak(string s, vector<string>& wordDict) {
+    bool dfs(int i, string& s, unordered_set<string>& set, vector<int>& dp){
         int n = s.length();
-        vector<int> dp(n+1,0);
-        dp[n] = 1;//base case
-        for(int i = n-1; i >= 0; i--){
-            bool result = false;
-            for(auto word: wordDict){
-                int k = word.size();
-                if(i+k-1 < n && s.substr(i, k) == word){
-                    result = (result || dp[i+k]);
-                }
-            }
-            dp[i] = result;
+        if(i == n){
+            return true;
         }
-        return dp[0];
+        if(dp[i] != -1){
+            return dp[i];
+        }
+
+        int res = false;
+        for(int j = i; j < n; j++){
+            //not exist skip
+            if(set.find(s.substr(i, j-i+1)) == set.end()){
+                continue;
+            }
+            res = res || dfs(j+1, s, set, dp);
+        }
+
+        return dp[i] = res;
+    }
+    bool wordBreak(string s, vector<string>& wordDict) {
+        unordered_set<string> set(wordDict.begin(), wordDict.end());
+
+        int n = s.length();
+        vector<int> dp(n+1, -1);
+        return dfs(0, s, set, dp);
     }
 };
