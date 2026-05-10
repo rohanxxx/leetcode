@@ -21,16 +21,12 @@ public:
                 if(!(-target <= nums[j]-nums[i] && nums[j]-nums[i] <= target)){
                     continue;
                 }
-                
-                //int res = dp[j];
                 if(dp[j] == INT_MIN){
                     continue;
                 }
                 dp[i] = max(dp[i], dp[j]+1);
             }
-            //dp[i] = take;
         }
-        //int res = dp[0];
         if(dp[0] == INT_MIN){
             return -1;
         }
