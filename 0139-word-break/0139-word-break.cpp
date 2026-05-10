@@ -1,38 +1,30 @@
 class Solution {
 public:
-    vector<int> memo;
-    vector<string> wordDict;
-    string s;
-
-    bool wordBreak(string s, vector<string>& wordDict) {
-        memo = vector(s.length(), -1);
-        this->wordDict = wordDict;
-        this->s = s;
-        return dp(s.length() - 1);
-    }
-
-    bool dp(int i) {
-        if (i < 0) return true;
-
-        if (memo[i] != -1) {
-            return memo[i] == 1;
+    bool dfs(int i, string& s, unordered_set<string>& set, vector<int>& dp){
+        int n = s.length();
+        if(i == n){
+            return true;
+        }
+        if(dp[i] != -1){
+            return dp[i];
         }
 
-        for (string word : wordDict) {
-            int currSize = word.length();
-            // Handle out of bounds case
-            if (i - currSize + 1 < 0) {
+        int res = false;
+        for(int j = i; j < n; j++){
+            //not exist skip
+            if(set.find(s.substr(i, j-i+1)) == set.end()){
                 continue;
             }
-
-            if (s.substr(i - currSize + 1, currSize) == word &&
-                dp(i - currSize)) {
-                memo[i] = 1;
-                return true;
-            }
+            res = res || dfs(j+1, s, set, dp);
         }
 
-        memo[i] = 0;
-        return false;
+        return dp[i] = res;
+    }
+    bool wordBreak(string s, vector<string>& wordDict) {
+        unordered_set<string> set(wordDict.begin(), wordDict.end());
+
+        int n = s.length();
+        vector<int> dp(n+1, -1);
+        return dfs(0, s, set, dp);
     }
 };
