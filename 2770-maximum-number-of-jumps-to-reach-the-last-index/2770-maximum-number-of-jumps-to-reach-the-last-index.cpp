@@ -9,32 +9,7 @@
 class Solution {
 public:
     //TC: O(N*N)
-    //SC: O(N+N)
-    int dfs(int i, vector<int>& nums, int target, vector<int>& dp){
-        int n = nums.size();
-        
-        if(i == n-1){
-            return 0;
-        }
-        if(dp[i] != -1){
-            return dp[i];
-        }
-        
-        int take = INT_MIN;
-        for(int j = i+1; j < n; j++){
-            if(!(-target <= nums[j]-nums[i] && nums[j]-nums[i] <= target)){
-                continue;
-            }
-            
-            int res = dfs(j, nums, target, dp);
-            if(res == INT_MIN){
-                continue;
-            }
-            take = max(take, res+1);
-        }
-        return dp[i] = take;
-    }
-
+    //SC: O(N)
     int maximumJumps(vector<int>& nums, int target) {
         int n = nums.size();
         vector<int> dp(n+1, INT_MIN);
