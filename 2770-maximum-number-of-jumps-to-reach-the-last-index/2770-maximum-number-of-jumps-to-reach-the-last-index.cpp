@@ -22,19 +22,19 @@ public:
                     continue;
                 }
                 
-                int res = dp[j];
-                if(res == INT_MIN){
+                //int res = dp[j];
+                if(dp[j] == INT_MIN){
                     continue;
                 }
-                take = max(take, res+1);
+                dp[i] = max(dp[i], dp[j]+1);
             }
-            dp[i] = take;
+            //dp[i] = take;
         }
-        int res = dp[0];
-        if(res == INT_MIN){
+        //int res = dp[0];
+        if(dp[0] == INT_MIN){
             return -1;
         }
 
-        return res;
+        return dp[0];
     }
 };
