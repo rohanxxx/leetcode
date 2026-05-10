@@ -1112,6 +1112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2729-minimum-operations-to-make-numbers-non-positive](https://github.com/rohanxxx/leetcode/tree/master/2729-minimum-operations-to-make-numbers-non-positive) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/rohanxxx/leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/rohanxxx/leetcode/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/rohanxxx/leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2868-continuous-subarrays](https://github.com/rohanxxx/leetcode/tree/master/2868-continuous-subarrays) |
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/rohanxxx/leetcode/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
@@ -2322,6 +2323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2500-minimum-costs-using-the-train-line](https://github.com/rohanxxx/leetcode/tree/master/2500-minimum-costs-using-the-train-line) |
 | [2586-longest-square-streak-in-an-array](https://github.com/rohanxxx/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2672-number-of-good-binary-strings](https://github.com/rohanxxx/leetcode/tree/master/2672-number-of-good-binary-strings) |
+| [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/rohanxxx/leetcode/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/rohanxxx/leetcode/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/rohanxxx/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3178-minimum-increment-operations-to-make-array-beautiful](https://github.com/rohanxxx/leetcode/tree/master/3178-minimum-increment-operations-to-make-array-beautiful) |
