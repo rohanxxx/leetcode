@@ -1115,6 +1115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/rohanxxx/leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/rohanxxx/leetcode/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
+| [2784-check-if-array-is-good](https://github.com/rohanxxx/leetcode/tree/master/2784-check-if-array-is-good) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/rohanxxx/leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2868-continuous-subarrays](https://github.com/rohanxxx/leetcode/tree/master/2868-continuous-subarrays) |
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/rohanxxx/leetcode/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
@@ -1751,6 +1752,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2563-count-the-number-of-fair-pairs](https://github.com/rohanxxx/leetcode/tree/master/2563-count-the-number-of-fair-pairs) |
 | [2583-kth-largest-sum-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2583-kth-largest-sum-in-a-binary-tree) |
 | [2586-longest-square-streak-in-an-array](https://github.com/rohanxxx/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
+| [2784-check-if-array-is-good](https://github.com/rohanxxx/leetcode/tree/master/2784-check-if-array-is-good) |
 | [3151-minimum-processing-time](https://github.com/rohanxxx/leetcode/tree/master/3151-minimum-processing-time) |
 | [3321-type-of-triangle](https://github.com/rohanxxx/leetcode/tree/master/3321-type-of-triangle) |
 | [3430-count-days-without-meetings](https://github.com/rohanxxx/leetcode/tree/master/3430-count-days-without-meetings) |
@@ -1926,6 +1928,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2685-first-completely-painted-row-or-column](https://github.com/rohanxxx/leetcode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/rohanxxx/leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/rohanxxx/leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [2784-check-if-array-is-good](https://github.com/rohanxxx/leetcode/tree/master/2784-check-if-array-is-good) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/rohanxxx/leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/rohanxxx/leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3227-find-missing-and-repeated-values](https://github.com/rohanxxx/leetcode/tree/master/3227-find-missing-and-repeated-values) |
