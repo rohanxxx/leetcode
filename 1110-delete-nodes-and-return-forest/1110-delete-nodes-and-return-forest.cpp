@@ -11,51 +11,46 @@
  */
 class Solution {
 public:
-    //TC: O(V+N+E)
-    //SC: O(V+N+E)
     vector<TreeNode*> delNodes(TreeNode* root, vector<int>& to_delete) {
-        vector<TreeNode*> forest;
-        if(root == NULL) return forest;
-
-        //TC: O(M)
-        //SC: O(M)
+        vector<TreeNode*> ans;
         unordered_set<int> set(to_delete.begin(), to_delete.end());
 
-        queue<TreeNode*> q; q.push(root);
+        queue<TreeNode*> q;
+        q.push(root);
 
-        //TC: O(N)
-        //SC: O(N)
         while(!q.empty()){
-            TreeNode* node = q.front(); q.pop();
+            TreeNode* node = q.front();
+            q.pop();
+
+            if(set.find(node->val) != set.end()){
+                if(node->left && set.find(node->left->val) == set.end()){
+                    ans.push_back(node->left);
+                }
+                if(node->right && set.find(node->right->val) == set.end()){
+                    ans.push_back(node->right);
+                }
+            }
 
             if(node->left){
                 q.push(node->left);
-                //O(1)
-                if(set.find(node->left->val) != set.end()){
-                    node->left = NULL;
-                }
             }
             if(node->right){
                 q.push(node->right);
-                if(set.find(node->right->val) != set.end()){
-                    node->right = NULL;
-                }
             }
 
-            if(set.find(node->val) != set.end()){
-                if(node->left){
-                    forest.push_back(node->left);
-                }
-                if(node->right){
-                    forest.push_back(node->right);
-                }
+            if(node->left && set.find(node->left->val) != set.end()){
+                node->left = NULL;
+            }
+
+            if(node->right && set.find(node->right->val) != set.end()){
+                node->right = NULL;
             }
         }
 
         if(set.find(root->val) == set.end()){
-            forest.push_back(root);
+            ans.push_back(root);
         }
 
-        return forest;
+        return ans;
     }
 };
