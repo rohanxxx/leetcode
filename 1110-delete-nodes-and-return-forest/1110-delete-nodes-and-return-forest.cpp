@@ -18,6 +18,10 @@ public:
         queue<TreeNode*> q;
         q.push(root);
 
+        if(set.find(root->val) == set.end()){
+            ans.push_back(root);
+        }
+        
         while(!q.empty()){
             TreeNode* node = q.front();
             q.pop();
@@ -45,10 +49,6 @@ public:
             if(node->right && set.find(node->right->val) != set.end()){
                 node->right = NULL;
             }
-        }
-
-        if(set.find(root->val) == set.end()){
-            ans.push_back(root);
         }
 
         return ans;
