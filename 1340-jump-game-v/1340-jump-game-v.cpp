@@ -38,8 +38,8 @@ public:
         int n = arr.size();
         int ans = 0;
 
+        vector<int> dp(n, -1);
         for(int i = 0; i < n; i++){
-            vector<int> dp(n, -1);
             ans = max(ans, 1+dfs(i, d, arr, dp));
         }
 
