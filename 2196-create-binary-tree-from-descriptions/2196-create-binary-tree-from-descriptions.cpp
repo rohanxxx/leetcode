@@ -58,12 +58,8 @@ public:
             }
             
             //assigning left or right
-            if(flag == 1){
-                parentNode->left = childNode;
-            }
-            else{
-                parentNode->right = childNode;
-            }
+            if(flag == 1) parentNode->left = childNode;
+            else parentNode->right = childNode;
 
             parentMap[childNode] = parentNode;
         }
