@@ -263,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1665-diameter-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1665-diameter-of-n-ary-tree) |
 | [1745-find-nearest-right-node-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1745-find-nearest-right-node-in-binary-tree) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/rohanxxx/leetcode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 | [2368-reachable-nodes-with-restrictions](https://github.com/rohanxxx/leetcode/tree/master/2368-reachable-nodes-with-restrictions) |
@@ -696,6 +697,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/rohanxxx/leetcode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1745-find-nearest-right-node-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1745-find-nearest-right-node-in-binary-tree) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/rohanxxx/leetcode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 | [2384-root-equals-sum-of-children](https://github.com/rohanxxx/leetcode/tree/master/2384-root-equals-sum-of-children) |
@@ -1083,6 +1085,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/rohanxxx/leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2139-detect-squares](https://github.com/rohanxxx/leetcode/tree/master/2139-detect-squares) |
 | [2195-time-needed-to-buy-tickets](https://github.com/rohanxxx/leetcode/tree/master/2195-time-needed-to-buy-tickets) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2199-two-furthest-houses-with-different-colors](https://github.com/rohanxxx/leetcode/tree/master/2199-two-furthest-houses-with-different-colors) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rohanxxx/leetcode/tree/master/2206-detonate-the-maximum-bombs) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/rohanxxx/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -1932,6 +1935,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2107-find-unique-binary-string](https://github.com/rohanxxx/leetcode/tree/master/2107-find-unique-binary-string) |
 | [2117-find-original-array-from-doubled-array](https://github.com/rohanxxx/leetcode/tree/master/2117-find-original-array-from-doubled-array) |
 | [2139-detect-squares](https://github.com/rohanxxx/leetcode/tree/master/2139-detect-squares) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/rohanxxx/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2240-intervals-between-identical-elements](https://github.com/rohanxxx/leetcode/tree/master/2240-intervals-between-identical-elements) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
