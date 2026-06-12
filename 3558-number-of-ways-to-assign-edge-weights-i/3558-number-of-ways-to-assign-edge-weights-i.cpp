@@ -27,7 +27,7 @@ public:
         int n = edges.size()+1;
         unordered_map<int, int> parent;
         unordered_map<int, vector<int>> graph;
-        vector<int> visited(n+1, 0);
+        //vector<int> visited(n+1, 0);
         //TC: O(V+E)
         for(auto it: edges){
             int u = it[0];
@@ -39,7 +39,7 @@ public:
         //we need to find the depth
         queue<vector<int>> q; q.push({1, 0});
         parent[1] = 0;
-        visited[1] = 1;
+        //visited[1] = 1;
         int lastNode = -1;
         while(!q.empty()){
             int node = q.front()[0];
@@ -53,11 +53,11 @@ public:
 
             //traverse through children nodes
             for(auto adjNode: graph[node]){
-                if(adjNode == parentNode || visited[adjNode] == 1){
+                if(adjNode == parentNode){
                     continue;
                 }
                 q.push({adjNode, node});
-                visited[adjNode] = 1; 
+                //visited[adjNode] = 1; 
 
                 parent[adjNode] = node;
             }
