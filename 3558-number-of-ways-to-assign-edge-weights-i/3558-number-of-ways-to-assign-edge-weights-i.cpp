@@ -17,7 +17,7 @@ public:
 
         int count = 0;
         for(int i = 1; i <= 2; i++){
-            count = (count + (dfs(parent[node], i+sum, i, parent, dp)%mod))%mod;
+            count = (count + dfs(parent[node], i+sum, i, parent, dp))%mod;
         }
 
         return dp[node][weight] = (count%mod);
