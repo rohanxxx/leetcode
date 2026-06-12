@@ -57,8 +57,6 @@ public:
                     continue;
                 }
                 q.push({adjNode, node});
-                //visited[adjNode] = 1; 
-
                 parent[adjNode] = node;
             }
         }
