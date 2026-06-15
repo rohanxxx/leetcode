@@ -1571,6 +1571,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/rohanxxx/leetcode/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1894-merge-strings-alternately](https://github.com/rohanxxx/leetcode/tree/master/1894-merge-strings-alternately) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/rohanxxx/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/rohanxxx/leetcode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2128-reverse-prefix-of-word](https://github.com/rohanxxx/leetcode/tree/master/2128-reverse-prefix-of-word) |
 | [2232-adding-spaces-to-a-string](https://github.com/rohanxxx/leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/rohanxxx/leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
@@ -2752,6 +2753,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1404-print-immutable-linked-list-in-reverse](https://github.com/rohanxxx/leetcode/tree/master/1404-print-immutable-linked-list-in-reverse) |
 | [1582-design-browser-history](https://github.com/rohanxxx/leetcode/tree/master/1582-design-browser-history) |
 | [1618-delete-n-nodes-after-m-nodes-of-a-linked-list](https://github.com/rohanxxx/leetcode/tree/master/1618-delete-n-nodes-after-m-nodes-of-a-linked-list) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/rohanxxx/leetcode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/rohanxxx/leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [3577-convert-doubly-linked-list-to-array-i](https://github.com/rohanxxx/leetcode/tree/master/3577-convert-doubly-linked-list-to-array-i) |
 ## Recursion
