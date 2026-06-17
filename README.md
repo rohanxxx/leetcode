@@ -1205,6 +1205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
 | [3836-phone-number-prefix](https://github.com/rohanxxx/leetcode/tree/master/3836-phone-number-prefix) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/rohanxxx/leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
+| [3838-weighted-word-mapping](https://github.com/rohanxxx/leetcode/tree/master/3838-weighted-word-mapping) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/rohanxxx/leetcode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 ## Matrix
 |  |
@@ -1489,6 +1490,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/rohanxxx/leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
 | [3836-phone-number-prefix](https://github.com/rohanxxx/leetcode/tree/master/3836-phone-number-prefix) |
+| [3838-weighted-word-mapping](https://github.com/rohanxxx/leetcode/tree/master/3838-weighted-word-mapping) |
 ## String Matching
 |  |
 | ------- |
@@ -2911,6 +2913,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3651-transformed-array](https://github.com/rohanxxx/leetcode/tree/master/3651-transformed-array) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/rohanxxx/leetcode/tree/master/3708-zigzag-grid-traversal-with-skip) |
 | [3790-fruits-into-baskets-ii](https://github.com/rohanxxx/leetcode/tree/master/3790-fruits-into-baskets-ii) |
+| [3838-weighted-word-mapping](https://github.com/rohanxxx/leetcode/tree/master/3838-weighted-word-mapping) |
 ## Backtracking
 |  |
 | ------- |
