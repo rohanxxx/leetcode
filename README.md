@@ -1047,6 +1047,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/rohanxxx/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/rohanxxx/leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1726-tuple-with-same-product](https://github.com/rohanxxx/leetcode/tree/master/1726-tuple-with-same-product) |
+| [1732-find-the-highest-altitude](https://github.com/rohanxxx/leetcode/tree/master/1732-find-the-highest-altitude) |
 | [1742-widest-vertical-area-between-two-points-containing-no-points](https://github.com/rohanxxx/leetcode/tree/master/1742-widest-vertical-area-between-two-points-containing-no-points) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/rohanxxx/leetcode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1753-path-with-minimum-effort](https://github.com/rohanxxx/leetcode/tree/master/1753-path-with-minimum-effort) |
@@ -2702,6 +2703,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1537-maximum-score-after-splitting-a-string](https://github.com/rohanxxx/leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/rohanxxx/leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/rohanxxx/leetcode/tree/master/1693-sum-of-all-odd-length-subarrays) |
+| [1732-find-the-highest-altitude](https://github.com/rohanxxx/leetcode/tree/master/1732-find-the-highest-altitude) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/rohanxxx/leetcode/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 | [1833-find-the-highest-altitude](https://github.com/rohanxxx/leetcode/tree/master/1833-find-the-highest-altitude) |
 | [1871-jump-game-vii](https://github.com/rohanxxx/leetcode/tree/master/1871-jump-game-vii) |
