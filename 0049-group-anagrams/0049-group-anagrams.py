@@ -13,7 +13,7 @@ class Solution:
                     key += chr(ord('a') + j)
             
             dic.setdefault(key, []).append(word)
-        
+    
         ans = []
         
         for key, items in dic.items():
