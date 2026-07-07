@@ -10,7 +10,9 @@ class Solution:
             return list()
         
         ans = []
-        dq = deque([root])
+        dq = deque()
+        dq.append(root)
+        
         while(len(dq)):
             levelSize = len(dq)
             levelList = []
