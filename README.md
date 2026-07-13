@@ -3185,6 +3185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/rohanxxx/leetcode/tree/master/0204-count-primes) |
 | [0900-reordered-power-of-2](https://github.com/rohanxxx/leetcode/tree/master/0900-reordered-power-of-2) |
+| [1291-sequential-digits](https://github.com/rohanxxx/leetcode/tree/master/1291-sequential-digits) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/rohanxxx/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2507-number-of-common-factors](https://github.com/rohanxxx/leetcode/tree/master/2507-number-of-common-factors) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/rohanxxx/leetcode/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
