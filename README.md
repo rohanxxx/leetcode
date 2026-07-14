@@ -1200,6 +1200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3704-count-partitions-with-even-sum-difference](https://github.com/rohanxxx/leetcode/tree/master/3704-count-partitions-with-even-sum-difference) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/rohanxxx/leetcode/tree/master/3708-zigzag-grid-traversal-with-skip) |
 | [3731-sum-of-variable-length-subarrays](https://github.com/rohanxxx/leetcode/tree/master/3731-sum-of-variable-length-subarrays) |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/rohanxxx/leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/rohanxxx/leetcode/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/rohanxxx/leetcode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
@@ -1993,6 +1994,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rohanxxx/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rohanxxx/leetcode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3736-find-valid-pair-of-adjacent-digits-in-string](https://github.com/rohanxxx/leetcode/tree/master/3736-find-valid-pair-of-adjacent-digits-in-string) |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/rohanxxx/leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/rohanxxx/leetcode/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/rohanxxx/leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/rohanxxx/leetcode/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
@@ -2150,6 +2152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3519-find-the-number-of-winning-players](https://github.com/rohanxxx/leetcode/tree/master/3519-find-the-number-of-winning-players) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rohanxxx/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3736-find-valid-pair-of-adjacent-digits-in-string](https://github.com/rohanxxx/leetcode/tree/master/3736-find-valid-pair-of-adjacent-digits-in-string) |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/rohanxxx/leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/rohanxxx/leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Divide and Conquer
 |  |
@@ -2175,6 +2178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/rohanxxx/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/rohanxxx/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1285-balance-a-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/1285-balance-a-binary-search-tree) |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/rohanxxx/leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3822-fill-a-special-grid](https://github.com/rohanxxx/leetcode/tree/master/3822-fill-a-special-grid) |
 ## Heap (Priority Queue)
 |  |
@@ -2730,6 +2734,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3644-minimum-positive-sum-subarray](https://github.com/rohanxxx/leetcode/tree/master/3644-minimum-positive-sum-subarray) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/rohanxxx/leetcode/tree/master/3704-count-partitions-with-even-sum-difference) |
 | [3731-sum-of-variable-length-subarrays](https://github.com/rohanxxx/leetcode/tree/master/3731-sum-of-variable-length-subarrays) |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/rohanxxx/leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Linked List
 |  |
 | ------- |
@@ -3233,6 +3238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/rohanxxx/leetcode/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0729-my-calendar-i](https://github.com/rohanxxx/leetcode/tree/master/0729-my-calendar-i) |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/rohanxxx/leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/rohanxxx/leetcode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/rohanxxx/leetcode/tree/master/3791-fruits-into-baskets-iii) |
 ## Merge Sort
@@ -3243,6 +3249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/rohanxxx/leetcode/tree/master/0493-reverse-pairs) |
 | [0912-sort-an-array](https://github.com/rohanxxx/leetcode/tree/master/0912-sort-an-array) |
 | [0948-sort-an-array](https://github.com/rohanxxx/leetcode/tree/master/0948-sort-an-array) |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/rohanxxx/leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Brainteaser
 |  |
 | ------- |
