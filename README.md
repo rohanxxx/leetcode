@@ -1461,6 +1461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2232-adding-spaces-to-a-string](https://github.com/rohanxxx/leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/rohanxxx/leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/rohanxxx/leetcode/tree/master/2346-largest-3-same-digit-number-in-string) |
+| [2351-first-letter-to-appear-twice](https://github.com/rohanxxx/leetcode/tree/master/2351-first-letter-to-appear-twice) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rohanxxx/leetcode/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2378-sender-with-largest-word-count](https://github.com/rohanxxx/leetcode/tree/master/2378-sender-with-largest-word-count) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/rohanxxx/leetcode/tree/master/2414-move-pieces-to-obtain-a-string) |
@@ -1955,6 +1956,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/rohanxxx/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2240-intervals-between-identical-elements](https://github.com/rohanxxx/leetcode/tree/master/2240-intervals-between-identical-elements) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2351-first-letter-to-appear-twice](https://github.com/rohanxxx/leetcode/tree/master/2351-first-letter-to-appear-twice) |
 | [2368-reachable-nodes-with-restrictions](https://github.com/rohanxxx/leetcode/tree/master/2368-reachable-nodes-with-restrictions) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rohanxxx/leetcode/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2378-sender-with-largest-word-count](https://github.com/rohanxxx/leetcode/tree/master/2378-sender-with-largest-word-count) |
@@ -2145,6 +2147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1983-maximum-population-year](https://github.com/rohanxxx/leetcode/tree/master/1983-maximum-population-year) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/rohanxxx/leetcode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2139-detect-squares](https://github.com/rohanxxx/leetcode/tree/master/2139-detect-squares) |
+| [2351-first-letter-to-appear-twice](https://github.com/rohanxxx/leetcode/tree/master/2351-first-letter-to-appear-twice) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rohanxxx/leetcode/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2378-sender-with-largest-word-count](https://github.com/rohanxxx/leetcode/tree/master/2378-sender-with-largest-word-count) |
 | [2833-furthest-point-from-origin](https://github.com/rohanxxx/leetcode/tree/master/2833-furthest-point-from-origin) |
@@ -2459,6 +2462,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1650-find-root-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1650-find-root-of-n-ary-tree) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/rohanxxx/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/rohanxxx/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2351-first-letter-to-appear-twice](https://github.com/rohanxxx/leetcode/tree/master/2351-first-letter-to-appear-twice) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/rohanxxx/leetcode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/rohanxxx/leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/rohanxxx/leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
