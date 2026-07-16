@@ -261,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1650-find-root-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1650-find-root-of-n-ary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/rohanxxx/leetcode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1665-diameter-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1665-diameter-of-n-ary-tree) |
+| [1740-find-distance-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1745-find-nearest-right-node-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1745-find-nearest-right-node-in-binary-tree) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
@@ -426,6 +427,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/rohanxxx/leetcode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1665-diameter-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1665-diameter-of-n-ary-tree) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/rohanxxx/leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
+| [1740-find-distance-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/rohanxxx/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
 | [2009-longest-word-with-all-prefixes](https://github.com/rohanxxx/leetcode/tree/master/2009-longest-word-with-all-prefixes) |
@@ -567,6 +569,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1609-find-all-the-lonely-nodes](https://github.com/rohanxxx/leetcode/tree/master/1609-find-all-the-lonely-nodes) |
 | [1631-path-with-minimum-effort](https://github.com/rohanxxx/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1634-clone-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1634-clone-n-ary-tree) |
+| [1740-find-distance-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1745-find-nearest-right-node-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1745-find-nearest-right-node-in-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/rohanxxx/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
@@ -699,6 +702,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1544-count-good-nodes-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1609-find-all-the-lonely-nodes](https://github.com/rohanxxx/leetcode/tree/master/1609-find-all-the-lonely-nodes) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/rohanxxx/leetcode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
+| [1740-find-distance-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1745-find-nearest-right-node-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1745-find-nearest-right-node-in-binary-tree) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
@@ -1945,6 +1949,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1650-find-root-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1650-find-root-of-n-ary-tree) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/rohanxxx/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1726-tuple-with-same-product](https://github.com/rohanxxx/leetcode/tree/master/1726-tuple-with-same-product) |
+| [1740-find-distance-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/rohanxxx/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/rohanxxx/leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
