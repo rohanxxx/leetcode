@@ -993,6 +993,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1241-decompress-run-length-encoded-list](https://github.com/rohanxxx/leetcode/tree/master/1241-decompress-run-length-encoded-list) |
 | [1249-snapshot-array](https://github.com/rohanxxx/leetcode/tree/master/1249-snapshot-array) |
+| [1260-shift-2d-grid](https://github.com/rohanxxx/leetcode/tree/master/1260-shift-2d-grid) |
 | [1286-constrained-subsequence-sum](https://github.com/rohanxxx/leetcode/tree/master/1286-constrained-subsequence-sum) |
 | [1293-three-consecutive-odds](https://github.com/rohanxxx/leetcode/tree/master/1293-three-consecutive-odds) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/rohanxxx/leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
@@ -1271,6 +1272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1102-path-with-maximum-minimum-value](https://github.com/rohanxxx/leetcode/tree/master/1102-path-with-maximum-minimum-value) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/rohanxxx/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/rohanxxx/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1260-shift-2d-grid](https://github.com/rohanxxx/leetcode/tree/master/1260-shift-2d-grid) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/rohanxxx/leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1331-path-with-maximum-gold](https://github.com/rohanxxx/leetcode/tree/master/1331-path-with-maximum-gold) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
@@ -2912,6 +2914,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-reveal-cards-in-increasing-order](https://github.com/rohanxxx/leetcode/tree/master/0987-reveal-cards-in-increasing-order) |
 | [1094-car-pooling](https://github.com/rohanxxx/leetcode/tree/master/1094-car-pooling) |
 | [1119-robot-bounded-in-circle](https://github.com/rohanxxx/leetcode/tree/master/1119-robot-bounded-in-circle) |
+| [1260-shift-2d-grid](https://github.com/rohanxxx/leetcode/tree/master/1260-shift-2d-grid) |
 | [1310-watering-plants](https://github.com/rohanxxx/leetcode/tree/master/1310-watering-plants) |
 | [1682-most-visited-sector-in-a-circular-track](https://github.com/rohanxxx/leetcode/tree/master/1682-most-visited-sector-in-a-circular-track) |
 | [1803-average-waiting-time](https://github.com/rohanxxx/leetcode/tree/master/1803-average-waiting-time) |
