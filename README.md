@@ -1495,6 +1495,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3468-find-the-encrypted-string](https://github.com/rohanxxx/leetcode/tree/master/3468-find-the-encrypted-string) |
 | [3481-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3481-apply-substitutions) |
 | [3484-lexicographically-smallest-string-after-a-swap](https://github.com/rohanxxx/leetcode/tree/master/3484-lexicographically-smallest-string-after-a-swap) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/rohanxxx/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3533-snake-in-matrix](https://github.com/rohanxxx/leetcode/tree/master/3533-snake-in-matrix) |
 | [3543-count-substrings-that-satisfy-k-constraint-i](https://github.com/rohanxxx/leetcode/tree/master/3543-count-substrings-that-satisfy-k-constraint-i) |
 | [3553-check-if-two-chessboard-squares-have-the-same-color](https://github.com/rohanxxx/leetcode/tree/master/3553-check-if-two-chessboard-squares-have-the-same-color) |
@@ -1810,6 +1811,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3151-minimum-processing-time](https://github.com/rohanxxx/leetcode/tree/master/3151-minimum-processing-time) |
 | [3321-type-of-triangle](https://github.com/rohanxxx/leetcode/tree/master/3321-type-of-triangle) |
 | [3430-count-days-without-meetings](https://github.com/rohanxxx/leetcode/tree/master/3430-count-days-without-meetings) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/rohanxxx/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/rohanxxx/leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/rohanxxx/leetcode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3836-phone-number-prefix](https://github.com/rohanxxx/leetcode/tree/master/3836-phone-number-prefix) |
@@ -3320,6 +3322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0561-array-partition](https://github.com/rohanxxx/leetcode/tree/master/0561-array-partition) |
 | [0912-sort-an-array](https://github.com/rohanxxx/leetcode/tree/master/0912-sort-an-array) |
 | [0948-sort-an-array](https://github.com/rohanxxx/leetcode/tree/master/0948-sort-an-array) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/rohanxxx/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 ## Line Sweep
 |  |
 | ------- |
