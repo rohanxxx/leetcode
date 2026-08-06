@@ -1,6 +1,6 @@
 class Solution {
 public:
-    long long get_product(int n){
+    long long get_product(int& n){
         int x = n;
         long long product = 1;
         while(x > 0){
