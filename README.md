@@ -927,6 +927,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/rohanxxx/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0808-number-of-matching-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0808-number-of-matching-subsequences) |
 | [0830-largest-triangle-area](https://github.com/rohanxxx/leetcode/tree/master/0830-largest-triangle-area) |
+| [0832-flipping-an-image](https://github.com/rohanxxx/leetcode/tree/master/0832-flipping-an-image) |
 | [0833-bus-routes](https://github.com/rohanxxx/leetcode/tree/master/0833-bus-routes) |
 | [0846-hand-of-straights](https://github.com/rohanxxx/leetcode/tree/master/0846-hand-of-straights) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/rohanxxx/leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
@@ -1265,6 +1266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0675-cut-off-trees-for-golf-event](https://github.com/rohanxxx/leetcode/tree/master/0675-cut-off-trees-for-golf-event) |
 | [0695-max-area-of-island](https://github.com/rohanxxx/leetcode/tree/master/0695-max-area-of-island) |
 | [0794-swim-in-rising-water](https://github.com/rohanxxx/leetcode/tree/master/0794-swim-in-rising-water) |
+| [0832-flipping-an-image](https://github.com/rohanxxx/leetcode/tree/master/0832-flipping-an-image) |
 | [0854-making-a-large-island](https://github.com/rohanxxx/leetcode/tree/master/0854-making-a-large-island) |
 | [0864-shortest-path-to-get-all-keys](https://github.com/rohanxxx/leetcode/tree/master/0864-shortest-path-to-get-all-keys) |
 | [0898-transpose-matrix](https://github.com/rohanxxx/leetcode/tree/master/0898-transpose-matrix) |
@@ -1580,6 +1582,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/rohanxxx/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0680-valid-palindrome-ii](https://github.com/rohanxxx/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0763-partition-labels](https://github.com/rohanxxx/leetcode/tree/master/0763-partition-labels) |
+| [0832-flipping-an-image](https://github.com/rohanxxx/leetcode/tree/master/0832-flipping-an-image) |
 | [0908-middle-of-the-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [0917-boats-to-save-people](https://github.com/rohanxxx/leetcode/tree/master/0917-boats-to-save-people) |
 | [0941-sort-array-by-parity](https://github.com/rohanxxx/leetcode/tree/master/0941-sort-array-by-parity) |
@@ -2481,6 +2484,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/rohanxxx/leetcode/tree/master/0342-power-of-four) |
 | [0389-find-the-difference](https://github.com/rohanxxx/leetcode/tree/master/0389-find-the-difference) |
 | [0645-set-mismatch](https://github.com/rohanxxx/leetcode/tree/master/0645-set-mismatch) |
+| [0832-flipping-an-image](https://github.com/rohanxxx/leetcode/tree/master/0832-flipping-an-image) |
 | [0864-shortest-path-to-get-all-keys](https://github.com/rohanxxx/leetcode/tree/master/0864-shortest-path-to-get-all-keys) |
 | [0877-shortest-path-visiting-all-nodes](https://github.com/rohanxxx/leetcode/tree/master/0877-shortest-path-visiting-all-nodes) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/rohanxxx/leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
@@ -2929,6 +2933,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0415-add-strings](https://github.com/rohanxxx/leetcode/tree/master/0415-add-strings) |
 | [0495-teemo-attacking](https://github.com/rohanxxx/leetcode/tree/master/0495-teemo-attacking) |
 | [0498-diagonal-traverse](https://github.com/rohanxxx/leetcode/tree/master/0498-diagonal-traverse) |
+| [0832-flipping-an-image](https://github.com/rohanxxx/leetcode/tree/master/0832-flipping-an-image) |
 | [0898-transpose-matrix](https://github.com/rohanxxx/leetcode/tree/master/0898-transpose-matrix) |
 | [0987-reveal-cards-in-increasing-order](https://github.com/rohanxxx/leetcode/tree/master/0987-reveal-cards-in-increasing-order) |
 | [1094-car-pooling](https://github.com/rohanxxx/leetcode/tree/master/1094-car-pooling) |
