@@ -1,46 +1,31 @@
 class Solution {
 public:
-    bool dfs(int node, int parent, int& target, vector<vector<int>>& graph, unordered_set<int>& myset){
-        if(node == target){
-            myset.insert(node);
-            return true;
+    int dfs(vector<vector<int>>& graph, int node, int parent, int x, int y){
+        int found = INT_MIN;
+        if(node == x || node == y){
+            found = node;
+        }
+
+        int count = 0;
+        if(found != INT_MIN){
+            count = 1;
         }
 
         for(auto adjn: graph[node]){
             if(adjn == parent){
                 continue;
             }
-            if(dfs(adjn, node, target, graph, myset) == true){
-                myset.insert(node);
-                return true;
+            int ret = dfs(graph, adjn, node, x, y);
+            if(ret != INT_MIN){
+                count++;
+                found = ret;
+                if(count == 2){
+                    return node;      // both x and y converge here — this is the LCA
+                }
             }
         }
-        return false;
-    }
 
-    int bfs(int node, vector<vector<int>>& graph, unordered_set<int>& myset){
-        if(myset.find(node) != myset.end()){
-            return node;
-        }
-        queue<vector<int>> q;
-        q.push({node, -1});
-
-        while(!q.empty()){
-            auto it = q.front(); q.pop();
-            int cur = it[0];
-            int parent = it[1];
-
-            for(auto adjn: graph[cur]){
-                if(adjn == parent){
-                    continue;
-                }
-                if(myset.find(adjn) != myset.end()){
-                    return adjn;
-                }
-                q.push({adjn, cur});
-            }
-        }
-        return -1;
+        return found;   // INT_MIN if neither found, or the single found node propagated up
     }
     vector<int> closestNode(int n, vector<vector<int>>& edges, vector<vector<int>>& query) {
         vector<vector<int>> graph(n);
@@ -54,14 +39,9 @@ public:
             int start = it[0];
             int end = it[1];
             int target = it[2];
+            int closestNode = dfs(graph, target, -1, start, end);
 
-            unordered_set<int> myset;
-
-            dfs(start, -1, end, graph, myset);
-
-            int closestNode = bfs(target, graph, myset);
-
-            if(closestNode == -1){
+            if(closestNode == INT_MIN){
                 continue;
             }
             ans.push_back(closestNode);
