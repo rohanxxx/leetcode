@@ -596,6 +596,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2793-count-the-number-of-complete-components](https://github.com/rohanxxx/leetcode/tree/master/2793-count-the-number-of-complete-components) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/2914-find-the-safest-path-in-a-grid) |
+| [3243-shortest-distance-after-road-addition-queries-i](https://github.com/rohanxxx/leetcode/tree/master/3243-shortest-distance-after-road-addition-queries-i) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/rohanxxx/leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3386-find-edges-in-shortest-paths](https://github.com/rohanxxx/leetcode/tree/master/3386-find-edges-in-shortest-paths) |
 | [3481-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3481-apply-substitutions) |
@@ -1167,6 +1168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3227-find-missing-and-repeated-values](https://github.com/rohanxxx/leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/rohanxxx/leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/rohanxxx/leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
+| [3243-shortest-distance-after-road-addition-queries-i](https://github.com/rohanxxx/leetcode/tree/master/3243-shortest-distance-after-road-addition-queries-i) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/rohanxxx/leetcode/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3254-number-of-divisible-triplet-sums](https://github.com/rohanxxx/leetcode/tree/master/3254-number-of-divisible-triplet-sums) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/rohanxxx/leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
@@ -3412,6 +3414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2368-reachable-nodes-with-restrictions](https://github.com/rohanxxx/leetcode/tree/master/2368-reachable-nodes-with-restrictions) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/rohanxxx/leetcode/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 | [2685-count-the-number-of-complete-components](https://github.com/rohanxxx/leetcode/tree/master/2685-count-the-number-of-complete-components) |
+| [3243-shortest-distance-after-road-addition-queries-i](https://github.com/rohanxxx/leetcode/tree/master/3243-shortest-distance-after-road-addition-queries-i) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/rohanxxx/leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3481-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3481-apply-substitutions) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/rohanxxx/leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
