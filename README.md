@@ -332,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0404-sum-of-left-leaves](https://github.com/rohanxxx/leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0417-pacific-atlantic-water-flow](https://github.com/rohanxxx/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0419-battleships-in-a-board](https://github.com/rohanxxx/leetcode/tree/master/0419-battleships-in-a-board) |
+| [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0437-path-sum-iii](https://github.com/rohanxxx/leetcode/tree/master/0437-path-sum-iii) |
 | [0463-island-perimeter](https://github.com/rohanxxx/leetcode/tree/master/0463-island-perimeter) |
 | [0490-the-maze](https://github.com/rohanxxx/leetcode/tree/master/0490-the-maze) |
@@ -2825,6 +2826,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0328-odd-even-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0328-odd-even-linked-list) |
 | [0369-plus-one-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0369-plus-one-linked-list) |
 | [0382-linked-list-random-node](https://github.com/rohanxxx/leetcode/tree/master/0382-linked-list-random-node) |
+| [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0706-design-hashmap](https://github.com/rohanxxx/leetcode/tree/master/0706-design-hashmap) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0850-insert-into-a-sorted-circular-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0850-insert-into-a-sorted-circular-linked-list) |
@@ -3299,6 +3301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/rohanxxx/leetcode/tree/master/0146-lru-cache) |
+| [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/rohanxxx/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [1582-design-browser-history](https://github.com/rohanxxx/leetcode/tree/master/1582-design-browser-history) |
 | [3577-convert-doubly-linked-list-to-array-i](https://github.com/rohanxxx/leetcode/tree/master/3577-convert-doubly-linked-list-to-array-i) |
