@@ -1,6 +1,10 @@
 class Solution {
 public:
     void backtrack(int index, vector<vector<int>>& ans, vector<int>& curr, int& k, int target){
+        if(target < 0){
+            return;
+        }
+        
         if(curr.size() == k){
             if(target == 0){
                 ans.push_back(curr);
