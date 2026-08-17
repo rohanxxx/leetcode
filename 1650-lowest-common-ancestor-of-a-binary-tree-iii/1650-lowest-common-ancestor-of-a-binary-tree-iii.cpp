@@ -12,20 +12,16 @@ public:
 class Solution {
 public:
     Node* lowestCommonAncestor(Node* p, Node * q) {
-        unordered_map<int, bool> visited;
         while(p){
-            visited[p->val] = true;
-            p = p->parent;
+            Node* parent = p->parent;
+            p->parent = NULL;
+            p = parent; 
         }
 
-        while(q){
-            if(visited[q->val]){
-                return q;
-            }
-            visited[q->val];
+        while(q->parent){
             q = q->parent;
         }
 
-        return NULL;
+        return q;
     }
 };
