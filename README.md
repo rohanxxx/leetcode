@@ -1191,6 +1191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3430-count-days-without-meetings](https://github.com/rohanxxx/leetcode/tree/master/3430-count-days-without-meetings) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/rohanxxx/leetcode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3463-alternating-groups-i](https://github.com/rohanxxx/leetcode/tree/master/3463-alternating-groups-i) |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/rohanxxx/leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3472-bitwise-or-of-adjacent-elements](https://github.com/rohanxxx/leetcode/tree/master/3472-bitwise-or-of-adjacent-elements) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/rohanxxx/leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/rohanxxx/leetcode/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
@@ -2039,6 +2040,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/rohanxxx/leetcode/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/rohanxxx/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3343-count-numbers-with-unique-digits-ii](https://github.com/rohanxxx/leetcode/tree/master/3343-count-numbers-with-unique-digits-ii) |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/rohanxxx/leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3481-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3481-apply-substitutions) |
 | [3488-closest-equal-element-queries](https://github.com/rohanxxx/leetcode/tree/master/3488-closest-equal-element-queries) |
 | [3519-find-the-number-of-winning-players](https://github.com/rohanxxx/leetcode/tree/master/3519-find-the-number-of-winning-players) |
