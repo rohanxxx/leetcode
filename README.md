@@ -1384,6 +1384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/rohanxxx/leetcode/tree/master/0257-binary-tree-paths) |
 | [0266-palindrome-permutation](https://github.com/rohanxxx/leetcode/tree/master/0266-palindrome-permutation) |
 | [0290-word-pattern](https://github.com/rohanxxx/leetcode/tree/master/0290-word-pattern) |
+| [0291-word-pattern-ii](https://github.com/rohanxxx/leetcode/tree/master/0291-word-pattern-ii) |
 | [0293-flip-game](https://github.com/rohanxxx/leetcode/tree/master/0293-flip-game) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0318-maximum-product-of-word-lengths](https://github.com/rohanxxx/leetcode/tree/master/0318-maximum-product-of-word-lengths) |
@@ -1892,6 +1893,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0266-palindrome-permutation](https://github.com/rohanxxx/leetcode/tree/master/0266-palindrome-permutation) |
 | [0268-missing-number](https://github.com/rohanxxx/leetcode/tree/master/0268-missing-number) |
 | [0290-word-pattern](https://github.com/rohanxxx/leetcode/tree/master/0290-word-pattern) |
+| [0291-word-pattern-ii](https://github.com/rohanxxx/leetcode/tree/master/0291-word-pattern-ii) |
 | [0305-number-of-islands-ii](https://github.com/rohanxxx/leetcode/tree/master/0305-number-of-islands-ii) |
 | [0311-sparse-matrix-multiplication](https://github.com/rohanxxx/leetcode/tree/master/0311-sparse-matrix-multiplication) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/rohanxxx/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -3029,6 +3031,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/rohanxxx/leetcode/tree/master/0212-word-search-ii) |
 | [0216-combination-sum-iii](https://github.com/rohanxxx/leetcode/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/rohanxxx/leetcode/tree/master/0257-binary-tree-paths) |
+| [0291-word-pattern-ii](https://github.com/rohanxxx/leetcode/tree/master/0291-word-pattern-ii) |
 | [0294-flip-game-ii](https://github.com/rohanxxx/leetcode/tree/master/0294-flip-game-ii) |
 | [0357-count-numbers-with-unique-digits](https://github.com/rohanxxx/leetcode/tree/master/0357-count-numbers-with-unique-digits) |
 | [0494-target-sum](https://github.com/rohanxxx/leetcode/tree/master/0494-target-sum) |
