@@ -2140,6 +2140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/rohanxxx/leetcode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1448-maximum-69-number](https://github.com/rohanxxx/leetcode/tree/master/1448-maximum-69-number) |
 | [1500-count-largest-group](https://github.com/rohanxxx/leetcode/tree/master/1500-count-largest-group) |
+| [1518-water-bottles](https://github.com/rohanxxx/leetcode/tree/master/1518-water-bottles) |
 | [1543-simplified-fractions](https://github.com/rohanxxx/leetcode/tree/master/1543-simplified-fractions) |
 | [1585-the-kth-factor-of-n](https://github.com/rohanxxx/leetcode/tree/master/1585-the-kth-factor-of-n) |
 | [1635-number-of-good-pairs](https://github.com/rohanxxx/leetcode/tree/master/1635-number-of-good-pairs) |
@@ -2989,6 +2990,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1119-robot-bounded-in-circle](https://github.com/rohanxxx/leetcode/tree/master/1119-robot-bounded-in-circle) |
 | [1260-shift-2d-grid](https://github.com/rohanxxx/leetcode/tree/master/1260-shift-2d-grid) |
 | [1310-watering-plants](https://github.com/rohanxxx/leetcode/tree/master/1310-watering-plants) |
+| [1518-water-bottles](https://github.com/rohanxxx/leetcode/tree/master/1518-water-bottles) |
 | [1682-most-visited-sector-in-a-circular-track](https://github.com/rohanxxx/leetcode/tree/master/1682-most-visited-sector-in-a-circular-track) |
 | [1803-average-waiting-time](https://github.com/rohanxxx/leetcode/tree/master/1803-average-waiting-time) |
 | [1914-cyclically-rotating-a-grid](https://github.com/rohanxxx/leetcode/tree/master/1914-cyclically-rotating-a-grid) |
