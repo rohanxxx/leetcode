@@ -948,6 +948,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0854-making-a-large-island](https://github.com/rohanxxx/leetcode/tree/master/0854-making-a-large-island) |
 | [0860-design-circular-queue](https://github.com/rohanxxx/leetcode/tree/master/0860-design-circular-queue) |
 | [0864-shortest-path-to-get-all-keys](https://github.com/rohanxxx/leetcode/tree/master/0864-shortest-path-to-get-all-keys) |
+| [0877-stone-game](https://github.com/rohanxxx/leetcode/tree/master/0877-stone-game) |
 | [0890-lemonade-change](https://github.com/rohanxxx/leetcode/tree/master/0890-lemonade-change) |
 | [0898-transpose-matrix](https://github.com/rohanxxx/leetcode/tree/master/0898-transpose-matrix) |
 | [0904-fruit-into-baskets](https://github.com/rohanxxx/leetcode/tree/master/0904-fruit-into-baskets) |
@@ -2119,6 +2120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0670-maximum-swap](https://github.com/rohanxxx/leetcode/tree/master/0670-maximum-swap) |
 | [0728-self-dividing-numbers](https://github.com/rohanxxx/leetcode/tree/master/0728-self-dividing-numbers) |
 | [0830-largest-triangle-area](https://github.com/rohanxxx/leetcode/tree/master/0830-largest-triangle-area) |
+| [0877-stone-game](https://github.com/rohanxxx/leetcode/tree/master/0877-stone-game) |
 | [0900-reordered-power-of-2](https://github.com/rohanxxx/leetcode/tree/master/0900-reordered-power-of-2) |
 | [0912-random-pick-with-weight](https://github.com/rohanxxx/leetcode/tree/master/0912-random-pick-with-weight) |
 | [0923-super-egg-drop](https://github.com/rohanxxx/leetcode/tree/master/0923-super-egg-drop) |
@@ -2424,6 +2426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0808-number-of-matching-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0808-number-of-matching-subsequences) |
 | [0863-sum-of-distances-in-tree](https://github.com/rohanxxx/leetcode/tree/master/0863-sum-of-distances-in-tree) |
 | [0877-shortest-path-visiting-all-nodes](https://github.com/rohanxxx/leetcode/tree/master/0877-shortest-path-visiting-all-nodes) |
+| [0877-stone-game](https://github.com/rohanxxx/leetcode/tree/master/0877-stone-game) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0907-sum-of-subarray-minimums](https://github.com/rohanxxx/leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [0923-super-egg-drop](https://github.com/rohanxxx/leetcode/tree/master/0923-super-egg-drop) |
@@ -3358,6 +3361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0294-flip-game-ii](https://github.com/rohanxxx/leetcode/tree/master/0294-flip-game-ii) |
+| [0877-stone-game](https://github.com/rohanxxx/leetcode/tree/master/0877-stone-game) |
 | [1086-divisor-game](https://github.com/rohanxxx/leetcode/tree/master/1086-divisor-game) |
 ## Binary Indexed Tree
 |  |
@@ -3461,4 +3465,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/rohanxxx/leetcode/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
+## Minimax
+|  |
+| ------- |
+| [0877-stone-game](https://github.com/rohanxxx/leetcode/tree/master/0877-stone-game) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [0877-stone-game](https://github.com/rohanxxx/leetcode/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
