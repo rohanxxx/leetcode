@@ -18,10 +18,9 @@ public:
                 if(ans.size() > right-left+1 || ans == ""){
                     ans = s.substr(left, right-left+1);
                 }
-                if(s[left] == '1'){
+                if(s[left++] == '1'){
                     oneCount--;
                 }
-                left++;
             }
         }
         return ans;
