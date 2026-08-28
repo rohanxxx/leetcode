@@ -1119,6 +1119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2126-destroying-asteroids](https://github.com/rohanxxx/leetcode/tree/master/2126-destroying-asteroids) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/rohanxxx/leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2139-detect-squares](https://github.com/rohanxxx/leetcode/tree/master/2139-detect-squares) |
+| [2150-find-all-lonely-numbers-in-the-array](https://github.com/rohanxxx/leetcode/tree/master/2150-find-all-lonely-numbers-in-the-array) |
 | [2195-time-needed-to-buy-tickets](https://github.com/rohanxxx/leetcode/tree/master/2195-time-needed-to-buy-tickets) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2199-two-furthest-houses-with-different-colors](https://github.com/rohanxxx/leetcode/tree/master/2199-two-furthest-houses-with-different-colors) |
@@ -2021,6 +2022,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2107-find-unique-binary-string](https://github.com/rohanxxx/leetcode/tree/master/2107-find-unique-binary-string) |
 | [2117-find-original-array-from-doubled-array](https://github.com/rohanxxx/leetcode/tree/master/2117-find-original-array-from-doubled-array) |
 | [2139-detect-squares](https://github.com/rohanxxx/leetcode/tree/master/2139-detect-squares) |
+| [2150-find-all-lonely-numbers-in-the-array](https://github.com/rohanxxx/leetcode/tree/master/2150-find-all-lonely-numbers-in-the-array) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/rohanxxx/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2240-intervals-between-identical-elements](https://github.com/rohanxxx/leetcode/tree/master/2240-intervals-between-identical-elements) |
@@ -2227,6 +2229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1983-maximum-population-year](https://github.com/rohanxxx/leetcode/tree/master/1983-maximum-population-year) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/rohanxxx/leetcode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2139-detect-squares](https://github.com/rohanxxx/leetcode/tree/master/2139-detect-squares) |
+| [2150-find-all-lonely-numbers-in-the-array](https://github.com/rohanxxx/leetcode/tree/master/2150-find-all-lonely-numbers-in-the-array) |
 | [2351-first-letter-to-appear-twice](https://github.com/rohanxxx/leetcode/tree/master/2351-first-letter-to-appear-twice) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rohanxxx/leetcode/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2378-sender-with-largest-word-count](https://github.com/rohanxxx/leetcode/tree/master/2378-sender-with-largest-word-count) |
