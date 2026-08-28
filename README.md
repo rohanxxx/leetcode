@@ -814,6 +814,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/rohanxxx/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0243-shortest-word-distance](https://github.com/rohanxxx/leetcode/tree/master/0243-shortest-word-distance) |
 | [0244-shortest-word-distance-ii](https://github.com/rohanxxx/leetcode/tree/master/0244-shortest-word-distance-ii) |
+| [0245-shortest-word-distance-iii](https://github.com/rohanxxx/leetcode/tree/master/0245-shortest-word-distance-iii) |
 | [0249-group-shifted-strings](https://github.com/rohanxxx/leetcode/tree/master/0249-group-shifted-strings) |
 | [0251-flatten-2d-vector](https://github.com/rohanxxx/leetcode/tree/master/0251-flatten-2d-vector) |
 | [0252-meeting-rooms](https://github.com/rohanxxx/leetcode/tree/master/0252-meeting-rooms) |
@@ -1387,6 +1388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/rohanxxx/leetcode/tree/master/0242-valid-anagram) |
 | [0243-shortest-word-distance](https://github.com/rohanxxx/leetcode/tree/master/0243-shortest-word-distance) |
 | [0244-shortest-word-distance-ii](https://github.com/rohanxxx/leetcode/tree/master/0244-shortest-word-distance-ii) |
+| [0245-shortest-word-distance-iii](https://github.com/rohanxxx/leetcode/tree/master/0245-shortest-word-distance-iii) |
 | [0249-group-shifted-strings](https://github.com/rohanxxx/leetcode/tree/master/0249-group-shifted-strings) |
 | [0257-binary-tree-paths](https://github.com/rohanxxx/leetcode/tree/master/0257-binary-tree-paths) |
 | [0266-palindrome-permutation](https://github.com/rohanxxx/leetcode/tree/master/0266-palindrome-permutation) |
