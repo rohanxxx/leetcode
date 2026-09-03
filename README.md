@@ -1018,6 +1018,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1289-minimum-falling-path-sum-ii](https://github.com/rohanxxx/leetcode/tree/master/1289-minimum-falling-path-sum-ii) |
 | [1293-three-consecutive-odds](https://github.com/rohanxxx/leetcode/tree/master/1293-three-consecutive-odds) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/rohanxxx/leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
+| [1295-find-numbers-with-even-number-of-digits](https://github.com/rohanxxx/leetcode/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1306-minimum-absolute-difference](https://github.com/rohanxxx/leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1306-jump-game-iii](https://github.com/rohanxxx/leetcode/tree/master/1306-jump-game-iii) |
 | [1310-watering-plants](https://github.com/rohanxxx/leetcode/tree/master/1310-watering-plants) |
@@ -2153,6 +2154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1236-n-th-tribonacci-number](https://github.com/rohanxxx/leetcode/tree/master/1236-n-th-tribonacci-number) |
 | [1260-day-of-the-year](https://github.com/rohanxxx/leetcode/tree/master/1260-day-of-the-year) |
 | [1274-number-of-days-between-two-dates](https://github.com/rohanxxx/leetcode/tree/master/1274-number-of-days-between-two-dates) |
+| [1295-find-numbers-with-even-number-of-digits](https://github.com/rohanxxx/leetcode/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1345-perform-string-shifts](https://github.com/rohanxxx/leetcode/tree/master/1345-perform-string-shifts) |
 | [1370-count-number-of-nice-subarrays](https://github.com/rohanxxx/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1406-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/rohanxxx/leetcode/tree/master/1406-subtract-the-product-and-sum-of-digits-of-an-integer) |
