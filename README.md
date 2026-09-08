@@ -2209,6 +2209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/rohanxxx/leetcode/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3783-mirror-distance-of-an-integer](https://github.com/rohanxxx/leetcode/tree/master/3783-mirror-distance-of-an-integer) |
 | [3859-maximum-product-of-two-digits](https://github.com/rohanxxx/leetcode/tree/master/3859-maximum-product-of-two-digits) |
+| [3870-count-commas-in-range](https://github.com/rohanxxx/leetcode/tree/master/3870-count-commas-in-range) |
 | [3875-construct-uniform-parity-array-i](https://github.com/rohanxxx/leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 ## Counting
 |  |
