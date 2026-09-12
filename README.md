@@ -2134,6 +2134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0263-ugly-number](https://github.com/rohanxxx/leetcode/tree/master/0263-ugly-number) |
 | [0268-missing-number](https://github.com/rohanxxx/leetcode/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/rohanxxx/leetcode/tree/master/0279-perfect-squares) |
+| [0292-nim-game](https://github.com/rohanxxx/leetcode/tree/master/0292-nim-game) |
 | [0294-flip-game-ii](https://github.com/rohanxxx/leetcode/tree/master/0294-flip-game-ii) |
 | [0326-power-of-three](https://github.com/rohanxxx/leetcode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/rohanxxx/leetcode/tree/master/0342-power-of-four) |
@@ -3400,10 +3401,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Brainteaser
 |  |
 | ------- |
+| [0292-nim-game](https://github.com/rohanxxx/leetcode/tree/master/0292-nim-game) |
 | [1086-divisor-game](https://github.com/rohanxxx/leetcode/tree/master/1086-divisor-game) |
 ## Game Theory
 |  |
 | ------- |
+| [0292-nim-game](https://github.com/rohanxxx/leetcode/tree/master/0292-nim-game) |
 | [0294-flip-game-ii](https://github.com/rohanxxx/leetcode/tree/master/0294-flip-game-ii) |
 | [0877-stone-game](https://github.com/rohanxxx/leetcode/tree/master/0877-stone-game) |
 | [1086-divisor-game](https://github.com/rohanxxx/leetcode/tree/master/1086-divisor-game) |
@@ -3512,6 +3515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Minimax
 |  |
 | ------- |
+| [0292-nim-game](https://github.com/rohanxxx/leetcode/tree/master/0292-nim-game) |
 | [0877-stone-game](https://github.com/rohanxxx/leetcode/tree/master/0877-stone-game) |
 ## Zero-Sum Game
 |  |
@@ -3521,4 +3525,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1273-delete-tree-nodes](https://github.com/rohanxxx/leetcode/tree/master/1273-delete-tree-nodes) |
+## Nim Game
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/rohanxxx/leetcode/tree/master/0292-nim-game) |
+## Impartial Game
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/rohanxxx/leetcode/tree/master/0292-nim-game) |
 <!---LeetCode Topics End-->
