@@ -1,5 +1,7 @@
 class Solution {
 public:
+    //TC: O(N+M)
+    //SC: O(1)
     int numberOfBeams(vector<string>& bank) {
         int prev_row_laser_count = 0;
         for(auto c: bank[0]){
