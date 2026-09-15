@@ -1275,6 +1275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/rohanxxx/leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 | [3838-weighted-word-mapping](https://github.com/rohanxxx/leetcode/tree/master/3838-weighted-word-mapping) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/rohanxxx/leetcode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
+| [3865-reverse-k-subarrays](https://github.com/rohanxxx/leetcode/tree/master/3865-reverse-k-subarrays) |
 | [3875-construct-uniform-parity-array-i](https://github.com/rohanxxx/leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 ## Matrix
 |  |
@@ -1676,6 +1677,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/rohanxxx/leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/rohanxxx/leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/rohanxxx/leetcode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
+| [3865-reverse-k-subarrays](https://github.com/rohanxxx/leetcode/tree/master/3865-reverse-k-subarrays) |
 ## Greedy
 |  |
 | ------- |
