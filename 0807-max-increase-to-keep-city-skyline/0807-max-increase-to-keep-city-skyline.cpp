@@ -64,7 +64,8 @@ public:
         int sum = 0;
         for(int i = 0; i < row; i++){
             for(int j = 0; j < col; j++){
-                sum += min(rowMax[i], colMax[j]) - grid[i][j];
+                if(min(rowMax[i], colMax[j]) - grid[i][j] > 0)
+                    sum += min(rowMax[i], colMax[j]) - grid[i][j];
             }
         }
 
