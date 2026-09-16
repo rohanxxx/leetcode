@@ -958,6 +958,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0786-search-in-a-sorted-array-of-unknown-size](https://github.com/rohanxxx/leetcode/tree/master/0786-search-in-a-sorted-array-of-unknown-size) |
 | [0792-binary-search](https://github.com/rohanxxx/leetcode/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/rohanxxx/leetcode/tree/master/0794-swim-in-rising-water) |
+| [0807-max-increase-to-keep-city-skyline](https://github.com/rohanxxx/leetcode/tree/master/0807-max-increase-to-keep-city-skyline) |
 | [0808-number-of-matching-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0808-number-of-matching-subsequences) |
 | [0830-largest-triangle-area](https://github.com/rohanxxx/leetcode/tree/master/0830-largest-triangle-area) |
 | [0832-flipping-an-image](https://github.com/rohanxxx/leetcode/tree/master/0832-flipping-an-image) |
@@ -1320,6 +1321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0675-cut-off-trees-for-golf-event](https://github.com/rohanxxx/leetcode/tree/master/0675-cut-off-trees-for-golf-event) |
 | [0695-max-area-of-island](https://github.com/rohanxxx/leetcode/tree/master/0695-max-area-of-island) |
 | [0794-swim-in-rising-water](https://github.com/rohanxxx/leetcode/tree/master/0794-swim-in-rising-water) |
+| [0807-max-increase-to-keep-city-skyline](https://github.com/rohanxxx/leetcode/tree/master/0807-max-increase-to-keep-city-skyline) |
 | [0832-flipping-an-image](https://github.com/rohanxxx/leetcode/tree/master/0832-flipping-an-image) |
 | [0854-making-a-large-island](https://github.com/rohanxxx/leetcode/tree/master/0854-making-a-large-island) |
 | [0864-shortest-path-to-get-all-keys](https://github.com/rohanxxx/leetcode/tree/master/0864-shortest-path-to-get-all-keys) |
@@ -1718,6 +1720,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0767-reorganize-string](https://github.com/rohanxxx/leetcode/tree/master/0767-reorganize-string) |
 | [0769-max-chunks-to-make-sorted](https://github.com/rohanxxx/leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0778-reorganize-string](https://github.com/rohanxxx/leetcode/tree/master/0778-reorganize-string) |
+| [0807-max-increase-to-keep-city-skyline](https://github.com/rohanxxx/leetcode/tree/master/0807-max-increase-to-keep-city-skyline) |
 | [0846-hand-of-straights](https://github.com/rohanxxx/leetcode/tree/master/0846-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/rohanxxx/leetcode/tree/master/0890-lemonade-change) |
 | [0917-boats-to-save-people](https://github.com/rohanxxx/leetcode/tree/master/0917-boats-to-save-people) |
