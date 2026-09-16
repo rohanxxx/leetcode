@@ -1255,6 +1255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3651-transformed-array](https://github.com/rohanxxx/leetcode/tree/master/3651-transformed-array) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rohanxxx/leetcode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/rohanxxx/leetcode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
+| [3687-library-late-fee-calculator](https://github.com/rohanxxx/leetcode/tree/master/3687-library-late-fee-calculator) |
 | [3689-maximum-total-subarray-value-i](https://github.com/rohanxxx/leetcode/tree/master/3689-maximum-total-subarray-value-i) |
 | [3691-minimum-operations-to-make-columns-strictly-increasing](https://github.com/rohanxxx/leetcode/tree/master/3691-minimum-operations-to-make-columns-strictly-increasing) |
 | [3694-minimum-total-operations](https://github.com/rohanxxx/leetcode/tree/master/3694-minimum-total-operations) |
@@ -3080,6 +3081,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3616-make-array-elements-equal-to-zero](https://github.com/rohanxxx/leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3625-stone-removal-game](https://github.com/rohanxxx/leetcode/tree/master/3625-stone-removal-game) |
 | [3651-transformed-array](https://github.com/rohanxxx/leetcode/tree/master/3651-transformed-array) |
+| [3687-library-late-fee-calculator](https://github.com/rohanxxx/leetcode/tree/master/3687-library-late-fee-calculator) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/rohanxxx/leetcode/tree/master/3708-zigzag-grid-traversal-with-skip) |
 | [3790-fruits-into-baskets-ii](https://github.com/rohanxxx/leetcode/tree/master/3790-fruits-into-baskets-ii) |
 | [3838-weighted-word-mapping](https://github.com/rohanxxx/leetcode/tree/master/3838-weighted-word-mapping) |
