@@ -1231,6 +1231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/rohanxxx/leetcode/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3481-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3481-apply-substitutions) |
 | [3488-closest-equal-element-queries](https://github.com/rohanxxx/leetcode/tree/master/3488-closest-equal-element-queries) |
+| [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/rohanxxx/leetcode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/rohanxxx/leetcode/tree/master/3515-find-if-digit-game-can-be-won) |
 | [3519-find-the-number-of-winning-players](https://github.com/rohanxxx/leetcode/tree/master/3519-find-the-number-of-winning-players) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/rohanxxx/leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
@@ -2222,6 +2223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3343-count-numbers-with-unique-digits-ii](https://github.com/rohanxxx/leetcode/tree/master/3343-count-numbers-with-unique-digits-ii) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/rohanxxx/leetcode/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/rohanxxx/leetcode/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
+| [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/rohanxxx/leetcode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/rohanxxx/leetcode/tree/master/3515-find-if-digit-game-can-be-won) |
 | [3553-check-if-two-chessboard-squares-have-the-same-color](https://github.com/rohanxxx/leetcode/tree/master/3553-check-if-two-chessboard-squares-have-the-same-color) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/rohanxxx/leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
