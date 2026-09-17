@@ -281,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2583-kth-largest-sum-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2583-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/rohanxxx/leetcode/tree/master/2677-cousins-in-binary-tree-ii) |
 | [3157-find-the-level-of-tree-with-minimum-sum](https://github.com/rohanxxx/leetcode/tree/master/3157-find-the-level-of-tree-with-minimum-sum) |
+| [3249-count-the-number-of-good-nodes](https://github.com/rohanxxx/leetcode/tree/master/3249-count-the-number-of-good-nodes) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/rohanxxx/leetcode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/rohanxxx/leetcode/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3997-count-dominant-nodes-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/3997-count-dominant-nodes-in-a-binary-tree) |
@@ -464,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2793-count-the-number-of-complete-components](https://github.com/rohanxxx/leetcode/tree/master/2793-count-the-number-of-complete-components) |
 | [3157-find-the-level-of-tree-with-minimum-sum](https://github.com/rohanxxx/leetcode/tree/master/3157-find-the-level-of-tree-with-minimum-sum) |
+| [3249-count-the-number-of-good-nodes](https://github.com/rohanxxx/leetcode/tree/master/3249-count-the-number-of-good-nodes) |
 | [3386-find-edges-in-shortest-paths](https://github.com/rohanxxx/leetcode/tree/master/3386-find-edges-in-shortest-paths) |
 | [3481-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3481-apply-substitutions) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/rohanxxx/leetcode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
