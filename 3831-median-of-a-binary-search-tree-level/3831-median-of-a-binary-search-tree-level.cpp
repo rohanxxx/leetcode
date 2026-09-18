@@ -47,7 +47,7 @@ public:
             return -1;
         }
 
-        sort(vec.begin(), vec.end());
+        //sort(vec.begin(), vec.end());
 
         int ans = vec[(int)vec.size()/2];
 
