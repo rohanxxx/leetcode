@@ -1,0 +1,46 @@
+/*
+    Input: grid = [[1,7,3],[9,8,2],[4,5,6]]
+    Output: [[8,2,3],[9,6,7],[4,5,1]]
+
+    [1,7,3]
+    [9,8,2]
+    [4,5,6]
+
+    1 2 3 4
+    1 2 3 4
+    1 2 3 4
+    1 2 3 4
+
+    1 2 3 4 5
+    1 2 3 4 5
+    1 2 3 4 5
+    1 2 3 4 5
+    1 2 3 4 5
+*/
+class Solution {
+public:
+    vector<vector<int>> sortMatrix(vector<vector<int>>& grid) {
+        int n = grid.size();
+        for (int i = 0; i < n; i++) {
+            vector<int> tmp;
+            for (int j = 0; i + j < n; j++) {
+                tmp.push_back(grid[i + j][j]);
+            }
+            sort(tmp.begin(), tmp.end(), greater<int>());
+            for (int j = 0; i + j < n; j++) {
+                grid[i + j][j] = tmp[j];
+            }
+        }
+        for (int j = 1; j < n; j++) {
+            vector<int> tmp;
+            for (int i = 0; j + i < n; i++) {
+                tmp.push_back(grid[i][j + i]);
+            }
+            sort(tmp.begin(), tmp.end());
+            for (int i = 0; j + i < n; i++) {
+                grid[i][j + i] = tmp[i];
+            }
+        }
+        return grid;
+    }
+};
