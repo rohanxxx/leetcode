@@ -284,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3249-count-the-number-of-good-nodes](https://github.com/rohanxxx/leetcode/tree/master/3249-count-the-number-of-good-nodes) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/rohanxxx/leetcode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/rohanxxx/leetcode/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
+| [3831-median-of-a-binary-search-tree-level](https://github.com/rohanxxx/leetcode/tree/master/3831-median-of-a-binary-search-tree-level) |
 | [3997-count-dominant-nodes-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/3997-count-dominant-nodes-in-a-binary-tree) |
 ## Depth-First Search
 |  |
@@ -474,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/rohanxxx/leetcode/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
+| [3831-median-of-a-binary-search-tree-level](https://github.com/rohanxxx/leetcode/tree/master/3831-median-of-a-binary-search-tree-level) |
 | [3997-count-dominant-nodes-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/3997-count-dominant-nodes-in-a-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -625,6 +627,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/rohanxxx/leetcode/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/rohanxxx/leetcode/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
+| [3831-median-of-a-binary-search-tree-level](https://github.com/rohanxxx/leetcode/tree/master/3831-median-of-a-binary-search-tree-level) |
 ## Binary Tree
 |  |
 | ------- |
@@ -745,6 +748,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2583-kth-largest-sum-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2583-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/rohanxxx/leetcode/tree/master/2677-cousins-in-binary-tree-ii) |
 | [3157-find-the-level-of-tree-with-minimum-sum](https://github.com/rohanxxx/leetcode/tree/master/3157-find-the-level-of-tree-with-minimum-sum) |
+| [3831-median-of-a-binary-search-tree-level](https://github.com/rohanxxx/leetcode/tree/master/3831-median-of-a-binary-search-tree-level) |
 | [3997-count-dominant-nodes-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/3997-count-dominant-nodes-in-a-binary-tree) |
 ## Array
 |  |
@@ -3336,6 +3340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1285-balance-a-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/1285-balance-a-binary-search-tree) |
 | [1427-all-elements-in-two-binary-search-trees](https://github.com/rohanxxx/leetcode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [3831-median-of-a-binary-search-tree-level](https://github.com/rohanxxx/leetcode/tree/master/3831-median-of-a-binary-search-tree-level) |
 ## Geometry
 |  |
 | ------- |
