@@ -255,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1427-all-elements-in-two-binary-search-trees](https://github.com/rohanxxx/leetcode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/rohanxxx/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [1485-clone-binary-tree-with-random-pointer](https://github.com/rohanxxx/leetcode/tree/master/1485-clone-binary-tree-with-random-pointer) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/rohanxxx/leetcode/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/rohanxxx/leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -430,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1442-number-of-operations-to-make-network-connected](https://github.com/rohanxxx/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/rohanxxx/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [1485-clone-binary-tree-with-random-pointer](https://github.com/rohanxxx/leetcode/tree/master/1485-clone-binary-tree-with-random-pointer) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/rohanxxx/leetcode/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/rohanxxx/leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -586,6 +588,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/rohanxxx/leetcode/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/rohanxxx/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1485-clone-binary-tree-with-random-pointer](https://github.com/rohanxxx/leetcode/tree/master/1485-clone-binary-tree-with-random-pointer) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/rohanxxx/leetcode/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/rohanxxx/leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -731,6 +734,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1427-all-elements-in-two-binary-search-trees](https://github.com/rohanxxx/leetcode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/rohanxxx/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [1485-clone-binary-tree-with-random-pointer](https://github.com/rohanxxx/leetcode/tree/master/1485-clone-binary-tree-with-random-pointer) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/rohanxxx/leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1609-find-all-the-lonely-nodes](https://github.com/rohanxxx/leetcode/tree/master/1609-find-all-the-lonely-nodes) |
@@ -2052,6 +2056,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1464-reduce-array-size-to-the-half](https://github.com/rohanxxx/leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/rohanxxx/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1472-increasing-decreasing-string](https://github.com/rohanxxx/leetcode/tree/master/1472-increasing-decreasing-string) |
+| [1485-clone-binary-tree-with-random-pointer](https://github.com/rohanxxx/leetcode/tree/master/1485-clone-binary-tree-with-random-pointer) |
 | [1500-count-largest-group](https://github.com/rohanxxx/leetcode/tree/master/1500-count-largest-group) |
 | [1512-design-underground-system](https://github.com/rohanxxx/leetcode/tree/master/1512-design-underground-system) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/rohanxxx/leetcode/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
