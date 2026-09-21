@@ -1221,6 +1221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3178-minimum-increment-operations-to-make-array-beautiful](https://github.com/rohanxxx/leetcode/tree/master/3178-minimum-increment-operations-to-make-array-beautiful) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/rohanxxx/leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3194-find-words-containing-character](https://github.com/rohanxxx/leetcode/tree/master/3194-find-words-containing-character) |
+| [3205-maximum-array-hopping-score-i](https://github.com/rohanxxx/leetcode/tree/master/3205-maximum-array-hopping-score-i) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/rohanxxx/leetcode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3227-find-missing-and-repeated-values](https://github.com/rohanxxx/leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/rohanxxx/leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -1789,6 +1790,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/rohanxxx/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3151-minimum-processing-time](https://github.com/rohanxxx/leetcode/tree/master/3151-minimum-processing-time) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/rohanxxx/leetcode/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
+| [3205-maximum-array-hopping-score-i](https://github.com/rohanxxx/leetcode/tree/master/3205-maximum-array-hopping-score-i) |
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/rohanxxx/leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
 | [3484-lexicographically-smallest-string-after-a-swap](https://github.com/rohanxxx/leetcode/tree/master/3484-lexicographically-smallest-string-after-a-swap) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/rohanxxx/leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
@@ -2548,6 +2550,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/rohanxxx/leetcode/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/rohanxxx/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3178-minimum-increment-operations-to-make-array-beautiful](https://github.com/rohanxxx/leetcode/tree/master/3178-minimum-increment-operations-to-make-array-beautiful) |
+| [3205-maximum-array-hopping-score-i](https://github.com/rohanxxx/leetcode/tree/master/3205-maximum-array-hopping-score-i) |
 | [3343-count-numbers-with-unique-digits-ii](https://github.com/rohanxxx/leetcode/tree/master/3343-count-numbers-with-unique-digits-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rohanxxx/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/3742-maximum-path-score-in-a-grid) |
@@ -3035,6 +3038,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2456-construct-smallest-number-from-di-string](https://github.com/rohanxxx/leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2470-removing-stars-from-a-string](https://github.com/rohanxxx/leetcode/tree/master/2470-removing-stars-from-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/rohanxxx/leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [3205-maximum-array-hopping-score-i](https://github.com/rohanxxx/leetcode/tree/master/3205-maximum-array-hopping-score-i) |
 | [3447-clear-digits](https://github.com/rohanxxx/leetcode/tree/master/3447-clear-digits) |
 ## Database
 |  |
@@ -3321,6 +3325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/rohanxxx/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1909-buildings-with-an-ocean-view](https://github.com/rohanxxx/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/rohanxxx/leetcode/tree/master/1944-number-of-visible-people-in-a-queue) |
+| [3205-maximum-array-hopping-score-i](https://github.com/rohanxxx/leetcode/tree/master/3205-maximum-array-hopping-score-i) |
 ## Binary Search Tree
 |  |
 | ------- |
