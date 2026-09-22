@@ -1278,6 +1278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3687-library-late-fee-calculator](https://github.com/rohanxxx/leetcode/tree/master/3687-library-late-fee-calculator) |
 | [3689-maximum-total-subarray-value-i](https://github.com/rohanxxx/leetcode/tree/master/3689-maximum-total-subarray-value-i) |
 | [3691-minimum-operations-to-make-columns-strictly-increasing](https://github.com/rohanxxx/leetcode/tree/master/3691-minimum-operations-to-make-columns-strictly-increasing) |
+| [3693-climbing-stairs-ii](https://github.com/rohanxxx/leetcode/tree/master/3693-climbing-stairs-ii) |
 | [3694-minimum-total-operations](https://github.com/rohanxxx/leetcode/tree/master/3694-minimum-total-operations) |
 | [3702-maximum-subarray-with-equal-products](https://github.com/rohanxxx/leetcode/tree/master/3702-maximum-subarray-with-equal-products) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/rohanxxx/leetcode/tree/master/3704-count-partitions-with-even-sum-difference) |
@@ -2553,6 +2554,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3205-maximum-array-hopping-score-i](https://github.com/rohanxxx/leetcode/tree/master/3205-maximum-array-hopping-score-i) |
 | [3343-count-numbers-with-unique-digits-ii](https://github.com/rohanxxx/leetcode/tree/master/3343-count-numbers-with-unique-digits-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rohanxxx/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3693-climbing-stairs-ii](https://github.com/rohanxxx/leetcode/tree/master/3693-climbing-stairs-ii) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/rohanxxx/leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## Trie
