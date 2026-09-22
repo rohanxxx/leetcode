@@ -267,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/rohanxxx/leetcode/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/rohanxxx/leetcode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1665-diameter-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1665-diameter-of-n-ary-tree) |
+| [1676-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/rohanxxx/leetcode/tree/master/1676-lowest-common-ancestor-of-a-binary-tree-iv) |
 | [1740-find-distance-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1745-find-nearest-right-node-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1745-find-nearest-right-node-in-binary-tree) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
@@ -446,6 +447,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1650-find-root-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1650-find-root-of-n-ary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/rohanxxx/leetcode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1665-diameter-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1665-diameter-of-n-ary-tree) |
+| [1676-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/rohanxxx/leetcode/tree/master/1676-lowest-common-ancestor-of-a-binary-tree-iv) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/rohanxxx/leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1740-find-distance-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/rohanxxx/leetcode/tree/master/1753-path-with-minimum-effort) |
@@ -744,6 +746,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1609-find-all-the-lonely-nodes](https://github.com/rohanxxx/leetcode/tree/master/1609-find-all-the-lonely-nodes) |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/rohanxxx/leetcode/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/rohanxxx/leetcode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
+| [1676-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/rohanxxx/leetcode/tree/master/1676-lowest-common-ancestor-of-a-binary-tree-iv) |
 | [1740-find-distance-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1745-find-nearest-right-node-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1745-find-nearest-right-node-in-binary-tree) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
@@ -2074,6 +2077,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1635-number-of-good-pairs](https://github.com/rohanxxx/leetcode/tree/master/1635-number-of-good-pairs) |
 | [1650-find-root-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1650-find-root-of-n-ary-tree) |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/rohanxxx/leetcode/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [1676-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/rohanxxx/leetcode/tree/master/1676-lowest-common-ancestor-of-a-binary-tree-iv) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/rohanxxx/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1726-tuple-with-same-product](https://github.com/rohanxxx/leetcode/tree/master/1726-tuple-with-same-product) |
 | [1740-find-distance-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1740-find-distance-in-a-binary-tree) |
@@ -3559,10 +3563,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/rohanxxx/leetcode/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [1676-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/rohanxxx/leetcode/tree/master/1676-lowest-common-ancestor-of-a-binary-tree-iv) |
 ## Lowest Common Ancestor
 |  |
 | ------- |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/rohanxxx/leetcode/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [1676-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/rohanxxx/leetcode/tree/master/1676-lowest-common-ancestor-of-a-binary-tree-iv) |
 ## Minimax
 |  |
 | ------- |
