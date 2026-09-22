@@ -37,11 +37,14 @@ public:
         }
         return left;
     }
+    //TC: O(N+M)
     TreeNode* lowestCommonAncestor(TreeNode* root, vector<TreeNode*> &nodes) {
         unordered_set<int> set;
+        //TC: O(M)
         for(int i = 0; i < nodes.size(); i++){
             set.insert(nodes[i]->val);
         }
+        //TC: O(N)
         return dfs(root, set);
     }
 };
