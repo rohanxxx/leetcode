@@ -22,7 +22,37 @@ public:
     }
     long long rob(vector<int>& nums, vector<int>& colors) {
         int n = nums.size();
-        vector<vector<long long>> dp(n, vector<long long>(2, -1));
-        return dfs(0, 0, nums, colors, dp);
+        //vector<vector<long long>> dp(n+1, vector<long long>(2, 0));
+        vector<long long> next(2, 0), curr(2,0);
+        for(int i = n-1; i >= 0; i--){
+            for(int prev_i = 0; prev_i < 2; prev_i++){
+                long long take = 0, notTake = 0;
+                if(!prev_i || (i >= 1 && colors[i] != colors[i-1])){
+                    take = nums[i] + next[1];
+                }
+
+                notTake = next[0];
+                curr[prev_i] = max(take, notTake);
+            }
+            next = curr;
+        }
+        return next[0];
     }
+    /*long long rob(vector<int>& nums, vector<int>& colors) {
+        int n = nums.size();
+        vector<vector<long long>> dp(n+1, vector<long long>(2, 0));   // dp[n][0]=dp[n][1]=0, base case
+
+        for(int i = n-1; i >= 0; i--){
+            for(int prev_i = 0; prev_i <= 1; prev_i++){
+                long long take = 0, notTake = 0;
+                if(!prev_i || (i >= 1 && colors[i] != colors[i-1])){
+                    take = nums[i] + dp[i+1][1];
+                }
+                notTake = dp[i+1][0];
+                dp[i][prev_i] = max(take, notTake);
+            }
+        }
+
+        return dp[0][0];
+    }*/
 };
