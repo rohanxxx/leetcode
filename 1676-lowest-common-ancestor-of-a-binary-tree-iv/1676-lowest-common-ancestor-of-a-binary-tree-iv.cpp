@@ -28,15 +28,10 @@ public:
         TreeNode* left = dfs(node->left, set);
         TreeNode* right = dfs(node->right, set);
         
-        if(set.find(node->val) != set.end()){
+        if((left && right) || (set.find(node->val) != set.end())){
             return node;
         }
-        if(left && right){
-            return node;
-        }
-        /*if(left == NULL && right == NULL){
-            return NULL;
-        }*/
+        
         if(left == NULL){
             return right;
         }
