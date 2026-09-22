@@ -21,6 +21,19 @@ public:
     }
     int climbStairs(int n, vector<int>& costs) {
         vector<int> dp(n+1, INT_MAX);
-        return dfs(n, costs, dp);
+        dp[0] = 0;
+
+        for(int index = 1; index <= n; index++){
+            int res = INT_MAX;
+            for(int i = 1; i <= 3; i++){
+                if(index-i < 0){
+                    continue;
+                }
+                res = min((costs[index-1] + (i*i)) + dp[index-i], res);
+            }
+            dp[index] = res;
+        }
+        //return dfs(n, costs, dp);
+        return dp[n];
     }
 };
