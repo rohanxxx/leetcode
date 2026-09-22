@@ -1298,6 +1298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3836-phone-number-prefix](https://github.com/rohanxxx/leetcode/tree/master/3836-phone-number-prefix) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/rohanxxx/leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 | [3838-weighted-word-mapping](https://github.com/rohanxxx/leetcode/tree/master/3838-weighted-word-mapping) |
+| [3840-house-robber-v](https://github.com/rohanxxx/leetcode/tree/master/3840-house-robber-v) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/rohanxxx/leetcode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 | [3865-reverse-k-subarrays](https://github.com/rohanxxx/leetcode/tree/master/3865-reverse-k-subarrays) |
 | [3875-construct-uniform-parity-array-i](https://github.com/rohanxxx/leetcode/tree/master/3875-construct-uniform-parity-array-i) |
@@ -2557,6 +2558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3693-climbing-stairs-ii](https://github.com/rohanxxx/leetcode/tree/master/3693-climbing-stairs-ii) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/rohanxxx/leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
+| [3840-house-robber-v](https://github.com/rohanxxx/leetcode/tree/master/3840-house-robber-v) |
 ## Trie
 |  |
 | ------- |
