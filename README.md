@@ -1615,6 +1615,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3684-substring-matching-pattern](https://github.com/rohanxxx/leetcode/tree/master/3684-substring-matching-pattern) |
 | [3736-find-valid-pair-of-adjacent-digits-in-string](https://github.com/rohanxxx/leetcode/tree/master/3736-find-valid-pair-of-adjacent-digits-in-string) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/rohanxxx/leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
+| [3794-reverse-string-prefix](https://github.com/rohanxxx/leetcode/tree/master/3794-reverse-string-prefix) |
 | [3825-apply-substitutions](https://github.com/rohanxxx/leetcode/tree/master/3825-apply-substitutions) |
 | [3836-phone-number-prefix](https://github.com/rohanxxx/leetcode/tree/master/3836-phone-number-prefix) |
 | [3838-weighted-word-mapping](https://github.com/rohanxxx/leetcode/tree/master/3838-weighted-word-mapping) |
@@ -1718,6 +1719,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/rohanxxx/leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/rohanxxx/leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/rohanxxx/leetcode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
+| [3794-reverse-string-prefix](https://github.com/rohanxxx/leetcode/tree/master/3794-reverse-string-prefix) |
 | [3865-reverse-k-subarrays](https://github.com/rohanxxx/leetcode/tree/master/3865-reverse-k-subarrays) |
 ## Greedy
 |  |
