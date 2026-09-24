@@ -271,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1740-find-distance-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1745-find-nearest-right-node-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1745-find-nearest-right-node-in-binary-tree) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
+| [1973-count-nodes-equal-to-sum-of-descendants](https://github.com/rohanxxx/leetcode/tree/master/1973-count-nodes-equal-to-sum-of-descendants) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/rohanxxx/leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [2277-closest-node-to-path-in-tree](https://github.com/rohanxxx/leetcode/tree/master/2277-closest-node-to-path-in-tree) |
@@ -453,6 +454,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1740-find-distance-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/rohanxxx/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
+| [1973-count-nodes-equal-to-sum-of-descendants](https://github.com/rohanxxx/leetcode/tree/master/1973-count-nodes-equal-to-sum-of-descendants) |
 | [2009-longest-word-with-all-prefixes](https://github.com/rohanxxx/leetcode/tree/master/2009-longest-word-with-all-prefixes) |
 | [2035-count-sub-islands](https://github.com/rohanxxx/leetcode/tree/master/2035-count-sub-islands) |
 | [2092-find-all-people-with-secret](https://github.com/rohanxxx/leetcode/tree/master/2092-find-all-people-with-secret) |
@@ -752,6 +754,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1740-find-distance-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1745-find-nearest-right-node-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1745-find-nearest-right-node-in-binary-tree) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
+| [1973-count-nodes-equal-to-sum-of-descendants](https://github.com/rohanxxx/leetcode/tree/master/1973-count-nodes-equal-to-sum-of-descendants) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/rohanxxx/leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/rohanxxx/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
