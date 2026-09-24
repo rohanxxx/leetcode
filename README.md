@@ -1190,6 +1190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2368-reachable-nodes-with-restrictions](https://github.com/rohanxxx/leetcode/tree/master/2368-reachable-nodes-with-restrictions) |
 | [2378-sender-with-largest-word-count](https://github.com/rohanxxx/leetcode/tree/master/2378-sender-with-largest-word-count) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/rohanxxx/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
+| [2393-count-strictly-increasing-subarrays](https://github.com/rohanxxx/leetcode/tree/master/2393-count-strictly-increasing-subarrays) |
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/rohanxxx/leetcode/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
 | [2417-the-latest-time-to-catch-a-bus](https://github.com/rohanxxx/leetcode/tree/master/2417-the-latest-time-to-catch-a-bus) |
 | [2429-design-a-food-rating-system](https://github.com/rohanxxx/leetcode/tree/master/2429-design-a-food-rating-system) |
@@ -2243,6 +2244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2125-number-of-laser-beams-in-a-bank](https://github.com/rohanxxx/leetcode/tree/master/2125-number-of-laser-beams-in-a-bank) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rohanxxx/leetcode/tree/master/2206-detonate-the-maximum-bombs) |
 | [2264-minimum-sum-of-four-digit-number-after-splitting-digits](https://github.com/rohanxxx/leetcode/tree/master/2264-minimum-sum-of-four-digit-number-after-splitting-digits) |
+| [2393-count-strictly-increasing-subarrays](https://github.com/rohanxxx/leetcode/tree/master/2393-count-strictly-increasing-subarrays) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/rohanxxx/leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2507-number-of-common-factors](https://github.com/rohanxxx/leetcode/tree/master/2507-number-of-common-factors) |
 | [2556-convert-the-temperature](https://github.com/rohanxxx/leetcode/tree/master/2556-convert-the-temperature) |
@@ -2556,6 +2558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1871-jump-game-vii](https://github.com/rohanxxx/leetcode/tree/master/1871-jump-game-vii) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/rohanxxx/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/rohanxxx/leetcode/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [2393-count-strictly-increasing-subarrays](https://github.com/rohanxxx/leetcode/tree/master/2393-count-strictly-increasing-subarrays) |
 | [2463-minimum-total-distance-traveled](https://github.com/rohanxxx/leetcode/tree/master/2463-minimum-total-distance-traveled) |
 | [2500-minimum-costs-using-the-train-line](https://github.com/rohanxxx/leetcode/tree/master/2500-minimum-costs-using-the-train-line) |
 | [2586-longest-square-streak-in-an-array](https://github.com/rohanxxx/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
