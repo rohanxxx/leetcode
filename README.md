@@ -1250,6 +1250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/rohanxxx/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3355-zero-array-transformation-i](https://github.com/rohanxxx/leetcode/tree/master/3355-zero-array-transformation-i) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/rohanxxx/leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
+| [3400-maximum-number-of-matching-indices-after-right-shifts](https://github.com/rohanxxx/leetcode/tree/master/3400-maximum-number-of-matching-indices-after-right-shifts) |
 | [3429-special-array-i](https://github.com/rohanxxx/leetcode/tree/master/3429-special-array-i) |
 | [3430-count-days-without-meetings](https://github.com/rohanxxx/leetcode/tree/master/3430-count-days-without-meetings) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/rohanxxx/leetcode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
@@ -1722,6 +1723,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/rohanxxx/leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/rohanxxx/leetcode/tree/master/2824-count-pairs-whose-sum-is-less-than-target) |
 | [3194-minimum-average-of-smallest-and-largest-elements](https://github.com/rohanxxx/leetcode/tree/master/3194-minimum-average-of-smallest-and-largest-elements) |
+| [3400-maximum-number-of-matching-indices-after-right-shifts](https://github.com/rohanxxx/leetcode/tree/master/3400-maximum-number-of-matching-indices-after-right-shifts) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/rohanxxx/leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/rohanxxx/leetcode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3667-sort-array-by-absolute-value](https://github.com/rohanxxx/leetcode/tree/master/3667-sort-array-by-absolute-value) |
@@ -3137,6 +3139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2587-design-memory-allocator](https://github.com/rohanxxx/leetcode/tree/master/2587-design-memory-allocator) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/rohanxxx/leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3311-ant-on-the-boundary](https://github.com/rohanxxx/leetcode/tree/master/3311-ant-on-the-boundary) |
+| [3400-maximum-number-of-matching-indices-after-right-shifts](https://github.com/rohanxxx/leetcode/tree/master/3400-maximum-number-of-matching-indices-after-right-shifts) |
 | [3447-clear-digits](https://github.com/rohanxxx/leetcode/tree/master/3447-clear-digits) |
 | [3533-snake-in-matrix](https://github.com/rohanxxx/leetcode/tree/master/3533-snake-in-matrix) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/rohanxxx/leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
