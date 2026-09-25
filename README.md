@@ -454,6 +454,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1676-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/rohanxxx/leetcode/tree/master/1676-lowest-common-ancestor-of-a-binary-tree-iv) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/rohanxxx/leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1740-find-distance-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1740-find-distance-in-a-binary-tree) |
+| [1743-restore-the-array-from-adjacent-pairs](https://github.com/rohanxxx/leetcode/tree/master/1743-restore-the-array-from-adjacent-pairs) |
 | [1753-path-with-minimum-effort](https://github.com/rohanxxx/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
 | [1973-count-nodes-equal-to-sum-of-descendants](https://github.com/rohanxxx/leetcode/tree/master/1973-count-nodes-equal-to-sum-of-descendants) |
@@ -1133,6 +1134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1726-tuple-with-same-product](https://github.com/rohanxxx/leetcode/tree/master/1726-tuple-with-same-product) |
 | [1732-find-the-highest-altitude](https://github.com/rohanxxx/leetcode/tree/master/1732-find-the-highest-altitude) |
 | [1742-widest-vertical-area-between-two-points-containing-no-points](https://github.com/rohanxxx/leetcode/tree/master/1742-widest-vertical-area-between-two-points-containing-no-points) |
+| [1743-restore-the-array-from-adjacent-pairs](https://github.com/rohanxxx/leetcode/tree/master/1743-restore-the-array-from-adjacent-pairs) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/rohanxxx/leetcode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1753-path-with-minimum-effort](https://github.com/rohanxxx/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/rohanxxx/leetcode/tree/master/1762-furthest-building-you-can-reach) |
@@ -2107,6 +2109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/rohanxxx/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1726-tuple-with-same-product](https://github.com/rohanxxx/leetcode/tree/master/1726-tuple-with-same-product) |
 | [1740-find-distance-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1740-find-distance-in-a-binary-tree) |
+| [1743-restore-the-array-from-adjacent-pairs](https://github.com/rohanxxx/leetcode/tree/master/1743-restore-the-array-from-adjacent-pairs) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/rohanxxx/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/rohanxxx/leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
