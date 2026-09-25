@@ -8,8 +8,11 @@
 */
 class Solution {
 public:
+    static bool comp(int a, int b){
+        return abs(a) < abs(b);
+    }
     vector<int> sortByAbsoluteValue(vector<int>& nums) {
-        int mini = INT_MAX, maxi = INT_MIN;
+        /*int mini = INT_MAX, maxi = INT_MIN;
         for(auto it: nums){
             mini = min(mini, (int)abs(it));
             maxi = max(maxi, (int)abs(it));
@@ -26,8 +29,11 @@ public:
             for(auto i: it){
                 ans.push_back(i);
             }
-        }
+        }*/
 
-        return ans;
+        //vector<int> ans;
+        sort(nums.begin(), nums.end(), comp);
+
+        return nums;
     }
 };
