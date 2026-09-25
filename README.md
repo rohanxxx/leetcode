@@ -1286,6 +1286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3644-minimum-positive-sum-subarray](https://github.com/rohanxxx/leetcode/tree/master/3644-minimum-positive-sum-subarray) |
 | [3651-transformed-array](https://github.com/rohanxxx/leetcode/tree/master/3651-transformed-array) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rohanxxx/leetcode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
+| [3667-sort-array-by-absolute-value](https://github.com/rohanxxx/leetcode/tree/master/3667-sort-array-by-absolute-value) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/rohanxxx/leetcode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3687-library-late-fee-calculator](https://github.com/rohanxxx/leetcode/tree/master/3687-library-late-fee-calculator) |
 | [3689-maximum-total-subarray-value-i](https://github.com/rohanxxx/leetcode/tree/master/3689-maximum-total-subarray-value-i) |
@@ -1721,6 +1722,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/rohanxxx/leetcode/tree/master/2824-count-pairs-whose-sum-is-less-than-target) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/rohanxxx/leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/rohanxxx/leetcode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
+| [3667-sort-array-by-absolute-value](https://github.com/rohanxxx/leetcode/tree/master/3667-sort-array-by-absolute-value) |
 | [3794-reverse-string-prefix](https://github.com/rohanxxx/leetcode/tree/master/3794-reverse-string-prefix) |
 | [3865-reverse-k-subarrays](https://github.com/rohanxxx/leetcode/tree/master/3865-reverse-k-subarrays) |
 ## Greedy
@@ -1940,6 +1942,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/rohanxxx/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/rohanxxx/leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/rohanxxx/leetcode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
+| [3667-sort-array-by-absolute-value](https://github.com/rohanxxx/leetcode/tree/master/3667-sort-array-by-absolute-value) |
 | [3731-find-missing-elements](https://github.com/rohanxxx/leetcode/tree/master/3731-find-missing-elements) |
 | [3836-phone-number-prefix](https://github.com/rohanxxx/leetcode/tree/master/3836-phone-number-prefix) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/rohanxxx/leetcode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
@@ -2283,6 +2286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3625-stone-removal-game](https://github.com/rohanxxx/leetcode/tree/master/3625-stone-removal-game) |
 | [3626-smallest-divisible-digit-product-i](https://github.com/rohanxxx/leetcode/tree/master/3626-smallest-divisible-digit-product-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rohanxxx/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3667-sort-array-by-absolute-value](https://github.com/rohanxxx/leetcode/tree/master/3667-sort-array-by-absolute-value) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/rohanxxx/leetcode/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3702-maximum-subarray-with-equal-products](https://github.com/rohanxxx/leetcode/tree/master/3702-maximum-subarray-with-equal-products) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/rohanxxx/leetcode/tree/master/3704-count-partitions-with-even-sum-difference) |
