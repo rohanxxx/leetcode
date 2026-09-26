@@ -31,7 +31,7 @@ public:
             }
             ans[0] = sum;
             for(int i = 1; i < n; i++){
-                sum -= code[((i-1+k) % n + n) % n];
+                sum -= code[((i-1+k)%n+n)%n];
                 sum += code[i-1];
                 ans[i] = sum;
             }
