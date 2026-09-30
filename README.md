@@ -465,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2092-find-all-people-with-secret](https://github.com/rohanxxx/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2103-find-all-groups-of-farmland](https://github.com/rohanxxx/leetcode/tree/master/2103-find-all-groups-of-farmland) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rohanxxx/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
+| [2204-distance-to-a-cycle-in-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/2204-distance-to-a-cycle-in-undirected-graph) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rohanxxx/leetcode/tree/master/2206-detonate-the-maximum-bombs) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/rohanxxx/leetcode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [2277-closest-node-to-path-in-tree](https://github.com/rohanxxx/leetcode/tree/master/2277-closest-node-to-path-in-tree) |
@@ -623,6 +624,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2103-find-all-groups-of-farmland](https://github.com/rohanxxx/leetcode/tree/master/2103-find-all-groups-of-farmland) |
 | [2121-find-if-path-exists-in-graph](https://github.com/rohanxxx/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/rohanxxx/leetcode/tree/master/2171-second-minimum-time-to-reach-destination) |
+| [2204-distance-to-a-cycle-in-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/2204-distance-to-a-cycle-in-undirected-graph) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rohanxxx/leetcode/tree/master/2206-detonate-the-maximum-bombs) |
 | [2277-closest-node-to-path-in-tree](https://github.com/rohanxxx/leetcode/tree/master/2277-closest-node-to-path-in-tree) |
 | [2368-reachable-nodes-with-restrictions](https://github.com/rohanxxx/leetcode/tree/master/2368-reachable-nodes-with-restrictions) |
@@ -2827,6 +2829,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1558-course-schedule-iv](https://github.com/rohanxxx/leetcode/tree/master/1558-course-schedule-iv) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/rohanxxx/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/rohanxxx/leetcode/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [2204-distance-to-a-cycle-in-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/2204-distance-to-a-cycle-in-undirected-graph) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/rohanxxx/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2439-longest-cycle-in-a-graph](https://github.com/rohanxxx/leetcode/tree/master/2439-longest-cycle-in-a-graph) |
 | [2472-build-a-matrix-with-conditions](https://github.com/rohanxxx/leetcode/tree/master/2472-build-a-matrix-with-conditions) |
@@ -3601,6 +3604,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/rohanxxx/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2077-paths-in-maze-that-lead-to-same-room](https://github.com/rohanxxx/leetcode/tree/master/2077-paths-in-maze-that-lead-to-same-room) |
 | [2092-find-all-people-with-secret](https://github.com/rohanxxx/leetcode/tree/master/2092-find-all-people-with-secret) |
+| [2204-distance-to-a-cycle-in-undirected-graph](https://github.com/rohanxxx/leetcode/tree/master/2204-distance-to-a-cycle-in-undirected-graph) |
 | [2368-reachable-nodes-with-restrictions](https://github.com/rohanxxx/leetcode/tree/master/2368-reachable-nodes-with-restrictions) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/rohanxxx/leetcode/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 | [2685-count-the-number-of-complete-components](https://github.com/rohanxxx/leetcode/tree/master/2685-count-the-number-of-complete-components) |
