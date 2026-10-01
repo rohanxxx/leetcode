@@ -287,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2583-kth-largest-sum-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2583-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/rohanxxx/leetcode/tree/master/2677-cousins-in-binary-tree-ii) |
+| [2689-extract-kth-character-from-the-rope-tree](https://github.com/rohanxxx/leetcode/tree/master/2689-extract-kth-character-from-the-rope-tree) |
 | [3157-find-the-level-of-tree-with-minimum-sum](https://github.com/rohanxxx/leetcode/tree/master/3157-find-the-level-of-tree-with-minimum-sum) |
 | [3249-count-the-number-of-good-nodes](https://github.com/rohanxxx/leetcode/tree/master/3249-count-the-number-of-good-nodes) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/rohanxxx/leetcode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
@@ -481,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2582-minimum-score-of-a-path-between-two-cities](https://github.com/rohanxxx/leetcode/tree/master/2582-minimum-score-of-a-path-between-two-cities) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/rohanxxx/leetcode/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2685-count-the-number-of-complete-components](https://github.com/rohanxxx/leetcode/tree/master/2685-count-the-number-of-complete-components) |
+| [2689-extract-kth-character-from-the-rope-tree](https://github.com/rohanxxx/leetcode/tree/master/2689-extract-kth-character-from-the-rope-tree) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2793-count-the-number-of-complete-components](https://github.com/rohanxxx/leetcode/tree/master/2793-count-the-number-of-complete-components) |
 | [3157-find-the-level-of-tree-with-minimum-sum](https://github.com/rohanxxx/leetcode/tree/master/3157-find-the-level-of-tree-with-minimum-sum) |
@@ -773,6 +775,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2583-kth-largest-sum-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/2583-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/rohanxxx/leetcode/tree/master/2677-cousins-in-binary-tree-ii) |
+| [2689-extract-kth-character-from-the-rope-tree](https://github.com/rohanxxx/leetcode/tree/master/2689-extract-kth-character-from-the-rope-tree) |
 | [3157-find-the-level-of-tree-with-minimum-sum](https://github.com/rohanxxx/leetcode/tree/master/3157-find-the-level-of-tree-with-minimum-sum) |
 | [3831-median-of-a-binary-search-tree-level](https://github.com/rohanxxx/leetcode/tree/master/3831-median-of-a-binary-search-tree-level) |
 | [3997-count-dominant-nodes-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/3997-count-dominant-nodes-in-a-binary-tree) |
