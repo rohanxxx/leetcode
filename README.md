@@ -1579,6 +1579,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/rohanxxx/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1823-determine-if-string-halves-are-alike](https://github.com/rohanxxx/leetcode/tree/master/1823-determine-if-string-halves-are-alike) |
 | [1871-jump-game-vii](https://github.com/rohanxxx/leetcode/tree/master/1871-jump-game-vii) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/rohanxxx/leetcode/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [1894-merge-strings-alternately](https://github.com/rohanxxx/leetcode/tree/master/1894-merge-strings-alternately) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/rohanxxx/leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1899-count-items-matching-a-rule](https://github.com/rohanxxx/leetcode/tree/master/1899-count-items-matching-a-rule) |
@@ -2125,6 +2126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/rohanxxx/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1796-correct-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1796-correct-a-binary-tree) |
 | [1852-distinct-numbers-in-each-subarray](https://github.com/rohanxxx/leetcode/tree/master/1852-distinct-numbers-in-each-subarray) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/rohanxxx/leetcode/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/rohanxxx/leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/rohanxxx/leetcode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2107-find-unique-binary-string](https://github.com/rohanxxx/leetcode/tree/master/2107-find-unique-binary-string) |
@@ -2346,6 +2348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1726-tuple-with-same-product](https://github.com/rohanxxx/leetcode/tree/master/1726-tuple-with-same-product) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/rohanxxx/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1823-determine-if-string-halves-are-alike](https://github.com/rohanxxx/leetcode/tree/master/1823-determine-if-string-halves-are-alike) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/rohanxxx/leetcode/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/rohanxxx/leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1983-maximum-population-year](https://github.com/rohanxxx/leetcode/tree/master/1983-maximum-population-year) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/rohanxxx/leetcode/tree/master/1986-largest-color-value-in-a-directed-graph) |
@@ -2724,6 +2727,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1652-defuse-the-bomb](https://github.com/rohanxxx/leetcode/tree/master/1652-defuse-the-bomb) |
 | [1852-distinct-numbers-in-each-subarray](https://github.com/rohanxxx/leetcode/tree/master/1852-distinct-numbers-in-each-subarray) |
 | [1871-jump-game-vii](https://github.com/rohanxxx/leetcode/tree/master/1871-jump-game-vii) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/rohanxxx/leetcode/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/rohanxxx/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/rohanxxx/leetcode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/rohanxxx/leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
