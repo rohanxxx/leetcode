@@ -19,7 +19,7 @@
 */
 class Solution {
 public:
-    int dfs(int r, int c, vector<vector<int>>& grid, vector<vector<int>>& dp){
+    int dfs(int r, int c, vector<vector<int>>& grid, vector<vector<int>>& dp, vector<vector<int>> & moves){
         int ret = 0;
 
         int m = grid.size();
@@ -29,8 +29,6 @@ public:
             return dp[r][c];
         }
 
-        vector<vector<int>> moves = {{-1, 1}, {0, 1}, {1, 1}};
-
         for(auto it: moves){
             int adjr = it[0]+r;
             int adjc = it[1]+c;
@@ -38,7 +36,7 @@ public:
                 continue;
             }
             //otherwise move forward
-            ret = max(ret, 1+dfs(adjr, adjc, grid, dp));
+            ret = max(ret, 1+dfs(adjr, adjc, grid, dp, moves));
         }
         return dp[r][c] = ret;
     }
@@ -46,11 +44,12 @@ public:
         int m = grid.size();
         int n = grid[0].size();
         vector<vector<int>> dp(m, vector<int>(n, -1));
+        vector<vector<int>> moves = {{-1, 1}, {0, 1}, {1, 1}};
 
         int ans = 0;
         //O(N)
         for(int r = 0; r < m; r++){
-            ans = max(ans, dfs(r, 0, grid, dp));
+            ans = max(ans, dfs(r, 0, grid, dp, moves));
         }
 
         return ans;
