@@ -14,10 +14,12 @@ public:
         return;
     }
     string dfs2(string& region, unordered_map<string, string>& parent, unordered_map<string, bool>& visited){
+        //visited[region] = true;
         //if already visited by dfs1 then this is the first shared ancestor
         if(visited[region] == true){
             return region;
         }
+        visited[region] = true;
         //if not found then return empty string
         if(parent.find(region) == parent.end()){
             return "";
