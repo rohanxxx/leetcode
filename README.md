@@ -252,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/rohanxxx/leetcode/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1245-tree-diameter](https://github.com/rohanxxx/leetcode/tree/master/1245-tree-diameter) |
 | [1254-deepest-leaves-sum](https://github.com/rohanxxx/leetcode/tree/master/1254-deepest-leaves-sum) |
+| [1257-smallest-common-region](https://github.com/rohanxxx/leetcode/tree/master/1257-smallest-common-region) |
 | [1273-delete-tree-nodes](https://github.com/rohanxxx/leetcode/tree/master/1273-delete-tree-nodes) |
 | [1285-balance-a-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/1285-balance-a-binary-search-tree) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -427,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/rohanxxx/leetcode/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1245-tree-diameter](https://github.com/rohanxxx/leetcode/tree/master/1245-tree-diameter) |
 | [1254-deepest-leaves-sum](https://github.com/rohanxxx/leetcode/tree/master/1254-deepest-leaves-sum) |
+| [1257-smallest-common-region](https://github.com/rohanxxx/leetcode/tree/master/1257-smallest-common-region) |
 | [1271-web-crawler](https://github.com/rohanxxx/leetcode/tree/master/1271-web-crawler) |
 | [1273-delete-tree-nodes](https://github.com/rohanxxx/leetcode/tree/master/1273-delete-tree-nodes) |
 | [1285-balance-a-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/1285-balance-a-binary-search-tree) |
@@ -596,6 +598,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/rohanxxx/leetcode/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1245-tree-diameter](https://github.com/rohanxxx/leetcode/tree/master/1245-tree-diameter) |
 | [1254-deepest-leaves-sum](https://github.com/rohanxxx/leetcode/tree/master/1254-deepest-leaves-sum) |
+| [1257-smallest-common-region](https://github.com/rohanxxx/leetcode/tree/master/1257-smallest-common-region) |
 | [1271-web-crawler](https://github.com/rohanxxx/leetcode/tree/master/1271-web-crawler) |
 | [1273-delete-tree-nodes](https://github.com/rohanxxx/leetcode/tree/master/1273-delete-tree-nodes) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/rohanxxx/leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
@@ -1071,6 +1074,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1241-decompress-run-length-encoded-list](https://github.com/rohanxxx/leetcode/tree/master/1241-decompress-run-length-encoded-list) |
 | [1249-snapshot-array](https://github.com/rohanxxx/leetcode/tree/master/1249-snapshot-array) |
+| [1257-smallest-common-region](https://github.com/rohanxxx/leetcode/tree/master/1257-smallest-common-region) |
 | [1260-shift-2d-grid](https://github.com/rohanxxx/leetcode/tree/master/1260-shift-2d-grid) |
 | [1273-delete-tree-nodes](https://github.com/rohanxxx/leetcode/tree/master/1273-delete-tree-nodes) |
 | [1286-constrained-subsequence-sum](https://github.com/rohanxxx/leetcode/tree/master/1286-constrained-subsequence-sum) |
@@ -1556,6 +1560,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1205-defanging-an-ip-address](https://github.com/rohanxxx/leetcode/tree/master/1205-defanging-an-ip-address) |
 | [1250-longest-common-subsequence](https://github.com/rohanxxx/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1252-break-a-palindrome](https://github.com/rohanxxx/leetcode/tree/master/1252-break-a-palindrome) |
+| [1257-smallest-common-region](https://github.com/rohanxxx/leetcode/tree/master/1257-smallest-common-region) |
 | [1260-day-of-the-year](https://github.com/rohanxxx/leetcode/tree/master/1260-day-of-the-year) |
 | [1271-web-crawler](https://github.com/rohanxxx/leetcode/tree/master/1271-web-crawler) |
 | [1274-number-of-days-between-two-dates](https://github.com/rohanxxx/leetcode/tree/master/1274-number-of-days-between-two-dates) |
@@ -2095,6 +2100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-delete-nodes-and-return-forest](https://github.com/rohanxxx/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/rohanxxx/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1249-snapshot-array](https://github.com/rohanxxx/leetcode/tree/master/1249-snapshot-array) |
+| [1257-smallest-common-region](https://github.com/rohanxxx/leetcode/tree/master/1257-smallest-common-region) |
 | [1297-maximum-number-of-balloons](https://github.com/rohanxxx/leetcode/tree/master/1297-maximum-number-of-balloons) |
 | [1319-unique-number-of-occurrences](https://github.com/rohanxxx/leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1331-rank-transform-of-an-array](https://github.com/rohanxxx/leetcode/tree/master/1331-rank-transform-of-an-array) |
@@ -3625,11 +3631,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Lifting
 |  |
 | ------- |
+| [1257-smallest-common-region](https://github.com/rohanxxx/leetcode/tree/master/1257-smallest-common-region) |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/rohanxxx/leetcode/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1676-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/rohanxxx/leetcode/tree/master/1676-lowest-common-ancestor-of-a-binary-tree-iv) |
 ## Lowest Common Ancestor
 |  |
 | ------- |
+| [1257-smallest-common-region](https://github.com/rohanxxx/leetcode/tree/master/1257-smallest-common-region) |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/rohanxxx/leetcode/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1676-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/rohanxxx/leetcode/tree/master/1676-lowest-common-ancestor-of-a-binary-tree-iv) |
 ## Minimax
