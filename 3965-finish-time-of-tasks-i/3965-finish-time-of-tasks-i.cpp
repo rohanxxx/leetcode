@@ -20,6 +20,7 @@
 */
 class Solution {
 public:
+    //O(V+E)
     long long dfs(int node, vector<vector<int>>& graph, vector<int>& baseTime){
         //checking leaf node
         if(graph[node].size() == 0){
@@ -29,6 +30,7 @@ public:
         //not a leaf node
         //traverse and calculate latest and earliest
         long long earliest = LLONG_MAX, latest = LLONG_MIN;
+        //O(E)
         for(auto adj: graph[node]){
             long long ret = dfs(adj, graph, baseTime);
             earliest = (long long)min((long long)earliest, (long long)ret);
@@ -41,12 +43,13 @@ public:
     long long finishTime(int n, vector<vector<int>>& edges, vector<int>& baseTime) {
         vector<vector<int>> graph(n);
         //creates the graph
+        //O(E)
         for(auto it: edges){
             int u = it[0];
             int v = it[1];
             graph[u].push_back(v);
         }
-
+        //O(V+E)
         return dfs(0, graph, baseTime);
     }
 };
