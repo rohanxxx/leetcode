@@ -1542,6 +1542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0808-number-of-matching-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0808-number-of-matching-subsequences) |
 | [0812-rotate-string](https://github.com/rohanxxx/leetcode/tree/master/0812-rotate-string) |
 | [0916-decoded-string-at-index](https://github.com/rohanxxx/leetcode/tree/master/0916-decoded-string-at-index) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/rohanxxx/leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/rohanxxx/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [0965-unique-email-addresses](https://github.com/rohanxxx/leetcode/tree/master/0965-unique-email-addresses) |
 | [1023-time-based-key-value-store](https://github.com/rohanxxx/leetcode/tree/master/1023-time-based-key-value-store) |
@@ -1794,6 +1795,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0846-hand-of-straights](https://github.com/rohanxxx/leetcode/tree/master/0846-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/rohanxxx/leetcode/tree/master/0890-lemonade-change) |
 | [0917-boats-to-save-people](https://github.com/rohanxxx/leetcode/tree/master/0917-boats-to-save-people) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/rohanxxx/leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/rohanxxx/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1018-largest-perimeter-triangle](https://github.com/rohanxxx/leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/rohanxxx/leetcode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
@@ -3092,6 +3094,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0853-car-fleet](https://github.com/rohanxxx/leetcode/tree/master/0853-car-fleet) |
 | [0907-sum-of-subarray-minimums](https://github.com/rohanxxx/leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [0916-decoded-string-at-index](https://github.com/rohanxxx/leetcode/tree/master/0916-decoded-string-at-index) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/rohanxxx/leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0931-maximum-frequency-stack](https://github.com/rohanxxx/leetcode/tree/master/0931-maximum-frequency-stack) |
 | [0933-increasing-order-search-tree](https://github.com/rohanxxx/leetcode/tree/master/0933-increasing-order-search-tree) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/rohanxxx/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -3668,4 +3671,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0959-regions-cut-by-slashes](https://github.com/rohanxxx/leetcode/tree/master/0959-regions-cut-by-slashes) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/rohanxxx/leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 <!---LeetCode Topics End-->
