@@ -255,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1257-smallest-common-region](https://github.com/rohanxxx/leetcode/tree/master/1257-smallest-common-region) |
 | [1273-delete-tree-nodes](https://github.com/rohanxxx/leetcode/tree/master/1273-delete-tree-nodes) |
 | [1285-balance-a-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/1285-balance-a-binary-search-tree) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1427-all-elements-in-two-binary-search-trees](https://github.com/rohanxxx/leetcode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/rohanxxx/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
@@ -435,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1300-critical-connections-in-a-network](https://github.com/rohanxxx/leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1306-jump-game-iii](https://github.com/rohanxxx/leetcode/tree/master/1306-jump-game-iii) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/rohanxxx/leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/rohanxxx/leetcode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1396-count-servers-that-communicate](https://github.com/rohanxxx/leetcode/tree/master/1396-count-servers-that-communicate) |
@@ -753,6 +755,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/rohanxxx/leetcode/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1254-deepest-leaves-sum](https://github.com/rohanxxx/leetcode/tree/master/1254-deepest-leaves-sum) |
 | [1285-balance-a-binary-search-tree](https://github.com/rohanxxx/leetcode/tree/master/1285-balance-a-binary-search-tree) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1427-all-elements-in-two-binary-search-trees](https://github.com/rohanxxx/leetcode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/rohanxxx/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
@@ -2591,6 +2594,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1289-minimum-falling-path-sum-ii](https://github.com/rohanxxx/leetcode/tree/master/1289-minimum-falling-path-sum-ii) |
 | [1340-jump-game-v](https://github.com/rohanxxx/leetcode/tree/master/1340-jump-game-v) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/rohanxxx/leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/rohanxxx/leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/rohanxxx/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/rohanxxx/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -3659,6 +3663,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1273-delete-tree-nodes](https://github.com/rohanxxx/leetcode/tree/master/1273-delete-tree-nodes) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 ## Nim Game
 |  |
 | ------- |
