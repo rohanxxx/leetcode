@@ -267,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/rohanxxx/leetcode/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1609-find-all-the-lonely-nodes](https://github.com/rohanxxx/leetcode/tree/master/1609-find-all-the-lonely-nodes) |
 | [1634-clone-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1634-clone-n-ary-tree) |
+| [1644-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/rohanxxx/leetcode/tree/master/1644-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1650-find-root-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1650-find-root-of-n-ary-tree) |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/rohanxxx/leetcode/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/rohanxxx/leetcode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
@@ -456,6 +457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1609-find-all-the-lonely-nodes](https://github.com/rohanxxx/leetcode/tree/master/1609-find-all-the-lonely-nodes) |
 | [1631-path-with-minimum-effort](https://github.com/rohanxxx/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1634-clone-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1634-clone-n-ary-tree) |
+| [1644-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/rohanxxx/leetcode/tree/master/1644-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1650-find-root-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1650-find-root-of-n-ary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/rohanxxx/leetcode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1665-diameter-of-n-ary-tree](https://github.com/rohanxxx/leetcode/tree/master/1665-diameter-of-n-ary-tree) |
@@ -766,6 +768,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/rohanxxx/leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1609-find-all-the-lonely-nodes](https://github.com/rohanxxx/leetcode/tree/master/1609-find-all-the-lonely-nodes) |
+| [1644-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/rohanxxx/leetcode/tree/master/1644-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/rohanxxx/leetcode/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/rohanxxx/leetcode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1676-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/rohanxxx/leetcode/tree/master/1676-lowest-common-ancestor-of-a-binary-tree-iv) |
@@ -3646,12 +3649,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1257-smallest-common-region](https://github.com/rohanxxx/leetcode/tree/master/1257-smallest-common-region) |
+| [1644-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/rohanxxx/leetcode/tree/master/1644-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/rohanxxx/leetcode/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1676-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/rohanxxx/leetcode/tree/master/1676-lowest-common-ancestor-of-a-binary-tree-iv) |
 ## Lowest Common Ancestor
 |  |
 | ------- |
 | [1257-smallest-common-region](https://github.com/rohanxxx/leetcode/tree/master/1257-smallest-common-region) |
+| [1644-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/rohanxxx/leetcode/tree/master/1644-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/rohanxxx/leetcode/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1676-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/rohanxxx/leetcode/tree/master/1676-lowest-common-ancestor-of-a-binary-tree-iv) |
 ## Minimax
