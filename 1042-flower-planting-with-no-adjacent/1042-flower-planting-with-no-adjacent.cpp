@@ -48,11 +48,11 @@ public:
             graph[it[1]].push_back(it[0]);
         }
 
+        queue<int> q;
         for(int start = 1; start <= n; start++){
             if(visited[start] == 1){
                 continue;
             }
-            queue<int> q;
             q.push(start);
             visited[start] = 1;
             while(!q.empty()){
