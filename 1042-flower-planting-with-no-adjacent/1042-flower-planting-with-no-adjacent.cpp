@@ -49,6 +49,7 @@ public:
         }
 
         queue<int> q;
+        vector<int> mark(5, 0);
         for(int start = 1; start <= n; start++){
             if(visited[start] == 1){
                 continue;
@@ -56,8 +57,8 @@ public:
             q.push(start);
             visited[start] = 1;
             while(!q.empty()){
-                vector<int> mark(5, 0);
                 int node = q.front(); q.pop();
+                fill(mark.begin(), mark.end(), 0);
                 //look at the adj neighbors with marking
                 for(auto adj: graph[node]){
                     if(visited[adj] == 1){
