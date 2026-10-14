@@ -417,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1021-distribute-coins-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-coloring-a-border](https://github.com/rohanxxx/leetcode/tree/master/1034-coloring-a-border) |
+| [1042-flower-planting-with-no-adjacent](https://github.com/rohanxxx/leetcode/tree/master/1042-flower-planting-with-no-adjacent) |
 | [1073-number-of-enclaves](https://github.com/rohanxxx/leetcode/tree/master/1073-number-of-enclaves) |
 | [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/rohanxxx/leetcode/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1091-maximum-average-subtree](https://github.com/rohanxxx/leetcode/tree/master/1091-maximum-average-subtree) |
@@ -594,6 +595,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-coloring-a-border](https://github.com/rohanxxx/leetcode/tree/master/1034-coloring-a-border) |
 | [1036-rotting-oranges](https://github.com/rohanxxx/leetcode/tree/master/1036-rotting-oranges) |
+| [1042-flower-planting-with-no-adjacent](https://github.com/rohanxxx/leetcode/tree/master/1042-flower-planting-with-no-adjacent) |
 | [1073-number-of-enclaves](https://github.com/rohanxxx/leetcode/tree/master/1073-number-of-enclaves) |
 | [1076-brace-expansion](https://github.com/rohanxxx/leetcode/tree/master/1076-brace-expansion) |
 | [1102-path-with-maximum-minimum-value](https://github.com/rohanxxx/leetcode/tree/master/1102-path-with-maximum-minimum-value) |
@@ -3632,6 +3634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/rohanxxx/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0743-network-delay-time](https://github.com/rohanxxx/leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/rohanxxx/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1042-flower-planting-with-no-adjacent](https://github.com/rohanxxx/leetcode/tree/master/1042-flower-planting-with-no-adjacent) |
 | [1245-tree-diameter](https://github.com/rohanxxx/leetcode/tree/master/1245-tree-diameter) |
 | [1584-min-cost-to-connect-all-points](https://github.com/rohanxxx/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/rohanxxx/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
@@ -3689,4 +3692,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/rohanxxx/leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+## Graph Coloring
+|  |
+| ------- |
+| [1042-flower-planting-with-no-adjacent](https://github.com/rohanxxx/leetcode/tree/master/1042-flower-planting-with-no-adjacent) |
 <!---LeetCode Topics End-->
