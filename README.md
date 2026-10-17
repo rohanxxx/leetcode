@@ -1027,6 +1027,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0864-shortest-path-to-get-all-keys](https://github.com/rohanxxx/leetcode/tree/master/0864-shortest-path-to-get-all-keys) |
 | [0877-stone-game](https://github.com/rohanxxx/leetcode/tree/master/0877-stone-game) |
 | [0890-lemonade-change](https://github.com/rohanxxx/leetcode/tree/master/0890-lemonade-change) |
+| [0890-find-and-replace-pattern](https://github.com/rohanxxx/leetcode/tree/master/0890-find-and-replace-pattern) |
 | [0898-transpose-matrix](https://github.com/rohanxxx/leetcode/tree/master/0898-transpose-matrix) |
 | [0904-fruit-into-baskets](https://github.com/rohanxxx/leetcode/tree/master/0904-fruit-into-baskets) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/rohanxxx/leetcode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -1559,6 +1560,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0807-custom-sort-string](https://github.com/rohanxxx/leetcode/tree/master/0807-custom-sort-string) |
 | [0808-number-of-matching-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0808-number-of-matching-subsequences) |
 | [0812-rotate-string](https://github.com/rohanxxx/leetcode/tree/master/0812-rotate-string) |
+| [0890-find-and-replace-pattern](https://github.com/rohanxxx/leetcode/tree/master/0890-find-and-replace-pattern) |
 | [0916-decoded-string-at-index](https://github.com/rohanxxx/leetcode/tree/master/0916-decoded-string-at-index) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/rohanxxx/leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/rohanxxx/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -2096,6 +2098,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0808-number-of-matching-subsequences](https://github.com/rohanxxx/leetcode/tree/master/0808-number-of-matching-subsequences) |
 | [0833-bus-routes](https://github.com/rohanxxx/leetcode/tree/master/0833-bus-routes) |
 | [0846-hand-of-straights](https://github.com/rohanxxx/leetcode/tree/master/0846-hand-of-straights) |
+| [0890-find-and-replace-pattern](https://github.com/rohanxxx/leetcode/tree/master/0890-find-and-replace-pattern) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/rohanxxx/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/rohanxxx/leetcode/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0900-reordered-power-of-2](https://github.com/rohanxxx/leetcode/tree/master/0900-reordered-power-of-2) |
