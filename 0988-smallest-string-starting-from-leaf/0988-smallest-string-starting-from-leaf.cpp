@@ -29,14 +29,15 @@ public:
         string left = dfs(node->left, str);
         string right = dfs(node->right, str);
 
+        if(left != "" && right != ""){
+            return min(left, right);
+        }
         if(left == ""){
             return right;
         }
-        if(right == ""){
-            return left;
-        }
+        return left;
 
-        return min(left, right);   
+        //return min(left, right);   
     }
     string smallestFromLeaf(TreeNode* root) {
         return dfs(root, "");
