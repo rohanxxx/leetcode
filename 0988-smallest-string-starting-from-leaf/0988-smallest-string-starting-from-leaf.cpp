@@ -15,19 +15,23 @@
  */
 class Solution {
 public:
-    string dfs(TreeNode* node, string str){
+    string dfs(TreeNode* node, string& str){
         if(node == NULL){
             return "";
         }
         str.push_back((char)('a'+node->val));
         //check for leaf node
         if(node->left == NULL && node->right == NULL){
-            reverse(str.begin(), str.end());
-            return str;
+            string word = str;
+            reverse(word.begin(), word.end());
+            str.pop_back();
+            return word;
         }
 
         string left = dfs(node->left, str);
         string right = dfs(node->right, str);
+
+        str.pop_back();
 
         if(left != "" && right != ""){
             return min(left, right);
@@ -36,10 +40,9 @@ public:
             return right;
         }
         return left;
-
-        //return min(left, right);   
     }
     string smallestFromLeaf(TreeNode* root) {
-        return dfs(root, "");
+        string str = "";
+        return dfs(root, str);
     }
 };
