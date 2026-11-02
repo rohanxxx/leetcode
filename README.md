@@ -945,6 +945,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/rohanxxx/leetcode/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0454-4sum-ii](https://github.com/rohanxxx/leetcode/tree/master/0454-4sum-ii) |
 | [0455-assign-cookies](https://github.com/rohanxxx/leetcode/tree/master/0455-assign-cookies) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/rohanxxx/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0463-island-perimeter](https://github.com/rohanxxx/leetcode/tree/master/0463-island-perimeter) |
 | [0474-ones-and-zeroes](https://github.com/rohanxxx/leetcode/tree/master/0474-ones-and-zeroes) |
 | [0484-find-permutation](https://github.com/rohanxxx/leetcode/tree/master/0484-find-permutation) |
@@ -1907,6 +1908,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/rohanxxx/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/rohanxxx/leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/rohanxxx/leetcode/tree/master/0455-assign-cookies) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/rohanxxx/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0502-ipo](https://github.com/rohanxxx/leetcode/tree/master/0502-ipo) |
 | [0506-relative-ranks](https://github.com/rohanxxx/leetcode/tree/master/0506-relative-ranks) |
 | [0527-word-abbreviation](https://github.com/rohanxxx/leetcode/tree/master/0527-word-abbreviation) |
@@ -2268,6 +2270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0415-add-strings](https://github.com/rohanxxx/leetcode/tree/master/0415-add-strings) |
 | [0441-arranging-coins](https://github.com/rohanxxx/leetcode/tree/master/0441-arranging-coins) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/rohanxxx/leetcode/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/rohanxxx/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0523-continuous-subarray-sum](https://github.com/rohanxxx/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0539-minimum-time-difference](https://github.com/rohanxxx/leetcode/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/rohanxxx/leetcode/tree/master/0564-find-the-closest-palindrome) |
